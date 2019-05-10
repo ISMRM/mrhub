@@ -1,0 +1,66 @@
+   {
+        "name": "",
+        "category": "",
+        "shortDescription": "",
+        "imageFile": "",
+        "mainURL": "",
+        "principalDevelopers": "",
+        "longDescription": "",
+        "keywords": ["", "", "", ""],
+        "keyReferences": [
+            {
+                "referenceText": "",
+                "referenceURL": ""
+            }, 
+            
+            {
+                "referenceText": "",
+                "referenceURL": ""
+            } 
+            
+        ],
+        "extraResources": [
+            {
+                "resourceType": "",
+                "URL": ""
+            }
+        ],
+        "dateAddedToMRHub": "20190510",
+        "dateSoftwareLastUpdated": "20190510",
+        "citationSearchString": "",
+        "citationCount": ""
+    },
+    
+    
+        {
+        "name": "Your package name",
+        "category": "Choose from: Reconstruction // Data format // Educational // Simulation // Visiualisation // Spectroscopy // Image processing",
+        "shortDescription": "One line description of your package",
+        "imageFile": "image file name (with extension) - upload image itself into images_packages subfolder",
+        "mainURL": "http://url.to.main.package",
+        "principalDevelopers": "list of principal developers",
+        "longDescription": "Longer description of the package - up to around 200 words.",
+        "keywords": ["any", "keywords", "you", "like"],
+        "keyReferences": [
+            {
+                "referenceText": "Text describing reference 1 (you may have as many references as you like in this list)",
+                "referenceURL": "http://url.to.your.reference.1"
+            }, 
+            
+            {
+                "referenceText": "Text describing reference 2 (you may have as many references as you like in this list)",
+                "referenceURL": "http://url.to.your.reference.2"
+            } 
+            
+        ],
+        "extraResources": [
+            {
+                "resourceType": "e.g. Video Tutorial / Jupyter Notebook / Blog description (you can have multiple resources in this list)",
+                "URL": "http://url.to.this.resource"
+            }
+        ],
+        "dateAddedToMRHub": "20190510",
+        "dateSoftwareLastUpdated": "20190510",
+        "citationSearchString": "",
+        "citationCount": ""
+    }
