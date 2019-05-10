@@ -44,8 +44,8 @@
         ],
         "dateAddedToMRHub": "20190510",
         "dateSoftwareLastUpdated": "20190506",
-        "citationSearchString": "Berkeley Advanced Reconstruction Toolbox",
-        "citationCount": "136"
+        "citationSearchString": "10.1002/mrm.24751",
+        "citationCount": "172"
     },
     
     
@@ -73,8 +73,8 @@
         ],
         "dateAddedToMRHub": "20190510",
         "dateSoftwareLastUpdated": "20190503",
-        "citationSearchString": "Gadgetron",
-        "citationCount": "199"        
+        "citationSearchString": "10.1002/mrm.24389",
+        "citationCount": "71"
     },
 
     {
@@ -101,8 +101,8 @@
         ],
         "dateAddedToMRHub": "20190510",
         "dateSoftwareLastUpdated": "20180130",
-        "citationSearchString": "gpuNUFFT",
-        "citationCount": "26"
+        "citationSearchString": "c788ecd4a6ac9d3d7013a94515ec0718274e9907",
+        "citationCount": "16"
     },    
     
     {
@@ -129,8 +129,8 @@
         ],
         "dateAddedToMRHub": "20190510",
         "dateSoftwareLastUpdated": "20190510",
-        "citationSearchString": "ISMRMRD",
-        "citationCount": "21"
+        "citationSearchString": "10.1002/mrm.26089",
+        "citationCount": "6"
     },
     
     {
@@ -162,8 +162,8 @@
         ],
         "dateAddedToMRHub": "20190510",
         "dateSoftwareLastUpdated": "20160712",
-        "citationSearchString": "Minimum Field Strength Simulator for Proton Density Weighted MRI",
-        "citationCount": "3"
+        "citationSearchString": "10.1371/journal.pone.0154711",
+        "citationCount": "1"
     },
     
     {
@@ -190,8 +190,8 @@
         ],
         "dateAddedToMRHub": "20190510",
         "dateSoftwareLastUpdated": "20190510",
-        "citationSearchString": "pulseq",
-        "citationCount": "9"
+        "citationSearchString": "10.1002/mrm.26235",
+        "citationCount": "5"
     },
     
     {
@@ -228,8 +228,8 @@
         ],
         "dateAddedToMRHub": "20190510",
         "dateSoftwareLastUpdated": "20170701",
-        "citationSearchString": "Fast Realistic MRI Simulations Based on Generalized Multi-Pool Exchange Tissue Model",
-        "citationCount": "16"
+        "citationSearchString": "10.1109/TMI.2016.2620961",
+        "citationCount": "7"
     },
     
     {
@@ -256,8 +256,8 @@
         ],
         "dateAddedToMRHub": "20190510",
         "dateSoftwareLastUpdated": "20161024",
-        "citationSearchString": "Low rank alternating direction method of multipliers reconstruction for MR fingerprinting",
-        "citationCount": "42"
+        "citationSearchString": "10.1002/mrm.26639",
+        "citationCount": "16"
     },
     
     {
@@ -294,8 +294,8 @@
         ],
         "dateAddedToMRHub": "20190510",
         "dateSoftwareLastUpdated": "20190510",
-        "citationSearchString": "joss.00656",
-        "citationCount": "3"
+        "citationSearchString": "10.21105/joss.00656",
+        "citationCount": "1"
     },
     
     {
@@ -321,8 +321,8 @@
         ],
         "dateAddedToMRHub": "20190510",
         "dateSoftwareLastUpdated": "20190510",
-        "citationSearchString": "High-performance computing MRI simulations",
-        "citationCount": "70"
+        "citationSearchString": "10.1002/mrm.22406",
+        "citationCount": "25"
     },
     
     {
@@ -349,8 +349,8 @@
         ],
         "dateAddedToMRHub": "20190510",
         "dateSoftwareLastUpdated": "20190510",
-        "citationSearchString": "SCT: Spinal Cord Toolbox, an open-source software for processing spinal cord MRI data",
-        "citationCount": "90"
+        "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
+        "citationCount": "37"
     },
     
     {
@@ -387,8 +387,8 @@
         ],
         "dateAddedToMRHub": "20190510",
         "dateSoftwareLastUpdated": "20190508",
-        "citationSearchString": "qMRLab",
-        "citationCount": "10"
+        "citationSearchString": "10.1016/j.jmr.2018.08.004",
+        "citationCount": "0"
     }   
 
 ]
