@@ -6,6 +6,7 @@
         "shortDescription": "Reconstruction toolbox and programming library for parallel imaging and compressed sensing available for Linux, Mac OS X, and Windows.",
         "imageFile": "bart.png",
         "mainURL": "http://mrirecon.github.io/bart/",
+        "repoURL": "https://github.com/mrirecon/bart",
         "principalDevelopers": "Martin Uecker, Jon Tamir and Frank Ong",
         "longDescription": "The Berkeley Advanced Reconstruction Toolbox (BART) is a free and open-source image- reconstruction framework for Computational Magnetic Resonance Imaging. It consists of a programming library (for C/C++) and a toolbox of command-line programs. The library provides common operations on multi-dimensional arrays, (non-uniform) Fourier and (divergence-free) wavelet transforms, as well as generic implementations of iterative optimization algorithms (CG, IST, FISTA, ADMM, IRGNM, ...) supporting various types of regularization terms (l2, l1-wavelet, total-variation, low-rank, multi-scale low-rank ...) using pre-defined functions. Parallel computation on multi-core systems and on Graphical Processing Units (GPUs) is supported. The command-line tools provide direct access to basic operations on multi-dimensional arrays as well as efficient implementations of many calibration and reconstruction algorithms for parallel imaging and compressed sensing (SENSE, ESPIRiT, NLINV, SAKE, ...).",
         "keywords": ["GitHub", "GPU", "ESPIRiT", "NUFFT", "iterative-reconstrution", "compressed sensing", "non-Cartesian", "parallel imaging"],
@@ -45,7 +46,7 @@
         "dateAddedToMRHub": "20190510",
         "dateSoftwareLastUpdated": "20190506",
         "citationSearchString": "10.1002/mrm.24751",
-        "citationCount": "172"
+        "citationCount": "173"
     },
     
     
@@ -55,8 +56,9 @@
         "shortDescription": "General-purpose, open source, medical imaging reconstruction framework.",
         "imageFile": "gadgetron.png",
         "mainURL": "http://gadgetron.github.io/",
-        "principalDevelopers": "David Christoffer Hansen, Adrienne Campbell-Washburn",
-        "longDescription": "The Gadgetron is an Open Source, general-purpose medical imaging reconstruction framework written primarily in C++. It consists of two main components: 1) a set of versatile toolboxes for image signal processing, and 2) a modular, high performance framework for streaming data processing. The streaming framework uses a client server model where the reconstruction job is performed on a server and the client is responsible for sending data and receiving imaging. Clients can be stand-alone command line clients or an imaging device could serve as a client. The framework supports easy prototyping with scripting languages such as Python while supporting transparent integration in clinical work flows. For MRI applications, the Gadgetron supports the vendor independent ISMRM Raw Data format and it comes with high performance image reconstruction pipelines for many standard MRI sequences. Example applications include Cartesian and non-Cartesian parallel imaging, non-linear reconstruction and motion correction. Several performance critical components such as the non-Cartesian Fourier transform have been implemented on GPUs for improved performance. The framework can be used as a complete reconstruction package or the toolboxes can be leveraged in other applications.",
+        "repoURL": "https://github.com/gadgetron/gadgetron",
+        "principalDevelopers": "Hui Xue, David Christoffer Hansen, Adrienne Campbell-Washburn",
+        "longDescription": "Gadgetron is an Open Source, general-purpose medical imaging reconstruction framework written primarily in C++. It consists of two main components: 1) a set of versatile toolboxes for image signal processing, and 2) a modular, high performance framework for streaming data processing. The streaming framework uses a client server model where the reconstruction job is performed on a server and the client is responsible for sending data and receiving imaging. Clients can be stand-alone command line clients or an imaging device could serve as a client. The framework supports easy prototyping with scripting languages such as Python while supporting transparent integration in clinical work flows. For MRI applications, the Gadgetron supports the vendor independent ISMRM Raw Data format and it comes with high performance image reconstruction pipelines for many standard MRI sequences. Example applications include Cartesian and non-Cartesian parallel imaging, non-linear reconstruction and motion correction. Several performance critical components such as the non-Cartesian Fourier transform have been implemented on GPUs for improved performance. The framework can be used as a complete reconstruction package or the toolboxes can be leveraged in other applications.",
         "keywords": ["GitHub",  "Video tutorial", "GPU", "inline", "online", "streaming", "AI", "machine learning", "compressed sensing", "non-Cartesian","parallel imaging","vendor neutrality"],
         "keyReferences": [
             {
@@ -83,6 +85,7 @@
         "shortDescription": "C++ CUDA accelerated non-uniform FFT for arbitrary 2D/3D data with direct Matlab interface on Windows and Linux",
         "imageFile": "gpunufft.png",
         "mainURL": "https://github.com/andyschwarzl/gpuNUFFT",
+        "repoURL": "https://github.com/andyschwarzl/gpuNUFFT",
         "principalDevelopers": "Andreas Schwarzl, Florian Knoll",
         "longDescription": "The computational expensive non-uniform FFT is implemented in C++ by utilizing the NVIDIA CUDA architecture, in order to speed up the execution of the 2D/3D multi-coil Gridding step for arbitrarily shaped k-space data. The software offers a ready-to-use interface to Matlab, similar to the well-known NUFFT Toolbox by Fessler et al., in order to seamlessly enhance the preferred Matlab prototyping process at an early stage. The gpuNUFFT supports the growing importance of non-Cartesian 2D/3D trajectories in the context of iterative image reconstruction, parallel imaging, and compressed sensing by reducing the long computation times during NUFFT operations. Depending on the data size and shape, speedups up to a factor of 40 are possible.",
         "keywords": ["GitHub", "Video tutorial", "GPU", "NUFFT"],
@@ -111,6 +114,7 @@
         "shortDescription": "Vendor-neutral MRI raw data format based on standard developed by a subcommittee of the ISMRM Sedona 2013 workshop",
         "imageFile": "ismrmrd",
         "mainURL": "http://ismrmrd.github.io/",
+        "repoURL": "https://github.com/ismrmrd/ismrmrd",
         "principalDevelopers": "<a href=\"http://ismrmrd.github.io/\"><em>See full list of developers.</em></a>",
         "longDescription": "A prerequisite for sharing MRI reconstruction software is a data format that describes typical MRI raw datasets in a vendor neutral manner. The ISMRM Raw Data format is a proposal for such a common MR raw data format, which promotes algorithm and data sharing. The file format consists of a flexible header and tagged frames of k-space data. These data elements are stored in an HDF5 file container. Application Programming Interfaces are available for C/C++, MATLAB, and Python. Converters for Bruker, General Electric, Philips, and Siemens proprietary file formats also available (implemented in C++). The proposed raw data format solves a practical problem for the magnetic resonance imaging community. It may serve as a foundation for reproducible research and collaborations. The ISMRM Raw Data format is a completely open and community-driven format, and the scientific community is invited (including commercial vendors) to participate either as users or developers.",
         "keywords": ["GitHub", "raw data", "k-space", "vendor neutrality"],
@@ -128,7 +132,7 @@
             }
         ],
         "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20190510",
+        "dateSoftwareLastUpdated": "20190418",
         "citationSearchString": "10.1002/mrm.26089",
         "citationCount": "6"
     },
@@ -139,6 +143,7 @@
         "shortDescription": "This package is a MATLAB based tool for simulating low-field MRI acquisitions based on high-field acquisition, enables prediction of the minimum field strength requirements for a broad range of MRI techniques.",
         "imageFile": "lowfieldsim.png",
         "mainURL": "https://github.com/usc-mrel/lowfieldsim",
+        "repoURL": "https://github.com/usc-mrel/lowfieldsim",
         "principalDevelopers": "Weiyi Chen, Ziyue Wu, Krishna S. Nayak",
         "longDescription": "<p>This package is to develop and evaluate a framework for simulating low-field proton-density weighted MRI acquisitions based on high-field acquisitions, which could be used to predict the minimum B0 field strength requirements for MRI techniques.</p><p>Given MRI raw data, lower field MRI acquisitions can be simulated based on the signal and noise scaling with field strength. Certain assumptions are imposed for the simulation. This package also contains two examples of proton-density weighted MRI applications that demonstrated estimation of minimum field strength requirements: real-time upper airway imaging and liver proton-density fat fraction measurement. More detailed description of the examples can be found in the published reference.</p><p>This package enables prediction of the minimum field strength requirements for a broad range of MRI techniques, and would be particularly useful in the evaluation of de-noising and constrained reconstruction techniques.</p>",
         "keywords": ["GitHub", "low field"],
@@ -172,6 +177,7 @@
         "shortDescription": "An open source framework for platform-independent MR pulse sequence development and execution",
         "imageFile": "pulseq.png",
         "mainURL": "https://pulseq.github.io/",
+        "repoURL": "https://github.com/pulseq/pulseq",
         "principalDevelopers": "Original author: Kelvin Layton (left the MR field)<br />Current developers: Stefan Kroboth, Maxim Zaitsev (Siemens-specific), Jon-Fredrik Nielsen (GE specific), Jochen Leupold (Bruker-specific), Tony Stoecker (JEMRIS)",
         "longDescription": "Pulseq is an open source framework for the development, representation and execution of magnetic resonance (MR) sequences. A central contribution of this project is an open file format to compactly describe MR sequences suitable for execution on an MRI scanner or NMR spectrometer. MATLAB and C++ source code is provided for reading and writing sequence files. An interface for exporting JEMRIS sequences to Pulseq format is available. For the execution of the Pulseq files on the particular platform an additional interpreter pulse sequence is required, which is made available via the corresponding manufacturer's community site or can be acquired directly from the authors.",
         "keywords": ["GitHub", "pulse sequences", "vendor neutrality"],
@@ -189,7 +195,7 @@
             }
         ],
         "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20190510",
+        "dateSoftwareLastUpdated": "20190509",
         "citationSearchString": "10.1002/mrm.26235",
         "citationCount": "5"
     },
@@ -200,6 +206,7 @@
         "shortDescription": "A rapid and versatile numerical MRI simulator with Matlab interface and GPU parallel acceleration on Windows and Linux",
         "imageFile": "mrilab.png",
         "mainURL": "https://leoliuf.github.io/MRiLab/",
+        "repoURL": "https://github.com/leoliuf/MRiLab",
         "principalDevelopers": "<a href=\"https://www.researchgate.net/profile/Fang_Liu67\">Fang Liu</a>",
         "longDescription": "<p>The MRiLab is a numerical MRI simulation package. It has been developed and optimized to simulate MR signal formation, k- space acquisition and MR image reconstruction. MRiLab provides several dedicated toolboxes to analyze RF pulse, design MR sequence, configure multiple transmitting and receiving coils, investigate magnetic field related properties and evaluate real-time imaging technique. The main MRiLab simulation platform combined with those toolboxes can be applied to customize various virtual MR experiments which can serve as a prior stage for prototyping and testing new MR technique and application.</p><p>The MRiLab features highly interactive graphical user interface (GUI) for the convenience of fast experiment design and technique prototyping. High simulation accuracy is achieved by simulating discrete spin evolution at small time interval using the Bloch-equation and appropriate tissue model. In order to manipulate large multidimensional spin array, MRiLab employs parallel computing by incorporating latest graphical processing unit (GPU) technique and multi-threading CPU technique. With efficient parallelization, MRiLab can accomplish multidimensional multiple spin species MR simulation at high simulation accuracy and time efficiency, and with low computing hardware cost.</p>",
         "keywords": ["GitHub", "GPU", "tissue exchange models"],
@@ -238,6 +245,7 @@
         "shortDescription": "Reconstruction of quantitative maps of arbitrary MR Fingerprinting data with arbitrary k-space trajectories on all platforms supporting Matlab.",
         "imageFile": "nyu_mrf_recon.png",
         "mainURL": "https://bitbucket.org/asslaender/nyu_mrf_recon",
+        "repoURL": "https://bitbucket.org/asslaender/nyu_mrf_recon",
         "principalDevelopers": "<a href=\"http://cai2r.net/people/jakob-asslaender\">Jakob Assländer</a>",
         "longDescription": "The NYU MR-Fingerprinting Reconstruction Toolbox provides a general and fast framework for reconstructing MRF data. It approximates the fingerprints in a low rank space, which improves the conditioning of the problem and reduces the number of FFT operations significantly. The provided code solves the MRF reconstruction problem with an alternating direction method of multipliers, which transform the non-convex optimization problem into two subproblems, that are very similar to CG-SENSE and the dictionary fitting, respectively. The toolbox is implemented in Matlab and incorporates Fessler’s nuFFT implementation.",
         "keywords": ["Bitbucket", "fingerprinting", "NUFFT"],
@@ -255,7 +263,7 @@
             }
         ],
         "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20161024",
+        "dateSoftwareLastUpdated": "20180417",
         "citationSearchString": "10.1002/mrm.26639",
         "citationCount": "16"
     },
@@ -266,6 +274,7 @@
         "shortDescription": "A set of tools for quantitative imaging, principally relaxometry",
         "imageFile": "quit.png",
         "mainURL": "https://github.com/spinicist/QUIT",
+        "repoURL": "https://github.com/spinicist/QUIT",
         "principalDevelopers": "Tobias Wood",
         "longDescription": "QUIT provides implementations of multiple quantitative MRI algorithms as command-line tools written in C++ and using the high-quality Insight Toolkit [@ITK], CERES [@CERES] and Eigen [@Eigen] libraries. They are multi-threaded where-ever possible. They are easy to include into shell-script based processing pipelines, and are easy to use with a queue system such as the Sun Grid Engine. They are hence suitable for the high-throughput processing that is required for timely analysis of a large neuroimaging study.",
         "keywords": ["GitHub", "quantitative imaging", "relaxometry"],
@@ -293,7 +302,7 @@
             }
         ],
         "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20190510",
+        "dateSoftwareLastUpdated": "20190226",
         "citationSearchString": "10.21105/joss.00656",
         "citationCount": "1"
     },
@@ -304,6 +313,7 @@
         "shortDescription": "General-purpose, open source, MRI simulation framework available for Linux, Mac and Windows.",
         "imageFile": "jemris.png",
         "mainURL": "http://www.jemris.org",
+        "repoURL": "https://github.com/JEMRIS/jemris",
         "principalDevelopers": "Tony Stöcker, Daniel Pflugfelder, Kaveh Vahedipour",
         "longDescription": "JEMRIS is an extensible MRI simulation framework which provides a versatile MRI sequence development and simulation environment. The development was driven by the desire to achieve generality of simulated 3D MRI experiments reflecting modern MRI systems hardware. The accompanying computational burden is overcome by means of parallel computing. Many aspects of general MRI simulations are covered such as parallel transmit and receive, important off-resonance effects, non-linear gradients, and arbitrary spatiotemporal parameter variations at different levels. The latter can be used to simulate various types of spin motion, e.g. rigid motion, diffusion or flow. JEMRIS is written in C++ and can be used from the command line. The MR experiment configuration is done in XML format and binary I/O utilizes the HDF5 standard. For convenience JEMRIS can also be used via dedicated MATLAB graphical user interfaces. For instance, complex MRI sequences with arbitrary waveforms and inter-dependent modules can be modeled without any programming involved.",
         "keywords": ["GitHub", "parallel computing", "arbitrary waveforms"],
@@ -320,7 +330,7 @@
             }
         ],
         "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20190510",
+        "dateSoftwareLastUpdated": "20190324",
         "citationSearchString": "10.1002/mrm.22406",
         "citationCount": "25"
     },
@@ -331,6 +341,7 @@
         "shortDescription": "Software package to analyze multi-parametric MRI of the spinal cord, available for Linux, OSX and Windows.",
         "imageFile": "spinal_cord_toolbox.png",
         "mainURL": "https://github.com/neuropoly/spinalcordtoolbox",
+        "repoURL": "https://github.com/neuropoly/spinalcordtoolbox",
         "principalDevelopers": "<a href=\"https://github.com/neuropoly/spinalcordtoolbox/graphs/contributors\"><em>Please see here for full list</em></a>",
         "longDescription": "SCT is a comprehensive and open-source library of analysis tools for multi-parametric MRI of the spinal cord, written in Python and available for Linux, OSX and Windows. It includes templates and atlases of the spinal cord along with state-of-the-art methods for automatic segmentation, registration and metric atlas-based analysis.",
         "keywords": ["GitHub", "spine", "templates", "atlases"],
@@ -359,6 +370,7 @@
         "shortDescription": "qMRLab is a MATLAB/Octave open-source software for quantitative MR image analysis and simulation.",
         "imageFile": "qmrlab.png",
         "mainURL": "https://qmrlab.org",
+        "repoURL": "https://github.com/qMRLab/qMRLab",
         "principalDevelopers": "",
         "longDescription": "qMRLab is an open-source software for quantitative MR image analysis. The main goal is to provide the community with an intuitive tool for data fitting, plotting, simulation and protocol optimization for a myriad of different quantitative models. The modularity of the implementation makes it easy to add any additional modules and we encourage everyone to contribute their favorite recipe for qMR.",
         "keywords": ["GitHub", "Docker", "quantitative imaging"],

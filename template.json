@@ -32,7 +32,7 @@
     },
     
     
-        {
+    {
         "name": "Your package name",
         "category": "Choose from: Reconstruction // Data format // Educational // Simulation // Visiualisation // Spectroscopy // Image processing",
         "shortDescription": "One line description of your package",
@@ -61,6 +61,6 @@
         ],
         "dateAddedToMRHub": "20190510",
         "dateSoftwareLastUpdated": "20190510",
-        "citationSearchString": "",
+        "citationSearchString": "DOI or paperID for Semantic Scholar",
         "citationCount": ""
     }
