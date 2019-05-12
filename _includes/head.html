@@ -1,0 +1,152 @@
+<head>
+  <meta charset="UTF-8">
+  <title>{{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/cayman.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    
+<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+
+
+<style>
+.inputstl { 
+	max-width: 50%;
+    border: solid 1px #0077B0; 
+    outline: 0; 
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #C6ECFF), to(#FFFFFF)); 
+    background: -moz-linear-gradient(top, #FFFFFF, #C6ECFF 1px, #FFFFFF 25px); 
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+
+    } 
+   
+</style>
+
+
+
+
+
+<script>
+var projects = {{ site.data.projects | jsonify }};
+function col() {
+    var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+  };
+
+	function GetSortOrder(prop) {  
+    return function(a, b) {  
+        if (a[prop] < b[prop]) {  
+            return 1;  
+        } else if (a[prop] > b[prop]) {  
+            return -1;  
+        }  
+        return 0;  
+    }  
+}
+   function sortedCitation () {
+   	temp = projects;
+   	temp.sort(GetSortOrder("citationCount"));
+   	printSoted(temp);
+
+   
+   }
+   function sortedDate () {
+   	temp = projects;
+   	temp.sort(GetSortOrder("dateSoftwareLastUpdated"));
+   	printSoted(temp);
+
+   
+   }
+
+
+function printSoted(t)
+{
+		category = document.getElementById("ddcategory").value;
+	document.getElementById("list-projects").innerHTML = "";
+	
+	var i;
+	for (i = 0; i < t.length; i++) { 
+		if(t[i].category == category || category == "all"){
+		var comand =  "<div class=\"col-md-6 mb-30px\"><button class=\"collapsible\" style=\"   border: 3px solid #0baedf;    padding: 0px;    border-radius: 10px;\"><div class=\"listfeaturedtag h-100\"><div class=\"row\" style=\"margin-left: 0px;    margin-right: 0px;\"><div><div class=\"h-100 card-group\"><div class=\"card\"><div class=\"card-body\" style=\"flex: 1 1 auto; padding: 0.25rem; text-align: center;\"><center><img src=\"images_packages/" + t[i].imageFile + "\" style=\"max-width: 200px; max-height: 100px;\"/></center><h2 class=\"card-title\" style=\"color:#1d315b\"><a class=\"text-dark\" href=\"" + t[i].mainURL + "\"><center>" + t[i]["name"] + "</a></center></h2><h6 class=\"card-text\" style=\"color:#0baedf\">" + t[i].shortDescription + "</h6></center><div class=\"projInfo\" style=\"text-align:justify;padding-left: 6px;padding-bottom: 6px;padding-right: 6px;padding-top: 6px;\"><h7 class=\"card-text\"><font style=\"color:#1d315b\"><i><b>Category:</b></i></font> <font style=\"color:#0baedf\">" +  t[i].category + "</font></h7> <br/><h7 class=\"card-text\"><font style=\"color:#1d315b\"><i><b>Principal developers:</b></i> </font><font style=\"color:#0baedf\">" + t[i].principalDevelopers +"</font></h7><br /><h7 class=\"card-text\"><font style=\"color:#1d315b\"><i><b>Key words:</b></i></font><font style=\"color:#0baedf\">"
+	//for (j=0; j<t[i].keywords.length; j++){
+		comand += t[i].keywords // + "," 
+
+		//}
+
+		comand += "</font></h7></div></div></div></div></div></button><div class=\"content\" style=\"padding: 9px 9px 9px 9px; display: none; bacground-color: #fff8dc\"><h4>Description</h4>	 <p>" + t[i].longDescription + "</p><h4>References</h4><ol>"
+		 for (j=0; j<t[i].keyReferences.length; j++){ 
+		 	comand+=" <li><a href=\"" + t[i].keyReferences[j].referenceURL + "\">" + t[i].keyReferences[j].referenceText + "</a></li> <br/>"
+		}
+		comand+="</ol></div></div>";
+    document.getElementById("list-projects").innerHTML += comand;
+             }
+}
+col()
+}
+
+
+function categories() {
+	category = document.getElementById("ddcategory").value;
+	document.getElementById("list-projects").innerHTML = "";
+	
+	var i;
+	for (i = 0; i < projects.length; i++) { 
+		if(projects[i].category == category || category == "all"){
+		var comand =  "<div class=\"col-md-6 mb-30px\"><button class=\"collapsible\" style=\"   border: 3px solid #0baedf;    padding: 0px;    border-radius: 10px;\"><div class=\"listfeaturedtag h-100\"><div class=\"row\" style=\"margin-left: 0px;    margin-right: 0px;\"><div><div class=\"h-100 card-group\"><div class=\"card\"><div class=\"card-body\" style=\"flex: 1 1 auto; padding: 0.25rem; text-align: center;\"><center><img src=\"images_packages/" + projects[i].imageFile + "\" style=\"max-width: 200px; max-height: 100px;\"/></center><h2 class=\"card-title\" style=\"color:#1d315b\"><a class=\"text-dark\" href=\"" + projects[i].mainURL + "\"><center>" + projects[i]["name"] + "</a></center></h2><h6 class=\"card-text\" style=\"color:#0baedf\">" + projects[i].shortDescription + "</h6></center><div class=\"projInfo\" style=\"text-align:justify;padding-left: 6px;padding-bottom: 6px;padding-right: 6px;padding-top: 6px;\"><h7 class=\"card-text\"><font style=\"color:#1d315b\"><i><b>Category:</b></i></font> <font style=\"color:#0baedf\">" +  projects[i].category + "</font></h7> <br/><h7 class=\"card-text\"><font style=\"color:#1d315b\"><i><b>Principal developers:</b></i> </font><font style=\"color:#0baedf\">" + projects[i].principalDevelopers +"</font></h7><br /><h7 class=\"card-text\"><font style=\"color:#1d315b\"><i><b>Key words:</b></i></font><font style=\"color:#0baedf\">"
+	
+		comand += projects[i].keywords;
+
+		comand += "</font></h7></div></div></div></div></div></button><div class=\"content\" style=\"padding: 9px 9px 9px 9px; display: none; bacground-color: #fff8dc\"><h4>Description</h4>	 <p>" + projects[i].longDescription + "</p><h4>References</h4><ol>"
+		 for (j=0; j<projects[i].keyReferences.length; j++){ 
+		 	comand+=" <li><a href=\"" + projects[i].keyReferences[j].referenceURL + "\">" + projects[i].keyReferences[j].referenceText + "</a></li> <br/>"
+		}
+		comand+="</ol></div></div>";
+    document.getElementById("list-projects").innerHTML += comand;
+             }
+}
+col()
+
+}
+</script>
+
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+</head>

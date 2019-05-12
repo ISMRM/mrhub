@@ -1,0 +1,81 @@
+<div id="team" class="section">
+
+                <!-- Section header -->
+                <div class="section-header text-center">
+                    <h2 class="title">Projects</h2>
+                </div>
+                    
+                    <div class="form-group mx-sm-3 mb-2">
+                      <div class="row">
+                          <div class="col" style="max-width: 11%;">
+                          <label>Categories:</label> 
+                        </div>
+                        <div class="col">
+                          <select id="ddcategory" onchange="categories()" class="form-control inputstl" style="margin-bottom: 30px;">
+                            <option value="all">All Categories </option>
+                             {% assign categories = site.data.projects where: 'published', 'true' |  map: 'category'| join: ',' | split: ',' | uniq %}
+                             {% for category in categories %}
+                               <option value="{{ category }}">{{ category }}</option>
+                               {% endfor %}
+                            </select>
+                          </div>
+                            <div class="col">
+                            <button onclick="sortedCitation()" class="btn btn-primary">Sort by citation</button>
+                            <button onclick="sortedDate()" class="btn btn-primary">Sort by date</button>
+                          </div>
+                        </div>
+                    </div>
+                            
+  
+
+<!-- Container -->
+        <div class="container">
+
+            <!-- Row -->
+            <div class="row" id="list-projects">
+    {% for project in site.data.projects %}
+    <!--contributor -->
+
+
+<div class="col-md-6 mb-30px">
+    <button class="collapsible" style="   border: 3px solid #0baedf;    padding: 0px;    border-radius: 10px;">
+    <div class="listfeaturedtag h-100">
+        <div class="row" style="margin-left: 0px;    margin-right: 0px;">
+           
+           
+            <div>
+                <div class="h-100 card-group">
+                	
+                    <div class="card">
+                        <div class="card-body" style="flex: 1 1 auto; padding: 0.25rem; text-align: center;">
+                        	<center><img src="images_packages/{{ project.imageFile }}" style="max-width: 200px; max-height: 100px;"/></center>
+                          <h2 class="card-title" style="color:#1d315b"><a class="text-dark" href="{{ project.name }}"><center>{{ project.name }}</a></center></h2>
+                          <h6 class="card-text" style="color:#0baedf">{{ project.shortDescription }}</h6>
+                          </center>
+                          <div class="projInfo" style="text-align:justify;padding-left: 6px;padding-bottom: 6px;padding-right: 6px;padding-top: 6px;">
+                          <h7 class="card-text"><font style="color:#1d315b"><i><b>Category:</b></i></font> <font style="color:#0baedf">{{ project.category }}</font></h7> <br/>
+                            <h7 class="card-text"><font style="color:#1d315b"><i><b>Principal developers:</b></i> </font><font style="color:#0baedf">{{ project.principalDevelopers }}</font></h7><br/>
+                            <h7 class="card-text"><font style="color:#1d315b"><i><b>Key words:</i></b></font><font style="color:#0baedf"> {% for wo in project.keywords %} {{ wo }}, {% endfor %}</font></h7>
+                            </div> 
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+       
+        </button>
+							<div class="content" style="padding: 9px 9px 9px 9px; display: none; bacground-color: #fff8dc">
+  							<h4>Description</h4>	 <p>{{ project.longDescription }}</p>
+  							<h4>References</h4>
+  							<ol>
+  							 {% for reference in project.keyReferences %}
+  							 <li><a href="{{ reference.referenceURL }}">{{ reference.referenceText }}</a></li> <br/>
+  							 {% endfor %}
+  							</ol>
+							</div>
+	</div>
+            {% endfor %}
+    </div>
+  </div>
+
+</div>
