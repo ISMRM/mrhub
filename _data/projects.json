@@ -9,7 +9,7 @@
         "repoURL": "https://github.com/mrirecon/bart",
         "principalDevelopers": "Martin Uecker, Jon Tamir and Frank Ong",
         "longDescription": "The Berkeley Advanced Reconstruction Toolbox (BART) is a free and open-source image- reconstruction framework for Computational Magnetic Resonance Imaging. It consists of a programming library (for C/C++) and a toolbox of command-line programs. The library provides common operations on multi-dimensional arrays, (non-uniform) Fourier and (divergence-free) wavelet transforms, as well as generic implementations of iterative optimization algorithms (CG, IST, FISTA, ADMM, IRGNM, ...) supporting various types of regularization terms (l2, l1-wavelet, total-variation, low-rank, multi-scale low-rank ...) using pre-defined functions. Parallel computation on multi-core systems and on Graphical Processing Units (GPUs) is supported. The command-line tools provide direct access to basic operations on multi-dimensional arrays as well as efficient implementations of many calibration and reconstruction algorithms for parallel imaging and compressed sensing (SENSE, ESPIRiT, NLINV, SAKE, ...).",
-        "keywords": ["GitHub", "GPU", "ESPIRiT", "NUFFT", "iterative-reconstrution", "compressed sensing", "non-Cartesian", "parallel imaging"],
+        "keywords": ["GitHub", "GPU", "ESPIRiT", "NUFFT", "iterative-reconstruction", "compressed sensing", "non-Cartesian", "parallel imaging"],
         "keyReferences": [
             {
                 "referenceText": "Martin Uecker, Peng Lai, Mark J. Murphy, Patrick Virtue, Michael Elad, John M. Pauly, Shreyas S. Vasanawala, and Michael Lustig. ESPIRiT - An Eigenvalue Approach to Autocalibrating Parallel MRI: Where SENSE meets GRAPPA. Magn Reson Med 2014; 71:990-1001",
@@ -57,7 +57,7 @@
         "imageFile": "gadgetron.png",
         "mainURL": "http://gadgetron.github.io/",
         "repoURL": "https://github.com/gadgetron/gadgetron",
-        "principalDevelopers": "Hui Xue, David Christoffer Hansen, Adrienne Campbell-Washburn",
+        "principalDevelopers": "Hui Xue, David Hansen, Adrienne Campbell-Washburn",
         "longDescription": "Gadgetron is an Open Source, general-purpose medical imaging reconstruction framework written primarily in C++. It consists of two main components: 1) a set of versatile toolboxes for image signal processing, and 2) a modular, high performance framework for streaming data processing. The streaming framework uses a client server model where the reconstruction job is performed on a server and the client is responsible for sending data and receiving imaging. Clients can be stand-alone command line clients or an imaging device could serve as a client. The framework supports easy prototyping with scripting languages such as Python while supporting transparent integration in clinical work flows. For MRI applications, the Gadgetron supports the vendor independent ISMRM Raw Data format and it comes with high performance image reconstruction pipelines for many standard MRI sequences. Example applications include Cartesian and non-Cartesian parallel imaging, non-linear reconstruction and motion correction. Several performance critical components such as the non-Cartesian Fourier transform have been implemented on GPUs for improved performance. The framework can be used as a complete reconstruction package or the toolboxes can be leveraged in other applications.",
         "keywords": ["GitHub",  "Video tutorial", "GPU", "inline", "online", "streaming", "AI", "machine learning", "compressed sensing", "non-Cartesian","parallel imaging","vendor neutrality"],
         "keyReferences": [
@@ -91,7 +91,7 @@
         "keywords": ["GitHub", "Video tutorial", "GPU", "NUFFT"],
         "keyReferences": [
             {
-                "referenceText": "F. Knoll, A. Schwarzl, C. Diwoky, and D. Sodickson, gpuNUFFT - an open-source GPU Library for 3D Gridding with direct Matlab interfaceÓ, in Proceedings of the 22th Annual Meeting of ISMRM, Mailand, 2014 , p4297",
+                "referenceText": "F. Knoll, A. Schwarzl, C. Diwoky, and D. Sodickson, gpuNUFFT - an open-source GPU Library for 3D Gridding with direct Matlab interface, in Proceedings of the 22th Annual Meeting of ISMRM, Mailand, 2014 , p4297",
                 "referenceURL": "https://cds.ismrm.org/protected/14MProceedings/files/4297.pdf"
             }
             
@@ -112,7 +112,7 @@
         "name": "ISMRMRD",
         "category": "Data format",
         "shortDescription": "Vendor-neutral MRI raw data format based on standard developed by a subcommittee of the ISMRM Sedona 2013 workshop",
-        "imageFile": "ismrmrd",
+        "imageFile": "ismrmrd.png",
         "mainURL": "http://ismrmrd.github.io/",
         "repoURL": "https://github.com/ismrmrd/ismrmrd",
         "principalDevelopers": "<a href=\"http://ismrmrd.github.io/\"><em>See full list of developers.</em></a>",
