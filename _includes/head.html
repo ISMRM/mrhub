@@ -89,8 +89,9 @@ function printSoted(t)
 		if(t[i].category == category || category == "all"){
 		var comand =  "<div class=\"col-md-6 mb-30px\"><button class=\"collapsible\" style=\"   border: 3px solid #0baedf;    padding: 0px;    border-radius: 10px;\"><div class=\"listfeaturedtag h-100\"><div class=\"row\" style=\"margin-left: 0px;    margin-right: 0px;\"><div><div class=\"h-100 card-group\"><div class=\"card\"><div class=\"card-body\" style=\"flex: 1 1 auto; padding: 0.25rem; text-align: center;\"><center><img src=\"images_packages/" + t[i].imageFile + "\" style=\"max-width: 200px; max-height: 100px;\"/></center><h2 class=\"card-title\" style=\"color:#1d315b\"><a class=\"text-dark\" href=\"" + t[i].mainURL + "\"><center>" + t[i]["name"] + "</a></center></h2><h6 class=\"card-text\" style=\"color:#0baedf\">" + t[i].shortDescription + "</h6></center><div class=\"projInfo\" style=\"text-align:justify;padding-left: 6px;padding-bottom: 6px;padding-right: 6px;padding-top: 6px;\"><h7 class=\"card-text\"><font style=\"color:#1d315b\"><i><b>Category:</b></i></font> <font style=\"color:#0baedf\">" +  t[i].category + "</font></h7> <br/><h7 class=\"card-text\"><font style=\"color:#1d315b\"><i><b>Principal developers:</b></i> </font><font style=\"color:#0baedf\">" + t[i].principalDevelopers +"</font></h7><br /><h7 class=\"card-text\"><font style=\"color:#1d315b\"><i><b>Keywords:</b></i></font><font style=\"color:#0baedf\">"
 	//for (j=0; j<t[i].keywords.length; j++){
+		comand+=" ";
 		comand += t[i].keywords // + "," 
-
+		
 		//}
 
 		comand += "</font></h7></div></div></div></div></div></button><div class=\"content\" style=\"padding: 9px 9px 9px 9px; display: none; bacground-color: #fff8dc\"><h4>Description</h4>	 <p>" + t[i].longDescription + "</p><h4>References</h4><ol>"
@@ -113,7 +114,7 @@ function categories() {
 	for (i = 0; i < projects.length; i++) { 
 		if(projects[i].category == category || category == "all"){
 		var comand =  "<div class=\"col-md-6 mb-30px\"><button class=\"collapsible\" style=\"   border: 3px solid #0baedf;    padding: 0px;    border-radius: 10px;\"><div class=\"listfeaturedtag h-100\"><div class=\"row\" style=\"margin-left: 0px;    margin-right: 0px;\"><div><div class=\"h-100 card-group\"><div class=\"card\"><div class=\"card-body\" style=\"flex: 1 1 auto; padding: 0.25rem; text-align: center;\"><center><img src=\"images_packages/" + projects[i].imageFile + "\" style=\"max-width: 200px; max-height: 100px;\"/></center><h2 class=\"card-title\" style=\"color:#1d315b\"><a class=\"text-dark\" href=\"" + projects[i].mainURL + "\"><center>" + projects[i]["name"] + "</a></center></h2><h6 class=\"card-text\" style=\"color:#0baedf\">" + projects[i].shortDescription + "</h6></center><div class=\"projInfo\" style=\"text-align:justify;padding-left: 6px;padding-bottom: 6px;padding-right: 6px;padding-top: 6px;\"><h7 class=\"card-text\"><font style=\"color:#1d315b\"><i><b>Category:</b></i></font> <font style=\"color:#0baedf\">" +  projects[i].category + "</font></h7> <br/><h7 class=\"card-text\"><font style=\"color:#1d315b\"><i><b>Principal developers:</b></i> </font><font style=\"color:#0baedf\">" + projects[i].principalDevelopers +"</font></h7><br /><h7 class=\"card-text\"><font style=\"color:#1d315b\"><i><b>Keywords:</b></i></font><font style=\"color:#0baedf\">"
-	
+		comand+=" ";
 		comand += projects[i].keywords;
 
 		comand += "</font></h7></div></div></div></div></div></button><div class=\"content\" style=\"padding: 9px 9px 9px 9px; display: none; bacground-color: #fff8dc\"><h4>Description</h4>	 <p>" + projects[i].longDescription + "</p><h4>References</h4><ol>"
