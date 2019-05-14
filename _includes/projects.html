@@ -35,7 +35,7 @@
 
 
 <div class="col-md-6 mb-30px">
-    <button class="collapsible" style="   border: 3px solid #0baedf;    padding: 0px;    border-radius: 10px;">
+    <button class="collapsible" style="   border: 3px solid #1d315b;    padding: 0px;    border-radius: 10px;">
     <div class="listfeaturedtag h-100">
         <div class="row" style="margin-left: 0px;    margin-right: 0px;">
            
@@ -44,15 +44,23 @@
                 <div class="h-100 card-group">
                 	
                     <div class="card">
-                        <div class="card-body" style="flex: 1 1 auto; padding: 0.25rem; text-align: center;">
-                        	<center><img src="images_packages/{{ project.imageFile }}" style="max-width: 200px; max-height: 100px;"/></center>
-                          <h2 class="card-title" style="color:#1d315b"><a class="text-dark" href="{{ project.mainURL }}"><center>{{ project.name }}</a></center></h2>
-                          <h6 class="card-text" style="color:#0baedf">{{ project.shortDescription }}</h6>
-                          </center>
+                          <div class="card-body" style="flex: 1 1 auto; padding: 0.75rem; text-align: center;">
+                        
+                          <div class="row">
+                            
+                            <div class="col-4">
+                            <img src="images_packages/{{ project.imageFile }}" style="max-width: 100%; max-height: 100px;"/></div>
+                            <div class="col-8"><h2 class="card-title" style="color:#1d315b"><a class="text-dark" href="{{ project.mainURL }}">{{ project.name }}</a></h2>
+                            </div>
+                              
+                          </div>    
+                            
+                          <h6 class="card-text" style="color:#184487;">{{ project.shortDescription }}</h6>
+                        
                           <div class="projInfo" style="text-align:justify;padding-left: 6px;padding-bottom: 6px;padding-right: 6px;padding-top: 6px;">
-                          <h7 class="card-text"><font style="color:#1d315b"><i><b>Category:</b></i></font> <font style="color:#0baedf">{{ project.category }}</font></h7> <br/>
-                            <h7 class="card-text"><font style="color:#1d315b"><i><b>Principal developers:</b></i> </font><font style="color:#0baedf">{{ project.principalDevelopers }}</font></h7><br/>
-                            <h7 class="card-text"><font style="color:#1d315b"><i><b>Keywords:</i></b></font><font style="color:#0baedf"> {% for wo in project.keywords %} {{ wo }}, {% endfor %}</font></h7>
+                          <h7 class="card-text"><font style="color:#1d315b"><i><b>Category:</b></i></font> <font style="color:#184487">{{ project.category }}</font></h7> <br/>
+                            <h7 class="card-text"><font style="color:#1d315b"><i><b>Principal developers:</b></i> </font><font style="color:#184487">{{ project.principalDevelopers }}</font></h7><br/>
+                            <h7 class="card-text"><font style="color:#1d315b; font-size:smaller"><i><b>Keywords:</i></b></font><font style="color:#184487; font-size:smaller"> {% for wo in project.keywords %} {{ wo }}, {% endfor %}</font></h7>
                             </div> 
                         </div>
                         
