@@ -34,8 +34,8 @@
     <!--contributor -->
 
 
-<div class="col-md-6 mb-30px">
-    <button class="collapsible" style="   border: 3px solid #1d315b;    padding: 0px;    border-radius: 10px;">
+<div class="col-md-12 mb-30px">
+    <button class="collapsible" style="   border: 3px solid #1D79B1;    padding: 0px;    border-radius: 10px;">
     <div class="listfeaturedtag h-100">
         <div class="row" style="margin-left: 0px;    margin-right: 0px;">
            
@@ -48,20 +48,46 @@
                         
                           <div class="row">
                             
-                            <div class="col-4">
+                            <div class="col-md-2 col-s-12">
                             <img src="images_packages/{{ project.imageFile }}" style="max-width: 100%; max-height: 100px;"/></div>
-                            <div class="col-8"><h2 class="card-title" style="color:#1d315b"><a class="text-dark" href="{{ project.mainURL }}">{{ project.name }}</a></h2>
+                            <div class="col-md-10">
+                                <h2 class="card-title" style="color:#1d315b; text-align: center;"><a class="text-dark" href="{{ project.mainURL }}">{{ project.name }}</a></h2>
+                                <h6 class="card-text" style="color:#1D79B1; margin:.5rem;">{{ project.shortDescription }}</h6>
+
                             </div>
+<!--                                <div class="projInfo" style="text-align:justify;padding-left: 12px;padding-bottom: 6px;padding-right: 6px;padding-top: 6px;">    -->
+                                <div class="col-12" style="text-align:justify;padding-left: 18px;padding-bottom: 6px;padding-right: 18px;padding-top: 6px;">
+                                    
+                                    <div class="row">
+                                    <div class="col-6">
+                                        
+                                     <h7 class="card-text"><font style="color:#1d315b"><i><b>Category:</b></i></font> <font style="color:#1D79B1">{{ project.category }}</font></h7> <br/>                                                                
+                            <h7 class="card-text"><font style="color:#1d315b"><i><b>Principal developers:</b></i> </font><font style="color:#1D79B1">{{ project.principalDevelopers }}</font></h7><br/>
+
+                            <h7 class="card-text"><font style="color:#1d315b; font-size:small"><i><b>Keywords:</i></b></font><font style="color:#1D79B1; font-size:small"> {% for wo in project.keywords %} {{ wo }}, {% endfor %}</font></h7>
+                            <br/> 
+                            </div>
+                            <div class="col-6">            
+                            <h7 class="card-text"><font style="color:#1d315b; font-size:small"><i><b>Date added to MR-Hub:</b></i></font> <font style="color:#1D79B1; font-size:small">{{ project.dateAddedToMRHub }}</font></h7><br /> 
+                            <h7 class="card-text"><font style="color:#1d315b; font-size:small"><i><b>Date software last updated:</b></i></font> <font style="color:#1D79B1; font-size:small">{{ project.dateSoftwareLastUpdated }}</font></h7> 
+                            <br/>
+                                <h7 class="card-text"><font style="color:#1d315b; font-size:small;"><i><b>No. of citations:</b></i></font> <font style="color:#1D79B1; font-size:small">{{ project.citationCount }}</font></h7><br />
+                                <div style="line-height:.75rem">
+                                    <h7 class="card-text"><font style="color:#1d315b; font-size:small"><em>(main associated paper on Semantic Scholar)</em></font></h7> </div> 
+                            </div> 
+                                        
+                            </div> 
+                            </div>
+                              
+                              <div class="col-12">
+                                    {% for wo in project.extraResources %} <h5><strong><a href="{{ wo.URL }}">{{ wo.resourceType }}</a></strong></h5> {% endfor %}
+                              </div>
                               
                           </div>    
                             
-                          <h6 class="card-text" style="color:#184487;">{{ project.shortDescription }}</h6>
+                          
                         
-                          <div class="projInfo" style="text-align:justify;padding-left: 6px;padding-bottom: 6px;padding-right: 6px;padding-top: 6px;">
-                          <h7 class="card-text"><font style="color:#1d315b"><i><b>Category:</b></i></font> <font style="color:#184487">{{ project.category }}</font></h7> <br/>
-                            <h7 class="card-text"><font style="color:#1d315b"><i><b>Principal developers:</b></i> </font><font style="color:#184487">{{ project.principalDevelopers }}</font></h7><br/>
-                            <h7 class="card-text"><font style="color:#1d315b; font-size:smaller"><i><b>Keywords:</i></b></font><font style="color:#184487; font-size:smaller"> {% for wo in project.keywords %} {{ wo }}, {% endfor %}</font></h7>
-                            </div> 
+                         
                         </div>
                         
                     </div>
