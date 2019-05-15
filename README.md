@@ -1,3 +1,4 @@
+![](images_mrhub/MRHub_banner.png)
 
 This is the GitHub repository associated with the MR-Hub website - a platform to share information about open source software relevant to the [ISMRM](http://www.ismrm.org) community.
 
