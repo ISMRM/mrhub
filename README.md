@@ -26,6 +26,7 @@ The database of packages is stored in the `_data` folder of this repository and 
 https://api.semanticscholar.org/v1/paper/<<YourCitationSearchStringGoesHere>>
    ```
    If you see a page full of text in JSON format, then your `citationSearchString` works!
+   * `"citationCount"` - This is the number of citations for the linked paper found by Semantic Scholar. This will get updated automatically by a site admin every so often to try to keep this info up-to-date.
    
    
    
