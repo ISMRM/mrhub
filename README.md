@@ -22,11 +22,20 @@ The database of packages is stored in the `_data` folder of this repository and 
    ```
    The paperID for SemanticScholar is the very last part after the '/' - starting with `4b760...`.
    **Please let me know if your paper isn't in Semantic Scholar at all!** - this is still in the trial phase to see if such an approach is feasible - please contact [Dan Gallichan](mailto:gallichand@cardiff.ac.uk) if you can't find your paper and we'll see what else we might be able to do (it seems it should be possible to 'submit' your own paper to their database...). You can test to see if your `citationSearchString` works by pointing your browser at 
-```
-https://api.semanticscholar.org/v1/paper/<YourCitationSearchStringGoesHere>
-```
+   ```
+   https://api.semanticscholar.org/v1/paper/<YourCitationSearchStringGoesHere>
+   ```
    If you see a page full of text in JSON format, then your `citationSearchString` works!
    * `"citationCount"` - This is the number of citations for the linked paper found by Semantic Scholar. This will get updated automatically by a site admin every so often to try to keep this info up-to-date.
+3. Once you've got all your text entered into the template, go to `mrhub/_data/projects.json` and click the 'Edit' button (this will fork the repository into your own Github account - but all this should be possible inside your browser). Paste the full contents of your edited version of `template.json` into the top of the `projects.json` file, **after the square bracket on the very first line**. 
+4. Before you submit a pull-request - please then copy/paste the entire new version of `projects.json` into a JSON validator such as this one: https://jsonlint.com/ and check that after your changes the full file is still 'valid JSON'.
+5. Submit a pull-request to merge your forked version with the main MR-Hub site.
+6. Wait some amount of time for an admin to approve your pull-request. We realise this will still take some time - but hopefully it will be considerably faster than the 'review' process that we had in place for the previous version of MR-Hub.
+
+
+If you think any of these instructions are not clear enough - please feel free to make minor changes yourself and submit a pull-request on that. You can also start discussion in the 'Issues' section. 
+
+The idea of this page is to crowd-source a website that is actually useful for the ISMRM community - allowing software creators to let potential users know about their code - and making it easier for those new to the field (or new to a sub-topic) to find relevant open-source solutions that are already there. If you have any suggestions for how to improve it - let us know (or, even better, implement them and submit a pull-request...!)
    
    
    
