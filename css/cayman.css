@@ -259,7 +259,13 @@ License: https://www.wowthemes.net/freebies-license/
      box-shadow:0 2px 2px -2px rgba(0,0,0,.15);
      transition: top 0.2s ease-in-out;
 }
+ .btn-primary
+ {
+   color: #fff;
+    background-color: #19496E;
+    border-color: #19496E;
 
+ }
  .site-content {
      min-height: 60vh;
      padding-top: 1.5rem;
