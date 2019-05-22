@@ -29,3 +29,23 @@ $('#filter-none').click(function() {
   featureList.filter();
   return false;
 });
+featureList.sort('ncitations', { order: "desc" });
+
+function categories() {
+    category = document.getElementById("ddcategory").value;
+
+    if (category == 'all') {
+        featureList.filter();
+        return false;
+    } else {
+
+        featureList.filter(function (item) {
+            if (item.values().category == category) {
+                return true;
+            } else {
+                return false;
+            }
+        });
+        return false;
+    }
+}

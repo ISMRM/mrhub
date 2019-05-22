@@ -1,0 +1,38 @@
+html {
+  font-size: 80%;
+  font-family: Open-Sans;
+}
+
+body {
+	background: $white;
+  font: 18px/1.4 $helvetica;
+  color: $darkGray;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+
+div.projectname {
+    font-size: 140%;
+    font-weight: bold;
+    color:#1d315b;    
+}
+
+div.projectdescription {
+    color: darkslategray;
+    font-style: italic;
+}
+
+span.projectinfolabel {
+    color: #1d315b;
+    font-weight: bold;
+}
+
+span.projectinfo {
+    color:steelblue;
+}
