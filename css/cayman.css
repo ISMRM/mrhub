@@ -1,5 +1,5 @@
 .collapsible {
-  
+
   cursor: pointer;
   width: 100%;
   border: none;
@@ -213,11 +213,11 @@ a:hover { text-decoration: underline; }
 .site-footer-credits { color: #819198; }
 
 
-/* 
-Template Name: Mediumish 
-Copyright: Sal, WowThemes.net, https://www.wowthemes.net 
-Version: 1.0.2 
-License: https://www.wowthemes.net/freebies-license/ 
+/*
+Template Name: Mediumish
+Copyright: Sal, WowThemes.net, https://www.wowthemes.net
+Version: 1.0.2
+License: https://www.wowthemes.net/freebies-license/
 */
  .mainheading {
      padding:1rem 0rem;
@@ -259,17 +259,11 @@ License: https://www.wowthemes.net/freebies-license/
      box-shadow:0 2px 2px -2px rgba(0,0,0,.15);
      transition: top 0.2s ease-in-out;
 }
- .main-content {
-    min-height:300px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 10%;
-    margin-right: 42px;
-}
+
  .site-content {
      min-height: 60vh;
      padding-top: 1.5rem;
-     
+
      transition: all 0.4s;
 }
  section {
@@ -882,4 +876,3 @@ License: https://www.wowthemes.net/freebies-license/
  .card .img-fluid {
     width:100%;
 }
-
