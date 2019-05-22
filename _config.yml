@@ -1,7 +1,8 @@
 # Setup
 title:        MR-Hub
-tagline:      Open-access software tools from the ISMRM community
-baseurl:      ""
+tagline:      Open-access software tools for the ISMRM community
+url:          http://ismrm.github.io
+baseurl:      "/mrhub"
 paginate:     1
 locale:       "en"
 

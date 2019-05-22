@@ -1,81 +1,131 @@
-<div id="team" class="section">
-
-                <!-- Section header -->
-                <div class="section-header text-center">
-                    <h2 class="title">Projects</h2>
-                </div>
-                    
-                    <div class="form-group mx-sm-3 mb-2">
-                      <div class="row">
-                          <div class="col" style="max-width: 11%;">
-                          <label>Categories:</label> 
-                        </div>
-                        <div class="col">
-                          <select id="ddcategory" onchange="categories()" class="form-control inputstl" style="margin-bottom: 30px;">
-                            <option value="all">All Categories </option>
-                             {% assign categories = site.data.projects where: 'published', 'true' |  map: 'category'| join: ',' | split: ',' | uniq %}
-                             {% for category in categories %}
-                               <option value="{{ category }}">{{ category }}</option>
-                               {% endfor %}
-                            </select>
-                          </div>
-                            <div class="col">
-                            <button onclick="sortedCitation()" class="btn btn-primary">Sort by citation</button>
-                            <button onclick="sortedDate()" class="btn btn-primary">Sort by date</button>
-                          </div>
-                        </div>
-                    </div>
-                            
-  
-
 <!-- Container -->
-        <div class="container">
+<div class="container">
 
-            <!-- Row -->
-            <div class="row" id="list-projects">
-    {% for project in site.data.projects %}
-    <!--contributor -->
+    <!-- Row -->
+    <div id="projects-list">
 
+        <div class="col-12">
+            Categories:
+            <select id="ddcategory" onchange="categories()" class="form-control inputstl" style="margin-bottom: 30px;">
+                <option value="all">All Categories </option>
+                {% assign categories = site.data.projects where: 'published', 'true' |  map: 'category'| join: ',' | split: ',' | uniq %}
+                {% for category in categories %}
+                <option value="{{ category }}">{{ category }}</option>
+                {% endfor %}
+            </select>
+        </div>
 
-<div class="col-md-6 mb-30px">
-    <button class="collapsible" style="   border: 3px solid #0baedf;    padding: 0px;    border-radius: 10px;">
-    <div class="listfeaturedtag h-100">
-        <div class="row" style="margin-left: 0px;    margin-right: 0px;">
-           
-           
-            <div>
-                <div class="h-100 card-group">
-                	
-                    <div class="card">
-                        <div class="card-body" style="flex: 1 1 auto; padding: 0.25rem; text-align: center;">
-                        	<center><img src="images_packages/{{ project.imageFile }}" style="max-width: 200px; max-height: 100px;"/></center>
-                          <h2 class="card-title" style="color:#1d315b"><a class="text-dark" href="{{ project.name }}"><center>{{ project.name }}</a></center></h2>
-                          <h6 class="card-text" style="color:#0baedf">{{ project.shortDescription }}</h6>
-                          </center>
-                          <div class="projInfo" style="text-align:justify;padding-left: 6px;padding-bottom: 6px;padding-right: 6px;padding-top: 6px;">
-                          <h7 class="card-text"><font style="color:#1d315b"><i><b>Category:</b></i></font> <font style="color:#0baedf">{{ project.category }}</font></h7> <br/>
-                            <h7 class="card-text"><font style="color:#1d315b"><i><b>Principal developers:</b></i> </font><font style="color:#0baedf">{{ project.principalDevelopers }}</font></h7><br/>
-                            <h7 class="card-text"><font style="color:#1d315b"><i><b>Key words:</i></b></font><font style="color:#0baedf"> {% for wo in project.keywords %} {{ wo }}, {% endfor %}</font></h7>
-                            </div> 
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-       
+        <button class="sort" data-sort="name">
+            Sort by name
         </button>
-							<div class="content" style="padding: 9px 9px 9px 9px; display: none; bacground-color: #fff8dc">
-  							<h4>Description</h4>	 <p>{{ project.longDescription }}</p>
-  							<h4>References</h4>
-  							<ol>
-  							 {% for reference in project.keyReferences %}
-  							 <li><a href="{{ reference.referenceURL }}">{{ reference.referenceText }}</a></li> <br/>
-  							 {% endfor %}
-  							</ol>
-							</div>
-	</div>
-            {% endfor %}
-    </div>
-  </div>
+        <button class="sort" data-sort="dateadded">
+            Sort by date added
+        </button>
+        <button class="sort" data-sort="dateupdated">
+            Sort by date last updated
+        </button>
+        <button class="sort" data-sort="ncitations">
+            Sort by citations
+        </button>
 
+
+        <div class="col-md-12 mb-30px">
+
+            <ul class="list">
+
+                {% for project in site.data.projects %}
+
+                <button data-target="#content{{ forloop.index }}" data-toggle="collapse" style="border: 2px solid #1D79B1;    padding: 10px;    border-radius: 10px; margin: 10px; background-color:aliceblue">
+
+                    <div class="row" style="margin-left: 0px;    margin-right: 0px;">
+
+                        <div class="row">
+
+                            <div class="col-md-2 col-s-12">
+                                <img src="images_packages/{{ project.imageFile }}" style="max-width: 100%; max-height: 100px;" /></div>
+                            <div class="col-md-10">
+                                <a href="{{ project.mainURL }}">
+                                    <div class="projectname name">{{ project.name }}</div>
+                                </a>
+                                <div class="projectdescription shortdescription">{{ project.shortDescription }}</div>
+                            </div>
+
+                            <div class="col-12" style="text-align:justify;padding-left: 18px;padding-bottom: 6px;padding-right: 18px;padding-top: 6px;">
+
+                                <div class="row">
+                                    <div class="col-6">
+
+                                        <div>
+                                            <span class="projectinfolabel">Category:</span>
+                                            <span class="category projectinfo">{{ project.category }}</span>
+                                        </div>
+
+                                        <div>
+                                            <span class="projectinfolabel">Principal developers:</span>
+                                            <span class="developers projectinfo">{{ project.principalDevelopers }}</span>
+                                        </div>
+
+                                        <div>
+                                            <span class="projectinfolabel">Keywords:</span>
+                                            <span class="keywords projectinfo">{% for wo in project.keywords %} {{ wo }}{% if forloop.last %}.{% else %}, {% endif %}{% endfor %}</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-6">
+
+                                        <div>
+                                            <span class="projectinfolabel">Date added to MR-Hub:</span>
+                                            <span class="dateadded projectinfo">{{ project.dateAddedToMRHub }}</span>
+                                        </div>
+
+                                        <div>
+                                            <span class="projectinfolabel">Date software last updated:</span>
+                                            <span class="dateupdated projectinfo">{{ project.dateSoftwareLastUpdated }}</span>
+                                        </div>
+
+                                        <div>
+                                            <span class="projectinfolabel">No. of citations:</span>
+                                            <span class="ncitations projectinfo">{{ project.citationCount }}</span>
+                                        </div>
+
+                                        <div style="line-height:.75rem">
+                                            <span class="projectinfolabel" style="font-size:small"><em>(main associated paper on <a href="https://api.semanticscholar.org/{{ project.citationSearchString }}">Semantic Scholar</a>)</em></span>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-12" style="text-align: center">
+                                {% for wo in project.extraResources %} <h5><strong><a href="{{ wo.URL }}">{{ wo.resourceType }}</a></strong></h5> {% endfor %}
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div id="content{{ forloop.index }}" class="collapse" style="text-align: left; padding: 9px 9px 9px 9px; background-color: #fff8dc">
+                        <h4>Description</h4>
+                        <p>{{ project.longDescription }}</p>
+                        <h4>References</h4>
+                        <ol>
+                            {% for reference in project.keyReferences %}
+                            <li><a href="{{ reference.referenceURL }}">{{ reference.referenceText }}</a></li> <br />
+                            {% endfor %}
+                        </ol>
+                    </div>
+
+                </button>
+
+                {% endfor %}
+            </ul>
+        </div>
+
+
+
+    </div>
 </div>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js'></script>
+<script src="js/index.js"></script>

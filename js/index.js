@@ -1,10 +1,8 @@
-/* MRHUB Submissions   */
-
 var options = {
-  valueNames: [ 'name', 'short-description', 'full-description', 'category', 'Developers', 'Keywords' ]
+  valueNames: [ 'name', 'dateadded', 'dateupdated', 'category', 'keywords', 'developers', 'shortdescription', 'ncitations']
 };
 
-var featureList = new List('mrhub-list', options);
+var featureList = new List('projects-list', options);
 
 $('#filter-recon').click(function() {
   featureList.filter(function(item) {
@@ -31,3 +29,23 @@ $('#filter-none').click(function() {
   featureList.filter();
   return false;
 });
+featureList.sort('ncitations', { order: "desc" });
+
+function categories() {
+    category = document.getElementById("ddcategory").value;
+
+    if (category == 'all') {
+        featureList.filter();
+        return false;
+    } else {
+
+        featureList.filter(function (item) {
+            if (item.values().category == category) {
+                return true;
+            } else {
+                return false;
+            }
+        });
+        return false;
+    }
+}
