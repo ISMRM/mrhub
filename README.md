@@ -22,9 +22,9 @@ The database of packages is stored in the `_data` folder of this repository and 
    ```
    The paperID for SemanticScholar is the very last part after the '/' - starting with `4b760...`.
    **Please let me know if your paper isn't in Semantic Scholar at all!** - this is still in the trial phase to see if such an approach is feasible - please contact [Dan Gallichan](mailto:gallichand@cardiff.ac.uk) if you can't find your paper and we'll see what else we might be able to do (it seems it should be possible to 'submit' your own paper to their database...). You can test to see if your `citationSearchString` works by pointing your browser at 
-   ```
-https://api.semanticscholar.org/v1/paper/<<YourCitationSearchStringGoesHere>>
-   ```
+```
+https://api.semanticscholar.org/v1/paper/<YourCitationSearchStringGoesHere>
+```
    If you see a page full of text in JSON format, then your `citationSearchString` works!
    * `"citationCount"` - This is the number of citations for the linked paper found by Semantic Scholar. This will get updated automatically by a site admin every so often to try to keep this info up-to-date.
    
