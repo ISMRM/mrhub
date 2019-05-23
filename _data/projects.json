@@ -1,5 +1,48 @@
 [
-
+    {
+        "name": "retroMoCoBox",
+        "category": "Reconstruction",
+        "shortDescription": "MATLAB-based retrospective motion-correction of 3D k-space",
+        "imageFile": "retromocobox.png",
+        "mainURL": "https://github.com/dgallichan/retroMoCoBox",
+        "repoURL": "https://github.com/dgallichan/retroMoCoBox",
+        "principalDevelopers": "Daniel Gallichan",
+        "longDescription": "Matlab toolbox for retrospective motion-correction of 3D MRI k-space data - as used for my work using 3D FatNavs to obtain the motion information. Example data is provided to give an indication of what the toolbox can be used for - including how to simulate the effect of different motion profiles on an acquisition. As this code needs to be able to do the full reconstruction pipeline, it also contains an implementation of 2D GRAPPA. The motion-corrected k-space is regridded using the NUFFT from Jeffrey Fessler's MIRT toolbox (separate download).",
+        "keywords": ["Github", "MATLAB", "motion-correction", "k-space"],
+        "keyReferences": [
+            {
+                "referenceText": "Retrospective correction of involuntary microscopic head movement using highly accelerated fat image navigators (3D FatNavs) at 7T, Gallichan, Marques and Gruetter, MRM 2015",
+                "referenceURL": "http://doi.wiley.com/10.1002/mrm.25670"
+            }, 
+            
+            {
+                "referenceText": "Optimizing the acceleration and resolution of three-dimensional fat image navigators for high-resolution motion correction at 7T, Gallichan and Marques, MRM 2016",
+                "referenceURL": "http://doi.wiley.com/10.1002/mrm.26127"
+            }, 
+            
+            {
+                "referenceText": "Motion-Correction Enabled Ultra-High Resolution In-Vivo 7T-MRI of the Brain, Federau and Gallichan, Plos One 2016",
+                "referenceURL": "http://dx.plos.org/10.1371/journal.pone.0154974"
+            } , 
+            
+            {
+                "referenceText": "Evaluation of 3D fat-navigator based retrospective motion correction in the clinical setting of patients with brain tumors, Glessgen, Gallichan, Moor, Hainc and Federau, Neuroradiology 2019",
+                "referenceURL": "https://doi.org/10.1007/s00234-019-02160-w"
+            }  
+            
+        ],
+        "extraResources": [
+            {
+                "resourceType": "",
+                "URL": ""
+            }
+        ],
+        "dateAddedToMRHub": "20190523",
+        "dateSoftwareLastUpdated": "20190523",
+        "citationSearchString": "10.1002/mrm.25670",
+        "citationCount": "20"
+    },
+    
     {
         "name": "Berkeley Advanced Reconstruction Toolbox (BART)",
         "category": "Reconstruction",
