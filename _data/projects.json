@@ -1,5 +1,27 @@
 [
     {
+        "name": "SigPy",
+        "category": "Reconstruction",
+        "shortDescription": "One line description of your package",
+        "imageFile": "sigpy_logo.png",
+        "mainURL": "https://sigpy.readthedocs.io",
+        "repoURL": "https://github.com/mikgroup/sigpy",
+        "principalDevelopers": "Frank Ong",
+        "longDescription": "SigPy is a Python package for signal processing, with emphasis on iterative methods. It is built to operate directly on NumPy arrays on CPU and CuPy arrays on GPU. SigPy also provides several domain-specific submodules: sigpy.plot for multi-dimensional array plotting, sigpy.mri for MRI iterative reconstruction, and sigpy.learn for dictionary learning.",
+            "keywords": ["iterative-reconstruction", "compressed sensing", "GPU", "ESPIRiT", "GPU-NUFFT", "GitHub", "Python"],
+        "keyReferences": [
+            {
+                "referenceText": "Frank Ong, and Michale Lustig. SigPy: A Python Package for High Performance Iterative Reconstruction. In Proc. Intl. Soc. Mag. Reson. Med. 27;4819",
+                "referenceURL": "http://cds.ismrm.org/protected/19MPresentations/abstracts/4819.html"
+            }
+        ],
+        "dateAddedToMRHub": "20190523",
+        "dateSoftwareLastUpdated": "20190523",
+        "citationSearchString": "SigPy",
+        "citationCount": ""
+    },
+
+    {
         "name": "retroMoCoBox",
         "category": "Reconstruction",
         "shortDescription": "MATLAB-based retrospective motion-correction of 3D k-space",
