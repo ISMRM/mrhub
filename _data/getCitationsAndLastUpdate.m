@@ -14,8 +14,8 @@
 %
 % gallichand@cardiff.ac.uk, 10/5/19
 
-jsonFile = 'mrhub_packages.json';
-jsonFile_new = 'mrhub_packages_updated.json';
+jsonFile = 'projects.json';
+jsonFile_new = 'projects_updated.json';
 
 packageData = jsondecode(fileread(jsonFile));
 
@@ -99,7 +99,7 @@ fidOut = fopen(jsonFile_new,'w');
 iP = 1;
 repeat = 1;
 while repeat==1
-    thisLine = fgetl(fid);
+    thisLine = fgetl(fidIn);
     if ~ischar(thisLine), break, end
     
     isLine = strfind(thisLine,'"dateSoftwareLastUpdated"');
