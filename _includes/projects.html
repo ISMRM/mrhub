@@ -4,15 +4,21 @@
     <!-- Row -->
     <div id="projects-list">
 
-        <div class="col-12">
-            Categories:
-            <select id="ddcategory" onchange="categories()" class="form-control inputstl" style="margin-bottom: 30px;">
-                <option value="all">All Categories </option>
-                {% assign categories = site.data.projects where: 'published', 'true' |  map: 'category'| join: ',' | split: ',' | uniq %}
-                {% for category in categories %}
-                <option value="{{ category }}">{{ category }}</option>
-                {% endfor %}
-            </select>
+        <div class="row">
+            <div class="col-6">
+                Categories:
+                <select id="ddcategory" onchange="categories()" class="form-control inputstl" style="margin-bottom: 30px;">
+                    <option value="all">All Categories </option>
+                    {% assign categories = site.data.projects where: 'published', 'true' |  map: 'category'| join: ',' | split: ',' | uniq %}
+                    {% for category in categories %}
+                    <option value="{{ category }}">{{ category }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="col-6">
+                <p></p>
+                <i class="fas fa-search fa-lg">&nbsp;&nbsp;</i><input class="search" placeholder="Search MR-Hub" />
+            </div>
         </div>
 
         <center>
