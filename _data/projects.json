@@ -311,9 +311,9 @@
         "imageFile": "nyu_mrf_recon.png",
         "mainURL": "https://bitbucket.org/asslaender/nyu_mrf_recon",
         "repoURL": "https://bitbucket.org/asslaender/nyu_mrf_recon",
-        "principalDevelopers": "<a href=\"http://cai2r.net/people/jakob-asslaender\">Jakob Assländer</a>",
+        "principalDevelopers": "<a href=\"https://med.nyu.edu/faculty/jakob-asslaender\">Jakob Assländer</a>",
         "longDescription": "The NYU MR-Fingerprinting Reconstruction Toolbox provides a general and fast framework for reconstructing MRF data. It approximates the fingerprints in a low rank space, which improves the conditioning of the problem and reduces the number of FFT operations significantly. The provided code solves the MRF reconstruction problem with an alternating direction method of multipliers, which transform the non-convex optimization problem into two subproblems, that are very similar to CG-SENSE and the dictionary fitting, respectively. The toolbox is implemented in Matlab and incorporates Fessler’s nuFFT implementation.",
-        "keywords": ["Bitbucket", "fingerprinting", "NUFFT"],
+        "keywords": ["Bitbucket", "fingerprinting", "NUFFT", "quantitative imaging", "relaxometry"],
         "keyReferences": [            
             {
                 "referenceText": "Assländer, J. , Cloos, M. A., Knoll, F. , Sodickson, D. K., Hennig, J. and Lattanzi, R. (2018), Low rank alternating direction method of multipliers reconstruction for MR fingerprinting. Magn. Reson. Med., 79: 83-96.",
