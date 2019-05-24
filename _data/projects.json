@@ -2,7 +2,7 @@
     {
         "name": "SigPy",
         "category": "Reconstruction",
-        "shortDescription": "One line description of your package",
+        "shortDescription": "CPU/GPU Python package for iterative reconstruction",
         "imageFile": "sigpy_logo.png",
         "mainURL": "https://sigpy.readthedocs.io",
         "repoURL": "https://github.com/mikgroup/sigpy",
