@@ -1,7 +1,7 @@
 [
     {
         "name": "gammaSTAR",
-        "category": "Simulation",
+        "category": "Pulse sequences",
         "shortDescription": "gammaSTAR: Platform-Independent MR Sequence Development",
         "imageFile": "gammastar.png",
         "mainURL": "https://gamma-star.mevis.fraunhofer.de",
