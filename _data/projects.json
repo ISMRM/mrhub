@@ -1,5 +1,33 @@
 [
     {
+        "name": "gammaSTAR",
+        "category": "Simulation",
+        "shortDescription": "gammaSTAR: Platform-Independent MR Sequence Development",
+        "imageFile": "gammastar.png",
+        "mainURL": "https://gamma-star.mevis.fraunhofer.de",
+        "repoURL": "https://gamma-star.mevis.fraunhofer.de/download/gammaSTAR_current.zip",
+        "principalDevelopers": "Cristoffer Cordes, Simon Konstandin, Daniel Hoinkiss, Daniel Mensing, Saulius Archipovas, Robin Wilke, Matthias Günther",
+        "longDescription": "gammaSTAR is an MRI pulse sequence development framework. gammaSTAR sequences are vendor-independent, self-contained and portable. They and can be configured to match hardware limitations and desired protocol settings after being loaded onto a device. The core logic is written in the scripting language Lua, which is easily embeddable into C/C++ frameworks, resulting in very low-footprint driver implementations. Sequences can be viewed, configured and shared through a web-technology based tool that requires no internet or network access, running completely in-browser. Sequence computation is made efficient by exploiting the underlying directed acyclic graph structure for essentially all parameter calculations. gammaSTAR is designed to enable modular sequence development and state-of-the-art MRI techniques.",
+        "keywords": ["sequence", "development", "lua", "c++", "pulseq", "pulse sequences", "vendor neutrality", "Video tutorial", "Docker"],
+        "keyReferences": [
+            {
+                "referenceText": "Cordes C, Konstandin S, Mensing D, Archipovas S, Wilke R, Günther M. Configuring, Viewing, Exploring and Exporting Reproducible, Vendor-Independent MRI Pulse Sequences. In Proc. ISMRM 27:4826",
+                "referenceURL": "http://cds.ismrm.org/protected/19MPresentations/abstracts/4826.html"
+            }
+        ],
+        "extraResources": [
+            {
+                "resourceType": "Demo Videos",
+                "URL": "https://www.youtube.com/playlist?list=PL0A7u8ZJFB4VlI7gjuLfvoe2iQ-koE8tZ"
+            } 
+        ],
+        "dateAddedToMRHub": "20190529",
+        "dateSoftwareLastUpdated": "20190512",
+        "citationSearchString": "gammaSTAR",
+        "citationCount": "0"
+    },
+
+    {
         "name": "SigPy",
         "category": "Reconstruction",
         "shortDescription": "CPU/GPU Python package for iterative reconstruction",
