@@ -161,9 +161,9 @@ a:hover { text-decoration: underline; }
   .btn + .btn { margin-top: 1rem; margin-left: 0; } }
 
 .page-header { color: #fff; text-align: center; background-color: #159957;     background-image: linear-gradient(120deg, #1d315b, #0baedf); }
-@media screen and (min-width: 64em) { .page-header { padding: 5rem 6rem; } }
-@media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 3rem 4rem; } }
-@media screen and (max-width: 42em) { .page-header { padding: 2rem 1rem; } }
+@media screen and (min-width: 64em) { .page-header { padding: 2rem 3rem; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 2rem 3rem; } }
+@media screen and (max-width: 42em) { .page-header { padding: 1rem .5rem; } }
 
 .project-name { margin-top: 0; margin-bottom: 0.1rem; }
 @media screen and (min-width: 64em) { .project-name { font-size: 3.25rem; } }
