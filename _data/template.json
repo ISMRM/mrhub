@@ -1,6 +1,6 @@
     {
         "name": "Your package name",
-        "category": "Choose from: Reconstruction // Data format // Educational // Simulation // Visiualisation // Spectroscopy // Image processing",
+        "category": "Choose from: Reconstruction // Data format // Pulse sequences // Educational // Simulation // Visualisation // Spectroscopy // Image processing",
         "shortDescription": "One line description of your package",
         "imageFile": "image file name (with extension) - upload image itself into images_packages subfolder",
         "mainURL": "http://url.to.main.package",
