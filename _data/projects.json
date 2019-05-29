@@ -494,6 +494,33 @@
         "dateSoftwareLastUpdated": "20190519",
         "citationSearchString": "10.1016/j.jmr.2018.08.004",
         "citationCount": "0"
-    }   
+    },
+    {
+        "name": "Water/Fat Separated MR Thermometry",
+        "category": "Reconstruction",
+        "shortDescription": "Algorithm to compute PRF-shift based MR thermometry in mixed water and fatty tissues, while also accounting for errors due to motion and scanner drift.",
+        "imageFile": "WFTherm.png",
+        "mainURL": "https://github.com/poormanme/waterFatSeparated_MRThermometry",
+        "repoURL": "https://github.com/poormanme/waterFatSeparated_MRThermometry",
+        "principalDevelopers": "<a href=\"https://scholar.google.com/citations?user=_whgkpcAAAAJ&hl=en&oi=ao\">Megan Poorman</a>, William Grissom",
+        "longDescription": "This code repository, written in Matlab, implements an algorithm for real-time-compatible water/fat separated MR thermometry in aqueous and fatty tissues. It is based on a hybrid referenceless multi-baseline thermometry approach and is robust to errors from motion, respiration, and scanner drift. The algorithm has been shown to be accurate in tissues containing between 0% and 90% fat. It is intended for use monitoring focal therapies, where heating is expected to be sparse with respect to the image volume. While it has been tested in simulation with less-sparse heating, its accuracy for widely disperse heating scenarios has not been fully validated. A numerical phantom and demo simulation is provided to guide the user in implementation of the algorithm for their own application. This algorithm was developed for research purposes and currently makes no claims of efficacy or safety for clinical implementation.",
+        "keywords": ["proton resonance frequency shift","temperature mapping","fat separation","thermometry"],
+        "keyReferences": [
+            {
+                "referenceText": "Poorman ME, Braškute˙ I, Bartels LW, Grissom WA. Multi-echo MR thermometry using iterative separation of baseline water and fat images. Magn Reson Med. 2018;(September):1–14. ",
+                "referenceURL": "https://doi.org/10.1002/mrm.27567"
+            }         
+        ],
+        "extraResources": [
+            {
+                "resourceType": "",
+                "URL": ""
+            }
+        ],
+        "dateAddedToMRHub": "20190529",
+        "dateSoftwareLastUpdated": "20180926",
+        "citationSearchString": "10.1002/mrm.27567",
+        "citationCount": "0"
+    }
 
 ]
