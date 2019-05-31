@@ -1,7 +1,7 @@
 [
     {
         "name": "MRtrix3",
-        "category": "Visualisation // Image processing",
+        "category": "Image processing",
         "shortDescription": "Advanced tools for the analysis of diffusion MRI data",
         "imageFile": "mrtrix3.png",
         "mainURL": "http://www.mrtrix.org",
