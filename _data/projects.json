@@ -27,6 +27,38 @@
         "citationCount": "0"
     },
     {
+        "name": "MRtrix3",
+        "category": "Image processing",
+        "shortDescription": "Advanced tools for the analysis of diffusion MRI data",
+        "imageFile": "mrtrix3.png",
+        "mainURL": "http://www.mrtrix.org",
+        "repoURL": "https://github.com/MRtrix3/mrtrix3/",
+        "principalDevelopers": "J-Donald Tournier, Robert E. Smith, David Raffelt, Maximilian Pietsch, Rami Tabarra, Daan Christiaens, Thijs Dhollander, Ben Jeurissen, Chun-Hung Yeh",
+        "longDescription": "MRtrix provides a set of tools to perform various advanced diffusion MRI analyses, including constrained spherical deconvolution (CSD), probabilistic tractography, track-density imaging, and apparent fibre density.",
+        "keywords": ["diffusion", "tractography", "spherical deconvolution", "ODF"],
+        "keyReferences": [
+            {
+                "referenceText": "MRtrix3: A fast, flexible and open software framework for medical image processing and visualisation",
+                "referenceURL": "https://www.biorxiv.org/content/10.1101/551739v1"
+            } 
+            
+        ],
+        "extraResources": [
+            {
+                "resourceType": "Documentation",
+                "URL": "http://userdocs.mrtrix.org/en/latest/"
+            },
+            {
+                "resourceType": "User forum",
+                "URL": "http://community.mrtrix.org/"
+            }
+        ],
+        "dateAddedToMRHub": "20190510",
+        "dateSoftwareLastUpdated": "20190510",
+        "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
+        "citationCount": ""
+    },
+    {
         "name": "gammaSTAR",
         "category": "Pulse sequences",
         "shortDescription": "gammaSTAR: Platform-Independent MR Sequence Development",
