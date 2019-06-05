@@ -14,12 +14,26 @@
 %
 % gallichand@cardiff.ac.uk, 10/5/19
 
+clear
+close all
+
 jsonFile = 'projects.json';
 jsonFile_new = 'projects_updated.json';
 
 packageData = jsondecode(fileread(jsonFile));
-
 nP = length(packageData);
+
+if iscell(packageData) % this means that the fields of the packages don't all match somehow...
+    % display the number of fields in each package:
+    
+    fprintf('*************\n\n')
+    for iP = 1:nP
+        thisPackage = packageData{iP};
+        fprintf('%s nFields: %d\n',thisPackage.name,length(fieldnames(thisPackage)));
+    end
+    
+end
+    
 
 fprintf('\n\n\nPackage \t nCitations_old \t nCitations_new\n')
 fprintf('_________________________________________________________\n\n')
@@ -28,10 +42,14 @@ for iP = 1:nP
    
     %%% Find the number of citations in Semantic Scholar:
     
-    thisCitationData = webread(['https://api.semanticscholar.org/v1/paper/' packageData(iP).citationSearchString]);
-            
     nCitations_old = str2num(packageData(iP).citationCount);
-    nCitations_new = length(thisCitationData.citations);
+    try
+        thisCitationData = webread(['https://api.semanticscholar.org/v1/paper/' packageData(iP).citationSearchString]);
+        
+        nCitations_new = length(thisCitationData.citations);
+    catch
+        nCitations_new = nCitations_old;
+    end
     
     thisName = packageData(iP).name;
     if length(thisName)>10
