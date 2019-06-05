@@ -102,6 +102,12 @@
                 "referenceURL": "http://cds.ismrm.org/protected/19MPresentations/abstracts/4819.html"
             }
         ],
+        "extraResources": [
+            {
+                "resourceType": "",
+                "URL": ""
+            }
+        ],
         "dateAddedToMRHub": "20190523",
         "dateSoftwareLastUpdated": "20190523",
         "citationSearchString": "SigPy",
