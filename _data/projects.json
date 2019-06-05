@@ -1,5 +1,5 @@
 [
-        {
+    {
         "name": "Water/Fat Separated MR Thermometry",
         "category": "Reconstruction",
         "shortDescription": "Algorithm to compute PRF-shift based MR thermometry in mixed water and fatty tissues, while also accounting for errors due to motion and scanner drift.",
