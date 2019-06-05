@@ -54,7 +54,7 @@
             }
         ],
         "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20190510",
+        "dateSoftwareLastUpdated": "20190507",
         "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
         "citationCount": "0"
     },
@@ -109,7 +109,7 @@
             }
         ],
         "dateAddedToMRHub": "20190523",
-        "dateSoftwareLastUpdated": "20190523",
+        "dateSoftwareLastUpdated": "20190531",
         "citationSearchString": "SigPy",
         "citationCount": "0"
     },
@@ -153,7 +153,7 @@
             }
         ],
         "dateAddedToMRHub": "20190523",
-        "dateSoftwareLastUpdated": "20190523",
+        "dateSoftwareLastUpdated": "20190528",
         "citationSearchString": "10.1002/mrm.25670",
         "citationCount": "20"
     },
@@ -202,9 +202,9 @@
             }
         ],
         "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20190506",
+        "dateSoftwareLastUpdated": "20190604",
         "citationSearchString": "10.1002/mrm.24751",
-        "citationCount": "174"
+        "citationCount": "179"
     },
     
     
@@ -232,7 +232,7 @@
             }
         ],
         "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20190503",
+        "dateSoftwareLastUpdated": "20190604",
         "citationSearchString": "10.1002/mrm.24389",
         "citationCount": "72"
     },
@@ -263,7 +263,7 @@
         "dateAddedToMRHub": "20190510",
         "dateSoftwareLastUpdated": "20180130",
         "citationSearchString": "c788ecd4a6ac9d3d7013a94515ec0718274e9907",
-        "citationCount": "16"
+        "citationCount": "17"
     },    
     
     {
@@ -421,9 +421,9 @@
             }
         ],
         "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20180417",
+        "dateSoftwareLastUpdated": "20190524",
         "citationSearchString": "10.1002/mrm.26639",
-        "citationCount": "16"
+        "citationCount": "18"
     },
     
     {
@@ -488,7 +488,7 @@
             }
         ],
         "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20190522",
+        "dateSoftwareLastUpdated": "20190528",
         "citationSearchString": "10.1002/mrm.22406",
         "citationCount": "25"
     },
@@ -517,9 +517,9 @@
             }
         ],
         "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20190521",
+        "dateSoftwareLastUpdated": "20190605",
         "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
-        "citationCount": "39"
+        "citationCount": "41"
     },
     
     {
