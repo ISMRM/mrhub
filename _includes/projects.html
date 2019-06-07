@@ -105,7 +105,13 @@
                             </div>
 
                             <div class="col-12" style="text-align: center">
-                                {% for wo in project.extraResources %} <h5><strong><a href="{{ wo.URL }}">{{ wo.resourceType }}</a></strong></h5> {% endfor %}
+                                
+                                {% for wo in project.extraResources %} 
+                                {% if wo.resourceType.size > 0 %}
+                                        <a href="{{ wo.URL }}" class="btn btn-primary" style="background-color: #19496E; border-color: #19496E;">{{ wo.resourceType }}</a>
+                                {% endif %}        
+                                {% endfor %}                                                                
+                                
                             </div>
 
                         </div>
