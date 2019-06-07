@@ -10,8 +10,8 @@ locale:       "en"
 author:
   name:       
 
-# Gems
-gems:
+# Plugins
+plugins:
   - jekyll-paginate
 
 #Others
