@@ -2,7 +2,7 @@
     {
         "name": "Gannet",
         "category": "Spectroscopy",
-        "shortDescription": "Open-source, MATLAB-based software for automated data processing and quantification of edited MRS data.",
+        "shortDescription": "Open-source, MATLAB-based software for automated processing and quantification of edited MRS data.",
         "imageFile": "gannet.png",
         "mainURL": "https://github.com/richardedden/Gannet3.0",
         "repoURL": "https://github.com/richardedden/Gannet3.0",
