@@ -1,5 +1,38 @@
 [ 
     {
+        "name": "Gannet",
+        "category": "Spectroscopy",
+        "shortDescription": "Open-source, MATLAB-based software for automated data processing and quantification of edited MRS data.",
+        "imageFile": "gannet.png",
+        "mainURL": "https://github.com/richardedden/Gannet3.0",
+        "repoURL": "https://github.com/richardedden/Gannet3.0",
+        "principalDevelopers": "Richard Edden, Mark Mikkelsen, Georg Oeltzschner, Muhammad Saleh, Nicolaas Puts, C. John Evans (former), Ashley Harris (former)",
+        "longDescription": "Gannet is an open-source, MATLAB-based toolkit for automated loading, processing, and analysis of spectral-edited MRS data. It can batch-process multiple datasets and comprises a number of modules for a full analysis pipeline, including: data loading, signal fitting, voxel co-registration to structural MR images, tissue segmentation, and tissue correction. Presently, Gannet is able to process edited MRS data from the three major vendors and is compatible with all vendor-specific file formats. Data acquired by the following editing approaches are compatible: MEGA-PRESS, HERMES, HERCULES.",
+        "keywords": ["magnetic resonance spectroscopy", "edited MRS", "GABA", "GitHub", "MATLAB"],
+        "keyReferences": [
+            {
+                "referenceText": "Edden RAE, Puts NAJ, Harris AD, Barker PB, Evans CJ. Gannet: A batch-processing tool for the quantitative analysis of gamma-aminobutyric acid-edited MR spectroscopy spectra. J. Magn. Reson. Imaging 2014;40:1445–1452",
+                "referenceURL": "http://doi.wiley.com/10.1002/jmri.24478"
+            },
+
+            {
+                "referenceText": "Harris AD, Puts NAJ, Edden RAE. Tissue correction for GABA-edited MRS: Considerations of voxel composition, tissue segmentation, and tissue relaxations. J. Magn. Reson. Imaging 2015;42:1431–1440 doi: 10.1002/jmri.24903.",
+                "referenceURL": "http://doi.wiley.com/10.1002/jmri.24903"
+            }
+        ],
+        "extraResources": [
+        {
+                "resourceType": "Gannet blog",
+                "URL": "http://www.gabamrs.com"
+            }
+        ],
+        "dateAddedToMRHub": "20190610",
+        "dateSoftwareLastUpdated": "20190124",
+        "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
+        "citationCount": "99"
+    },
+
+    {
         "name": "GPI (Graphical Programming Interface)",
         "category": "Multipurpose",
         "shortDescription": "Graphical integrated development environment for scientific algorithms",
