@@ -1,7 +1,7 @@
 [ 
     {
         "name": "GPI (Graphical Programming Interface)",
-        "category": "Development",
+        "category": "Multipurpose",
         "shortDescription": "Graphical integrated development environment for scientific algorithms",
         "imageFile": "gpi.png",
         "mainURL": "http://gpilab.com/downloads/",
