@@ -1,4 +1,36 @@
-[ 
+[     
+    {
+        "name": "NLSAM",
+        "category": "Image processing",
+        "shortDescription": "Non Local Spatial and Angular Matching (NLSAM) denoising algorithm for diffusion MRI",
+        "imageFile": "nlsam.png",
+        "mainURL": "https://github.com/samuelstjean/nlsam",
+        "repoURL": "https://github.com/samuelstjean/nlsam",
+        "principalDevelopers": "Samuel St-Jean",
+        "longDescription": "The reference implementation for the Non Local Spatial and Angular Matching (NLSAM) denoising algorithm for diffusion MRI",
+        "keywords": ["Diffusion MRI", "denoising", "python"],
+        "keyReferences": [
+            {
+                "referenceText": "Non Local Spatial and Angular Matching : Enabling higher spatial resolution diffusion MRI datasets through adaptive denoising",
+                "referenceURL": "https://doi.org/10.1016/j.media.2016.02.010"
+            }
+            
+        ],
+        "extraResources": [
+            {
+                "resourceType": "Documentation",
+                "URL": "https://nlsam.readthedocs.io/"
+            },
+            {
+                "resourceType": "Example",
+                "URL": "https://github.com/samuelstjean/nlsam/blob/master/example/README.md"
+            }
+        ],
+        "dateAddedToMRHub": "20190619",
+        "dateSoftwareLastUpdated": "20190302",
+        "citationSearchString": "10.1016/j.media.2016.02.010",
+        "citationCount": "28"
+    },
     {
         "name": "Gannet",
         "category": "Spectroscopy",
