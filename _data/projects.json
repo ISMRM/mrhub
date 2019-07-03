@@ -656,6 +656,38 @@
         "dateSoftwareLastUpdated": "20190519",
         "citationSearchString": "10.1016/j.jmr.2018.08.004",
         "citationCount": "0"
-    }   
+    },   
 
+    {
+        "name": "Yarra Framework",
+        "category": "Reconstruction",
+        "shortDescription": "Open-source toolkit to support the development and clinical translation of reconstruction techniques",
+        "imageFile": "yarra.png",
+        "mainURL": "http://yarraframework.com",
+        "repoURL": "https://bitbucket.org/yarra-dev",
+        "principalDevelopers": "Kai Tobias Block, Roy Wiggins",
+        "longDescription": "Yarra is a collection of software tools to support the development and clinical translation of novel MRI reconstruction techniques. The functional scope ranges from automatic collection of clinical raw-data, management and anonymization of raw-data, clinical integration of reconstruction prototypes, and distribution of reconstruction algorithms. Moreover, Yarra provides functions for clinical workflow monitoring and analysis. Support is currently limited to Siemens MRI systems.",
+        "keywords": ["Bitbucket", "offline", "compressed sensing", "Matlab", "Siemens"],
+        "keyReferences": [
+            {
+                "referenceText": "Roy Wiggins and Kai Tobias Block, Yarra Framework – Open-Source Toolkit for Clinical-Translational MRI Research, ISMRM 2019, Weekend Educational Session WE-21AB",
+                "referenceURL": "https://s3.amazonaws.com/download.yarraframework.com/doc/ISMRM19_Whitepaper.pdf"
+            }            
+        ],
+        "extraResources": [
+            {
+                "resourceType": "Video Tutorial",
+                "URL": "https://www.youtube.com/watch?v=5uX7f5E1pz8"
+            },
+            {
+                "resourceType": "White Paper",
+                "URL": "https://s3.amazonaws.com/download.yarraframework.com/doc/ISMRM19_Whitepaper.pdf"
+            }
+			
+        ],
+        "dateAddedToMRHub": "20190703",
+        "dateSoftwareLastUpdated": "20190627",
+        "citationSearchString": "8c5511d9ecad595dba390a718957be8c84c22f7a",
+        "citationCount": "0"
+    }    
 ]
