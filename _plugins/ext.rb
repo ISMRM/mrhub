@@ -45,7 +45,27 @@ Jekyll::Hooks.register :site, :after_reset do |site|
         end
     end
 
+    # Collect the number of projects in each category
     File.open(projects_file, "w+") do |content|
         content.write(JSON.pretty_generate(projects_json))
+    end
+
+    info_file = "./_data/info.json"
+    num_projects = projects_json.length().to_s
+    info_json = {
+        "num_projects" => num_projects
+    }
+
+    projects_json.each do |project|
+        category = project["category"]
+        if info_json.key?(category)
+            info_json[category] = info_json[category] + 1
+        else
+            info_json[category] = 1
+        end
+    end
+
+    File.open(info_file, "w+") do |content|
+        content.write(JSON.pretty_generate(info_json))
     end
 end
