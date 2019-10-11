@@ -129,7 +129,7 @@
         "shortDescription": "Advanced tools for the analysis of diffusion MRI data",
         "imageFile": "mrtrix3.png",
         "mainURL": "http://www.mrtrix.org",
-        "repoURL": "https://github.com/MRtrix3/mrtrix3/",
+        "repoURL": "https://github.com/MRtrix3/mrtrix3",
         "principalDevelopers": "J-Donald Tournier, Robert E. Smith, David Raffelt, Maximilian Pietsch, Rami Tabarra, Daan Christiaens, Thijs Dhollander, Ben Jeurissen, Chun-Hung Yeh",
         "longDescription": "MRtrix provides a set of tools to perform various advanced diffusion MRI analyses, including constrained spherical deconvolution (CSD), probabilistic tractography, track-density imaging, and apparent fibre density.",
         "keywords": ["diffusion", "tractography", "spherical deconvolution", "ODF"],
