@@ -28,20 +28,13 @@ Jekyll::Hooks.register :site, :after_reset do |site|
             # Could use `date` module to parse this further
             last_commit_date = http_response["commit"]["commit"]["author"]["date"][0,10]
             project["dateSoftwareLastUpdated"] = last_commit_date
-
-            github_uri = URI(github_api + repo_uri.path)
-            http_response = JSON.parse(Net::HTTP.get(github_uri))
-            num_stargazers = http_response["stargazers_count"].to_s
-            project["stargazers"] = num_stargazers
         elsif repo_uri.host.include? "bitbucket"
             bitbucket_uri = URI(bitbucket_api + repo_uri.path)
             http_response = JSON.parse(Net::HTTP.get(bitbucket_uri))
             last_commit_date = http_response["updated_on"]
             project["dateSoftwareLastUpdated"] = last_commit_date
-            # Bitbucket does not have any stars feature
-            project["stargazers"] = "NA"
         else
-            project["stargazers"] = "NA"
+            puts "Repo is neither Github nor Bitbucket"
         end
     end
 
