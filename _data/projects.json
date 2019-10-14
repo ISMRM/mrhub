@@ -1,693 +1,768 @@
-[     
-    {
-        "name": "NLSAM",
-        "category": "Image processing",
-        "shortDescription": "Non Local Spatial and Angular Matching (NLSAM) denoising algorithm for diffusion MRI",
-        "imageFile": "nlsam.png",
-        "mainURL": "https://github.com/samuelstjean/nlsam",
-        "repoURL": "https://github.com/samuelstjean/nlsam",
-        "principalDevelopers": "Samuel St-Jean",
-        "longDescription": "The reference implementation for the Non Local Spatial and Angular Matching (NLSAM) denoising algorithm for diffusion MRI",
-        "keywords": ["Diffusion MRI", "denoising", "python"],
-        "keyReferences": [
-            {
-                "referenceText": "Non Local Spatial and Angular Matching : Enabling higher spatial resolution diffusion MRI datasets through adaptive denoising",
-                "referenceURL": "https://doi.org/10.1016/j.media.2016.02.010"
-            }
-            
-        ],
-        "extraResources": [
-            {
-                "resourceType": "Documentation",
-                "URL": "https://nlsam.readthedocs.io/"
-            },
-            {
-                "resourceType": "Example",
-                "URL": "https://github.com/samuelstjean/nlsam/blob/master/example/README.md"
-            }
-        ],
-        "dateAddedToMRHub": "20190619",
-        "dateSoftwareLastUpdated": "20190810",
-        "citationSearchString": "10.1016/j.media.2016.02.010",
-        "citationCount": "20"
-    },
-    {
-        "name": "Gannet",
-        "category": "Spectroscopy",
-        "shortDescription": "Open-source, MATLAB-based software for automated processing and quantification of edited MRS data.",
-        "imageFile": "gannet.png",
-        "mainURL": "https://github.com/richardedden/Gannet3.0",
-        "repoURL": "https://github.com/richardedden/Gannet3.0",
-        "principalDevelopers": "Richard Edden, Mark Mikkelsen, Georg Oeltzschner, Muhammad Saleh, Nicolaas Puts, C. John Evans (former), Ashley Harris (former)",
-        "longDescription": "Gannet is an open-source, MATLAB-based toolkit for automated loading, processing, and analysis of spectral-edited MRS data. It can batch-process multiple datasets and comprises a number of modules for a full analysis pipeline, including: data loading, signal fitting, voxel co-registration to structural MR images, tissue segmentation, and tissue correction. Presently, Gannet is able to process edited MRS data from the three major vendors and is compatible with all vendor-specific file formats. Data acquired by the following editing approaches are compatible: MEGA-PRESS, HERMES, HERCULES.",
-        "keywords": ["magnetic resonance spectroscopy", "edited MRS", "GABA", "GitHub", "MATLAB"],
-        "keyReferences": [
-            {
-                "referenceText": "Edden RAE, Puts NAJ, Harris AD, Barker PB, Evans CJ. Gannet: A batch-processing tool for the quantitative analysis of gamma-aminobutyric acid-edited MR spectroscopy spectra. J. Magn. Reson. Imaging 2014;40:1445–1452",
-                "referenceURL": "http://doi.wiley.com/10.1002/jmri.24478"
-            },
-
-            {
-                "referenceText": "Harris AD, Puts NAJ, Edden RAE. Tissue correction for GABA-edited MRS: Considerations of voxel composition, tissue segmentation, and tissue relaxations. J. Magn. Reson. Imaging 2015;42:1431–1440 doi: 10.1002/jmri.24903.",
-                "referenceURL": "http://doi.wiley.com/10.1002/jmri.24903"
-            }
-        ],
-        "extraResources": [
-        {
-                "resourceType": "Gannet blog",
-                "URL": "http://www.gabamrs.com"
-            }
-        ],
-        "dateAddedToMRHub": "20190610",
-        "dateSoftwareLastUpdated": "20190124",
-        "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
-        "citationCount": "128"
-    },
-
-    {
-        "name": "GPI (Graphical Programming Interface)",
-        "category": "Multipurpose",
-        "shortDescription": "Graphical integrated development environment for scientific algorithms",
-        "imageFile": "gpi.png",
-        "mainURL": "http://gpilab.com/downloads/",
-        "repoURL": "https://github.com/gpilab/framework",
-        "principalDevelopers": "Ashley Anderson, Daniel Borup, Nick Zwart",
-        "longDescription": "The goal of GPI is to minimize the barrier to organizing and developing complex scientific algorithms. GPI can be thought of as an integrated development environment for Python -- algorithm elements (i.e., nodes) can be linked together to form a flow diagram that is then executed according to the diagram hierarchy. At the node level, the common API and UI elements allow other developers to easily integrate and use your code. The visual and modular nature of GPI also allows concise communication of your work with your collaborators and provides an intuitive mechanism for others to start interacting with your research.",
-        "keywords": ["programming", "graphical", "development", "collaboration","teaching","reconstruction","ide"],
-        "keyReferences": [
-            {
-                "referenceText": "Graphical programming interface: A development environment for MRI methods",
-                "referenceURL": "http://doi.org/10.1002/mrm.25528"
-            }
-        ],
-        "extraResources": [
-          {
-              "resourceType": "Tutorials for new users",
-              "URL": "http://gpilab.com/screencasts/"
-          },
-          {
-              "resourceType": "GPI Node Developer's Guide",
-              "URL": "http://docs.gpilab.com/en/develop/NodeDev/devguide.html"
-          }
-        ],
-        "dateAddedToMRHub": "20190530",
-        "dateSoftwareLastUpdated": "20190830",
-        "citationSearchString": "10.1002/mrm.25528",
-        "citationCount": "16"
-    },
-    
-    {
-        "name": "Water/Fat Separated MR Thermometry",
-        "category": "Reconstruction",
-        "shortDescription": "Algorithm to compute PRF-shift based MR thermometry in mixed water and fatty tissues, while also accounting for errors due to motion and scanner drift.",
-        "imageFile": "WFTherm.png",
-        "mainURL": "https://github.com/poormanme/waterFatSeparated_MRThermometry",
-        "repoURL": "https://github.com/poormanme/waterFatSeparated_MRThermometry",
-        "principalDevelopers": "<a href=\"https://scholar.google.com/citations?user=_whgkpcAAAAJ&hl=en&oi=ao\">Megan Poorman</a>, William Grissom",
-        "longDescription": "This code repository, written in Matlab, implements an algorithm for real-time-compatible water/fat separated MR thermometry in aqueous and fatty tissues. It is based on a hybrid referenceless multi-baseline thermometry approach and is robust to errors from motion, respiration, and scanner drift. The algorithm should be accurate in tissues containing between 0% and 90% fat. A numerical phantom and demo simulation is provided to guide the user in implementation of the algorithm for their own application.",
-        "keywords": ["proton resonance frequency shift","temperature mapping","fat separation","thermometry"],
-        "keyReferences": [
-            {
-                "referenceText": "Poorman ME, Braškute˙ I, Bartels LW, Grissom WA. Multi-echo MR thermometry using iterative separation of baseline water and fat images. Magn Reson Med. 2018;(September):1–14. ",
-                "referenceURL": "https://doi.org/10.1002/mrm.27567"
-            }
-        ],
-        "extraResources": [
-            {
-                "resourceType": "",
-                "URL": ""
-            }
-        ],
-        "dateAddedToMRHub": "20190529",
-        "dateSoftwareLastUpdated": "20180926",
-        "citationSearchString": "10.1002/mrm.27567",
-        "citationCount": "0"
-    },
-    {
-        "name": "MRtrix3",
-        "category": "Image processing",
-        "shortDescription": "Advanced tools for the analysis of diffusion MRI data",
-        "imageFile": "mrtrix3.png",
-        "mainURL": "http://www.mrtrix.org",
-        "repoURL": "https://github.com/MRtrix3/mrtrix3/",
-        "principalDevelopers": "J-Donald Tournier, Robert E. Smith, David Raffelt, Maximilian Pietsch, Rami Tabarra, Daan Christiaens, Thijs Dhollander, Ben Jeurissen, Chun-Hung Yeh",
-        "longDescription": "MRtrix provides a set of tools to perform various advanced diffusion MRI analyses, including constrained spherical deconvolution (CSD), probabilistic tractography, track-density imaging, and apparent fibre density.",
-        "keywords": ["diffusion", "tractography", "spherical deconvolution", "ODF"],
-        "keyReferences": [
-            {
-                "referenceText": "MRtrix3: A fast, flexible and open software framework for medical image processing and visualisation",
-                "referenceURL": "https://www.biorxiv.org/content/10.1101/551739v1"
-            } 
-            
-        ],
-        "extraResources": [
-            {
-                "resourceType": "Documentation",
-                "URL": "http://userdocs.mrtrix.org/en/latest/"
-            },
-            {
-                "resourceType": "User forum",
-                "URL": "http://community.mrtrix.org/"
-            }
-        ],
-        "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20191010",
-        "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-        "citationCount": "3"
-    },
-    {
-        "name": "gammaSTAR",
-        "category": "Pulse sequences",
-        "shortDescription": "gammaSTAR: Platform-Independent MR Sequence Development",
-        "imageFile": "gammastar.png",
-        "mainURL": "https://gamma-star.mevis.fraunhofer.de",
-        "repoURL": "https://gamma-star.mevis.fraunhofer.de/download/gammaSTAR_current.zip",
-        "principalDevelopers": "Cristoffer Cordes, Simon Konstandin, Daniel Hoinkiss, Daniel Mensing, Saulius Archipovas, Robin Wilke, Matthias Günther",
-        "longDescription": "gammaSTAR is an MRI pulse sequence development framework. gammaSTAR sequences are vendor-independent, self-contained and portable. They and can be configured to match hardware limitations and desired protocol settings after being loaded onto a device. The core logic is written in the scripting language Lua, which is easily embeddable into C/C++ frameworks, resulting in very low-footprint driver implementations. Sequences can be viewed, configured and shared through a web-technology based tool that requires no internet or network access, running completely in-browser. Sequence computation is made efficient by exploiting the underlying directed acyclic graph structure for essentially all parameter calculations. gammaSTAR is designed to enable modular sequence development and state-of-the-art MRI techniques.",
-        "keywords": ["sequence", "development", "lua", "c++", "pulseq", "pulse sequences", "vendor neutrality", "Video tutorial", "Docker"],
-        "keyReferences": [
-            {
-                "referenceText": "Cordes C, Konstandin S, Mensing D, Archipovas S, Wilke R, Günther M. Configuring, Viewing, Exploring and Exporting Reproducible, Vendor-Independent MRI Pulse Sequences. In Proc. ISMRM 27:4826",
-                "referenceURL": "http://cds.ismrm.org/protected/19MPresentations/abstracts/4826.html"
-            }
-        ],
-        "extraResources": [
-            {
-                "resourceType": "Demo Videos",
-                "URL": "https://www.youtube.com/playlist?list=PL0A7u8ZJFB4VlI7gjuLfvoe2iQ-koE8tZ"
-            } 
-        ],
-        "dateAddedToMRHub": "20190529",
-        "dateSoftwareLastUpdated": "20190512",
-        "citationSearchString": "gammaSTAR",
-        "citationCount": "0"
-    },
-
-    {
-        "name": "SigPy",
-        "category": "Reconstruction",
-        "shortDescription": "CPU/GPU Python package for iterative reconstruction",
-        "imageFile": "sigpy_logo.png",
-        "mainURL": "https://sigpy.readthedocs.io",
-        "repoURL": "https://github.com/mikgroup/sigpy",
-        "principalDevelopers": "Frank Ong",
-        "longDescription": "SigPy is a Python package for signal processing, with emphasis on iterative methods. It is built to operate directly on NumPy arrays on CPU and CuPy arrays on GPU. SigPy also provides several domain-specific submodules: sigpy.plot for multi-dimensional array plotting, sigpy.mri for MRI iterative reconstruction, and sigpy.learn for dictionary learning.",
-            "keywords": ["iterative-reconstruction", "compressed sensing", "GPU", "ESPIRiT", "GPU-NUFFT", "GitHub", "Python"],
-        "keyReferences": [
-            {
-                "referenceText": "Frank Ong, and Michale Lustig. SigPy: A Python Package for High Performance Iterative Reconstruction. In Proc. Intl. Soc. Mag. Reson. Med. 27;4819",
-                "referenceURL": "http://cds.ismrm.org/protected/19MPresentations/abstracts/4819.html"
-            }
-        ],
-        "extraResources": [
-            {
-                "resourceType": "",
-                "URL": ""
-            }
-        ],
-        "dateAddedToMRHub": "20190523",
-        "dateSoftwareLastUpdated": "20190911",
-        "citationSearchString": "SigPy",
-        "citationCount": "0"
-    },
-
-    {
-        "name": "retroMoCoBox",
-        "category": "Reconstruction",
-        "shortDescription": "MATLAB-based retrospective motion-correction of 3D k-space",
-        "imageFile": "retromocobox.png",
-        "mainURL": "https://github.com/dgallichan/retroMoCoBox",
-        "repoURL": "https://github.com/dgallichan/retroMoCoBox",
-        "principalDevelopers": "Daniel Gallichan",
-        "longDescription": "Matlab toolbox for retrospective motion-correction of 3D MRI k-space data - as used for my work using 3D FatNavs to obtain the motion information. Example data is provided to give an indication of what the toolbox can be used for - including how to simulate the effect of different motion profiles on an acquisition. As this code needs to be able to do the full reconstruction pipeline, it also contains an implementation of 2D GRAPPA. The motion-corrected k-space is regridded using the NUFFT from Jeffrey Fessler's MIRT toolbox (separate download).",
-        "keywords": ["Github", "MATLAB", "motion-correction", "k-space"],
-        "keyReferences": [
-            {
-                "referenceText": "Retrospective correction of involuntary microscopic head movement using highly accelerated fat image navigators (3D FatNavs) at 7T, Gallichan, Marques and Gruetter, MRM 2015",
-                "referenceURL": "http://doi.wiley.com/10.1002/mrm.25670"
-            }, 
-            
-            {
-                "referenceText": "Optimizing the acceleration and resolution of three-dimensional fat image navigators for high-resolution motion correction at 7T, Gallichan and Marques, MRM 2016",
-                "referenceURL": "http://doi.wiley.com/10.1002/mrm.26127"
-            }, 
-            
-            {
-                "referenceText": "Motion-Correction Enabled Ultra-High Resolution In-Vivo 7T-MRI of the Brain, Federau and Gallichan, Plos One 2016",
-                "referenceURL": "http://dx.plos.org/10.1371/journal.pone.0154974"
-            } , 
-            
-            {
-                "referenceText": "Evaluation of 3D fat-navigator based retrospective motion correction in the clinical setting of patients with brain tumors, Glessgen, Gallichan, Moor, Hainc and Federau, Neuroradiology 2019",
-                "referenceURL": "https://doi.org/10.1007/s00234-019-02160-w"
-            }  
-            
-        ],
-        "extraResources": [
-            {
-                "resourceType": "",
-                "URL": ""
-            }
-        ],
-        "dateAddedToMRHub": "20190523",
-        "dateSoftwareLastUpdated": "20190528",
-        "citationSearchString": "10.1002/mrm.25670",
-        "citationCount": "32"
-    },
-    
-    {
-        "name": "Berkeley Advanced Reconstruction Toolbox (BART)",
-        "category": "Reconstruction",
-        "shortDescription": "Reconstruction toolbox and programming library for parallel imaging and compressed sensing available for Linux, Mac OS X, and Windows.",
-        "imageFile": "bart.png",
-        "mainURL": "http://mrirecon.github.io/bart/",
-        "repoURL": "https://github.com/mrirecon/bart",
-        "principalDevelopers": "Martin Uecker, Jon Tamir and Frank Ong",
-        "longDescription": "The Berkeley Advanced Reconstruction Toolbox (BART) is a free and open-source image- reconstruction framework for Computational Magnetic Resonance Imaging. It consists of a programming library (for C/C++) and a toolbox of command-line programs. The library provides common operations on multi-dimensional arrays, (non-uniform) Fourier and (divergence-free) wavelet transforms, as well as generic implementations of iterative optimization algorithms (CG, IST, FISTA, ADMM, IRGNM, ...) supporting various types of regularization terms (l2, l1-wavelet, total-variation, low-rank, multi-scale low-rank ...) using pre-defined functions. Parallel computation on multi-core systems and on Graphical Processing Units (GPUs) is supported. The command-line tools provide direct access to basic operations on multi-dimensional arrays as well as efficient implementations of many calibration and reconstruction algorithms for parallel imaging and compressed sensing (SENSE, ESPIRiT, NLINV, SAKE, ...).",
-        "keywords": ["GitHub", "GPU", "ESPIRiT", "NUFFT", "iterative-reconstruction", "compressed sensing", "non-Cartesian", "parallel imaging"],
-        "keyReferences": [
-            {
-                "referenceText": "Martin Uecker, Peng Lai, Mark J. Murphy, Patrick Virtue, Michael Elad, John M. Pauly, Shreyas S. Vasanawala, and Michael Lustig. ESPIRiT - An Eigenvalue Approach to Autocalibrating Parallel MRI: Where SENSE meets GRAPPA. Magn Reson Med 2014; 71:990-1001",
-                "referenceURL": "https://doi.org/10.1002/mrm.24751"
-            },  
-            
-            {
-                "referenceText": "Martin Uecker, Patrick Virtue, Frank Ong, Mark J. Murphy, Marcus T. Alley, Shreyas S. Vasanawala, and Michael Lustig. Software Toolbox and Programming Library for Compressed Sensing and Parallel Imaging. ISMRM Workshop on Data Sampling and Image Reconstruction, Sedona 2013",
-                "referenceURL": "https://www.gwdg.de/~muecker1/toolbox.pdf"
-            },
-            
-            {
-                "referenceText": "Martin Uecker, Frank Ong, Jonathan I Tamir, Dara Bahri, Patrick Virtue, Joseph Y Cheng, Tao Zhang, and Michael Lustig. Berkeley Advanced Reconstruction Toolbox. Annual Meeting ISMRM, Toronto 2015, In Proc. Intl. Soc. Mag. Reson. Med. 23:2486",
-                "referenceURL": "http://index.mirasmart.com/ismrm2015/PDFfiles/2486.pdf"
-            },
-
-            {
-                "referenceText": "Jonathan I Tamir, Frank Ong, Joseph Y Cheng, Martin Uecker, and Michael Lustig. Generalized Magnetic Resonance Image Reconstruction using The Berkeley Advanced Reconstruction Toolbox. ISMRM Workshop on Data Sampling and Image Reconstruction, Sedona 2016",
-                "referenceURL": "https://www.gwdg.de/~muecker1/sedona16-bart.pdf"
-            },
-            
-            {
-                "referenceText": "Martin Uecker. Machine Learning Using the BART Toolbox - Implementation of a Deep Convolutional Neural Network for Denoising. Joint Annual Meeting ISMRM-ESMRMB, Paris 2018, In Proc. Intl. Soc. Mag. Reson. Med. 26;2802",
-                "referenceURL": "http://indexsmart.mirasmart.com/ISMRM2018/PDFfiles/2802.html"
-            }
-            
-        ],
-        "extraResources": [
-            {
-                "resourceType": "",
-                "URL": ""
-            }
-        ],
-        "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20190905",
-        "citationSearchString": "10.1002/mrm.24751",
-        "citationCount": "254"
-    },
-    
-    
-    {
-        "name": "Gadgetron",
-        "category": "Reconstruction",
-        "shortDescription": "General-purpose, open source, medical imaging reconstruction framework.",
-        "imageFile": "gadgetron.png",
-        "mainURL": "http://gadgetron.github.io/",
-        "repoURL": "https://github.com/gadgetron/gadgetron",
-        "principalDevelopers": "Hui Xue, David Hansen, Adrienne Campbell-Washburn",
-        "longDescription": "Gadgetron is an Open Source, general-purpose medical imaging reconstruction framework written primarily in C++. It consists of two main components: 1) a set of versatile toolboxes for image signal processing, and 2) a modular, high performance framework for streaming data processing. The streaming framework uses a client server model where the reconstruction job is performed on a server and the client is responsible for sending data and receiving imaging. Clients can be stand-alone command line clients or an imaging device could serve as a client. The framework supports easy prototyping with scripting languages such as Python while supporting transparent integration in clinical work flows. For MRI applications, the Gadgetron supports the vendor independent ISMRM Raw Data format and it comes with high performance image reconstruction pipelines for many standard MRI sequences. Example applications include Cartesian and non-Cartesian parallel imaging, non-linear reconstruction and motion correction. Several performance critical components such as the non-Cartesian Fourier transform have been implemented on GPUs for improved performance. The framework can be used as a complete reconstruction package or the toolboxes can be leveraged in other applications.",
-        "keywords": ["GitHub",  "Video tutorial", "GPU", "inline", "online", "streaming", "AI", "machine learning", "compressed sensing", "non-Cartesian","parallel imaging","vendor neutrality"],
-        "keyReferences": [
-            {
-                "referenceText": "Hansen MS, Sørensen TS. Gadgetron: An Open Source Framework for Medical Image Reconstruction. Magn Reson Med. 2013 Jun;69(6):1768-76.",
-                "referenceURL": "https://doi.org/10.1002/mrm.24389"
-            } 
-            
-        ],
-        "extraResources": [
-            {
-                "resourceType": "Video Tutorial",
-                "URL": "https://www.youtube.com/watch?v=yLo4j5dQGhY"
-            }
-        ],
-        "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20191014",
-        "citationSearchString": "10.1002/mrm.24389",
-        "citationCount": "88"
-    },
-
-    {
-        "name": "gpuNUFFT",
-        "category": "Reconstruction",
-        "shortDescription": "C++ CUDA accelerated non-uniform FFT for arbitrary 2D/3D data with direct Matlab interface on Windows and Linux",
-        "imageFile": "gpunufft.png",
-        "mainURL": "https://github.com/andyschwarzl/gpuNUFFT",
-        "repoURL": "https://github.com/andyschwarzl/gpuNUFFT",
-        "principalDevelopers": "Andreas Schwarzl, Florian Knoll",
-        "longDescription": "The computational expensive non-uniform FFT is implemented in C++ by utilizing the NVIDIA CUDA architecture, in order to speed up the execution of the 2D/3D multi-coil Gridding step for arbitrarily shaped k-space data. The software offers a ready-to-use interface to Matlab, similar to the well-known NUFFT Toolbox by Fessler et al., in order to seamlessly enhance the preferred Matlab prototyping process at an early stage. The gpuNUFFT supports the growing importance of non-Cartesian 2D/3D trajectories in the context of iterative image reconstruction, parallel imaging, and compressed sensing by reducing the long computation times during NUFFT operations. Depending on the data size and shape, speedups up to a factor of 40 are possible.",
-        "keywords": ["GitHub", "Video tutorial", "GPU", "NUFFT"],
-        "keyReferences": [
-            {
-                "referenceText": "F. Knoll, A. Schwarzl, C. Diwoky, and D. Sodickson, gpuNUFFT - an open-source GPU Library for 3D Gridding with direct Matlab interface, in Proceedings of the 22th Annual Meeting of ISMRM, Mailand, 2014 , p4297",
-                "referenceURL": "https://cds.ismrm.org/protected/14MProceedings/files/4297.pdf"
-            }
-            
-        ],
-        "extraResources": [
-            {
-                "resourceType": "Video tutorial",
-                "URL": "https://vimeo.com/161037263"
-            }
-        ],
-        "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20180130",
-        "citationSearchString": "c788ecd4a6ac9d3d7013a94515ec0718274e9907",
-        "citationCount": "18"
-    },    
-    
-    {
-        "name": "ISMRMRD",
-        "category": "Data format",
-        "shortDescription": "Vendor-neutral MRI raw data format based on standard developed by a subcommittee of the ISMRM Sedona 2013 workshop",
-        "imageFile": "ismrmrd.png",
-        "mainURL": "http://ismrmrd.github.io/",
-        "repoURL": "https://github.com/ismrmrd/ismrmrd",
-        "principalDevelopers": "<a href=\"http://ismrmrd.github.io/\"><em>See full list of developers.</em></a>",
-        "longDescription": "A prerequisite for sharing MRI reconstruction software is a data format that describes typical MRI raw datasets in a vendor neutral manner. The ISMRM Raw Data format is a proposal for such a common MR raw data format, which promotes algorithm and data sharing. The file format consists of a flexible header and tagged frames of k-space data. These data elements are stored in an HDF5 file container. Application Programming Interfaces are available for C/C++, MATLAB, and Python. Converters for Bruker, General Electric, Philips, and Siemens proprietary file formats also available (implemented in C++). The proposed raw data format solves a practical problem for the magnetic resonance imaging community. It may serve as a foundation for reproducible research and collaborations. The ISMRM Raw Data format is a completely open and community-driven format, and the scientific community is invited (including commercial vendors) to participate either as users or developers.",
-        "keywords": ["GitHub", "raw data", "k-space", "vendor neutrality"],
-        "keyReferences": [
-            {
-                "referenceText": "Inati SJ, Naegele JD, Zwart NR, Roopchansingh V, Lizak MJ, Hansen DC, et al. ISMRM Raw data format: A proposed standard for MRI raw datasets. Magn Reson Med. 2016; doi:10.1002/mrm.26089",
-                "referenceURL": "https://doi.org/10.1002/mrm.26089"
-            }
-            
-        ],
-        "extraResources": [
-            {
-                "resourceType": "",
-                "URL": ""
-            }
-        ],
-        "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20190927",
-        "citationSearchString": "10.1002/mrm.26089",
-        "citationCount": "10"
-    },
-    
-    {
-        "name": "Low Field Simulator",
-        "category": "Simulation",
-        "shortDescription": "This package is a MATLAB based tool for simulating low-field MRI acquisitions based on high-field acquisition, enables prediction of the minimum field strength requirements for a broad range of MRI techniques.",
-        "imageFile": "lowfieldsim.png",
-        "mainURL": "https://github.com/usc-mrel/lowfieldsim",
-        "repoURL": "https://github.com/usc-mrel/lowfieldsim",
-        "principalDevelopers": "Weiyi Chen, Ziyue Wu, Krishna S. Nayak",
-        "longDescription": "<p>This package is to develop and evaluate a framework for simulating low-field proton-density weighted MRI acquisitions based on high-field acquisitions, which could be used to predict the minimum B0 field strength requirements for MRI techniques.</p><p>Given MRI raw data, lower field MRI acquisitions can be simulated based on the signal and noise scaling with field strength. Certain assumptions are imposed for the simulation. This package also contains two examples of proton-density weighted MRI applications that demonstrated estimation of minimum field strength requirements: real-time upper airway imaging and liver proton-density fat fraction measurement. More detailed description of the examples can be found in the published reference.</p><p>This package enables prediction of the minimum field strength requirements for a broad range of MRI techniques, and would be particularly useful in the evaluation of de-noising and constrained reconstruction techniques.</p>",
-        "keywords": ["GitHub", "low field"],
-        "keyReferences": [
-            {
-                "referenceText": "Z Wu, W Chen, KS Nayak. Minimum Field Strength Simulator for Proton Density Weighted MRI. PLOS ONE 11(5): e0154711. May 2016.",
-                "referenceURL": "https://doi.org/10.1371/journal.pone.0154711"
-            }, 
-            
-            {
-                "referenceText": "Z Wu, W Chen, KS Nayak. Low-Field Simulation and Minimum Field Strength Requirements. ISMRM Workshop on Data Sampling and Image Reconstruction, Sedona, Arizona, Jan 2016.",
-                "referenceURL": "http://cds.ismrm.org/protected/Data16/Program/Abstracts/Wu.pdf"
-            } 
-            
-        ],
-        "extraResources": [
-            {
-                "resourceType": "",
-                "URL": ""
-            }
-        ],
-        "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20160712",
-        "citationSearchString": "10.1371/journal.pone.0154711",
-        "citationCount": "3"
-    },
-    
-    {
-        "name": "Pulseq",
-        "category": "Pulse sequences",
-        "shortDescription": "An open source framework for platform-independent MR pulse sequence development and execution",
-        "imageFile": "pulseq.png",
-        "mainURL": "https://pulseq.github.io/",
-        "repoURL": "https://github.com/pulseq/pulseq",
-        "principalDevelopers": "Original author: Kelvin Layton (left the MR field)<br />Current developers: Stefan Kroboth, Maxim Zaitsev (Siemens-specific), Jon-Fredrik Nielsen (GE specific), Jochen Leupold (Bruker-specific), Tony Stoecker (JEMRIS)",
-        "longDescription": "Pulseq is an open source framework for the development, representation and execution of magnetic resonance (MR) sequences. A central contribution of this project is an open file format to compactly describe MR sequences suitable for execution on an MRI scanner or NMR spectrometer. MATLAB and C++ source code is provided for reading and writing sequence files. An interface for exporting JEMRIS sequences to Pulseq format is available. For the execution of the Pulseq files on the particular platform an additional interpreter pulse sequence is required, which is made available via the corresponding manufacturer's community site or can be acquired directly from the authors.",
-        "keywords": ["GitHub", "pulse sequences", "vendor neutrality"],
-        "keyReferences": [
-            {
-                "referenceText": "Layton, K. J., Kroboth, S. , Jia, F. , Littin, S. , Yu, H. , Leupold, J. , Nielsen, J. , Stöcker, T. and Zaitsev, M. (2017), Pulseq: A rapid and hardware‐independent pulse sequence prototyping framework. Magn. Reson. Med., 77: 1544-1552",
-                "referenceURL": "https://doi.org/10.1002/mrm.26235"
-            }
-            
-        ],
-        "extraResources": [
-            {
-                "resourceType": "",
-                "URL": ""
-            }
-        ],
-        "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20191002",
-        "citationSearchString": "10.1002/mrm.26235",
-        "citationCount": "7"
-    },
-    
-    {
-        "name": "MRiLab",
-        "category": "Simulation",
-        "shortDescription": "A rapid and versatile numerical MRI simulator with Matlab interface and GPU parallel acceleration on Windows and Linux",
-        "imageFile": "mrilab.png",
-        "mainURL": "https://leoliuf.github.io/MRiLab/",
-        "repoURL": "https://github.com/leoliuf/MRiLab",
-        "principalDevelopers": "<a href=\"https://www.researchgate.net/profile/Fang_Liu67\">Fang Liu</a>",
-        "longDescription": "<p>The MRiLab is a numerical MRI simulation package. It has been developed and optimized to simulate MR signal formation, k- space acquisition and MR image reconstruction. MRiLab provides several dedicated toolboxes to analyze RF pulse, design MR sequence, configure multiple transmitting and receiving coils, investigate magnetic field related properties and evaluate real-time imaging technique. The main MRiLab simulation platform combined with those toolboxes can be applied to customize various virtual MR experiments which can serve as a prior stage for prototyping and testing new MR technique and application.</p><p>The MRiLab features highly interactive graphical user interface (GUI) for the convenience of fast experiment design and technique prototyping. High simulation accuracy is achieved by simulating discrete spin evolution at small time interval using the Bloch-equation and appropriate tissue model. In order to manipulate large multidimensional spin array, MRiLab employs parallel computing by incorporating latest graphical processing unit (GPU) technique and multi-threading CPU technique. With efficient parallelization, MRiLab can accomplish multidimensional multiple spin species MR simulation at high simulation accuracy and time efficiency, and with low computing hardware cost.</p>",
-        "keywords": ["GitHub", "GPU", "tissue exchange models"],
-        "keyReferences": [
-            {
-                "referenceText": "F. Liu, J.V. Velikina, W.F. Block, R. Kijowski, A.A. Samsonov. Fast Realistic MRI Simulations Based on Generalized Multi-Pool Exchange Tissue Model. IEEE Transactions on Medical Imaging. 2016.",
-                "referenceURL": "http://ieeexplore.ieee.org/document/7676360/"
-            }, 
-            
-            {
-                "referenceText": "F. Liu, R. Kijowski, W.F. Block. Performance of Multiple Types of Numerical MR Simulation using MRiLab. In 2014 Proc. Intl. Soc. Mag. Reson. Med. Milan.",
-                "referenceURL": "https://cds.ismrm.org/protected/14MPresentations/abstracts/4227.pdf"
-            }, 
-            
-            {
-                "referenceText": "F. Liu, R. Kijowski, W.F. Block. MRiLab: Performing Fast 3D Parallel MRI Numerical Simulation on A Simple PC. In 2013. Proc. Intl. Soc. Mag. Reson. Med. Salt Lake City.",
-                "referenceURL": "https://cds.ismrm.org/protected/13MProceedings/files/2373.PDF"
-            } 
-            
-        ],
-        "extraResources": [
-            {
-                "resourceType": "",
-                "URL": ""
-            }
-        ],
-        "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20190810",
-        "citationSearchString": "10.1109/TMI.2016.2620961",
-        "citationCount": "7"
-    },
-    
-    {
-        "name": "NYU MR-Fingerprinting Reconstruction Toolbox",
-        "category": "Reconstruction",
-        "shortDescription": "Reconstruction of quantitative maps of arbitrary MR Fingerprinting data with arbitrary k-space trajectories on all platforms supporting Matlab.",
-        "imageFile": "nyu_mrf_recon.png",
-        "mainURL": "https://bitbucket.org/asslaender/nyu_mrf_recon",
-        "repoURL": "https://bitbucket.org/asslaender/nyu_mrf_recon",
-        "principalDevelopers": "<a href=\"https://med.nyu.edu/faculty/jakob-asslaender\">Jakob Assländer</a>",
-        "longDescription": "The NYU MR-Fingerprinting Reconstruction Toolbox provides a general and fast framework for reconstructing MRF data. It approximates the fingerprints in a low rank space, which improves the conditioning of the problem and reduces the number of FFT operations significantly. The provided code solves the MRF reconstruction problem with an alternating direction method of multipliers, which transform the non-convex optimization problem into two subproblems, that are very similar to CG-SENSE and the dictionary fitting, respectively. The toolbox is implemented in Matlab and incorporates Fessler’s nuFFT implementation.",
-        "keywords": ["Bitbucket", "fingerprinting", "NUFFT", "quantitative imaging", "relaxometry"],
-        "keyReferences": [            
-            {
-                "referenceText": "Assländer, J. , Cloos, M. A., Knoll, F. , Sodickson, D. K., Hennig, J. and Lattanzi, R. (2018), Low rank alternating direction method of multipliers reconstruction for MR fingerprinting. Magn. Reson. Med., 79: 83-96.",
-                "referenceURL": "https://doi.org/10.1002/mrm.26639"
-            } 
-            
-        ],
-        "extraResources": [
-            {
-                "resourceType": "",
-                "URL": ""
-            }
-        ],
-        "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20190806",
-        "citationSearchString": "10.1002/mrm.26639",
-        "citationCount": "29"
-    },
-    
-    {
-        "name": "QUIT",
-        "category": "Image processing",
-        "shortDescription": "A set of tools for quantitative imaging, principally relaxometry",
-        "imageFile": "quit.png",
-        "mainURL": "https://github.com/spinicist/QUIT",
-        "repoURL": "https://github.com/spinicist/QUIT",
-        "principalDevelopers": "Tobias Wood",
-        "longDescription": "QUIT provides implementations of multiple quantitative MRI algorithms as command-line tools written in C++ and using the high-quality Insight Toolkit [@ITK], CERES [@CERES] and Eigen [@Eigen] libraries. They are multi-threaded where-ever possible. They are easy to include into shell-script based processing pipelines, and are easy to use with a queue system such as the Sun Grid Engine. They are hence suitable for the high-throughput processing that is required for timely analysis of a large neuroimaging study.",
-        "keywords": ["GitHub", "quantitative imaging", "relaxometry"],
-        "keyReferences": [
-            {
-                "referenceText": "Wood, (2018). QUIT: QUantitative Imaging Tools . Journal of Open Source Software, 3(26), 656",
-                "referenceURL": "http://joss.theoj.org/papers/10.21105/joss.00656"
-            }, 
-            
-            {
-                "referenceText": "Wood, T. C., Simmons, C., Hurley, S. A., Vernon, A. C., Torres, J., Dell’Acqua, F., ... Cash, D. (2016). Whole-brain ex-vivo quantitative MRI of the cuprizone mouse model. PeerJ, 4, e2632",
-                "referenceURL": "https://doi.org/10.7717/peerj.2632"
-            }, 
-            
-            {
-                "referenceText": "Vanes, L. D., Mouchlianitis, E., Wood, T. C., & Shergill, S. S. (2018). White matter changes in treatment refractory schizophrenia: Does cognitive control and myelination matter? NeuroImage: Clinical, 18, 186–191",
-                "referenceURL": "https://doi.org/10.1016/j.nicl.2018.01.010"
-            } 
-            
-        ],
-        "extraResources": [
-            {
-                "resourceType": "",
-                "URL": ""
-            }
-        ],
-        "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20190930",
-        "citationSearchString": "10.21105/joss.00656",
-        "citationCount": "4"
-    },
-    
-    {
-        "name": "JEMRIS",
-        "category": "Simulation",
-        "shortDescription": "General-purpose, open source, MRI simulation framework available for Linux, Mac and Windows.",
-        "imageFile": "jemris.png",
-        "mainURL": "http://www.jemris.org",
-        "repoURL": "https://github.com/JEMRIS/jemris",
-        "principalDevelopers": "Tony Stöcker, Daniel Pflugfelder, Kaveh Vahedipour",
-        "longDescription": "JEMRIS is an extensible MRI simulation framework which provides a versatile MRI sequence development and simulation environment. The development was driven by the desire to achieve generality of simulated 3D MRI experiments reflecting modern MRI systems hardware. The accompanying computational burden is overcome by means of parallel computing. Many aspects of general MRI simulations are covered such as parallel transmit and receive, important off-resonance effects, non-linear gradients, and arbitrary spatiotemporal parameter variations at different levels. The latter can be used to simulate various types of spin motion, e.g. rigid motion, diffusion or flow. JEMRIS is written in C++ and can be used from the command line. The MR experiment configuration is done in XML format and binary I/O utilizes the HDF5 standard. For convenience JEMRIS can also be used via dedicated MATLAB graphical user interfaces. For instance, complex MRI sequences with arbitrary waveforms and inter-dependent modules can be modeled without any programming involved.",
-        "keywords": ["GitHub", "parallel computing", "arbitrary waveforms"],
-        "keyReferences": [
-            {
-                "referenceText": "Stöcker, T., Vahedipour, K., Pflugfelder, D., & Shah, N. J. (2010). High-performance computing MRI simulations. Magnetic Resonance in Medicine, 64(1), 18693.",
-                "referenceURL": "https://doi.org/10.1002/mrm.22406"
-            }
-        ],
-        "extraResources": [
-            {
-                "resourceType": "",
-                "URL": ""
-            }
-        ],
-        "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20190624",
-        "citationSearchString": "10.1002/mrm.22406",
-        "citationCount": "29"
-    },
-    
-    {
-        "name": "Spinal Cord Toolbox (SCT)",
-        "category": "Image processing",
-        "shortDescription": "Software package to analyze multi-parametric MRI of the spinal cord, available for Linux, OSX and Windows.",
-        "imageFile": "spinal_cord_toolbox.png",
-        "mainURL": "https://github.com/neuropoly/spinalcordtoolbox",
-        "repoURL": "https://github.com/neuropoly/spinalcordtoolbox",
-        "principalDevelopers": "<a href=\"https://github.com/neuropoly/spinalcordtoolbox/graphs/contributors\"><em>Please see here for full list</em></a>",
-        "longDescription": "SCT is a comprehensive and open-source library of analysis tools for multi-parametric MRI of the spinal cord, written in Python and available for Linux, OSX and Windows. It includes templates and atlases of the spinal cord along with state-of-the-art methods for automatic segmentation, registration and metric atlas-based analysis.",
-        "keywords": ["GitHub", "spine", "templates", "atlases"],
-        "keyReferences": [
-            {
-                "referenceText": "De Leener B, Levy S, Dupont SM, Fonov VS, Stikov N, Louis Collins D, Callot V, Cohen-Adad J. SCT: Spinal Cord Toolbox, an open-source software for processing spinal cord MRI data. Neuroimage 2017.",
-                "referenceURL": "https://www.ncbi.nlm.nih.gov/pubmed/27720818"
-            }
-            
-        ],
-        "extraResources": [
-            {
-                "resourceType": "",
-                "URL": ""
-            }
-        ],
-        "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20191011",
-        "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
-        "citationCount": "70"
-    },
-    
-    {
-        "name": "qMRLab",
-        "category": "Image processing",
-        "shortDescription": "qMRLab is a MATLAB/Octave open-source software for quantitative MR image analysis and simulation.",
-        "imageFile": "qmrlab.png",
-        "mainURL": "https://qmrlab.org",
-        "repoURL": "https://github.com/qMRLab/qMRLab",
-        "principalDevelopers": "Agah Karakuzu, Mathieu Boudreau, Tanguy Duval, Ilana R. Leppert, Tommy Boshkovski, Julien Cohen-Adad, Nikola Stikov",
-        "longDescription": "qMRLab is an open-source software for quantitative MR image analysis. The main goal is to provide the community with an intuitive tool for data fitting, plotting, simulation and protocol optimization for a myriad of different quantitative models. The modularity of the implementation makes it easy to add any additional modules and we encourage everyone to contribute their favorite recipe for qMR.",
-        "keywords": ["GitHub", "Docker", "quantitative imaging"],
-        "keyReferences": [
-            {
-                "referenceText": "Varma, G., et al. Low duty-cycle pulsed irradiation reduces magnetization transfer and increases the inhomogeneous magnetization transfer effect. Journal of Magnetic Resonance 296 (2018): 60-71.",
-                "referenceURL": "https://doi.org/10.1016/j.jmr.2018.08.004"
-            }, 
-            
-            {
-                "referenceText": "Campbell, Jennifer SW, et al. Promise and pitfalls of g-ratio estimation with MRI. Neuroimage.  182 (2018): 80-96.",
-                "referenceURL": "https://doi.org/10.1016/j.neuroimage.2017.08.038"
-            }, 
-            
-            {
-                "referenceText": "M. Mclean, M.E. MacDonald, R.M. Lebel, M. Boudreau, B. Pike, Accelerated z-Spectrum Imaging, Oral, International Society for Magnetic Resonance in Medicine Meeting (2017).",
-                "referenceURL": "http://indexsmart.mirasmart.com/ISMRM2017/PDFfiles/1205.html"
-            } 
-            
-        ],
-        "extraResources": [
-            {
-                "resourceType": "Video tutorial",
-                "URL": "https://www.youtube.com/watch?v=-yrbtCYDorI"
-            }
-        ],
-        "dateAddedToMRHub": "20190510",
-        "dateSoftwareLastUpdated": "20190930",
-        "citationSearchString": "10.1016/j.jmr.2018.08.004",
-        "citationCount": "0"
-    },   
-
-    {
-        "name": "Yarra Framework",
-        "category": "Reconstruction",
-        "shortDescription": "Open-source toolkit to support the development and clinical translation of reconstruction techniques",
-        "imageFile": "yarra.png",
-        "mainURL": "http://yarraframework.com",
-        "repoURL": "https://bitbucket.org/yarra-dev/yarraclient", 
-        "principalDevelopers": "Kai Tobias Block, Roy Wiggins",
-        "longDescription": "Yarra is a collection of software tools to support the development and clinical translation of novel MRI reconstruction techniques. The functional scope ranges from automatic collection of clinical raw-data, management and anonymization of raw-data, clinical integration of reconstruction prototypes, and distribution of reconstruction algorithms. Moreover, Yarra provides functions for clinical workflow monitoring and analysis. Support is currently limited to Siemens MRI systems.",
-        "keywords": ["Bitbucket", "offline", "compressed sensing", "Matlab", "Siemens"],
-        "keyReferences": [
-            {
-                "referenceText": "Roy Wiggins and Kai Tobias Block, Yarra Framework – Open-Source Toolkit for Clinical-Translational MRI Research, ISMRM 2019, Weekend Educational Session WE-21AB",
-                "referenceURL": "https://s3.amazonaws.com/download.yarraframework.com/doc/ISMRM19_Whitepaper.pdf"
-            }            
-        ],
-        "extraResources": [
-            {
-                "resourceType": "Video Tutorial",
-                "URL": "https://www.youtube.com/watch?v=5uX7f5E1pz8"
-            },
-            {
-                "resourceType": "White Paper",
-                "URL": "https://s3.amazonaws.com/download.yarraframework.com/doc/ISMRM19_Whitepaper.pdf"
-            }
-			
-        ],
-        "dateAddedToMRHub": "20190703",
-        "dateSoftwareLastUpdated": "20190917",
-        "citationSearchString": "8c5511d9ecad595dba390a718957be8c84c22f7a",
-        "citationCount": "2"
-    }    
+[
+  {
+    "name": "NLSAM",
+    "category": "Image processing",
+    "shortDescription": "Non Local Spatial and Angular Matching (NLSAM) denoising algorithm for diffusion MRI",
+    "imageFile": "nlsam.png",
+    "mainURL": "https://github.com/samuelstjean/nlsam",
+    "repoURL": "https://github.com/samuelstjean/nlsam",
+    "principalDevelopers": "Samuel St-Jean",
+    "longDescription": "The reference implementation for the Non Local Spatial and Angular Matching (NLSAM) denoising algorithm for diffusion MRI",
+    "keywords": [
+      "Diffusion MRI",
+      "denoising",
+      "python"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Non Local Spatial and Angular Matching : Enabling higher spatial resolution diffusion MRI datasets through adaptive denoising",
+        "referenceURL": "https://doi.org/10.1016/j.media.2016.02.010"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Documentation",
+        "URL": "https://nlsam.readthedocs.io/"
+      },
+      {
+        "resourceType": "Example",
+        "URL": "https://github.com/samuelstjean/nlsam/blob/master/example/README.md"
+      }
+    ],
+    "dateAddedToMRHub": "2019-06-19",
+    "dateSoftwareLastUpdated": "2019-08-10",
+    "citationSearchString": "10.1016/j.media.2016.02.010",
+    "citationCount": "20"
+  },
+  {
+    "name": "Gannet",
+    "category": "Spectroscopy",
+    "shortDescription": "Open-source, MATLAB-based software for automated processing and quantification of edited MRS data.",
+    "imageFile": "gannet.png",
+    "mainURL": "https://github.com/richardedden/Gannet3.0",
+    "repoURL": "https://github.com/richardedden/Gannet3.0",
+    "principalDevelopers": "Richard Edden, Mark Mikkelsen, Georg Oeltzschner, Muhammad Saleh, Nicolaas Puts, C. John Evans (former), Ashley Harris (former)",
+    "longDescription": "Gannet is an open-source, MATLAB-based toolkit for automated loading, processing, and analysis of spectral-edited MRS data. It can batch-process multiple datasets and comprises a number of modules for a full analysis pipeline, including: data loading, signal fitting, voxel co-registration to structural MR images, tissue segmentation, and tissue correction. Presently, Gannet is able to process edited MRS data from the three major vendors and is compatible with all vendor-specific file formats. Data acquired by the following editing approaches are compatible: MEGA-PRESS, HERMES, HERCULES.",
+    "keywords": [
+      "magnetic resonance spectroscopy",
+      "edited MRS",
+      "GABA",
+      "GitHub",
+      "MATLAB"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Edden RAE, Puts NAJ, Harris AD, Barker PB, Evans CJ. Gannet: A batch-processing tool for the quantitative analysis of gamma-aminobutyric acid-edited MR spectroscopy spectra. J. Magn. Reson. Imaging 2014;40:1445–1452",
+        "referenceURL": "http://doi.wiley.com/10.1002/jmri.24478"
+      },
+      {
+        "referenceText": "Harris AD, Puts NAJ, Edden RAE. Tissue correction for GABA-edited MRS: Considerations of voxel composition, tissue segmentation, and tissue relaxations. J. Magn. Reson. Imaging 2015;42:1431–1440 doi: 10.1002/jmri.24903.",
+        "referenceURL": "http://doi.wiley.com/10.1002/jmri.24903"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Gannet blog",
+        "URL": "http://www.gabamrs.com"
+      }
+    ],
+    "dateAddedToMRHub": "2019-06-10",
+    "dateSoftwareLastUpdated": "2019-01-24",
+    "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
+    "citationCount": "128"
+  },
+  {
+    "name": "GPI (Graphical Programming Interface)",
+    "category": "Multipurpose",
+    "shortDescription": "Graphical integrated development environment for scientific algorithms",
+    "imageFile": "gpi.png",
+    "mainURL": "http://gpilab.com/downloads/",
+    "repoURL": "https://github.com/gpilab/framework",
+    "principalDevelopers": "Ashley Anderson, Daniel Borup, Nick Zwart",
+    "longDescription": "The goal of GPI is to minimize the barrier to organizing and developing complex scientific algorithms. GPI can be thought of as an integrated development environment for Python -- algorithm elements (i.e., nodes) can be linked together to form a flow diagram that is then executed according to the diagram hierarchy. At the node level, the common API and UI elements allow other developers to easily integrate and use your code. The visual and modular nature of GPI also allows concise communication of your work with your collaborators and provides an intuitive mechanism for others to start interacting with your research.",
+    "keywords": [
+      "programming",
+      "graphical",
+      "development",
+      "collaboration",
+      "teaching",
+      "reconstruction",
+      "ide"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Graphical programming interface: A development environment for MRI methods",
+        "referenceURL": "http://doi.org/10.1002/mrm.25528"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Tutorials for new users",
+        "URL": "http://gpilab.com/screencasts/"
+      },
+      {
+        "resourceType": "GPI Node Developer's Guide",
+        "URL": "http://docs.gpilab.com/en/develop/NodeDev/devguide.html"
+      }
+    ],
+    "dateAddedToMRHub": "2019-05-30",
+    "dateSoftwareLastUpdated": "2019-08-30",
+    "citationSearchString": "10.1002/mrm.25528",
+    "citationCount": "16"
+  },
+  {
+    "name": "Water/Fat Separated MR Thermometry",
+    "category": "Reconstruction",
+    "shortDescription": "Algorithm to compute PRF-shift based MR thermometry in mixed water and fatty tissues, while also accounting for errors due to motion and scanner drift.",
+    "imageFile": "WFTherm.png",
+    "mainURL": "https://github.com/poormanme/waterFatSeparated_MRThermometry",
+    "repoURL": "https://github.com/poormanme/waterFatSeparated_MRThermometry",
+    "principalDevelopers": "<a href=\"https://scholar.google.com/citations?user=_whgkpcAAAAJ&hl=en&oi=ao\">Megan Poorman</a>, William Grissom",
+    "longDescription": "This code repository, written in Matlab, implements an algorithm for real-time-compatible water/fat separated MR thermometry in aqueous and fatty tissues. It is based on a hybrid referenceless multi-baseline thermometry approach and is robust to errors from motion, respiration, and scanner drift. The algorithm should be accurate in tissues containing between 0% and 90% fat. A numerical phantom and demo simulation is provided to guide the user in implementation of the algorithm for their own application.",
+    "keywords": [
+      "proton resonance frequency shift",
+      "temperature mapping",
+      "fat separation",
+      "thermometry"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Poorman ME, Braškute˙ I, Bartels LW, Grissom WA. Multi-echo MR thermometry using iterative separation of baseline water and fat images. Magn Reson Med. 2018;(September):1–14. ",
+        "referenceURL": "https://doi.org/10.1002/mrm.27567"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "",
+        "URL": ""
+      }
+    ],
+    "dateAddedToMRHub": "2019-05-29",
+    "dateSoftwareLastUpdated": "2018-09-26",
+    "citationSearchString": "10.1002/mrm.27567",
+    "citationCount": "0"
+  },
+  {
+    "name": "MRtrix3",
+    "category": "Image processing",
+    "shortDescription": "Advanced tools for the analysis of diffusion MRI data",
+    "imageFile": "mrtrix3.png",
+    "mainURL": "http://www.mrtrix.org",
+    "repoURL": "https://github.com/MRtrix3/mrtrix3",
+    "principalDevelopers": "J-Donald Tournier, Robert E. Smith, David Raffelt, Maximilian Pietsch, Rami Tabarra, Daan Christiaens, Thijs Dhollander, Ben Jeurissen, Chun-Hung Yeh",
+    "longDescription": "MRtrix provides a set of tools to perform various advanced diffusion MRI analyses, including constrained spherical deconvolution (CSD), probabilistic tractography, track-density imaging, and apparent fibre density.",
+    "keywords": [
+      "diffusion",
+      "tractography",
+      "spherical deconvolution",
+      "ODF"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "MRtrix3: A fast, flexible and open software framework for medical image processing and visualisation",
+        "referenceURL": "https://www.biorxiv.org/content/10.1101/551739v1"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Documentation",
+        "URL": "http://userdocs.mrtrix.org/en/latest/"
+      },
+      {
+        "resourceType": "User forum",
+        "URL": "http://community.mrtrix.org/"
+      }
+    ],
+    "dateAddedToMRHub": "2019-05-10",
+    "dateSoftwareLastUpdated": "2019-10-10",
+    "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
+    "citationCount": "3"
+  },
+  {
+    "name": "gammaSTAR",
+    "category": "Pulse sequences",
+    "shortDescription": "gammaSTAR: Platform-Independent MR Sequence Development",
+    "imageFile": "gammastar.png",
+    "mainURL": "https://gamma-star.mevis.fraunhofer.de",
+    "repoURL": "https://gamma-star.mevis.fraunhofer.de/download/gammaSTAR_current.zip",
+    "principalDevelopers": "Cristoffer Cordes, Simon Konstandin, Daniel Hoinkiss, Daniel Mensing, Saulius Archipovas, Robin Wilke, Matthias Günther",
+    "longDescription": "gammaSTAR is an MRI pulse sequence development framework. gammaSTAR sequences are vendor-independent, self-contained and portable. They and can be configured to match hardware limitations and desired protocol settings after being loaded onto a device. The core logic is written in the scripting language Lua, which is easily embeddable into C/C++ frameworks, resulting in very low-footprint driver implementations. Sequences can be viewed, configured and shared through a web-technology based tool that requires no internet or network access, running completely in-browser. Sequence computation is made efficient by exploiting the underlying directed acyclic graph structure for essentially all parameter calculations. gammaSTAR is designed to enable modular sequence development and state-of-the-art MRI techniques.",
+    "keywords": [
+      "sequence",
+      "development",
+      "lua",
+      "c++",
+      "pulseq",
+      "pulse sequences",
+      "vendor neutrality",
+      "Video tutorial",
+      "Docker"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Cordes C, Konstandin S, Mensing D, Archipovas S, Wilke R, Günther M. Configuring, Viewing, Exploring and Exporting Reproducible, Vendor-Independent MRI Pulse Sequences. In Proc. ISMRM 27:4826",
+        "referenceURL": "http://cds.ismrm.org/protected/19MPresentations/abstracts/4826.html"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Demo Videos",
+        "URL": "https://www.youtube.com/playlist?list=PL0A7u8ZJFB4VlI7gjuLfvoe2iQ-koE8tZ"
+      }
+    ],
+    "dateAddedToMRHub": "2019-05-29",
+    "dateSoftwareLastUpdated": "2019-05-12",
+    "citationSearchString": "gammaSTAR",
+    "citationCount": "0"
+  },
+  {
+    "name": "SigPy",
+    "category": "Reconstruction",
+    "shortDescription": "CPU/GPU Python package for iterative reconstruction",
+    "imageFile": "sigpy_logo.png",
+    "mainURL": "https://sigpy.readthedocs.io",
+    "repoURL": "https://github.com/mikgroup/sigpy",
+    "principalDevelopers": "Frank Ong",
+    "longDescription": "SigPy is a Python package for signal processing, with emphasis on iterative methods. It is built to operate directly on NumPy arrays on CPU and CuPy arrays on GPU. SigPy also provides several domain-specific submodules: sigpy.plot for multi-dimensional array plotting, sigpy.mri for MRI iterative reconstruction, and sigpy.learn for dictionary learning.",
+    "keywords": [
+      "iterative-reconstruction",
+      "compressed sensing",
+      "GPU",
+      "ESPIRiT",
+      "GPU-NUFFT",
+      "GitHub",
+      "Python"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Frank Ong, and Michale Lustig. SigPy: A Python Package for High Performance Iterative Reconstruction. In Proc. Intl. Soc. Mag. Reson. Med. 27;4819",
+        "referenceURL": "http://cds.ismrm.org/protected/19MPresentations/abstracts/4819.html"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "",
+        "URL": ""
+      }
+    ],
+    "dateAddedToMRHub": "2019-05-23",
+    "dateSoftwareLastUpdated": "2019-09-11",
+    "citationSearchString": "SigPy",
+    "citationCount": "0"
+  },
+  {
+    "name": "retroMoCoBox",
+    "category": "Reconstruction",
+    "shortDescription": "MATLAB-based retrospective motion-correction of 3D k-space",
+    "imageFile": "retromocobox.png",
+    "mainURL": "https://github.com/dgallichan/retroMoCoBox",
+    "repoURL": "https://github.com/dgallichan/retroMoCoBox",
+    "principalDevelopers": "Daniel Gallichan",
+    "longDescription": "Matlab toolbox for retrospective motion-correction of 3D MRI k-space data - as used for my work using 3D FatNavs to obtain the motion information. Example data is provided to give an indication of what the toolbox can be used for - including how to simulate the effect of different motion profiles on an acquisition. As this code needs to be able to do the full reconstruction pipeline, it also contains an implementation of 2D GRAPPA. The motion-corrected k-space is regridded using the NUFFT from Jeffrey Fessler's MIRT toolbox (separate download).",
+    "keywords": [
+      "Github",
+      "MATLAB",
+      "motion-correction",
+      "k-space"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Retrospective correction of involuntary microscopic head movement using highly accelerated fat image navigators (3D FatNavs) at 7T, Gallichan, Marques and Gruetter, MRM 2015",
+        "referenceURL": "http://doi.wiley.com/10.1002/mrm.25670"
+      },
+      {
+        "referenceText": "Optimizing the acceleration and resolution of three-dimensional fat image navigators for high-resolution motion correction at 7T, Gallichan and Marques, MRM 2016",
+        "referenceURL": "http://doi.wiley.com/10.1002/mrm.26127"
+      },
+      {
+        "referenceText": "Motion-Correction Enabled Ultra-High Resolution In-Vivo 7T-MRI of the Brain, Federau and Gallichan, Plos One 2016",
+        "referenceURL": "http://dx.plos.org/10.1371/journal.pone.0154974"
+      },
+      {
+        "referenceText": "Evaluation of 3D fat-navigator based retrospective motion correction in the clinical setting of patients with brain tumors, Glessgen, Gallichan, Moor, Hainc and Federau, Neuroradiology 2019",
+        "referenceURL": "https://doi.org/10.1007/s00234-019-02160-w"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "",
+        "URL": ""
+      }
+    ],
+    "dateAddedToMRHub": "2019-05-23",
+    "dateSoftwareLastUpdated": "2019-10-14",
+    "citationSearchString": "10.1002/mrm.25670",
+    "citationCount": "32"
+  },
+  {
+    "name": "Berkeley Advanced Reconstruction Toolbox (BART)",
+    "category": "Reconstruction",
+    "shortDescription": "Reconstruction toolbox and programming library for parallel imaging and compressed sensing available for Linux, Mac OS X, and Windows.",
+    "imageFile": "bart.png",
+    "mainURL": "http://mrirecon.github.io/bart/",
+    "repoURL": "https://github.com/mrirecon/bart",
+    "principalDevelopers": "Martin Uecker, Jon Tamir and Frank Ong",
+    "longDescription": "The Berkeley Advanced Reconstruction Toolbox (BART) is a free and open-source image- reconstruction framework for Computational Magnetic Resonance Imaging. It consists of a programming library (for C/C++) and a toolbox of command-line programs. The library provides common operations on multi-dimensional arrays, (non-uniform) Fourier and (divergence-free) wavelet transforms, as well as generic implementations of iterative optimization algorithms (CG, IST, FISTA, ADMM, IRGNM, ...) supporting various types of regularization terms (l2, l1-wavelet, total-variation, low-rank, multi-scale low-rank ...) using pre-defined functions. Parallel computation on multi-core systems and on Graphical Processing Units (GPUs) is supported. The command-line tools provide direct access to basic operations on multi-dimensional arrays as well as efficient implementations of many calibration and reconstruction algorithms for parallel imaging and compressed sensing (SENSE, ESPIRiT, NLINV, SAKE, ...).",
+    "keywords": [
+      "GitHub",
+      "GPU",
+      "ESPIRiT",
+      "NUFFT",
+      "iterative-reconstruction",
+      "compressed sensing",
+      "non-Cartesian",
+      "parallel imaging"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Martin Uecker, Peng Lai, Mark J. Murphy, Patrick Virtue, Michael Elad, John M. Pauly, Shreyas S. Vasanawala, and Michael Lustig. ESPIRiT - An Eigenvalue Approach to Autocalibrating Parallel MRI: Where SENSE meets GRAPPA. Magn Reson Med 2014; 71:990-1001",
+        "referenceURL": "https://doi.org/10.1002/mrm.24751"
+      },
+      {
+        "referenceText": "Martin Uecker, Patrick Virtue, Frank Ong, Mark J. Murphy, Marcus T. Alley, Shreyas S. Vasanawala, and Michael Lustig. Software Toolbox and Programming Library for Compressed Sensing and Parallel Imaging. ISMRM Workshop on Data Sampling and Image Reconstruction, Sedona 2013",
+        "referenceURL": "https://www.gwdg.de/~muecker1/toolbox.pdf"
+      },
+      {
+        "referenceText": "Martin Uecker, Frank Ong, Jonathan I Tamir, Dara Bahri, Patrick Virtue, Joseph Y Cheng, Tao Zhang, and Michael Lustig. Berkeley Advanced Reconstruction Toolbox. Annual Meeting ISMRM, Toronto 2015, In Proc. Intl. Soc. Mag. Reson. Med. 23:2486",
+        "referenceURL": "http://index.mirasmart.com/ismrm2015/PDFfiles/2486.pdf"
+      },
+      {
+        "referenceText": "Jonathan I Tamir, Frank Ong, Joseph Y Cheng, Martin Uecker, and Michael Lustig. Generalized Magnetic Resonance Image Reconstruction using The Berkeley Advanced Reconstruction Toolbox. ISMRM Workshop on Data Sampling and Image Reconstruction, Sedona 2016",
+        "referenceURL": "https://www.gwdg.de/~muecker1/sedona16-bart.pdf"
+      },
+      {
+        "referenceText": "Martin Uecker. Machine Learning Using the BART Toolbox - Implementation of a Deep Convolutional Neural Network for Denoising. Joint Annual Meeting ISMRM-ESMRMB, Paris 2018, In Proc. Intl. Soc. Mag. Reson. Med. 26;2802",
+        "referenceURL": "http://indexsmart.mirasmart.com/ISMRM2018/PDFfiles/2802.html"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "",
+        "URL": ""
+      }
+    ],
+    "dateAddedToMRHub": "2019-05-10",
+    "dateSoftwareLastUpdated": "2019-09-05",
+    "citationSearchString": "10.1002/mrm.24751",
+    "citationCount": "254"
+  },
+  {
+    "name": "Gadgetron",
+    "category": "Reconstruction",
+    "shortDescription": "General-purpose, open source, medical imaging reconstruction framework.",
+    "imageFile": "gadgetron.png",
+    "mainURL": "http://gadgetron.github.io/",
+    "repoURL": "https://github.com/gadgetron/gadgetron",
+    "principalDevelopers": "Hui Xue, David Hansen, Adrienne Campbell-Washburn",
+    "longDescription": "Gadgetron is an Open Source, general-purpose medical imaging reconstruction framework written primarily in C++. It consists of two main components: 1) a set of versatile toolboxes for image signal processing, and 2) a modular, high performance framework for streaming data processing. The streaming framework uses a client server model where the reconstruction job is performed on a server and the client is responsible for sending data and receiving imaging. Clients can be stand-alone command line clients or an imaging device could serve as a client. The framework supports easy prototyping with scripting languages such as Python while supporting transparent integration in clinical work flows. For MRI applications, the Gadgetron supports the vendor independent ISMRM Raw Data format and it comes with high performance image reconstruction pipelines for many standard MRI sequences. Example applications include Cartesian and non-Cartesian parallel imaging, non-linear reconstruction and motion correction. Several performance critical components such as the non-Cartesian Fourier transform have been implemented on GPUs for improved performance. The framework can be used as a complete reconstruction package or the toolboxes can be leveraged in other applications.",
+    "keywords": [
+      "GitHub",
+      "Video tutorial",
+      "GPU",
+      "inline",
+      "online",
+      "streaming",
+      "AI",
+      "machine learning",
+      "compressed sensing",
+      "non-Cartesian",
+      "parallel imaging",
+      "vendor neutrality"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Hansen MS, Sørensen TS. Gadgetron: An Open Source Framework for Medical Image Reconstruction. Magn Reson Med. 2013 Jun;69(6):1768-76.",
+        "referenceURL": "https://doi.org/10.1002/mrm.24389"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Video Tutorial",
+        "URL": "https://www.youtube.com/watch?v=yLo4j5dQGhY"
+      }
+    ],
+    "dateAddedToMRHub": "2019-05-10",
+    "dateSoftwareLastUpdated": "2019-10-14",
+    "citationSearchString": "10.1002/mrm.24389",
+    "citationCount": "88"
+  },
+  {
+    "name": "gpuNUFFT",
+    "category": "Reconstruction",
+    "shortDescription": "C++ CUDA accelerated non-uniform FFT for arbitrary 2D/3D data with direct Matlab interface on Windows and Linux",
+    "imageFile": "gpunufft.png",
+    "mainURL": "https://github.com/andyschwarzl/gpuNUFFT",
+    "repoURL": "https://github.com/andyschwarzl/gpuNUFFT",
+    "principalDevelopers": "Andreas Schwarzl, Florian Knoll",
+    "longDescription": "The computational expensive non-uniform FFT is implemented in C++ by utilizing the NVIDIA CUDA architecture, in order to speed up the execution of the 2D/3D multi-coil Gridding step for arbitrarily shaped k-space data. The software offers a ready-to-use interface to Matlab, similar to the well-known NUFFT Toolbox by Fessler et al., in order to seamlessly enhance the preferred Matlab prototyping process at an early stage. The gpuNUFFT supports the growing importance of non-Cartesian 2D/3D trajectories in the context of iterative image reconstruction, parallel imaging, and compressed sensing by reducing the long computation times during NUFFT operations. Depending on the data size and shape, speedups up to a factor of 40 are possible.",
+    "keywords": [
+      "GitHub",
+      "Video tutorial",
+      "GPU",
+      "NUFFT"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "F. Knoll, A. Schwarzl, C. Diwoky, and D. Sodickson, gpuNUFFT - an open-source GPU Library for 3D Gridding with direct Matlab interface, in Proceedings of the 22th Annual Meeting of ISMRM, Mailand, 2014 , p4297",
+        "referenceURL": "https://cds.ismrm.org/protected/14MProceedings/files/4297.pdf"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Video tutorial",
+        "URL": "https://vimeo.com/161037263"
+      }
+    ],
+    "dateAddedToMRHub": "2019-05-10",
+    "dateSoftwareLastUpdated": "2018-01-30",
+    "citationSearchString": "c788ecd4a6ac9d3d7013a94515ec0718274e9907",
+    "citationCount": "18"
+  },
+  {
+    "name": "ISMRMRD",
+    "category": "Data format",
+    "shortDescription": "Vendor-neutral MRI raw data format based on standard developed by a subcommittee of the ISMRM Sedona 2013 workshop",
+    "imageFile": "ismrmrd.png",
+    "mainURL": "http://ismrmrd.github.io/",
+    "repoURL": "https://github.com/ismrmrd/ismrmrd",
+    "principalDevelopers": "<a href=\"http://ismrmrd.github.io/\"><em>See full list of developers.</em></a>",
+    "longDescription": "A prerequisite for sharing MRI reconstruction software is a data format that describes typical MRI raw datasets in a vendor neutral manner. The ISMRM Raw Data format is a proposal for such a common MR raw data format, which promotes algorithm and data sharing. The file format consists of a flexible header and tagged frames of k-space data. These data elements are stored in an HDF5 file container. Application Programming Interfaces are available for C/C++, MATLAB, and Python. Converters for Bruker, General Electric, Philips, and Siemens proprietary file formats also available (implemented in C++). The proposed raw data format solves a practical problem for the magnetic resonance imaging community. It may serve as a foundation for reproducible research and collaborations. The ISMRM Raw Data format is a completely open and community-driven format, and the scientific community is invited (including commercial vendors) to participate either as users or developers.",
+    "keywords": [
+      "GitHub",
+      "raw data",
+      "k-space",
+      "vendor neutrality"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Inati SJ, Naegele JD, Zwart NR, Roopchansingh V, Lizak MJ, Hansen DC, et al. ISMRM Raw data format: A proposed standard for MRI raw datasets. Magn Reson Med. 2016; doi:10.1002/mrm.26089",
+        "referenceURL": "https://doi.org/10.1002/mrm.26089"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "",
+        "URL": ""
+      }
+    ],
+    "dateAddedToMRHub": "2019-05-10",
+    "dateSoftwareLastUpdated": "2019-09-27",
+    "citationSearchString": "10.1002/mrm.26089",
+    "citationCount": "10"
+  },
+  {
+    "name": "Low Field Simulator",
+    "category": "Simulation",
+    "shortDescription": "This package is a MATLAB based tool for simulating low-field MRI acquisitions based on high-field acquisition, enables prediction of the minimum field strength requirements for a broad range of MRI techniques.",
+    "imageFile": "lowfieldsim.png",
+    "mainURL": "https://github.com/usc-mrel/lowfieldsim",
+    "repoURL": "https://github.com/usc-mrel/lowfieldsim",
+    "principalDevelopers": "Weiyi Chen, Ziyue Wu, Krishna S. Nayak",
+    "longDescription": "<p>This package is to develop and evaluate a framework for simulating low-field proton-density weighted MRI acquisitions based on high-field acquisitions, which could be used to predict the minimum B0 field strength requirements for MRI techniques.</p><p>Given MRI raw data, lower field MRI acquisitions can be simulated based on the signal and noise scaling with field strength. Certain assumptions are imposed for the simulation. This package also contains two examples of proton-density weighted MRI applications that demonstrated estimation of minimum field strength requirements: real-time upper airway imaging and liver proton-density fat fraction measurement. More detailed description of the examples can be found in the published reference.</p><p>This package enables prediction of the minimum field strength requirements for a broad range of MRI techniques, and would be particularly useful in the evaluation of de-noising and constrained reconstruction techniques.</p>",
+    "keywords": [
+      "GitHub",
+      "low field"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Z Wu, W Chen, KS Nayak. Minimum Field Strength Simulator for Proton Density Weighted MRI. PLOS ONE 11(5): e0154711. May 2016.",
+        "referenceURL": "https://doi.org/10.1371/journal.pone.0154711"
+      },
+      {
+        "referenceText": "Z Wu, W Chen, KS Nayak. Low-Field Simulation and Minimum Field Strength Requirements. ISMRM Workshop on Data Sampling and Image Reconstruction, Sedona, Arizona, Jan 2016.",
+        "referenceURL": "http://cds.ismrm.org/protected/Data16/Program/Abstracts/Wu.pdf"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "",
+        "URL": ""
+      }
+    ],
+    "dateAddedToMRHub": "2019-05-10",
+    "dateSoftwareLastUpdated": "2016-07-12",
+    "citationSearchString": "10.1371/journal.pone.0154711",
+    "citationCount": "3"
+  },
+  {
+    "name": "Pulseq",
+    "category": "Pulse sequences",
+    "shortDescription": "An open source framework for platform-independent MR pulse sequence development and execution",
+    "imageFile": "pulseq.png",
+    "mainURL": "https://pulseq.github.io/",
+    "repoURL": "https://github.com/pulseq/pulseq",
+    "principalDevelopers": "Original author: Kelvin Layton (left the MR field)<br />Current developers: Stefan Kroboth, Maxim Zaitsev (Siemens-specific), Jon-Fredrik Nielsen (GE specific), Jochen Leupold (Bruker-specific), Tony Stoecker (JEMRIS)",
+    "longDescription": "Pulseq is an open source framework for the development, representation and execution of magnetic resonance (MR) sequences. A central contribution of this project is an open file format to compactly describe MR sequences suitable for execution on an MRI scanner or NMR spectrometer. MATLAB and C++ source code is provided for reading and writing sequence files. An interface for exporting JEMRIS sequences to Pulseq format is available. For the execution of the Pulseq files on the particular platform an additional interpreter pulse sequence is required, which is made available via the corresponding manufacturer's community site or can be acquired directly from the authors.",
+    "keywords": [
+      "GitHub",
+      "pulse sequences",
+      "vendor neutrality"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Layton, K. J., Kroboth, S. , Jia, F. , Littin, S. , Yu, H. , Leupold, J. , Nielsen, J. , Stöcker, T. and Zaitsev, M. (2017), Pulseq: A rapid and hardware‐independent pulse sequence prototyping framework. Magn. Reson. Med., 77: 1544-1552",
+        "referenceURL": "https://doi.org/10.1002/mrm.26235"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "",
+        "URL": ""
+      }
+    ],
+    "dateAddedToMRHub": "2019-05-10",
+    "dateSoftwareLastUpdated": "2019-10-02",
+    "citationSearchString": "10.1002/mrm.26235",
+    "citationCount": "7"
+  },
+  {
+    "name": "MRiLab",
+    "category": "Simulation",
+    "shortDescription": "A rapid and versatile numerical MRI simulator with Matlab interface and GPU parallel acceleration on Windows and Linux",
+    "imageFile": "mrilab.png",
+    "mainURL": "https://leoliuf.github.io/MRiLab/",
+    "repoURL": "https://github.com/leoliuf/MRiLab",
+    "principalDevelopers": "<a href=\"https://www.researchgate.net/profile/Fang_Liu67\">Fang Liu</a>",
+    "longDescription": "<p>The MRiLab is a numerical MRI simulation package. It has been developed and optimized to simulate MR signal formation, k- space acquisition and MR image reconstruction. MRiLab provides several dedicated toolboxes to analyze RF pulse, design MR sequence, configure multiple transmitting and receiving coils, investigate magnetic field related properties and evaluate real-time imaging technique. The main MRiLab simulation platform combined with those toolboxes can be applied to customize various virtual MR experiments which can serve as a prior stage for prototyping and testing new MR technique and application.</p><p>The MRiLab features highly interactive graphical user interface (GUI) for the convenience of fast experiment design and technique prototyping. High simulation accuracy is achieved by simulating discrete spin evolution at small time interval using the Bloch-equation and appropriate tissue model. In order to manipulate large multidimensional spin array, MRiLab employs parallel computing by incorporating latest graphical processing unit (GPU) technique and multi-threading CPU technique. With efficient parallelization, MRiLab can accomplish multidimensional multiple spin species MR simulation at high simulation accuracy and time efficiency, and with low computing hardware cost.</p>",
+    "keywords": [
+      "GitHub",
+      "GPU",
+      "tissue exchange models"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "F. Liu, J.V. Velikina, W.F. Block, R. Kijowski, A.A. Samsonov. Fast Realistic MRI Simulations Based on Generalized Multi-Pool Exchange Tissue Model. IEEE Transactions on Medical Imaging. 2016.",
+        "referenceURL": "http://ieeexplore.ieee.org/document/7676360/"
+      },
+      {
+        "referenceText": "F. Liu, R. Kijowski, W.F. Block. Performance of Multiple Types of Numerical MR Simulation using MRiLab. In 2014 Proc. Intl. Soc. Mag. Reson. Med. Milan.",
+        "referenceURL": "https://cds.ismrm.org/protected/14MPresentations/abstracts/4227.pdf"
+      },
+      {
+        "referenceText": "F. Liu, R. Kijowski, W.F. Block. MRiLab: Performing Fast 3D Parallel MRI Numerical Simulation on A Simple PC. In 2013. Proc. Intl. Soc. Mag. Reson. Med. Salt Lake City.",
+        "referenceURL": "https://cds.ismrm.org/protected/13MProceedings/files/2373.PDF"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "",
+        "URL": ""
+      }
+    ],
+    "dateAddedToMRHub": "2019-05-10",
+    "dateSoftwareLastUpdated": "2019-08-10",
+    "citationSearchString": "10.1109/TMI.2016.2620961",
+    "citationCount": "0"
+  },
+  {
+    "name": "NYU MR-Fingerprinting Reconstruction Toolbox",
+    "category": "Reconstruction",
+    "shortDescription": "Reconstruction of quantitative maps of arbitrary MR Fingerprinting data with arbitrary k-space trajectories on all platforms supporting Matlab.",
+    "imageFile": "nyu_mrf_recon.png",
+    "mainURL": "https://bitbucket.org/asslaender/nyu_mrf_recon",
+    "repoURL": "https://bitbucket.org/asslaender/nyu_mrf_recon",
+    "principalDevelopers": "<a href=\"https://med.nyu.edu/faculty/jakob-asslaender\">Jakob Assländer</a>",
+    "longDescription": "The NYU MR-Fingerprinting Reconstruction Toolbox provides a general and fast framework for reconstructing MRF data. It approximates the fingerprints in a low rank space, which improves the conditioning of the problem and reduces the number of FFT operations significantly. The provided code solves the MRF reconstruction problem with an alternating direction method of multipliers, which transform the non-convex optimization problem into two subproblems, that are very similar to CG-SENSE and the dictionary fitting, respectively. The toolbox is implemented in Matlab and incorporates Fessler’s nuFFT implementation.",
+    "keywords": [
+      "Bitbucket",
+      "fingerprinting",
+      "NUFFT",
+      "quantitative imaging",
+      "relaxometry"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Assländer, J. , Cloos, M. A., Knoll, F. , Sodickson, D. K., Hennig, J. and Lattanzi, R. (2018), Low rank alternating direction method of multipliers reconstruction for MR fingerprinting. Magn. Reson. Med., 79: 83-96.",
+        "referenceURL": "https://doi.org/10.1002/mrm.26639"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "",
+        "URL": ""
+      }
+    ],
+    "dateAddedToMRHub": "2019-05-10",
+    "dateSoftwareLastUpdated": "2019-08-06T19:58:05.300430+00:00",
+    "citationSearchString": "10.1002/mrm.26639",
+    "citationCount": "29"
+  },
+  {
+    "name": "QUIT",
+    "category": "Image processing",
+    "shortDescription": "A set of tools for quantitative imaging, principally relaxometry",
+    "imageFile": "quit.png",
+    "mainURL": "https://github.com/spinicist/QUIT",
+    "repoURL": "https://github.com/spinicist/QUIT",
+    "principalDevelopers": "Tobias Wood",
+    "longDescription": "QUIT provides implementations of multiple quantitative MRI algorithms as command-line tools written in C++ and using the high-quality Insight Toolkit [@ITK], CERES [@CERES] and Eigen [@Eigen] libraries. They are multi-threaded where-ever possible. They are easy to include into shell-script based processing pipelines, and are easy to use with a queue system such as the Sun Grid Engine. They are hence suitable for the high-throughput processing that is required for timely analysis of a large neuroimaging study.",
+    "keywords": [
+      "GitHub",
+      "quantitative imaging",
+      "relaxometry"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Wood, (2018). QUIT: QUantitative Imaging Tools . Journal of Open Source Software, 3(26), 656",
+        "referenceURL": "http://joss.theoj.org/papers/10.21105/joss.00656"
+      },
+      {
+        "referenceText": "Wood, T. C., Simmons, C., Hurley, S. A., Vernon, A. C., Torres, J., Dell’Acqua, F., ... Cash, D. (2016). Whole-brain ex-vivo quantitative MRI of the cuprizone mouse model. PeerJ, 4, e2632",
+        "referenceURL": "https://doi.org/10.7717/peerj.2632"
+      },
+      {
+        "referenceText": "Vanes, L. D., Mouchlianitis, E., Wood, T. C., & Shergill, S. S. (2018). White matter changes in treatment refractory schizophrenia: Does cognitive control and myelination matter? NeuroImage: Clinical, 18, 186–191",
+        "referenceURL": "https://doi.org/10.1016/j.nicl.2018.01.010"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "",
+        "URL": ""
+      }
+    ],
+    "dateAddedToMRHub": "2019-05-10",
+    "dateSoftwareLastUpdated": "2019-09-30",
+    "citationSearchString": "10.21105/joss.00656",
+    "citationCount": "4"
+  },
+  {
+    "name": "JEMRIS",
+    "category": "Simulation",
+    "shortDescription": "General-purpose, open source, MRI simulation framework available for Linux, Mac and Windows.",
+    "imageFile": "jemris.png",
+    "mainURL": "http://www.jemris.org",
+    "repoURL": "https://github.com/JEMRIS/jemris",
+    "principalDevelopers": "Tony Stöcker, Daniel Pflugfelder, Kaveh Vahedipour",
+    "longDescription": "JEMRIS is an extensible MRI simulation framework which provides a versatile MRI sequence development and simulation environment. The development was driven by the desire to achieve generality of simulated 3D MRI experiments reflecting modern MRI systems hardware. The accompanying computational burden is overcome by means of parallel computing. Many aspects of general MRI simulations are covered such as parallel transmit and receive, important off-resonance effects, non-linear gradients, and arbitrary spatiotemporal parameter variations at different levels. The latter can be used to simulate various types of spin motion, e.g. rigid motion, diffusion or flow. JEMRIS is written in C++ and can be used from the command line. The MR experiment configuration is done in XML format and binary I/O utilizes the HDF5 standard. For convenience JEMRIS can also be used via dedicated MATLAB graphical user interfaces. For instance, complex MRI sequences with arbitrary waveforms and inter-dependent modules can be modeled without any programming involved.",
+    "keywords": [
+      "GitHub",
+      "parallel computing",
+      "arbitrary waveforms"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Stöcker, T., Vahedipour, K., Pflugfelder, D., & Shah, N. J. (2010). High-performance computing MRI simulations. Magnetic Resonance in Medicine, 64(1), 18693.",
+        "referenceURL": "https://doi.org/10.1002/mrm.22406"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "",
+        "URL": ""
+      }
+    ],
+    "dateAddedToMRHub": "2019-05-10",
+    "dateSoftwareLastUpdated": "2019-06-24",
+    "citationSearchString": "10.1002/mrm.22406",
+    "citationCount": "29"
+  },
+  {
+    "name": "Spinal Cord Toolbox (SCT)",
+    "category": "Image processing",
+    "shortDescription": "Software package to analyze multi-parametric MRI of the spinal cord, available for Linux, OSX and Windows.",
+    "imageFile": "spinal_cord_toolbox.png",
+    "mainURL": "https://github.com/neuropoly/spinalcordtoolbox",
+    "repoURL": "https://github.com/neuropoly/spinalcordtoolbox",
+    "principalDevelopers": "<a href=\"https://github.com/neuropoly/spinalcordtoolbox/graphs/contributors\"><em>Please see here for full list</em></a>",
+    "longDescription": "SCT is a comprehensive and open-source library of analysis tools for multi-parametric MRI of the spinal cord, written in Python and available for Linux, OSX and Windows. It includes templates and atlases of the spinal cord along with state-of-the-art methods for automatic segmentation, registration and metric atlas-based analysis.",
+    "keywords": [
+      "GitHub",
+      "spine",
+      "templates",
+      "atlases"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "De Leener B, Levy S, Dupont SM, Fonov VS, Stikov N, Louis Collins D, Callot V, Cohen-Adad J. SCT: Spinal Cord Toolbox, an open-source software for processing spinal cord MRI data. Neuroimage 2017.",
+        "referenceURL": "https://www.ncbi.nlm.nih.gov/pubmed/27720818"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "",
+        "URL": ""
+      }
+    ],
+    "dateAddedToMRHub": "2019-05-10",
+    "dateSoftwareLastUpdated": "2019-10-11",
+    "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
+    "citationCount": "70"
+  },
+  {
+    "name": "qMRLab",
+    "category": "Image processing",
+    "shortDescription": "qMRLab is a MATLAB/Octave open-source software for quantitative MR image analysis and simulation.",
+    "imageFile": "qmrlab.png",
+    "mainURL": "https://qmrlab.org",
+    "repoURL": "https://github.com/qMRLab/qMRLab",
+    "principalDevelopers": "Agah Karakuzu, Mathieu Boudreau, Tanguy Duval, Ilana R. Leppert, Tommy Boshkovski, Julien Cohen-Adad, Nikola Stikov",
+    "longDescription": "qMRLab is an open-source software for quantitative MR image analysis. The main goal is to provide the community with an intuitive tool for data fitting, plotting, simulation and protocol optimization for a myriad of different quantitative models. The modularity of the implementation makes it easy to add any additional modules and we encourage everyone to contribute their favorite recipe for qMR.",
+    "keywords": [
+      "GitHub",
+      "Docker",
+      "quantitative imaging"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Varma, G., et al. Low duty-cycle pulsed irradiation reduces magnetization transfer and increases the inhomogeneous magnetization transfer effect. Journal of Magnetic Resonance 296 (2018): 60-71.",
+        "referenceURL": "https://doi.org/10.1016/j.jmr.2018.08.004"
+      },
+      {
+        "referenceText": "Campbell, Jennifer SW, et al. Promise and pitfalls of g-ratio estimation with MRI. Neuroimage.  182 (2018): 80-96.",
+        "referenceURL": "https://doi.org/10.1016/j.neuroimage.2017.08.038"
+      },
+      {
+        "referenceText": "M. Mclean, M.E. MacDonald, R.M. Lebel, M. Boudreau, B. Pike, Accelerated z-Spectrum Imaging, Oral, International Society for Magnetic Resonance in Medicine Meeting (2017).",
+        "referenceURL": "http://indexsmart.mirasmart.com/ISMRM2017/PDFfiles/1205.html"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Video tutorial",
+        "URL": "https://www.youtube.com/watch?v=-yrbtCYDorI"
+      }
+    ],
+    "dateAddedToMRHub": "2019-05-10",
+    "dateSoftwareLastUpdated": "2019-09-30",
+    "citationSearchString": "10.1016/j.jmr.2018.08.004",
+    "citationCount": "0"
+  },
+  {
+    "name": "Yarra Framework",
+    "category": "Reconstruction",
+    "shortDescription": "Open-source toolkit to support the development and clinical translation of reconstruction techniques",
+    "imageFile": "yarra.png",
+    "mainURL": "http://yarraframework.com",
+    "repoURL": "https://bitbucket.org/yarra-dev/yarraclient",
+    "principalDevelopers": "Kai Tobias Block, Roy Wiggins",
+    "longDescription": "Yarra is a collection of software tools to support the development and clinical translation of novel MRI reconstruction techniques. The functional scope ranges from automatic collection of clinical raw-data, management and anonymization of raw-data, clinical integration of reconstruction prototypes, and distribution of reconstruction algorithms. Moreover, Yarra provides functions for clinical workflow monitoring and analysis. Support is currently limited to Siemens MRI systems.",
+    "keywords": [
+      "Bitbucket",
+      "offline",
+      "compressed sensing",
+      "Matlab",
+      "Siemens"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Roy Wiggins and Kai Tobias Block, Yarra Framework – Open-Source Toolkit for Clinical-Translational MRI Research, ISMRM 2019, Weekend Educational Session WE-21AB",
+        "referenceURL": "https://s3.amazonaws.com/download.yarraframework.com/doc/ISMRM19_Whitepaper.pdf"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Video Tutorial",
+        "URL": "https://www.youtube.com/watch?v=5uX7f5E1pz8"
+      },
+      {
+        "resourceType": "White Paper",
+        "URL": "https://s3.amazonaws.com/download.yarraframework.com/doc/ISMRM19_Whitepaper.pdf"
+      }
+    ],
+    "dateAddedToMRHub": "2019-07-03",
+    "dateSoftwareLastUpdated": "2019-09-17T17:24:15.599328+00:00",
+    "citationSearchString": "8c5511d9ecad595dba390a718957be8c84c22f7a",
+    "citationCount": "2"
+  }
 ]
