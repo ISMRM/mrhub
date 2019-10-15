@@ -1,4 +1,7 @@
 % getCitationsAndLastUpdate.m
+%
+% NB. As of 15/10/19 this script is deprecated, and use of the Ruby script 'update.rb' is preferred, 
+%     as this will also upate info.json with the total counts for each software category.
 %%%%%%%%%%%%%%%%%%
 %
 % Quickly thrown together script to:
