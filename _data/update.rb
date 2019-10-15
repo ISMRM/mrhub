@@ -61,8 +61,8 @@ else
 end
 
 # Let the user know their quota
-limit_uri = "https://api.github.com/rate_limit"
-limit_json = get_api_response limit_uri, github_username, github_password
+limit_url = "https://api.github.com/rate_limit"
+limit_json = get_api_response limit_url, github_username, github_password
 puts "Github API Quota: " + limit_json["resources"]["core"]["limit"].to_s
 puts "Amount available: " + limit_json["resources"]["core"]["remaining"].to_s
 puts
@@ -120,7 +120,7 @@ end
 puts
 
 puts "INFO: Update script completed"
-limit_uri = "https://api.github.com/rate_limit"
-limit_json = get_api_response limit_uri, github_username, github_password
+limit_url = "https://api.github.com/rate_limit"
+limit_json = get_api_response limit_url, github_username, github_password
 puts "Github API Quota: " + limit_json["resources"]["core"]["limit"].to_s
 puts "Amount available: " + limit_json["resources"]["core"]["remaining"].to_s
