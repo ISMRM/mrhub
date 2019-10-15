@@ -8,7 +8,7 @@
             <div class="col-6">
                 Categories:
                 <select id="ddcategory" onchange="categories()" class="form-control inputstl" style="margin-bottom: 30px;">
-                    <option value="all">All Categories ({{ site.data.info.num_projects }}) </option>
+                    <option value="all">All Categories ({{ site.data.info.all }}) </option>
                     {% assign categories = site.data.projects where: 'published', 'true' |  map: 'category'| join: ',' | split: ',' | uniq %}
                     {% for category in categories %}
                     <option value="{{ category }}">{{ category }} ({{ site.data.info.[category] }})</option>
