@@ -30,13 +30,13 @@
       }
     ],
     "dateAddedToMRHub": "2019-10-16",
-    "dateSoftwareLastUpdated": "2019-08-10",
-    "citationSearchString": "",
+    "dateSoftwareLastUpdated": "2019-08-15",
+    "citationSearchString": "n/a",
     "citationCount": "0"
   },
   {
     "name": "NLSAM",
-    "category": "Image processing",
+    "category": "Reconstruction",
     "shortDescription": "Non Local Spatial and Angular Matching (NLSAM) denoising algorithm for diffusion MRI",
     "imageFile": "nlsam.png",
     "mainURL": "https://github.com/samuelstjean/nlsam",
@@ -379,7 +379,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-09-05",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "254"
+    "citationCount": "256"
   },
   {
     "name": "Gadgetron",
@@ -419,7 +419,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-10-14",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "88"
+    "citationCount": "89"
   },
   {
     "name": "gpuNUFFT",
@@ -451,7 +451,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2018-01-30",
     "citationSearchString": "c788ecd4a6ac9d3d7013a94515ec0718274e9907",
-    "citationCount": "19"
+    "citationCount": "20"
   },
   {
     "name": "ISMRMRD",
@@ -657,7 +657,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2019-09-30",
+    "dateSoftwareLastUpdated": "2019-10-15",
     "citationSearchString": "10.21105/joss.00656",
     "citationCount": "4"
   },

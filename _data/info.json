@@ -1,9 +1,9 @@
 {
-  "all": "21",
+  "all": "22",
   "Image processing": 5,
   "Spectroscopy": 1,
   "Multipurpose": 1,
-  "Reconstruction": 8,
+  "Reconstruction": 9,
   "Pulse sequences": 2,
   "Data format": 1,
   "Simulation": 3
