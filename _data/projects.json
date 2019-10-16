@@ -1,7 +1,7 @@
 [
   {
     "name": "MRIReco.jl",
-    "category": "Image reconstruction",
+    "category": "Reconstruction",
     "shortDescription": "MRIReco.jl: Julia Package for Image Reconstruction",
     "imageFile": "mrireco.png",
     "mainURL": "https://github.com/MagneticResonanceImaging/MRIReco.jl",
