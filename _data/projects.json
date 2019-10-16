@@ -1,5 +1,40 @@
 [
   {
+    "name": "MRIReco.jl",
+    "category": "Image reconstruction",
+    "shortDescription": "MRIReco.jl: Julia Package for Image Reconstruction",
+    "imageFile": "mrireco.png",
+    "mainURL": "https://github.com/MagneticResonanceImaging/MRIReco.jl",
+    "repoURL": "https://github.com/MagneticResonanceImaging/MRIReco.jl",
+    "principalDevelopers": "Tobias Knopp, Mirco Grosser",
+    "longDescription": "An Extensible and Modular Open-Source Image Reconstruction Framework written in Julia",
+    "keywords": [
+      "reconstruction",
+      "julia",
+      "compressed sensing",
+      "field inhomgeneity",
+      "sparse sampling",
+      "NFFT",
+      "ISMRMRD"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "MRIReco.jl: An Extensible Open-Source Image Reconstruction Framework written in Julia",
+        "referenceURL": "http://indexsmart.mirasmart.com/ISMRM2019/PDFfiles/4835.html"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Documentation",
+        "URL": "https://magneticresonanceimaging.github.io/MRIReco.jl/latest/"
+      }
+    ],
+    "dateAddedToMRHub": "2019-10-16",
+    "dateSoftwareLastUpdated": "2019-08-10",
+    "citationSearchString": "",
+    "citationCount": "0"
+  },
+  {
     "name": "NLSAM",
     "category": "Image processing",
     "shortDescription": "Non Local Spatial and Angular Matching (NLSAM) denoising algorithm for diffusion MRI",
