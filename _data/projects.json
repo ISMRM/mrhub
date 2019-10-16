@@ -6,7 +6,7 @@
     "imageFile": "mrireco.png",
     "mainURL": "https://github.com/MagneticResonanceImaging/MRIReco.jl",
     "repoURL": "https://github.com/MagneticResonanceImaging/MRIReco.jl",
-    "principalDevelopers": "Tobias Knopp",
+    "principalDevelopers": "Tobias Knopp, Mirco Grosser",
     "longDescription": "An Extensible and Modular Open-Source Image Reconstruction Framework written in Julia",
     "keywords": [
       "reconstruction",
