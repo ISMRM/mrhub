@@ -270,8 +270,8 @@
     ],
     "keyReferences": [
       {
-        "referenceText": "Frank Ong, and Michale Lustig. SigPy: A Python Package for High Performance Iterative Reconstruction. In Proc. Intl. Soc. Mag. Reson. Med. 27;4819",
-        "referenceURL": "http://cds.ismrm.org/protected/19MPresentations/abstracts/4819.html"
+        "referenceText": "Frank Ong, and Michael Lustig. SigPy: A Python Package for High Performance Iterative Reconstruction. In Proc. Intl. Soc. Mag. Reson. Med. 27;4819",
+        "referenceURL": "http://indexsmart.mirasmart.com/ISMRM2019/PDFfiles/4819.html"
       }
     ],
     "extraResources": [
@@ -596,7 +596,7 @@
     "imageFile": "nyu_mrf_recon.png",
     "mainURL": "https://bitbucket.org/asslaender/nyu_mrf_recon",
     "repoURL": "https://bitbucket.org/asslaender/nyu_mrf_recon",
-    "principalDevelopers": "<a href=\"https://med.nyu.edu/faculty/jakob-asslaender\">Jakob Assländer</a>",
+    "principalDevelopers": "<a href=\"https://med.nyu.edu/faculty/jakob-asslaender\">Jakob Assländer</a>",
     "longDescription": "The NYU MR-Fingerprinting Reconstruction Toolbox provides a general and fast framework for reconstructing MRF data. It approximates the fingerprints in a low rank space, which improves the conditioning of the problem and reduces the number of FFT operations significantly. The provided code solves the MRF reconstruction problem with an alternating direction method of multipliers, which transform the non-convex optimization problem into two subproblems, that are very similar to CG-SENSE and the dictionary fitting, respectively. The toolbox is implemented in Matlab and incorporates Fessler’s nuFFT implementation.",
     "keywords": [
       "Bitbucket",
@@ -668,7 +668,7 @@
     "imageFile": "jemris.png",
     "mainURL": "http://www.jemris.org",
     "repoURL": "https://github.com/JEMRIS/jemris",
-    "principalDevelopers": "Tony Stöcker, Daniel Pflugfelder, Kaveh Vahedipour",
+    "principalDevelopers": "Tony Stöcker, Daniel Pflugfelder, Kaveh Vahedipour",
     "longDescription": "JEMRIS is an extensible MRI simulation framework which provides a versatile MRI sequence development and simulation environment. The development was driven by the desire to achieve generality of simulated 3D MRI experiments reflecting modern MRI systems hardware. The accompanying computational burden is overcome by means of parallel computing. Many aspects of general MRI simulations are covered such as parallel transmit and receive, important off-resonance effects, non-linear gradients, and arbitrary spatiotemporal parameter variations at different levels. The latter can be used to simulate various types of spin motion, e.g. rigid motion, diffusion or flow. JEMRIS is written in C++ and can be used from the command line. The MR experiment configuration is done in XML format and binary I/O utilizes the HDF5 standard. For convenience JEMRIS can also be used via dedicated MATLAB graphical user interfaces. For instance, complex MRI sequences with arbitrary waveforms and inter-dependent modules can be modeled without any programming involved.",
     "keywords": [
       "GitHub",
@@ -677,7 +677,7 @@
     ],
     "keyReferences": [
       {
-        "referenceText": "Stöcker, T., Vahedipour, K., Pflugfelder, D., & Shah, N. J. (2010). High-performance computing MRI simulations. Magnetic Resonance in Medicine, 64(1), 18693.",
+        "referenceText": "Stöcker, T., Vahedipour, K., Pflugfelder, D., & Shah, N. J. (2010). High-performance computing MRI simulations. Magnetic Resonance in Medicine, 64(1), 18693.",
         "referenceURL": "https://doi.org/10.1002/mrm.22406"
       }
     ],
