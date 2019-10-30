@@ -740,16 +740,8 @@
     ],
     "keyReferences": [
       {
-        "referenceText": "Varma, G., et al. Low duty-cycle pulsed irradiation reduces magnetization transfer and increases the inhomogeneous magnetization transfer effect. Journal of Magnetic Resonance 296 (2018): 60-71.",
-        "referenceURL": "https://doi.org/10.1016/j.jmr.2018.08.004"
-      },
-      {
-        "referenceText": "Campbell, Jennifer SW, et al. Promise and pitfalls of g-ratio estimation with MRI. Neuroimage.  182 (2018): 80-96.",
-        "referenceURL": "https://doi.org/10.1016/j.neuroimage.2017.08.038"
-      },
-      {
-        "referenceText": "M. Mclean, M.E. MacDonald, R.M. Lebel, M. Boudreau, B. Pike, Accelerated z-Spectrum Imaging, Oral, International Society for Magnetic Resonance in Medicine Meeting (2017).",
-        "referenceURL": "http://indexsmart.mirasmart.com/ISMRM2017/PDFfiles/1205.html"
+        "referenceText": "Cabana, Jean‐François, et al. Quantitative magnetization transfer imaging made easy with q MTL ab: Software for data simulation, analysis, and visualization. Concepts in Magnetic Resonance Part A 44.5 (2015): 263-277.",
+        "referenceURL": "https://doi.org/10.1002/cmr.a.21357"
       }
     ],
     "extraResources": [
