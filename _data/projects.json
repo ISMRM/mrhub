@@ -1,4 +1,31 @@
 [
+  "name": "CORE-PI",
+		"category": "Reconstruction",
+		"shortDescription": "A Matlab toolbox for CORE-PI - a parameter-free parallel MRI reconstruction method",
+		"imageFile": "CORE_PI logo.jpg",
+		"mainURL": "https://github.com/EfratShimron/CORE-PI-toolbox",
+		"repoURL": "https://github.com/EfratShimron/CORE-PI-toolbox",
+		"principalDevelopers": "Efrat Shimron, Andrew Webb, Haim Azhari",
+		"longDescription": "CORE-PI is a general parallel-MRI reconstruction method. It is linear (non-iterative) and does not require calibration of any parameters. This toolbox includes Matlab code for implementing CORE-PI and demonstrations of the method for a simulated phantom and in-vivo datasets",
+		"keywords": [
+			"reconstruction",
+			"parallel imaging",
+			"undersampling",
+			"sparsity",
+			"parameter-free",
+			"wavelet"
+		],
+		"keyReferences": [{
+			"referenceText": "CORE‐PI: Non‐iterative convolution‐based reconstruction for parallel MRI in the wavelet domain‏",
+			"referenceURL": "https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.13260"
+		}],
+		"extraResources": [{}],
+		"dateAddedToMRHub": "2019-12-25",
+		"dateSoftwareLastUpdated": "2019-12-25",
+		"citationSearchString": "091ad971f140c40403eb8dd0e35c4863d6c434ee",
+		"citationCount": "0"
+	},
+
   {
     "name": "MRIReco.jl",
     "category": "Reconstruction",
