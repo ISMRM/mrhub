@@ -3,7 +3,7 @@
     "name": "CORE-PI",
     "category": "Reconstruction",
     "shortDescription": "A Matlab toolbox for CORE-PI - a parameter-free parallel MRI reconstruction method",
-    "imageFile": "CORE_PI_logo.png",
+    "imageFile": "core_pi.png",
     "mainURL": "https://github.com/EfratShimron/CORE-PI-toolbox",
     "repoURL": "https://github.com/EfratShimron/CORE-PI-toolbox",
     "principalDevelopers": "Efrat Shimron, Andrew Webb, Haim Azhari",
