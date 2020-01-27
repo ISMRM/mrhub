@@ -823,5 +823,44 @@
     "dateSoftwareLastUpdated": "2019-12-23",
     "citationSearchString": "8c5511d9ecad595dba390a718957be8c84c22f7a",
     "citationCount": "3"
+  },
+  {
+    "name": "DIPY",
+    "category": "Multipurpose",
+    "shortDescription": "Scientific computing software and community-driven medical imaging organization",
+    "imageFile": "dipy.png",
+    "mainURL": "https://dipy.org",
+    "repoURL": "https://github.com/dipy/dipy",
+    "principalDevelopers": "Eleftherios Garyfallidis, Matthew Brett, Bagrat Amirbekian, Ariel Rokem, Stefan van der Walt, Maxime Descoteaux, Ian Nimmo-Smith and DIPY Contributors",
+    "longDescription": "DIPY is the paragon 3D/4D+ imaging library in Python. Contains generic methods for spatial normalization, signal processing, machine learning, statistical analysis and visualization of medical images. Additionally, it contains specialized methods for computational anatomy including diffusion, perfusion and structural imaging.",
+    "keywords": ["DTI", "DKI", "dMRI", "diffusion MRI", "neuroimaging", "tractography", "Diffusion Imaging In Python", "ODF", "registration"],
+    "keyReferences": [
+      {
+        "referenceText": "Dipy, a library for the analysis of diffusion MRI data",
+        "referenceURL": "https://doi.org/10.3389/fninf.2014.00008"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Tutorial",
+        "URL": "https://dipy.org/tutorials/"
+      },
+      {
+        "resourceType": "Gallery",
+        "URL": "https://dipy.org/gallery/"
+      },
+      {
+        "resourceType": "User Forum",
+        "URL": "https://gitter.im/nipy/dipy"
+      },
+      {
+        "resourceType": "Workshop",
+        "URL": "https://workshop.dipy.org/"
+      }
+    ],
+    "dateAddedToMRHub": "2020-01-27",
+    "dateSoftwareLastUpdated": "2020-01-10",
+    "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
+    "citationCount": "226"
   }
 ]
