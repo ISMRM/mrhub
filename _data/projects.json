@@ -27,7 +27,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-12-25",
-    "dateSoftwareLastUpdated": "2019-12-23",
+    "dateSoftwareLastUpdated": "2020-01-06",
     "citationSearchString": "091ad971f140c40403eb8dd0e35c4863d6c434ee",
     "citationCount": "0"
   },
@@ -62,7 +62,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-10-16",
-    "dateSoftwareLastUpdated": "2019-12-15",
+    "dateSoftwareLastUpdated": "2020-01-24",
     "citationSearchString": "n/a",
     "citationCount": "0"
   },
@@ -97,9 +97,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-06-19",
-    "dateSoftwareLastUpdated": "2019-12-20",
+    "dateSoftwareLastUpdated": "2020-01-15",
     "citationSearchString": "10.1016/j.media.2016.02.010",
-    "citationCount": "25"
+    "citationCount": "26"
   },
   {
     "name": "Gannet",
@@ -173,7 +173,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-30",
-    "dateSoftwareLastUpdated": "2019-12-06",
+    "dateSoftwareLastUpdated": "2020-01-24",
     "citationSearchString": "10.1002/mrm.25528",
     "citationCount": "17"
   },
@@ -241,9 +241,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2019-12-17",
+    "dateSoftwareLastUpdated": "2020-01-18",
     "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-    "citationCount": "9"
+    "citationCount": "11"
   },
   {
     "name": "gammaSTAR",
@@ -409,9 +409,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-01-03",
+    "dateSoftwareLastUpdated": "2020-01-25",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "287"
+    "citationCount": "289"
   },
   {
     "name": "Gadgetron",
@@ -451,7 +451,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2020-01-02",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "101"
+    "citationCount": "102"
   },
   {
     "name": "gpuNUFFT",
@@ -513,7 +513,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2019-09-27",
+    "dateSoftwareLastUpdated": "2020-01-24",
     "citationSearchString": "10.1002/mrm.26089",
     "citationCount": "13"
   },
@@ -652,7 +652,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-06",
     "citationSearchString": "10.1002/mrm.26639",
-    "citationCount": "33"
+    "citationCount": "35"
   },
   {
     "name": "QUIT",
@@ -752,7 +752,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2019-12-19",
+    "dateSoftwareLastUpdated": "2020-01-15",
     "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
     "citationCount": "77"
   },
@@ -783,7 +783,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2019-12-29",
+    "dateSoftwareLastUpdated": "2020-01-07",
     "citationSearchString": "10.1002/cmr.a.21357",
     "citationCount": "8"
   },
@@ -820,7 +820,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-07-03",
-    "dateSoftwareLastUpdated": "2019-12-23",
+    "dateSoftwareLastUpdated": "2020-01-08",
     "citationSearchString": "8c5511d9ecad595dba390a718957be8c84c22f7a",
     "citationCount": "3"
   },
@@ -833,7 +833,17 @@
     "repoURL": "https://github.com/dipy/dipy",
     "principalDevelopers": "Eleftherios Garyfallidis, Matthew Brett, Bagrat Amirbekian, Ariel Rokem, Stefan van der Walt, Maxime Descoteaux, Ian Nimmo-Smith and DIPY Contributors",
     "longDescription": "DIPY is the paragon 3D/4D+ imaging library in Python. Contains generic methods for spatial normalization, signal processing, machine learning, statistical analysis and visualization of medical images. Additionally, it contains specialized methods for computational anatomy including diffusion, perfusion and structural imaging.",
-    "keywords": ["DTI", "DKI", "dMRI", "diffusion MRI", "neuroimaging", "tractography", "Diffusion Imaging In Python", "ODF", "registration"],
+    "keywords": [
+      "DTI",
+      "DKI",
+      "dMRI",
+      "diffusion MRI",
+      "neuroimaging",
+      "tractography",
+      "Diffusion Imaging In Python",
+      "ODF",
+      "registration"
+    ],
     "keyReferences": [
       {
         "referenceText": "Dipy, a library for the analysis of diffusion MRI data",
@@ -859,8 +869,8 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2020-01-10",
+    "dateSoftwareLastUpdated": "2020-01-28",
     "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
-    "citationCount": "226"
+    "citationCount": "228"
   }
 ]
