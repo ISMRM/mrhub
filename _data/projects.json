@@ -267,19 +267,23 @@
     ],
     "keyReferences": [
       {
-        "referenceText": "Cordes C, Konstandin S, Mensing D, Archipovas S, Wilke R, Günther M. Configuring, Viewing, Exploring and Exporting Reproducible, Vendor-Independent MRI Pulse Sequences. In Proc. ISMRM 27:4826",
-        "referenceURL": "http://cds.ismrm.org/protected/19MPresentations/abstracts/4826.html"
+        "referenceText": "Cordes, C, Konstandin, S, Porter, D, Günther, M. Portable and platform‐independent MR pulse sequence programs. Magn Reson Med. 2020; 83: 1277– 1290.",
+        "referenceURL": "https://doi.org/10.1002/mrm.28020"
       }
     ],
     "extraResources": [
+      {
+        "resourceType": "IPFS Mirror",
+        "URL": "https://ipfs.io/ipns/QmQYBinMaYbMFsSQ2TwrYEvKk5BBnan1EsjVcUdDnupYBW"
+      },
       {
         "resourceType": "Demo Videos",
         "URL": "https://www.youtube.com/playlist?list=PL0A7u8ZJFB4VlI7gjuLfvoe2iQ-koE8tZ"
       }
     ],
     "dateAddedToMRHub": "2019-05-29",
-    "dateSoftwareLastUpdated": "2019-05-12",
-    "citationSearchString": "gammaSTAR",
+    "dateSoftwareLastUpdated": "2020-01-29",
+    "citationSearchString": "10.1002/mrm.28020",
     "citationCount": "0"
   },
   {
