@@ -3,7 +3,7 @@
         "name": "QMRITools",
         "category": "Multipurpose",
         "shortDescription": "`QMRITools` is written in Mathematica using Wolfram Workbench and Eclipse and contains a collection of tools and functions for processing quantitative MRI data.",
-        "imageFile": "QMRITools.jpg",
+        "imageFile": "QMRITools.png",
         "mainURL": "https://mfroeling.github.io/QMRITools/",
         "repoURL": "https://github.com/mfroeling/QMRITools",
         "principalDevelopers": "Martijn Froeling",
