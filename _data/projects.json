@@ -1,4 +1,48 @@
-[
+[    
+  {
+        "name": "QMRITools",
+        "category": "Multipurpose",
+        "shortDescription": "`QMRITools` is written in Mathematica using Wolfram Workbench and Eclipse and contains a collection of tools and functions for processing quantitative MRI data.",
+        "imageFile": "QMRITools.jpg",
+        "mainURL": "https://mfroeling.github.io/QMRITools/",
+        "repoURL": "https://github.com/mfroeling/QMRITools",
+        "principalDevelopers": "Martijn Froeling",
+        "longDescription": "QMRITools is written in Mathematica using Wolfram Workbench and Eclipse and contains a collection of tools and functions for processing quantitative MRI data. The toolbox does not provide a GUI and its primary goal is to allow for fast and batch data processing, and facilitate development and prototyping of new functions. The core of the toolbox contains various functions for data manipulation and restructuring. The toolbox was developed mostly in the context of quantitative muscle (Froeling et al. 2012), nerve and cardiac magnetic resonance imaging. The library of functions grows along with the research it is used for and started as a toolbox to analyze DWI data of muscle. Since then it has grown to include many other features such as cardiac analysis (tagging and T1 mapping), dixon reconstruction, EPG modeling and fitting, j-coupling simulations and more. It currently contains over 350 custom functions (over 20.000 lines of code) complete with documentation and demonstrations.",
+        "keywords": ["Diffusion tensor imaging", "Mathematica", "Image Analysis", "Simulation", "Visualisation", "Spectroscopy", "Image processing", "Cardiac MRI", "Dixon reconstruction", "EPG based T2 fitting"],
+        "keyReferences": [
+            {
+                "referenceText": "JOSS publication. QMRTools: a Mathematica toolbox for quantitative MRI analysis.",
+                "referenceURL": "https://joss.theoj.org/papers/10.21105/joss.01204"
+            }, 
+            
+            {
+                "referenceText": "First use of the toolbox. Diffusion‐tensor MRI reveals the complex muscle architecture of the human forearm",
+                "referenceURL": "https://onlinelibrary.wiley.com/doi/10.1002/jmri.23608"
+            },
+			
+			{
+                "referenceText": "First reproducibility evaluation. Reproducibility of diffusion tensor imaging in human forearm muscles at 3.0 T in a clinical setting",
+                "referenceURL": "https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.22477"
+            },
+			
+			{
+                "referenceText": "Recent multi center validation. Multi‐center evaluation of stability and reproducibility of quantitative MRI measures in healthy calf muscles",
+                "referenceURL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/nbm.4119"
+            } 
+			
+            
+        ],
+        "extraResources": [
+            {
+                "resourceType": "Online documention using Mathematica documentions",
+                "URL": "https://mfroeling.github.io/QMRITools/htmldoc/guide/QMRITools.html"
+            }
+        ],
+        "dateAddedToMRHub": "2020-05-25",
+        "dateSoftwareLastUpdated": "2020-05-25",
+        "citationSearchString": "CorpusID:195755688",
+        "citationCount": ""
+    },
   {
     "name": "CORE-PI",
     "category": "Reconstruction",
