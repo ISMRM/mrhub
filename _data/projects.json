@@ -1,48 +1,54 @@
-[    
+[
   {
-        "name": "QMRITools",
-        "category": "Multipurpose",
-        "shortDescription": "`QMRITools` is written in Mathematica using Wolfram Workbench and Eclipse and contains a collection of tools and functions for processing quantitative MRI data.",
-        "imageFile": "QMRITools.png",
-        "mainURL": "https://mfroeling.github.io/QMRITools/",
-        "repoURL": "https://github.com/mfroeling/QMRITools",
-        "principalDevelopers": "Martijn Froeling",
-        "longDescription": "QMRITools is written in Mathematica using Wolfram Workbench and Eclipse and contains a collection of tools and functions for processing quantitative MRI data. The toolbox does not provide a GUI and its primary goal is to allow for fast and batch data processing, and facilitate development and prototyping of new functions. The core of the toolbox contains various functions for data manipulation and restructuring. The toolbox was developed mostly in the context of quantitative muscle (Froeling et al. 2012), nerve and cardiac magnetic resonance imaging. The library of functions grows along with the research it is used for and started as a toolbox to analyze DWI data of muscle. Since then it has grown to include many other features such as cardiac analysis (tagging and T1 mapping), dixon reconstruction, EPG modeling and fitting, j-coupling simulations and more. It currently contains over 350 custom functions (over 20.000 lines of code) complete with documentation and demonstrations.",
-        "keywords": ["Diffusion tensor imaging", "Mathematica", "Image Analysis", "Simulation", "Visualisation", "Spectroscopy", "Image processing", "Cardiac MRI", "Dixon reconstruction", "EPG based T2 fitting"],
-        "keyReferences": [
-            {
-                "referenceText": "JOSS publication. QMRTools: a Mathematica toolbox for quantitative MRI analysis.",
-                "referenceURL": "https://joss.theoj.org/papers/10.21105/joss.01204"
-            }, 
-            
-            {
-                "referenceText": "First use of the toolbox. Diffusion‐tensor MRI reveals the complex muscle architecture of the human forearm",
-                "referenceURL": "https://onlinelibrary.wiley.com/doi/10.1002/jmri.23608"
-            },
-			
-			{
-                "referenceText": "First reproducibility evaluation. Reproducibility of diffusion tensor imaging in human forearm muscles at 3.0 T in a clinical setting",
-                "referenceURL": "https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.22477"
-            },
-			
-			{
-                "referenceText": "Recent multi center validation. Multi‐center evaluation of stability and reproducibility of quantitative MRI measures in healthy calf muscles",
-                "referenceURL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/nbm.4119"
-            } 
-			
-            
-        ],
-        "extraResources": [
-            {
-                "resourceType": "Online documention using Mathematica documentions",
-                "URL": "https://mfroeling.github.io/QMRITools/htmldoc/guide/QMRITools.html"
-            }
-        ],
-        "dateAddedToMRHub": "2020-05-25",
-        "dateSoftwareLastUpdated": "2020-05-25",
-        "citationSearchString": "CorpusID:195755688",
-        "citationCount": ""
-    },
+    "name": "QMRITools",
+    "category": "Multipurpose",
+    "shortDescription": "`QMRITools` is written in Mathematica using Wolfram Workbench and Eclipse and contains a collection of tools and functions for processing quantitative MRI data.",
+    "imageFile": "QMRITools.png",
+    "mainURL": "https://mfroeling.github.io/QMRITools/",
+    "repoURL": "https://github.com/mfroeling/QMRITools",
+    "principalDevelopers": "Martijn Froeling",
+    "longDescription": "QMRITools is written in Mathematica using Wolfram Workbench and Eclipse and contains a collection of tools and functions for processing quantitative MRI data. The toolbox does not provide a GUI and its primary goal is to allow for fast and batch data processing, and facilitate development and prototyping of new functions. The core of the toolbox contains various functions for data manipulation and restructuring. The toolbox was developed mostly in the context of quantitative muscle (Froeling et al. 2012), nerve and cardiac magnetic resonance imaging. The library of functions grows along with the research it is used for and started as a toolbox to analyze DWI data of muscle. Since then it has grown to include many other features such as cardiac analysis (tagging and T1 mapping), dixon reconstruction, EPG modeling and fitting, j-coupling simulations and more. It currently contains over 350 custom functions (over 20.000 lines of code) complete with documentation and demonstrations.",
+    "keywords": [
+      "Diffusion tensor imaging",
+      "Mathematica",
+      "Image Analysis",
+      "Simulation",
+      "Visualisation",
+      "Spectroscopy",
+      "Image processing",
+      "Cardiac MRI",
+      "Dixon reconstruction",
+      "EPG based T2 fitting"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "JOSS publication. QMRTools: a Mathematica toolbox for quantitative MRI analysis.",
+        "referenceURL": "https://joss.theoj.org/papers/10.21105/joss.01204"
+      },
+      {
+        "referenceText": "First use of the toolbox. Diffusion‐tensor MRI reveals the complex muscle architecture of the human forearm",
+        "referenceURL": "https://onlinelibrary.wiley.com/doi/10.1002/jmri.23608"
+      },
+      {
+        "referenceText": "First reproducibility evaluation. Reproducibility of diffusion tensor imaging in human forearm muscles at 3.0 T in a clinical setting",
+        "referenceURL": "https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.22477"
+      },
+      {
+        "referenceText": "Recent multi center validation. Multi‐center evaluation of stability and reproducibility of quantitative MRI measures in healthy calf muscles",
+        "referenceURL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/nbm.4119"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Online documention using Mathematica documentions",
+        "URL": "https://mfroeling.github.io/QMRITools/htmldoc/guide/QMRITools.html"
+      }
+    ],
+    "dateAddedToMRHub": "2020-05-25",
+    "dateSoftwareLastUpdated": "2020-05-22",
+    "citationSearchString": "CorpusID:195755688",
+    "citationCount": "0"
+  },
   {
     "name": "CORE-PI",
     "category": "Reconstruction",
@@ -71,9 +77,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-12-25",
-    "dateSoftwareLastUpdated": "2020-01-06",
+    "dateSoftwareLastUpdated": "2020-05-09",
     "citationSearchString": "091ad971f140c40403eb8dd0e35c4863d6c434ee",
-    "citationCount": "0"
+    "citationCount": "1"
   },
   {
     "name": "MRIReco.jl",
@@ -106,7 +112,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-10-16",
-    "dateSoftwareLastUpdated": "2020-01-24",
+    "dateSoftwareLastUpdated": "2020-02-09",
     "citationSearchString": "n/a",
     "citationCount": "0"
   },
@@ -141,9 +147,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-06-19",
-    "dateSoftwareLastUpdated": "2020-01-15",
+    "dateSoftwareLastUpdated": "2020-03-11",
     "citationSearchString": "10.1016/j.media.2016.02.010",
-    "citationCount": "26"
+    "citationCount": "37"
   },
   {
     "name": "Gannet",
@@ -180,7 +186,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
-    "citationCount": "134"
+    "citationCount": "169"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -217,9 +223,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-30",
-    "dateSoftwareLastUpdated": "2020-01-24",
+    "dateSoftwareLastUpdated": "2020-04-27",
     "citationSearchString": "10.1002/mrm.25528",
-    "citationCount": "17"
+    "citationCount": "20"
   },
   {
     "name": "Water/Fat Separated MR Thermometry",
@@ -251,7 +257,7 @@
     "dateAddedToMRHub": "2019-05-29",
     "dateSoftwareLastUpdated": "2018-09-26",
     "citationSearchString": "10.1002/mrm.27567",
-    "citationCount": "1"
+    "citationCount": "2"
   },
   {
     "name": "MRtrix3",
@@ -285,9 +291,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-01-18",
+    "dateSoftwareLastUpdated": "2020-05-22",
     "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-    "citationCount": "11"
+    "citationCount": "56"
   },
   {
     "name": "gammaSTAR",
@@ -361,7 +367,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2019-12-20",
+    "dateSoftwareLastUpdated": "2020-04-27",
     "citationSearchString": "SigPy",
     "citationCount": "0"
   },
@@ -407,7 +413,7 @@
     "dateAddedToMRHub": "2019-05-23",
     "dateSoftwareLastUpdated": "2019-10-31",
     "citationSearchString": "10.1002/mrm.25670",
-    "citationCount": "32"
+    "citationCount": "43"
   },
   {
     "name": "Berkeley Advanced Reconstruction Toolbox (BART)",
@@ -457,9 +463,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-01-25",
+    "dateSoftwareLastUpdated": "2020-05-26",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "289"
+    "citationCount": "354"
   },
   {
     "name": "Gadgetron",
@@ -497,9 +503,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-01-02",
+    "dateSoftwareLastUpdated": "2020-05-24",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "102"
+    "citationCount": "122"
   },
   {
     "name": "gpuNUFFT",
@@ -529,9 +535,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2018-01-30",
+    "dateSoftwareLastUpdated": "2020-04-04",
     "citationSearchString": "c788ecd4a6ac9d3d7013a94515ec0718274e9907",
-    "citationCount": "23"
+    "citationCount": "27"
   },
   {
     "name": "ISMRMRD",
@@ -561,9 +567,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-01-24",
+    "dateSoftwareLastUpdated": "2020-05-07",
     "citationSearchString": "10.1002/mrm.26089",
-    "citationCount": "13"
+    "citationCount": "17"
   },
   {
     "name": "Low Field Simulator",
@@ -597,7 +603,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2016-07-12",
     "citationSearchString": "10.1371/journal.pone.0154711",
-    "citationCount": "3"
+    "citationCount": "4"
   },
   {
     "name": "Pulseq",
@@ -628,7 +634,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-10-02",
     "citationSearchString": "10.1002/mrm.26235",
-    "citationCount": "11"
+    "citationCount": "17"
   },
   {
     "name": "MRiLab",
@@ -667,7 +673,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-10",
     "citationSearchString": "10.1109/TMI.2016.2620961",
-    "citationCount": "15"
+    "citationCount": "18"
   },
   {
     "name": "NYU MR-Fingerprinting Reconstruction Toolbox",
@@ -700,7 +706,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-06",
     "citationSearchString": "10.1002/mrm.26639",
-    "citationCount": "35"
+    "citationCount": "49"
   },
   {
     "name": "QUIT",
@@ -737,9 +743,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2019-12-19",
+    "dateSoftwareLastUpdated": "2020-03-30",
     "citationSearchString": "10.21105/joss.00656",
-    "citationCount": "4"
+    "citationCount": "11"
   },
   {
     "name": "JEMRIS",
@@ -770,7 +776,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-06-24",
     "citationSearchString": "10.1002/mrm.22406",
-    "citationCount": "35"
+    "citationCount": "51"
   },
   {
     "name": "Spinal Cord Toolbox (SCT)",
@@ -800,9 +806,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-01-15",
+    "dateSoftwareLastUpdated": "2020-05-24",
     "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
-    "citationCount": "77"
+    "citationCount": "96"
   },
   {
     "name": "qMRLab",
@@ -831,9 +837,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-01-07",
+    "dateSoftwareLastUpdated": "2020-05-07",
     "citationSearchString": "10.1002/cmr.a.21357",
-    "citationCount": "8"
+    "citationCount": "12"
   },
   {
     "name": "Yarra Framework",
@@ -868,7 +874,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-07-03",
-    "dateSoftwareLastUpdated": "2020-01-08",
+    "dateSoftwareLastUpdated": "2020-05-22",
     "citationSearchString": "8c5511d9ecad595dba390a718957be8c84c22f7a",
     "citationCount": "3"
   },
@@ -917,8 +923,8 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2020-01-28",
+    "dateSoftwareLastUpdated": "2020-05-19",
     "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
-    "citationCount": "228"
+    "citationCount": "306"
   }
 ]
