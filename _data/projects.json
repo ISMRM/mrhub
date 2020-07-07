@@ -1,5 +1,29 @@
 [
   {
+    "name": "ExploreASL",
+    "category": "Image processing",
+    "shortDescription": "Pipeline and toolbox for image processing, QC and visualization of arterial spin labeling perfusion MR images",
+    "imageFile": "ExploreASL.png",
+    "mainURL": "https://ExploreASL.org",
+    "repoURL": "https://github.com/ExploreASL/ExploreASL",
+    "principalDevelopers": "Henk Mutsaerts, Jan Petr, Michael Stritt, Pieter Vandemaele, Paul Groot",
+    "longDescription": "ExploreASL is designed as a multi-OS, open source, collaborative framework that facilitates cross-pollination between image processing method developers and clinical investigators. It is based on Matlab, SPM, CAT12, LST. ExploreASL provides a complete head - to - tail approach that runs fully automatically, encompassing all necessary tasks from data import and structural segmentation, registration and normalization, up to CBF quantification.In addition, the software package includes and quality control(QC) procedures and region - of -interest(ROI) as well as voxel - wise analysis on the extracted data.To - date, ExploreASL has been used for processing~10000 ASL datasets from all major MRI vendors and ASL sequences, and a variety of patient populations, representing~30 studies.The ultimate goal of ExploreASL is to combine data from multiple studies to identify disease related perfusion patterns that may prove crucial in using ASL as a diagnostic took and enhance our understanding of the interplay of perfusion and structural changes in neurodegenerative pathophysiology. Additionally, this (semi-) automatic pipeline allows us to minimize manual intervention, which increases the reproducibility of studies.",
+    "keywords": ["ASL", "perfusion", "MRI", "image processing", "quality control", "clinical"],
+    "keyReferences": [{
+        "referenceText": "Mutsaerts, H, Petr, J, Groot, P, Vandemaele, P, et al. ExploreASL: An Image Processing Pipeline for Multi-Center ASL Perfusion MRI Studies. NeuroImage. 2020, Jun 8;219:117031)",
+        "referenceURL": "https://pubmed.ncbi.nlm.nih.gov/32526385/"
+    }],
+    "extraResources": [{
+        "resourceType": "Video Tutorials on the website",
+        "URL": "https://sites.google.com/view/exploreasl/exploreasl/videotutorials"
+    }],
+    "dateAddedToMRHub": "2020-07-07",
+    "dateSoftwareLastUpdated": "2020-07-06",
+    "citationSearchString": "10.1016/j.neuroimage.2020.117031",
+    "citationCount": "0"
+  },
+
+  {
     "name": "QMRITools",
     "category": "Multipurpose",
     "shortDescription": "`QMRITools` is written in Mathematica using Wolfram Workbench and Eclipse and contains a collection of tools and functions for processing quantitative MRI data.",
