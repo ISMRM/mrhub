@@ -8,21 +8,31 @@
     "repoURL": "https://github.com/ExploreASL/ExploreASL",
     "principalDevelopers": "Henk Mutsaerts, Jan Petr, Michael Stritt, Pieter Vandemaele, Paul Groot",
     "longDescription": "ExploreASL is designed as a multi-OS, open source, collaborative framework that facilitates cross-pollination between image processing method developers and clinical investigators. It is based on Matlab, SPM, CAT12, LST. ExploreASL provides a complete head - to - tail approach that runs fully automatically, encompassing all necessary tasks from data import and structural segmentation, registration and normalization, up to CBF quantification.In addition, the software package includes and quality control(QC) procedures and region - of -interest(ROI) as well as voxel - wise analysis on the extracted data.To - date, ExploreASL has been used for processing~10000 ASL datasets from all major MRI vendors and ASL sequences, and a variety of patient populations, representing~30 studies.The ultimate goal of ExploreASL is to combine data from multiple studies to identify disease related perfusion patterns that may prove crucial in using ASL as a diagnostic took and enhance our understanding of the interplay of perfusion and structural changes in neurodegenerative pathophysiology. Additionally, this (semi-) automatic pipeline allows us to minimize manual intervention, which increases the reproducibility of studies.",
-    "keywords": ["ASL", "perfusion", "MRI", "image processing", "quality control", "clinical"],
-    "keyReferences": [{
+    "keywords": [
+      "ASL",
+      "perfusion",
+      "MRI",
+      "image processing",
+      "quality control",
+      "clinical"
+    ],
+    "keyReferences": [
+      {
         "referenceText": "Mutsaerts, H, Petr, J, Groot, P, Vandemaele, P, et al. ExploreASL: An Image Processing Pipeline for Multi-Center ASL Perfusion MRI Studies. NeuroImage. 2020, Jun 8;219:117031)",
         "referenceURL": "https://pubmed.ncbi.nlm.nih.gov/32526385/"
-    }],
-    "extraResources": [{
+      }
+    ],
+    "extraResources": [
+      {
         "resourceType": "Video Tutorials on the website",
         "URL": "https://sites.google.com/view/exploreasl/exploreasl/videotutorials"
-    }],
+      }
+    ],
     "dateAddedToMRHub": "2020-07-07",
     "dateSoftwareLastUpdated": "2020-07-06",
     "citationSearchString": "10.1016/j.neuroimage.2020.117031",
     "citationCount": "0"
   },
-
   {
     "name": "QMRITools",
     "category": "Multipurpose",
@@ -69,7 +79,7 @@
       }
     ],
     "dateAddedToMRHub": "2020-05-25",
-    "dateSoftwareLastUpdated": "2020-05-22",
+    "dateSoftwareLastUpdated": "2020-06-26",
     "citationSearchString": "CorpusID:195755688",
     "citationCount": "0"
   },
@@ -136,7 +146,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-10-16",
-    "dateSoftwareLastUpdated": "2020-02-09",
+    "dateSoftwareLastUpdated": "2020-06-27",
     "citationSearchString": "n/a",
     "citationCount": "0"
   },
@@ -173,7 +183,7 @@
     "dateAddedToMRHub": "2019-06-19",
     "dateSoftwareLastUpdated": "2020-03-11",
     "citationSearchString": "10.1016/j.media.2016.02.010",
-    "citationCount": "37"
+    "citationCount": "41"
   },
   {
     "name": "Gannet",
@@ -210,7 +220,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
-    "citationCount": "169"
+    "citationCount": "204"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -249,7 +259,7 @@
     "dateAddedToMRHub": "2019-05-30",
     "dateSoftwareLastUpdated": "2020-04-27",
     "citationSearchString": "10.1002/mrm.25528",
-    "citationCount": "20"
+    "citationCount": "26"
   },
   {
     "name": "Water/Fat Separated MR Thermometry",
@@ -281,7 +291,7 @@
     "dateAddedToMRHub": "2019-05-29",
     "dateSoftwareLastUpdated": "2018-09-26",
     "citationSearchString": "10.1002/mrm.27567",
-    "citationCount": "2"
+    "citationCount": "5"
   },
   {
     "name": "MRtrix3",
@@ -315,9 +325,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-05-22",
+    "dateSoftwareLastUpdated": "2020-07-01",
     "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-    "citationCount": "56"
+    "citationCount": "82"
   },
   {
     "name": "gammaSTAR",
@@ -391,7 +401,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2020-04-27",
+    "dateSoftwareLastUpdated": "2020-06-26",
     "citationSearchString": "SigPy",
     "citationCount": "0"
   },
@@ -437,7 +447,7 @@
     "dateAddedToMRHub": "2019-05-23",
     "dateSoftwareLastUpdated": "2019-10-31",
     "citationSearchString": "10.1002/mrm.25670",
-    "citationCount": "43"
+    "citationCount": "53"
   },
   {
     "name": "Berkeley Advanced Reconstruction Toolbox (BART)",
@@ -487,9 +497,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-05-26",
+    "dateSoftwareLastUpdated": "2020-07-03",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "354"
+    "citationCount": "451"
   },
   {
     "name": "Gadgetron",
@@ -527,9 +537,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-05-24",
+    "dateSoftwareLastUpdated": "2020-07-06",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "122"
+    "citationCount": "146"
   },
   {
     "name": "gpuNUFFT",
@@ -561,7 +571,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2020-04-04",
     "citationSearchString": "c788ecd4a6ac9d3d7013a94515ec0718274e9907",
-    "citationCount": "27"
+    "citationCount": "30"
   },
   {
     "name": "ISMRMRD",
@@ -591,9 +601,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-05-07",
+    "dateSoftwareLastUpdated": "2020-06-22",
     "citationSearchString": "10.1002/mrm.26089",
-    "citationCount": "17"
+    "citationCount": "20"
   },
   {
     "name": "Low Field Simulator",
@@ -627,7 +637,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2016-07-12",
     "citationSearchString": "10.1371/journal.pone.0154711",
-    "citationCount": "4"
+    "citationCount": "6"
   },
   {
     "name": "Pulseq",
@@ -658,7 +668,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-10-02",
     "citationSearchString": "10.1002/mrm.26235",
-    "citationCount": "17"
+    "citationCount": "19"
   },
   {
     "name": "MRiLab",
@@ -697,7 +707,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-10",
     "citationSearchString": "10.1109/TMI.2016.2620961",
-    "citationCount": "18"
+    "citationCount": "21"
   },
   {
     "name": "NYU MR-Fingerprinting Reconstruction Toolbox",
@@ -730,7 +740,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-06",
     "citationSearchString": "10.1002/mrm.26639",
-    "citationCount": "49"
+    "citationCount": "75"
   },
   {
     "name": "QUIT",
@@ -767,9 +777,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-03-30",
+    "dateSoftwareLastUpdated": "2020-07-03",
     "citationSearchString": "10.21105/joss.00656",
-    "citationCount": "11"
+    "citationCount": "0"
   },
   {
     "name": "JEMRIS",
@@ -800,7 +810,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-06-24",
     "citationSearchString": "10.1002/mrm.22406",
-    "citationCount": "51"
+    "citationCount": "58"
   },
   {
     "name": "Spinal Cord Toolbox (SCT)",
@@ -830,9 +840,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-05-24",
+    "dateSoftwareLastUpdated": "2020-07-07",
     "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
-    "citationCount": "96"
+    "citationCount": "125"
   },
   {
     "name": "qMRLab",
@@ -861,9 +871,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-05-07",
+    "dateSoftwareLastUpdated": "2020-05-26",
     "citationSearchString": "10.1002/cmr.a.21357",
-    "citationCount": "12"
+    "citationCount": "19"
   },
   {
     "name": "Yarra Framework",
@@ -898,9 +908,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-07-03",
-    "dateSoftwareLastUpdated": "2020-05-22",
+    "dateSoftwareLastUpdated": "2020-06-25",
     "citationSearchString": "8c5511d9ecad595dba390a718957be8c84c22f7a",
-    "citationCount": "3"
+    "citationCount": "2"
   },
   {
     "name": "DIPY",
@@ -947,8 +957,8 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2020-05-19",
+    "dateSoftwareLastUpdated": "2020-05-29",
     "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
-    "citationCount": "306"
+    "citationCount": "358"
   }
 ]
