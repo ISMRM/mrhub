@@ -1,5 +1,72 @@
 [
   {
+    "name": "TED",
+    "category": "Reconstruction",
+    "shortDescription": "A Matlab toolbox for Temporal Differences (TED) Compressed Sensing - a method for fast dynamic MRI",
+    "imageFile": "TED.png",
+    "mainURL": "https://github.com/EfratShimron/CORE-PI-toolbox",
+    "repoURL": "https://github.com/EfratShimron/CORE-PI-toolbox",
+    "principalDevelopers": "Efrat Shimron, William Grissom, Haim Azhari",
+    "longDescription": "TED is a Compressed Sensing method for rapid dynamic MRI which enables reconstruction from highly subsampleded k-space data. It was demonstrated in our paper for reconstruction of temperature change in MR-guided-HIFU, yet it is general and hence can be applied to other dynamic MRI datasets. It is suitable for single-coil and multi-coil acquisitions.",
+    "keywords": [
+      "reconstruction",
+      "dynamic MRI"      
+      "single coil"
+      "parallel imaging",
+      "undersampling",
+      "sparsity",
+      "temperature reconstruction"
+      "MRgHIFU"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Temporal differences (TED) compressed sensing: a method for fast MRgHIFU temperature imaging",
+        "referenceURL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/nbm.4352"
+      }
+    ],
+    "extraResources": [
+      {
+      }
+    ],
+    "dateAddedToMRHub": "2020-07-11",
+    "dateSoftwareLastUpdated": "2020-07-11",
+    "citationSearchString": "",
+    "citationCount": "0"
+  },
+  
+  {
+    "name": "CORE-Deblur",
+    "category": "Reconstruction",
+    "shortDescription": "A Matlab toolbox for CORE-Deblur - a method for accelerating Compressed Sensing Parallel MRI reconstruction",
+    "imageFile": "DEBLUR2.png",
+    "mainURL": "https://github.com/EfratShimron/CORE_Deblur_toolbox",
+    "repoURL": "https://github.com/EfratShimron/CORE_Deblur_toolbox",
+    "principalDevelopers": "Efrat Shimron, Andrew Webb, Haim Azhari",
+    "longDescription": "CORE-Deblur is a general parallel-MRI reconstruction method which reduces the number of Compressed Sensing iterations by 10-fold. This toolbox includes Matlab code and demonstrations of the method for in-vivo datasets",
+    "keywords": [
+      "reconstruction",
+      "parallel imaging",
+      "Compressed Sensing"
+      "undersampling",
+      "sparsity", 
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "CORE-Deblur: Parallel MRI Reconstruction by Deblurring using Compressed Sensing",
+        "referenceURL": "https://www.sciencedirect.com/science/article/pii/S0730725X20301879?dgcid=coauthor"
+      }
+    ],
+    "extraResources": [
+      {
+      }
+    ],
+    "dateAddedToMRHub": "2020-07-11",
+    "dateSoftwareLastUpdated": "2020-07-11",
+    "citationSearchString": "005ce859bd64cfcc9c2990f384cbea458e215be6",
+    "citationCount": "0"
+  },
+  
+  {
     "name": "ExploreASL",
     "category": "Image processing",
     "shortDescription": "Pipeline and toolbox for image processing, QC and visualization of arterial spin labeling perfusion MR images",
