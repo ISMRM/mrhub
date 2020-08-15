@@ -1,32 +1,42 @@
 [
+  {
+    "name": "MRQy",
+    "category": "Multipurpose",
+    "shortDescription": "A new quality assessment and evaluation tool for MRI data",
+    "imageFile": "MRQy.png",
+    "mainURL": "https://github.com/ccipd/MRQy",
+    "repoURL": "https://github.com/ccipd/MRQy",
+    "principalDevelopers": "Amir Reza Sadri, Satish E. Viswanath",
+    "longDescription": "MRQy is a new open-source quality control and assurance tool for MR imaging data, which can be used as a pre-analytical step when developing computational pipelines including radiomics, image analysis, and machine learning. MRQy leverages a Python-JavaScript framework and has been specialized for analyzing large-scale MRI cohorts through the following modules: (i) automatic foreground detection for any MR image from anybody region, from which it will (ii) extract a series of imaging-specific metadata and quality measures generalized to work with any structural MR sequence, in order to (iii) compute representations that capture relevant MR image quality trends in a data cohort. These are presented within a specialized HTML5-based front-end which can be easily interrogated by the end-user to identify batch effects and imaging artifacts towards curation of MR imaging cohorts of acceptable quality for model development.",
+    "keywords": [
+      "Quality Control",
+      "Quality Assessment",
+      "Imaging Cohort Curation",
+      "Site Variations",
+      "Scanner Variations",
+      "Batch Effects",
+      "Foreground Detection",
+      "Metadata",
+      "Image Quality Metrics (IQMs)",
+      "Processed Data"
+    ],
+    "keyReferences": [
       {
-        "name": "MRQy",
-        "category": "Multipurpose",
-        "shortDescription": "A new quality assessment and evaluation tool for MRI data",
-        "imageFile": "MRQy.png",
-        "mainURL": "https://github.com/ccipd/MRQy",
-        "repoURL": "https://github.com/ccipd/MRQy",
-        "principalDevelopers": "Amir Reza Sadri, Satish E. Viswanath",
-        "longDescription": "MRQy is a new open-source quality control and assurance tool for MR imaging data, which can be used as a pre-analytical step when developing computational pipelines including radiomics, image analysis, and machine learning. MRQy leverages a Python-JavaScript framework and has been specialized for analyzing large-scale MRI cohorts through the following modules: (i) automatic foreground detection for any MR image from anybody region, from which it will (ii) extract a series of imaging-specific metadata and quality measures generalized to work with any structural MR sequence, in order to (iii) compute representations that capture relevant MR image quality trends in a data cohort. These are presented within a specialized HTML5-based front-end which can be easily interrogated by the end-user to identify batch effects and imaging artifacts towards curation of MR imaging cohorts of acceptable quality for model development.",
-        "keywords": ["Quality Control", "Quality Assessment", "Imaging Cohort Curation", "Site Variations", "Scanner Variations", "Batch Effects", "Foreground Detection", "Metadata", "Image Quality Metrics (IQMs)", "Processed Data"],
-        "keyReferences": [
-            {
-                "referenceText": "MRQy: An Open-Source Tool for Quality Control of MR Imaging Data",
-                "referenceURL": "https://arxiv.org/abs/2004.04871v2"
-            }     
-        ],
-        "extraResources": [
-            {
-                "resourceType": "Github wiki homepage (4 pages)",
-                "URL": "https://github.com/ccipd/MRQy/wiki"
-            }
-        ],
-        "dateAddedToMRHub": "2020-08-14",
-        "dateSoftwareLastUpdated": "2020-08-07",
-        "citationSearchString": "0804898055d61e965e64e8bba8e60ce7e03b6ef0",
-        "citationCount": "0"
-    },
-
+        "referenceText": "MRQy: An Open-Source Tool for Quality Control of MR Imaging Data",
+        "referenceURL": "https://arxiv.org/abs/2004.04871v2"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Github wiki homepage (4 pages)",
+        "URL": "https://github.com/ccipd/MRQy/wiki"
+      }
+    ],
+    "dateAddedToMRHub": "2020-08-14",
+    "dateSoftwareLastUpdated": "2020-07-10",
+    "citationSearchString": "0804898055d61e965e64e8bba8e60ce7e03b6ef0",
+    "citationCount": "0"
+  },
   {
     "name": "TED",
     "category": "Reconstruction",
@@ -239,7 +249,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-10-16",
-    "dateSoftwareLastUpdated": "2020-06-27",
+    "dateSoftwareLastUpdated": "2020-08-08",
     "citationSearchString": "n/a",
     "citationCount": "0"
   },
@@ -274,7 +284,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-06-19",
-    "dateSoftwareLastUpdated": "2020-07-07",
+    "dateSoftwareLastUpdated": "2020-07-19",
     "citationSearchString": "10.1016/j.media.2016.02.010",
     "citationCount": "42"
   },
@@ -313,7 +323,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
-    "citationCount": "223"
+    "citationCount": "234"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -352,7 +362,7 @@
     "dateAddedToMRHub": "2019-05-30",
     "dateSoftwareLastUpdated": "2020-04-27",
     "citationSearchString": "10.1002/mrm.25528",
-    "citationCount": "28"
+    "citationCount": "29"
   },
   {
     "name": "Water/Fat Separated MR Thermometry",
@@ -418,9 +428,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-07-10",
+    "dateSoftwareLastUpdated": "2020-08-01",
     "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-    "citationCount": "86"
+    "citationCount": "96"
   },
   {
     "name": "gammaSTAR",
@@ -494,7 +504,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2020-06-26",
+    "dateSoftwareLastUpdated": "2020-07-29",
     "citationSearchString": "SigPy",
     "citationCount": "0"
   },
@@ -538,7 +548,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2019-10-31",
+    "dateSoftwareLastUpdated": "2020-07-15",
     "citationSearchString": "10.1002/mrm.25670",
     "citationCount": "57"
   },
@@ -590,9 +600,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-07-13",
+    "dateSoftwareLastUpdated": "2020-08-12",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "471"
+    "citationCount": "496"
   },
   {
     "name": "Gadgetron",
@@ -630,9 +640,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-07-10",
+    "dateSoftwareLastUpdated": "2020-08-06",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "151"
+    "citationCount": "170"
   },
   {
     "name": "gpuNUFFT",
@@ -662,9 +672,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-07-14",
+    "dateSoftwareLastUpdated": "2020-07-15",
     "citationSearchString": "c788ecd4a6ac9d3d7013a94515ec0718274e9907",
-    "citationCount": "30"
+    "citationCount": "31"
   },
   {
     "name": "ISMRMRD",
@@ -694,7 +704,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-06-22",
+    "dateSoftwareLastUpdated": "2020-08-14",
     "citationSearchString": "10.1002/mrm.26089",
     "citationCount": "23"
   },
@@ -833,7 +843,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-06",
     "citationSearchString": "10.1002/mrm.26639",
-    "citationCount": "76"
+    "citationCount": "77"
   },
   {
     "name": "QUIT",
@@ -870,9 +880,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-07-03",
+    "dateSoftwareLastUpdated": "2020-07-31",
     "citationSearchString": "10.21105/joss.00656",
-    "citationCount": "0"
+    "citationCount": "17"
   },
   {
     "name": "JEMRIS",
@@ -903,7 +913,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-06-24",
     "citationSearchString": "10.1002/mrm.22406",
-    "citationCount": "60"
+    "citationCount": "71"
   },
   {
     "name": "Spinal Cord Toolbox (SCT)",
@@ -933,7 +943,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-07-09",
+    "dateSoftwareLastUpdated": "2020-08-14",
     "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
     "citationCount": "132"
   },
@@ -964,9 +974,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-07-09",
+    "dateSoftwareLastUpdated": "2020-08-06",
     "citationSearchString": "10.1002/cmr.a.21357",
-    "citationCount": "0"
+    "citationCount": "19"
   },
   {
     "name": "Yarra Framework",
@@ -1001,7 +1011,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-07-03",
-    "dateSoftwareLastUpdated": "2020-06-25",
+    "dateSoftwareLastUpdated": "2020-07-22",
     "citationSearchString": "8c5511d9ecad595dba390a718957be8c84c22f7a",
     "citationCount": "2"
   },
@@ -1050,8 +1060,8 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2020-05-29",
+    "dateSoftwareLastUpdated": "2020-08-02",
     "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
-    "citationCount": "377"
+    "citationCount": "393"
   }
 ]
