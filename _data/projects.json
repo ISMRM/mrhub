@@ -1,4 +1,32 @@
 [
+      {
+        "name": "MRQy",
+        "category": "Multipurpose",
+        "shortDescription": "A new quality assessment and evaluation tool for MRI data",
+        "imageFile": "MRQy.png",
+        "mainURL": "https://github.com/ccipd/MRQy",
+        "repoURL": "https://github.com/ccipd/MRQy",
+        "principalDevelopers": "Amir Reza Sadri, Satish E. Viswanath",
+        "longDescription": "MRQy is a new open-source quality control and assurance tool for MR imaging data, which can be used as a pre-analytical step when developing computational pipelines including radiomics, image analysis, and machine learning. MRQy leverages a Python-JavaScript framework and has been specialized for analyzing large-scale MRI cohorts through the following modules: (i) automatic foreground detection for any MR image from anybody region, from which it will (ii) extract a series of imaging-specific metadata and quality measures generalized to work with any structural MR sequence, in order to (iii) compute representations that capture relevant MR image quality trends in a data cohort. These are presented within a specialized HTML5-based front-end which can be easily interrogated by the end-user to identify batch effects and imaging artifacts towards curation of MR imaging cohorts of acceptable quality for model development.",
+        "keywords": ["Quality Control", "Quality Assessment", "Imaging Cohort Curation", "Site Variations", "Scanner Variations", "Batch Effects", "Foreground Detection", "Metadata", "Image Quality Metrics (IQMs)", "Processed Data"],
+        "keyReferences": [
+            {
+                "referenceText": "MRQy: An Open-Source Tool for Quality Control of MR Imaging Data",
+                "referenceURL": "https://arxiv.org/abs/2004.04871v2"
+            }     
+        ],
+        "extraResources": [
+            {
+                "resourceType": "Github wiki homepage (4 pages)",
+                "URL": "https://github.com/ccipd/MRQy/wiki"
+            }
+        ],
+        "dateAddedToMRHub": "2020-08-14",
+        "dateSoftwareLastUpdated": "2020-08-07",
+        "citationSearchString": "0804898055d61e965e64e8bba8e60ce7e03b6ef0",
+        "citationCount": "0"
+    },
+
   {
     "name": "TED",
     "category": "Reconstruction",
