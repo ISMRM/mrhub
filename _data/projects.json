@@ -1,5 +1,34 @@
 [
   {
+    "name": "MyoQMRI",
+    "category": "Image Processing",
+    "shortDescription": "Fast quantitative water T2 mapping for muscle MRI",
+    "imageFile": "myoqmri.png",
+    "mainURL": "https://github.com/fsantini/MyoQMRI",
+    "repoURL": "https://github.com/fsantini/MyoQMRI",
+    "principalDevelopers": "Francesco Santini, Matthias Weigel",
+    "longDescription": "This project is an open-source effort to put together tools for quantitative MRI of the muscles. It is written in Python and thus portable and multiplatform.\nCurrently, it supports GPU (cuda)-accelerated water T2 mapping from multi echo spin echo images.\nThe fitting procedure is primarily based on extended phase graph simulation of the multi echo spin echo signal. Slice profile is taken into account.\nFor improved accuracy, a fat fraction map can be given as an input to constrain the fitting.\nB1 and Fat Fraction maps are generated as a byproduct of the fitting.",
+    "keywords": [
+      "Extended Phase Graph",
+      "GPU",
+      "Python",
+      "Muscle MRI",
+      "Water T2",
+      "Fat/Water Imaging"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Fast open-source toolkit for water T2 mapping in the presence of fat from multi-echo spin-echo acquisitions for muscle MRI",
+        "referenceURL": "https://www.frontiersin.org/articles/10.3389/fneur.2021.630387/full"
+      }
+    ],
+    "extraResources": [],
+    "dateAddedToMRHub": "2021-03-01",
+    "dateSoftwareLastUpdated": "2021-02-26",
+    "citationSearchString": "10.3389/fneur.2021.630387",
+    "citationCount": ""
+  },
+  {
     "name": "MRQy",
     "category": "Multipurpose",
     "shortDescription": "A new quality assessment and evaluation tool for MRI data",
