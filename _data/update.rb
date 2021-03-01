@@ -37,7 +37,11 @@ def get_update_time_from_github(project, github_api, username, password)
     repo_uri = URI.parse(project["repoURL"])
     url = github_api + repo_uri.path + "/branches/master"
     response = get_api_response url, username, password
-    return response["commit"]["commit"]["author"]["date"][0,10]
+    if response["commit"]
+        return response["commit"]["commit"]["author"]["date"][0,10]
+    else
+        return "nodatefound"
+    end
 end
 
 def get_update_time_from_bitbucket(project, bitbucket_api)
@@ -92,7 +96,12 @@ projects.each do |project|
 
     project["citationCount"] = get_num_citations project, citation_api
     if repo_uri.host.include? "github"
-        project["dateSoftwareLastUpdated"] = get_update_time_from_github project, github_api, github_username, github_password
+        newDate = get_update_time_from_github project, github_api, github_username, github_password
+        if newDate != "nodatefound"
+            project["dateSoftwareLastUpdated"] = newDate
+        else
+            puts "Problem extracting update date for this repo - keeping previous entry"
+        end
     elsif repo_uri.host.include? "bitbucket"
         project["dateSoftwareLastUpdated"] = get_update_time_from_bitbucket project, bitbucket_api
     else
