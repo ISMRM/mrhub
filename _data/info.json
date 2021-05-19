@@ -1,8 +1,8 @@
 {
-  "all": "30",
+  "all": "34",
+  "Image processing": 10,
   "Multipurpose": 4,
   "Reconstruction": 13,
-  "Image processing": 6,
   "Spectroscopy": 1,
   "Pulse sequences": 2,
   "Data format": 1,

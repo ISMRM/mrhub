@@ -8,41 +8,44 @@
     "repoURL": "https://github.com/michaelberks/madym_matlab",
     "principalDevelopers": "Michael Berks",
     "longDescription": "Madym-Matlab provides a Matlab interface to the main Madym C++ toolkit (https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx), alongside native Matlab code for a variety of T1 mapping and DCE analysis tasks. To use the wrappers with the main C++ toolkit, either build the C++ tools from the open source repository (https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/build_instructions) or install one of the pre-built binaries (https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/prebuilt_binaries). Note the repository linked here is a mirror of the master branch from the main project on our public GitLab group. To contribute to the project, or to view the project wiki, please visit the main repository at https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_matlab",
-    "keywords": ["DCE-MRI", "tracer-kinetic modelling", "T1 mapping", "AIF"],
+    "keywords": [
+      "DCE-MRI",
+      "tracer-kinetic modelling",
+      "T1 mapping",
+      "AIF"
+    ],
     "keyReferences": [
       {
         "referenceText": "Latest paper describing a new framework for DCE-MRI tracer-kinetic model fitting implemented in Madym",
         "referenceURL": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mrm.28798"
-      }, 
+      },
       {
         "referenceText": "Original paper describing the Parker AIF functional form used in Madym",
         "referenceURL": "https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.21066"
-      }, 
-
+      },
       {
         "referenceText": "Clinical paper in which Madym was used to perform DCE analysis",
         "referenceURL": "https://www.nature.com/articles/s41467-018-07174-1"
-      } 
-
+      }
     ],
     "extraResources": [
       {
         "resourceType": "Main wiki for documentation",
-        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_matlab/-/wikis/home"		
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_matlab/-/wikis/home"
       },
       {
         "resourceType": "Interactive script for running the example dataset from the main toolkit",
-        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_matlab/-/blob/master/cxx_interface/run_examples_test_dataset.m"		
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_matlab/-/blob/master/cxx_interface/run_examples_test_dataset.m"
       },
       {
         "resourceType": "Wiki for the main Madym C++ toolkit",
-        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/home"		
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/home"
       }
     ],
     "dateAddedToMRHub": "2021-05-19",
-    "dateSoftwareLastUpdated": "2021-05-19",
+    "dateSoftwareLastUpdated": "2021-05-18",
     "citationSearchString": "10.1002/mrm.28798",
-    "citationCount": ""
+    "citationCount": "0"
   },
   {
     "name": "Madym-Python",
@@ -53,88 +56,94 @@
     "repoURL": "https://github.com/michaelberks/madym_python",
     "principalDevelopers": "Michael Berks",
     "longDescription": "Madym-Python provides a python interface to the main Madym C++ toolkit (https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx), alongside native Python code for a variety of T1 mapping and DCE analysis tasks. To use the wrappers with the main C++ toolkit, either build the C++ tools from the open source repository (https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/build_instructions) or install one of the pre-built binaries (https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/prebuilt_binaries). Note the repository linked here is a mirror of the master branch from the main project on our public GitLab group. To contribute to the project, or to view the project wiki, please visit the main repository at https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_python",
-    "keywords": ["DCE-MRI", "tracer-kinetic modelling", "T1 mapping", "AIF"],
+    "keywords": [
+      "DCE-MRI",
+      "tracer-kinetic modelling",
+      "T1 mapping",
+      "AIF"
+    ],
     "keyReferences": [
       {
         "referenceText": "Latest paper describing a new framework for DCE-MRI tracer-kinetic model fitting implemented in Madym",
         "referenceURL": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mrm.28798"
-      }, 
+      },
       {
         "referenceText": "Original paper describing the Parker AIF functional form used in Madym",
         "referenceURL": "https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.21066"
-      }, 
-
+      },
       {
         "referenceText": "Clinical paper in which Madym was used to perform DCE analysis",
         "referenceURL": "https://www.nature.com/articles/s41467-018-07174-1"
-      } 
-
+      }
     ],
     "extraResources": [
       {
         "resourceType": "Main wiki for documentation",
-        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_python/-/wikis/home"		
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_python/-/wikis/home"
       },
       {
         "resourceType": "Interactive python script for running the example dataset from the main toolkit",
-        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_python/-/blob/master/madym_interface/run_examples_test_dataset.py"		
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_python/-/blob/master/madym_interface/run_examples_test_dataset.py"
       },
       {
         "resourceType": "Wiki for the main Madym C++ toolkit",
-        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/home"		
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/home"
       }
     ],
     "dateAddedToMRHub": "2021-05-19",
-    "dateSoftwareLastUpdated": "2021-05-19",
+    "dateSoftwareLastUpdated": "2021-05-18",
     "citationSearchString": "10.1002/mrm.28798",
-    "citationCount": ""
+    "citationCount": "0"
   },
   {
-      "name": "Madym",
-      "category": "Image processing",
-      "shortDescription": "C++ toolkit for DCE-MRI analysis, including baseline T1 mapping, AIF detection and tracer-kinetic model fitting",
-      "imageFile": "madym.png",
-      "mainURL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx",
-      "repoURL": "https://github.com/michaelberks/madym_cxx",
-      "principalDevelopers": "Michael Berks",
-      "longDescription": "Madym is a C++ toolkit for quantitative DCE-MRI analysis developed in the QBI Lab at the University of Manchester, UK. It comprises a set of command line tools and a graphical user-interface based on an extendable C++ library. It is cross-platform, and requires few external libraries to build from source. Pre-built binaries for Windows, MacOS and Linux are available on request. We have also developed complementary interfaces in Matlab and python, that allow the flexibility of developing in those scripting languages, while allowing C++ to do the heavy-duty computational work of tracer-kinetic model fitting (see the associated packages on MR hub). Note the repository linked here is a mirror of the master branch from the main project on our public GitLab group. To contribute to the project, or to view the project wiki, please visit the main repositroy at https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx",
-      "keywords": ["DCE-MRI", "tracer-kinetic modelling", "T1 mapping", "AIF"],
-      "keyReferences": [
-          {
-              "referenceText": "Latest paper describing a new framework for DCE-MRI tracer-kinetic model fitting implemented in Madym",
-              "referenceURL": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mrm.28798"
-          }, 
-          {
-              "referenceText": "Original paper describing the Parker AIF functional form used in Madym",
-              "referenceURL": "https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.21066"
-          }, 
-
-          {
-              "referenceText": "Clinical paper in which Madym was used to perform DCE analysis",
-              "referenceURL": "https://www.nature.com/articles/s41467-018-07174-1"
-          } 
-
-      ],
-      "extraResources": [
-          {
-              "resourceType": "Main wiki for documentation",
-              "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/home"		
-          },
-    {
-              "resourceType": "Instructions on running the example test dataset",
-              "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/example_scripts"		
-          },
-    {
-              "resourceType": "Video showing basic use of the GUI to run the examples test dataset",
-              "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/gui_demo.mp4"		
-          }
-      ],
-      "dateAddedToMRHub": "2021-05-19",
-      "dateSoftwareLastUpdated": "2021-05-19",
-      "citationSearchString": "10.1002/mrm.28798",
-      "citationCount": ""
-},
-{
+    "name": "Madym",
+    "category": "Image processing",
+    "shortDescription": "C++ toolkit for DCE-MRI analysis, including baseline T1 mapping, AIF detection and tracer-kinetic model fitting",
+    "imageFile": "madym.png",
+    "mainURL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx",
+    "repoURL": "https://github.com/michaelberks/madym_cxx",
+    "principalDevelopers": "Michael Berks",
+    "longDescription": "Madym is a C++ toolkit for quantitative DCE-MRI analysis developed in the QBI Lab at the University of Manchester, UK. It comprises a set of command line tools and a graphical user-interface based on an extendable C++ library. It is cross-platform, and requires few external libraries to build from source. Pre-built binaries for Windows, MacOS and Linux are available on request. We have also developed complementary interfaces in Matlab and python, that allow the flexibility of developing in those scripting languages, while allowing C++ to do the heavy-duty computational work of tracer-kinetic model fitting (see the associated packages on MR hub). Note the repository linked here is a mirror of the master branch from the main project on our public GitLab group. To contribute to the project, or to view the project wiki, please visit the main repositroy at https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx",
+    "keywords": [
+      "DCE-MRI",
+      "tracer-kinetic modelling",
+      "T1 mapping",
+      "AIF"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Latest paper describing a new framework for DCE-MRI tracer-kinetic model fitting implemented in Madym",
+        "referenceURL": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mrm.28798"
+      },
+      {
+        "referenceText": "Original paper describing the Parker AIF functional form used in Madym",
+        "referenceURL": "https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.21066"
+      },
+      {
+        "referenceText": "Clinical paper in which Madym was used to perform DCE analysis",
+        "referenceURL": "https://www.nature.com/articles/s41467-018-07174-1"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Main wiki for documentation",
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/home"
+      },
+      {
+        "resourceType": "Instructions on running the example test dataset",
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/example_scripts"
+      },
+      {
+        "resourceType": "Video showing basic use of the GUI to run the examples test dataset",
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/gui_demo.mp4"
+      }
+    ],
+    "dateAddedToMRHub": "2021-05-19",
+    "dateSoftwareLastUpdated": "2021-05-16",
+    "citationSearchString": "10.1002/mrm.28798",
+    "citationCount": "0"
+  },
+  {
     "name": "DSI Studio",
     "category": "Image processing",
     "shortDescription": "A Tractography Tool for Diffusion MRI Analysis",
@@ -150,8 +159,6 @@
       "Diffusion MRI",
       "Connectome"
     ],
-    
-  
     "keyReferences": [
       {
         "referenceText": "Generalized q-sampling imaging",
@@ -173,9 +180,9 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-17",
-    "dateSoftwareLastUpdated": "2021-05-01",
+    "dateSoftwareLastUpdated": "2021-05-18",
     "citationSearchString": "10.1109/TMI.2010.2045126",
-    "citationCount": "0"
+    "citationCount": "474"
   },
   {
     "name": "MyoQMRI",
@@ -242,9 +249,9 @@
       }
     ],
     "dateAddedToMRHub": "2020-08-14",
-    "dateSoftwareLastUpdated": "2021-02-08",
+    "dateSoftwareLastUpdated": "2021-04-15",
     "citationSearchString": "0804898055d61e965e64e8bba8e60ce7e03b6ef0",
-    "citationCount": "1"
+    "citationCount": "2"
   },
   {
     "name": "TED",
@@ -391,7 +398,7 @@
       }
     ],
     "dateAddedToMRHub": "2020-05-25",
-    "dateSoftwareLastUpdated": "2020-10-14",
+    "dateSoftwareLastUpdated": "2021-05-12",
     "citationSearchString": "CorpusID:195755688",
     "citationCount": "5"
   },
@@ -458,7 +465,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-10-16",
-    "dateSoftwareLastUpdated": "2021-01-25",
+    "dateSoftwareLastUpdated": "2021-05-06",
     "citationSearchString": "n/a",
     "citationCount": "0"
   },
@@ -493,9 +500,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-06-19",
-    "dateSoftwareLastUpdated": "2020-07-19",
+    "dateSoftwareLastUpdated": "2021-03-19",
     "citationSearchString": "10.1016/j.media.2016.02.010",
-    "citationCount": "51"
+    "citationCount": "52"
   },
   {
     "name": "Gannet",
@@ -532,7 +539,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
-    "citationCount": "280"
+    "citationCount": "291"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -637,9 +644,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-02-03",
+    "dateSoftwareLastUpdated": "2021-05-13",
     "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-    "citationCount": "225"
+    "citationCount": "288"
   },
   {
     "name": "gammaSTAR",
@@ -713,7 +720,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2021-02-04",
+    "dateSoftwareLastUpdated": "2021-05-19",
     "citationSearchString": "SigPy",
     "citationCount": "0"
   },
@@ -757,9 +764,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2021-02-03",
+    "dateSoftwareLastUpdated": "2021-05-18",
     "citationSearchString": "10.1002/mrm.25670",
-    "citationCount": "66"
+    "citationCount": "69"
   },
   {
     "name": "Berkeley Advanced Reconstruction Toolbox (BART)",
@@ -809,9 +816,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-03-01",
+    "dateSoftwareLastUpdated": "2021-05-13",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "588"
+    "citationCount": "620"
   },
   {
     "name": "Gadgetron",
@@ -849,9 +856,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-02-27",
+    "dateSoftwareLastUpdated": "2021-05-06",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "184"
+    "citationCount": "189"
   },
   {
     "name": "gpuNUFFT",
@@ -881,9 +888,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-11-07",
+    "dateSoftwareLastUpdated": "2021-03-07",
     "citationSearchString": "c788ecd4a6ac9d3d7013a94515ec0718274e9907",
-    "citationCount": "48"
+    "citationCount": "51"
   },
   {
     "name": "ISMRMRD",
@@ -913,7 +920,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-02-20",
+    "dateSoftwareLastUpdated": "2021-05-14",
     "citationSearchString": "10.1002/mrm.26089",
     "citationCount": "28"
   },
@@ -978,9 +985,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-01-29",
+    "dateSoftwareLastUpdated": "2021-05-16",
     "citationSearchString": "10.1002/mrm.26235",
-    "citationCount": "24"
+    "citationCount": "26"
   },
   {
     "name": "MRiLab",
@@ -1019,7 +1026,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-10",
     "citationSearchString": "10.1109/TMI.2016.2620961",
-    "citationCount": "28"
+    "citationCount": "29"
   },
   {
     "name": "NYU MR-Fingerprinting Reconstruction Toolbox",
@@ -1052,7 +1059,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-06",
     "citationSearchString": "10.1002/mrm.26639",
-    "citationCount": "88"
+    "citationCount": "93"
   },
   {
     "name": "QUIT",
@@ -1089,9 +1096,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-02-08",
+    "dateSoftwareLastUpdated": "2021-03-24",
     "citationSearchString": "10.21105/joss.00656",
-    "citationCount": "24"
+    "citationCount": "25"
   },
   {
     "name": "JEMRIS",
@@ -1122,7 +1129,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2020-09-21",
     "citationSearchString": "10.1002/mrm.22406",
-    "citationCount": "80"
+    "citationCount": "84"
   },
   {
     "name": "Spinal Cord Toolbox (SCT)",
@@ -1154,7 +1161,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-03-01",
     "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
-    "citationCount": "173"
+    "citationCount": "185"
   },
   {
     "name": "qMRLab",
@@ -1185,7 +1192,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-02-27",
     "citationSearchString": "10.1002/cmr.a.21357",
-    "citationCount": "30"
+    "citationCount": "33"
   },
   {
     "name": "Yarra Framework",
@@ -1269,8 +1276,8 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2021-02-19",
+    "dateSoftwareLastUpdated": "2021-05-11",
     "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
-    "citationCount": "476"
+    "citationCount": "497"
   }
 ]
