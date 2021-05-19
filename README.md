@@ -1,6 +1,6 @@
 ![](images_mrhub/MRHub_banner.png)
 
-This is the GitHub repository associated with the MR-Hub website - a platform to share information about open source software relevant to the [ISMRM](http://www.ismrm.org) community.
+This is the GitHub repository associated with the [MR-Hub website](https://ismrm.github.io/mrhub/) - a platform to share information about open source software relevant to the [ISMRM](http://www.ismrm.org) community.
 
 This version of the page was created during the [MRI-themed Hackathon](http://mrathon.github.io) and during the ISMRM meeting in Montreal, 2019. 
 
