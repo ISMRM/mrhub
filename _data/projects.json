@@ -1,5 +1,95 @@
 [
   {
+    "name": "Madym-Matlab",
+    "category": "Image processing",
+    "shortDescription": "Matlab wrappers to the Madym C++ toolkit for DCE-MRI analysis, including baseline T1 mapping, AIF detection and tracer-kinetic model fitting",
+    "imageFile": "madym_matlab.png",
+    "mainURL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_matlab",
+    "repoURL": "https://github.com/michaelberks/madym_matlab",
+    "principalDevelopers": "Michael Berks",
+    "longDescription": "Madym-Matlab provides a Matlab interface to the main Madym C++ toolkit (https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx), alongside native Matlab code for a variety of T1 mapping and DCE analysis tasks. To use the wrappers with the main C++ toolkit, either build the C++ tools from the open source repository (https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/build_instructions) or install one of the pre-built binaries (https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/prebuilt_binaries). Note the repository linked here is a mirror of the master branch from the main project on our public GitLab group. To contribute to the project, or to view the project wiki, please visit the main repository at https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_matlab",
+    "keywords": ["DCE-MRI", "tracer-kinetic modelling", "T1 mapping", "AIF"],
+    "keyReferences": [
+      {
+        "referenceText": "Latest paper describing a new framework for DCE-MRI tracer-kinetic model fitting implemented in Madym",
+        "referenceURL": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mrm.28798"
+      }, 
+      {
+        "referenceText": "Original paper describing the Parker AIF functional form used in Madym",
+        "referenceURL": "https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.21066"
+      }, 
+
+      {
+        "referenceText": "Clinical paper in which Madym was used to perform DCE analysis",
+        "referenceURL": "https://www.nature.com/articles/s41467-018-07174-1"
+      } 
+
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Main wiki for documentation",
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_matlab/-/wikis/home"		
+      },
+      {
+        "resourceType": "Interactive script for running the example dataset from the main toolkit",
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_matlab/-/blob/master/cxx_interface/run_examples_test_dataset.m"		
+      },
+      {
+        "resourceType": "Wiki for the main Madym C++ toolkit",
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/home"		
+      }
+    ],
+    "dateAddedToMRHub": "2021-05-19",
+    "dateSoftwareLastUpdated": "2021-05-19",
+    "citationSearchString": "10.1002/mrm.28798",
+    "citationCount": ""
+  },
+  {
+    "name": "Madym-Python",
+    "category": "Image processing",
+    "shortDescription": "Python wrappers to the Madym C++ toolkit for DCE-MRI analysis, including baseline T1 mapping, AIF detection and tracer-kinetic model fitting",
+    "imageFile": "madym_python.png",
+    "mainURL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_python",
+    "repoURL": "https://github.com/michaelberks/madym_python",
+    "principalDevelopers": "Michael Berks",
+    "longDescription": "Madym-Python provides a python interface to the main Madym C++ toolkit (https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx), alongside native Python code for a variety of T1 mapping and DCE analysis tasks. To use the wrappers with the main C++ toolkit, either build the C++ tools from the open source repository (https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/build_instructions) or install one of the pre-built binaries (https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/prebuilt_binaries). Note the repository linked here is a mirror of the master branch from the main project on our public GitLab group. To contribute to the project, or to view the project wiki, please visit the main repository at https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_python",
+    "keywords": ["DCE-MRI", "tracer-kinetic modelling", "T1 mapping", "AIF"],
+    "keyReferences": [
+      {
+        "referenceText": "Latest paper describing a new framework for DCE-MRI tracer-kinetic model fitting implemented in Madym",
+        "referenceURL": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mrm.28798"
+      }, 
+      {
+        "referenceText": "Original paper describing the Parker AIF functional form used in Madym",
+        "referenceURL": "https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.21066"
+      }, 
+
+      {
+        "referenceText": "Clinical paper in which Madym was used to perform DCE analysis",
+        "referenceURL": "https://www.nature.com/articles/s41467-018-07174-1"
+      } 
+
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Main wiki for documentation",
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_python/-/wikis/home"		
+      },
+      {
+        "resourceType": "Interactive python script for running the example dataset from the main toolkit",
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_python/-/blob/master/madym_interface/run_examples_test_dataset.py"		
+      },
+      {
+        "resourceType": "Wiki for the main Madym C++ toolkit",
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/home"		
+      }
+    ],
+    "dateAddedToMRHub": "2021-05-19",
+    "dateSoftwareLastUpdated": "2021-05-19",
+    "citationSearchString": "10.1002/mrm.28798",
+    "citationCount": ""
+  },
+  {
       "name": "Madym",
       "category": "Image processing",
       "shortDescription": "C++ toolkit for DCE-MRI analysis, including baseline T1 mapping, AIF detection and tracer-kinetic model fitting",
@@ -41,7 +131,7 @@
       ],
       "dateAddedToMRHub": "2021-05-19",
       "dateSoftwareLastUpdated": "2021-05-19",
-      "citationSearchString": "10.1002/mrm.28758",
+      "citationSearchString": "10.1002/mrm.28798",
       "citationCount": ""
 },
 {
