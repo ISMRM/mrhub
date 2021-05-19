@@ -1,5 +1,50 @@
 [
   {
+      "name": "Madym",
+      "category": "Image processing",
+      "shortDescription": "C++ toolkit for DCE-MRI analysis, including baseline T1 mapping, AIF detection and tracer-kinetic model fitting",
+      "imageFile": "madym.png",
+      "mainURL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx",
+      "repoURL": "https://github.com/michaelberks/madym_cxx",
+      "principalDevelopers": "Michael Berks",
+      "longDescription": "Madym is a C++ toolkit for quantitative DCE-MRI analysis developed in the QBI Lab at the University of Manchester, UK. It comprises a set of command line tools and a graphical user-interface based on an extendable C++ library. It is cross-platform, and requires few external libraries to build from source. Pre-built binaries for Windows, MacOS and Linux are available on request. We have also developed complementary interfaces in Matlab and python, that allow the flexibility of developing in those scripting languages, while allowing C++ to do the heavy-duty computational work of tracer-kinetic model fitting (see the associated packages on MR hub). Note the repository linked here is a mirror of the master branch from the main project on our public GitLab group. To contribute to the project, or to view the project wiki, please visit the main repositroy at https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx",
+      "keywords": ["DCE-MRI", "tracer-kinetic modelling", "T1 mapping", "AIF"],
+      "keyReferences": [
+          {
+              "referenceText": "Latest paper describing a new framework for DCE-MRI tracer-kinetic model fitting implemented in Madym",
+              "referenceURL": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mrm.28798"
+          }, 
+          {
+              "referenceText": "Original paper describing the Parker AIF functional form used in Madym",
+              "referenceURL": "https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.21066"
+          }, 
+
+          {
+              "referenceText": "Clinical paper in which Madym was used to perform DCE analysis",
+              "referenceURL": "https://www.nature.com/articles/s41467-018-07174-1"
+          } 
+
+      ],
+      "extraResources": [
+          {
+              "resourceType": "Main wiki for documentation",
+              "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/home"		
+          },
+    {
+              "resourceType": "Instructions on running the example test dataset",
+              "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/example_scripts"		
+          },
+    {
+              "resourceType": "Video showing basic use of the GUI to run the examples test dataset",
+              "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/gui_demo.mp4"		
+          }
+      ],
+      "dateAddedToMRHub": "2021-05-19",
+      "dateSoftwareLastUpdated": "2021-05-19",
+      "citationSearchString": "10.1002/mrm.28758",
+      "citationCount": ""
+  },
+  {
     "name": "MyoQMRI",
     "category": "Image processing",
     "shortDescription": "Fast quantitative water T2 mapping for muscle MRI",
