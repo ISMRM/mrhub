@@ -43,6 +43,49 @@
       "dateSoftwareLastUpdated": "2021-05-19",
       "citationSearchString": "10.1002/mrm.28758",
       "citationCount": ""
+},
+{
+    "name": "DSI Studio",
+    "category": "Image processing",
+    "shortDescription": "A Tractography Tool for Diffusion MRI Analysis",
+    "imageFile": "dsistudio.png",
+    "mainURL": "https://github.com/frankyeh/DSI-Studio",
+    "repoURL": "https://github.com/frankyeh/DSI-Studio",
+    "principalDevelopers": "Fang-Cheng (Frank) Yeh",
+    "longDescription": "DSI Studio is a tractography software tool that maps brain connections and correlates findings with neuropsychological disorders. It is a collective implementation of several diffusion MRI methods, including diffusion tensor imaging (DTI), generalized q-sampling imaging (GQI), q-space diffeomorphic reconstruction (QSDR), diffusion MRI connectometry, and generalized deterministic fiber tracking.",
+    "keywords": [
+      "Tractography",
+      "Fiber Tracking",
+      "Visualization",
+      "Diffusion MRI",
+      "Connectome"
+    ],
+    
+  
+    "keyReferences": [
+      {
+        "referenceText": "Generalized q-sampling imaging",
+        "referenceURL": "https://pubmed.ncbi.nlm.nih.gov/20304721/"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Standalone Packages",
+        "URL": "http://dsi-studio.labsolver.org/dsi-studio-download"
+      },
+      {
+        "resourceType": "Documentations",
+        "URL": "http://dsi-studio.labsolver.org/Manual"
+      },
+      {
+        "resourceType": "User Forum",
+        "URL": "https://groups.google.com/g/dsi-studio"
+      }
+    ],
+    "dateAddedToMRHub": "2021-05-17",
+    "dateSoftwareLastUpdated": "2021-05-01",
+    "citationSearchString": "10.1109/TMI.2010.2045126",
+    "citationCount": "0"
   },
   {
     "name": "MyoQMRI",
