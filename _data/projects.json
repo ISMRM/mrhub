@@ -1,5 +1,5 @@
 [
- {
+  {
     "name": "Madym",
     "category": "Image processing",
     "shortDescription": "C++ toolkit for DCE-MRI analysis, including baseline T1 mapping, AIF detection and tracer-kinetic model fitting",
@@ -8,49 +8,52 @@
     "repoURL": "https://github.com/michaelberks/madym_cxx",
     "principalDevelopers": "Michael Berks, Geoff Parker, Gio Buonaccorsi, Anita Banerji",
     "longDescription": "Madym is a C++ toolkit for quantitative DCE-MRI analysis developed in the QBI Lab at the University of Manchester, UK. It comprises a set of command line tools and a graphical user-interface based on an extendable C++ library. It is cross-platform, and requires few external libraries to build from source. Pre-built binaries for Windows, MacOS and Linux are available. We have also developed complementary interfaces in Matlab and python, that allow the flexibility of developing in those scripting languages, while allowing C++ to do the heavy-duty computational work of tracer-kinetic model fitting (see links below). These can either be used by building the C++ tools from source (https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/build_instructions) or by installing them from one of the pre-built binaries (https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/prebuilt_binaries). Note the repository linked here is a mirror of the master branch from the main project on our public GitLab group. To contribute to the project, or to view the project wiki, please visit the main repository at https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx",
-    "keywords": ["DCE-MRI", "tracer-kinetic modelling", "T1 mapping", "AIF"],
+    "keywords": [
+      "DCE-MRI",
+      "tracer-kinetic modelling",
+      "T1 mapping",
+      "AIF"
+    ],
     "keyReferences": [
       {
         "referenceText": "Latest paper describing a new framework for DCE-MRI tracer-kinetic model fitting implemented in Madym",
         "referenceURL": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mrm.28798"
-      }, 
+      },
       {
         "referenceText": "Original paper describing the Parker AIF functional form used in Madym",
         "referenceURL": "https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.21066"
-      }, 
-
+      },
       {
         "referenceText": "Clinical paper in which Madym was used to perform DCE analysis",
         "referenceURL": "https://www.nature.com/articles/s41467-018-07174-1"
-      } 
-
-      ],
-      "extraResources": [
-        {
-          "resourceType": "Main wiki for documentation",
-          "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/home"		
-        },
-        {
-          "resourceType": "Python wrappers to main C++ toolkit",
-          "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_python"		
-        },
-        {
-          "resourceType": "Matlab wrappers to main C++ toolkit",
-          "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_matlab"		
-        },
-        {
-          "resourceType": "Instructions on running the example test dataset",
-          "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/example_scripts"		
-        },
-        {
-          "resourceType": "Video showing basic use of the GUI to run the examples test dataset",
-          "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/gui_demo.mp4"		
-        }
-      ],
-      "dateAddedToMRHub": "2021-05-19",
-      "dateSoftwareLastUpdated": "2021-05-19",
-      "citationSearchString": "10.1002/mrm.28798",
-      "citationCount": ""
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Main wiki for documentation",
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/home"
+      },
+      {
+        "resourceType": "Python wrappers to main C++ toolkit",
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_python"
+      },
+      {
+        "resourceType": "Matlab wrappers to main C++ toolkit",
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_matlab"
+      },
+      {
+        "resourceType": "Instructions on running the example test dataset",
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/example_scripts"
+      },
+      {
+        "resourceType": "Video showing basic use of the GUI to run the examples test dataset",
+        "URL": "https://gitlab.com/manchester_qbi/manchester_qbi_public/madym_cxx/-/wikis/gui_demo.mp4"
+      }
+    ],
+    "dateAddedToMRHub": "2021-05-19",
+    "dateSoftwareLastUpdated": "2021-05-16",
+    "citationSearchString": "10.1002/mrm.28798",
+    "citationCount": "0"
   },
   {
     "name": "DSI Studio",
