@@ -1,5 +1,25 @@
 [
   {
+    "name": "MRIgeneralizedBloch.jl",
+    "category": "Simulation",
+    "shortDescription": "Implementation of the generalized Bloch equations for modeling magnetization transfer.",
+    "mainURL": "https://jakobasslaender.github.io/MRIgeneralizedBloch.jl/stable/",
+    "repoURL": "https://github.com/JakobAsslaender/MRIgeneralizedBloch.jl",
+    "principalDevelopers": "<a href=\"https://med.nyu.edu/faculty/jakob-asslaender\">Jakob Assländer</a>",
+    "longDescription": "MRIgeneralizedBloch.jl is a Julia package that implements the generalized Bloch equations for modeling the dynamics of the semi-solid spin pool in MRI, and its exchange with the free spin pool. It utilizes the DifferentialEquations.jl package to solve integro-differential equation. It also implements a linear approximation of the generalized Bloch equations that assumes rectangular radio frequency pulses and uses matrix exponentiation of static arrays, which results in almost non-allocating and extremely fast code. For more details and scripts that reproduce all figures in the paper, please refer to above linked documentation.",
+    "keywords": ["MT", "magnetization transfer", "modeling", "qMT", "quantitative magnetization transfer", "Bloch"],
+    "keyReferences": [
+        {
+            "referenceText": "Assländer, J, Gultekin, C, Flassbeck, S, Glaser, SJ, Sodickson, DK (2021), Generalized Bloch model: a theory for pulsed magnetization transfer, arXiv ID 2107.11000",
+            "referenceURL": "https://arxiv.org/pdf/2107.11000.pdf"
+        }
+    ],
+    "dateAddedToMRHub": "2021-07-26",
+    "dateSoftwareLastUpdated": "2021-07-26",
+    "citationSearchString": "30567d7cd59f7a9a16f387b4d57bcd15f5d2d59b",
+    "citationCount": ""
+},
+  {
     "name": "Madym",
     "category": "Image processing",
     "shortDescription": "C++ toolkit for DCE-MRI analysis, including baseline T1 mapping, AIF detection and tracer-kinetic model fitting",
