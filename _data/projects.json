@@ -1,5 +1,57 @@
 [
-  {
+{
+  "name": "Diffusion MRI CSA-ODF and Hough Tractography",
+  "category": "Reconstruction",
+  "shortDescription": "Matlab toolbox for Diffusion MRI CSA-ODF computation, Hough tractography, and connectomic analysis.",
+  "imageFile": "HoughTract.jpg",
+  "mainURL": "https://www.nitrc.org/projects/csaodf-hough",
+  "repoURL": "https://www.mathworks.com/matlabcentral/fileexchange/62516-csa-qbi-and-hough-tractography-for-diffusion-mri",
+  "principalDevelopers": "<a href=\"https://www.nmr.mgh.harvard.edu/~iman\">Iman Aganj</a>",
+  "longDescription": "This is a diffusion-weighted MRI processing Matlab toolbox (including binaries), which can be used to:  * Compute the Q-Ball Imaging Orientation Distribution Function in Constant Solid Angle (CSA-ODF) (Aganj et al, MRM 2010).  * Perform Hough-transform tractography (Aganj et al, MedIA 2011).  * Visualize ODFs and tracts, and export them for further analysis.  * Verify the correctness of the diffusion gradient table (Aganj, Sci Rep 2018).  * Compute and interactively visualize the connectivity matrix.  * Augment the connectivity matrix with indirect connections (Aganj et al, ISMRM 2014).",
+  "keywords": [ "Diffusion MRI", "Q-ball Imaging", "Tractography", "Connectomics", "HARDI" ],
+  "keyReferences": [
+    {
+      "referenceText": "I. Aganj, C. Lenglet, G. Sapiro, E. Yacoub, K. Ugurbil, and N. Harel, “Reconstruction of the orientation distribution function in single and multiple shell q-ball imaging within constant solid angle,” Magnetic Resonance in Medicine, vol. 64, no. 2, pp. 554–566, 2010.",
+      "referenceURL": "https://doi.org/10.1002/mrm.22365"
+    },
+
+    {
+      "referenceText": "I. Aganj, C. Lenglet, N. Jahanshad, E. Yacoub, N. Harel, P. Thompson, and G. Sapiro, “A Hough transform global probabilistic approach to multiple-subject diffusion MRI tractography,” Medical Image Analysis, vol. 15, no. 4, pp. 414–425, 2011.",
+      "referenceURL": "https://doi.org/10.1016/j.media.2011.01.003"
+    },
+
+    {
+      "referenceText": "I. Aganj, “Automatic verification of the gradient table in diffusion-weighted MRI based on fiber continuity,” Scientific Reports, vol. 8, Article no. 16541, 2018.",
+      "referenceURL": "https://doi.org/10.1038/s41598-018-34940-4"
+    },
+
+    {
+      "referenceText": "I. Aganj, G. Prasad, P. Srinivasan, A. Yendiki, P. M. Thompson, and B. Fischl, “Structural brain network augmentation via Kirchhoff's laws,” in Proceedings of the Joint Annual Meeting of ISMRM-ESMRMB, Milan, Italy, 2014.",
+      "referenceURL": "https://cds.ismrm.org/protected/14MProceedings/PDFfiles/2665.pdf"
+    }
+
+  ],
+  "extraResources": [
+    {
+      "resourceType": "NITRC",
+      "URL": "https://www.nitrc.org/projects/csaodf-hough"
+    },
+    {
+      "resourceType": "Matlab File Exchange",
+      "URL": "https://www.mathworks.com/matlabcentral/fileexchange/62516-csa-qbi-and-hough-tractography-for-diffusion-mri"
+    },
+    {
+      "resourceType": "Example script",
+      "URL": "https://viewer.mathworks.com/?viewer=plain_code&url=https%3A%2F%2Fwww.mathworks.com%2Fmatlabcentral%2Fmlc-downloads%2Fdownloads%2F9a09c2f3-77a9-44b3-a775-a32ba8bb9f2a%2F5aac6159-82f0-4947-9b4b-503336d99ca4%2Ffiles%2FEXAMPLE.m"
+    }
+  ],
+  "dateAddedToMRHub": "",
+  "dateSoftwareLastUpdated": "2021-06-26",
+  "citationSearchString": "10.1002/mrm.22365",
+  "citationCount": "337"
+},
+
+{
     "name": "MRIgeneralizedBloch.jl",
     "category": "Simulation",
     "shortDescription": "Implementation of the generalized Bloch equations for modeling magnetization transfer.",
