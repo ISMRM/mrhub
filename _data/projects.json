@@ -7,8 +7,8 @@
     "mainURL": "https://seeVR.nl",
     "repoURL": "https://github.com/abhogal-lab/seeVR",
     "principalDevelopers": "Alex A. Bhogal",
-    "longDescription": "The seeVR toolbox consists of a series of Matlab functions designed for the analysis of hemodynamic response data. The primary purpose is to generate parameteric maps of MR signal changes in response to physiological stimuli such as hypercapnia induced vasodilation or hyperpxia/hypoxia induced changes in hemoglobin saturation. The seeVR functions are also suitable for certain types of resting-state analysis, examining HRFs and probing dynamic temporal response charachteristics.",
-    "keywords": ["vascular reactivity", "hypercapnia", "hyperoxia", "CVR", "hemodynamic", "Cerebral Physiology"],
+    "longDescription": "The seeVR toolbox consists of a series of Matlab functions designed for the analysis of hemodynamic response data. The primary purpose is to generate parametric maps of MR signal changes in response to physiological stimuli such as hypercapnia induced vasodilation or hyperoxia/hypoxia induced changes in hemoglobin saturation. The seeVR functions are also suitable for certain types of resting-state analysis, examining HRFs and probing dynamic temporal response characteristics.",
+    "keywords": ["Vascular Reactivity", "Hypercapnia", "Hyperoxia", "CVR", "Hemodynamic Response", "Cerebral Physiology"],
     "keyReferences": [
         {
             "referenceText": "Champagne AA, Bhogal AA,  Insights into cerebral tissue-specific response to respiratory challenges at 7T: evidence for combined blood flow and CO2-mediated effects, Frontiers in Physiology 12, 18",
