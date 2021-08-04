@@ -3,7 +3,7 @@
     "name": "seeVR",
     "category": "Toolbox",
     "shortDescription": "A Matlab toolbox for analyzing cerebro-vascular reactivity (CVR) data",
-    "imageFile": "seeCR.png",
+    "imageFile": "seeVR.png",
     "mainURL": "https://seeVR.nl",
     "repoURL": "https://github.com/abhogal-lab/seeVR",
     "principalDevelopers": "Alex A. Bhogal",
