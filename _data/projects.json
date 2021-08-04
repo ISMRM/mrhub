@@ -8,70 +8,79 @@
     "repoURL": "https://github.com/abhogal-lab/seeVR",
     "principalDevelopers": "Alex A. Bhogal",
     "longDescription": "The seeVR toolbox consists of a series of Matlab functions designed for the analysis of hemodynamic response data. The primary purpose is to generate parametric maps of MR signal changes in response to physiological stimuli such as hypercapnia induced vasodilation or hyperoxia/hypoxia induced changes in hemoglobin saturation. The seeVR functions are also suitable for certain types of resting-state analysis, examining HRFs and probing dynamic temporal response characteristics.",
-    "keywords": ["Vascular Reactivity", "Hypercapnia", "Hyperoxia", "CVR", "Hemodynamic Response", "Cerebral Physiology"],
+    "keywords": [
+      "Vascular Reactivity",
+      "Hypercapnia",
+      "Hyperoxia",
+      "CVR",
+      "Hemodynamic Response",
+      "Cerebral Physiology"
+    ],
     "keyReferences": [
-        {
-            "referenceText": "Champagne AA, Bhogal AA,  Insights into cerebral tissue-specific response to respiratory challenges at 7T: evidence for combined blood flow and CO2-mediated effects, Frontiers in Physiology 12, 18",
-            "referenceURL": "https://www.frontiersin.org/articles/10.3389/fphys.2021.601369/full"
-        }
+      {
+        "referenceText": "Champagne AA, Bhogal AA,  Insights into cerebral tissue-specific response to respiratory challenges at 7T: evidence for combined blood flow and CO2-mediated effects, Frontiers in Physiology 12, 18",
+        "referenceURL": "https://www.frontiersin.org/articles/10.3389/fphys.2021.601369/full"
+      }
     ],
     "dateAddedToMRHub": "2021-08-01",
     "dateSoftwareLastUpdated": "2021-08-01",
     "citationSearchString": "aa1f729decd1a5a0d56de10446a8e268367cb927",
-    "citationCount": ""
-},
-{
-  "name": "Diffusion MRI CSA-ODF and Hough Tractography",
-  "category": "Reconstruction",
-  "shortDescription": "Matlab toolbox for Diffusion MRI CSA-ODF computation, Hough tractography, and connectomic analysis.",
-  "imageFile": "HoughTract.jpg",
-  "mainURL": "https://www.nitrc.org/projects/csaodf-hough",
-  "repoURL": "https://www.mathworks.com/matlabcentral/fileexchange/62516-csa-qbi-and-hough-tractography-for-diffusion-mri",
-  "principalDevelopers": "<a href=\"https://www.nmr.mgh.harvard.edu/~iman\">Iman Aganj</a>",
-  "longDescription": "This is a diffusion-weighted MRI processing Matlab toolbox (including binaries), which can be used to:  * Compute the Q-Ball Imaging Orientation Distribution Function in Constant Solid Angle (CSA-ODF) (Aganj et al, MRM 2010).  * Perform Hough-transform tractography (Aganj et al, MedIA 2011).  * Visualize ODFs and tracts, and export them for further analysis.  * Verify the correctness of the diffusion gradient table (Aganj, Sci Rep 2018).  * Compute and interactively visualize the connectivity matrix.  * Augment the connectivity matrix with indirect connections (Aganj et al, ISMRM 2014).",
-  "keywords": [ "Diffusion MRI", "Q-ball Imaging", "Tractography", "Connectomics", "HARDI" ],
-  "keyReferences": [
-    {
-      "referenceText": "I. Aganj, C. Lenglet, G. Sapiro, E. Yacoub, K. Ugurbil, and N. Harel, “Reconstruction of the orientation distribution function in single and multiple shell q-ball imaging within constant solid angle,” Magnetic Resonance in Medicine, vol. 64, no. 2, pp. 554–566, 2010.",
-      "referenceURL": "https://doi.org/10.1002/mrm.22365"
-    },
-
-    {
-      "referenceText": "I. Aganj, C. Lenglet, N. Jahanshad, E. Yacoub, N. Harel, P. Thompson, and G. Sapiro, “A Hough transform global probabilistic approach to multiple-subject diffusion MRI tractography,” Medical Image Analysis, vol. 15, no. 4, pp. 414–425, 2011.",
-      "referenceURL": "https://doi.org/10.1016/j.media.2011.01.003"
-    },
-
-    {
-      "referenceText": "I. Aganj, “Automatic verification of the gradient table in diffusion-weighted MRI based on fiber continuity,” Scientific Reports, vol. 8, Article no. 16541, 2018.",
-      "referenceURL": "https://doi.org/10.1038/s41598-018-34940-4"
-    },
-
-    {
-      "referenceText": "I. Aganj, G. Prasad, P. Srinivasan, A. Yendiki, P. M. Thompson, and B. Fischl, “Structural brain network augmentation via Kirchhoff's laws,” in Proceedings of the Joint Annual Meeting of ISMRM-ESMRMB, Milan, Italy, 2014.",
-      "referenceURL": "https://cds.ismrm.org/protected/14MProceedings/PDFfiles/2665.pdf"
-    }
-
-  ],
-  "extraResources": [
-    {
-      "resourceType": "NITRC",
-      "URL": "https://www.nitrc.org/projects/csaodf-hough"
-    },
-    {
-      "resourceType": "Matlab File Exchange",
-      "URL": "https://www.mathworks.com/matlabcentral/fileexchange/62516-csa-qbi-and-hough-tractography-for-diffusion-mri"
-    },
-    {
-      "resourceType": "Example script",
-      "URL": "https://viewer.mathworks.com/?viewer=plain_code&url=https%3A%2F%2Fwww.mathworks.com%2Fmatlabcentral%2Fmlc-downloads%2Fdownloads%2F9a09c2f3-77a9-44b3-a775-a32ba8bb9f2a%2F5aac6159-82f0-4947-9b4b-503336d99ca4%2Ffiles%2FEXAMPLE.m"
-    }
-  ],
-  "dateAddedToMRHub": "2021-08-04",
-  "dateSoftwareLastUpdated": "2021-06-26",
-  "citationSearchString": "10.1002/mrm.22365",
-  "citationCount": "337"
-},
-{
+    "citationCount": "1"
+  },
+  {
+    "name": "Diffusion MRI CSA-ODF and Hough Tractography",
+    "category": "Reconstruction",
+    "shortDescription": "Matlab toolbox for Diffusion MRI CSA-ODF computation, Hough tractography, and connectomic analysis.",
+    "imageFile": "HoughTract.jpg",
+    "mainURL": "https://www.nitrc.org/projects/csaodf-hough",
+    "repoURL": "https://www.mathworks.com/matlabcentral/fileexchange/62516-csa-qbi-and-hough-tractography-for-diffusion-mri",
+    "principalDevelopers": "<a href=\"https://www.nmr.mgh.harvard.edu/~iman\">Iman Aganj</a>",
+    "longDescription": "This is a diffusion-weighted MRI processing Matlab toolbox (including binaries), which can be used to:  * Compute the Q-Ball Imaging Orientation Distribution Function in Constant Solid Angle (CSA-ODF) (Aganj et al, MRM 2010).  * Perform Hough-transform tractography (Aganj et al, MedIA 2011).  * Visualize ODFs and tracts, and export them for further analysis.  * Verify the correctness of the diffusion gradient table (Aganj, Sci Rep 2018).  * Compute and interactively visualize the connectivity matrix.  * Augment the connectivity matrix with indirect connections (Aganj et al, ISMRM 2014).",
+    "keywords": [
+      "Diffusion MRI",
+      "Q-ball Imaging",
+      "Tractography",
+      "Connectomics",
+      "HARDI"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "I. Aganj, C. Lenglet, G. Sapiro, E. Yacoub, K. Ugurbil, and N. Harel, “Reconstruction of the orientation distribution function in single and multiple shell q-ball imaging within constant solid angle,” Magnetic Resonance in Medicine, vol. 64, no. 2, pp. 554–566, 2010.",
+        "referenceURL": "https://doi.org/10.1002/mrm.22365"
+      },
+      {
+        "referenceText": "I. Aganj, C. Lenglet, N. Jahanshad, E. Yacoub, N. Harel, P. Thompson, and G. Sapiro, “A Hough transform global probabilistic approach to multiple-subject diffusion MRI tractography,” Medical Image Analysis, vol. 15, no. 4, pp. 414–425, 2011.",
+        "referenceURL": "https://doi.org/10.1016/j.media.2011.01.003"
+      },
+      {
+        "referenceText": "I. Aganj, “Automatic verification of the gradient table in diffusion-weighted MRI based on fiber continuity,” Scientific Reports, vol. 8, Article no. 16541, 2018.",
+        "referenceURL": "https://doi.org/10.1038/s41598-018-34940-4"
+      },
+      {
+        "referenceText": "I. Aganj, G. Prasad, P. Srinivasan, A. Yendiki, P. M. Thompson, and B. Fischl, “Structural brain network augmentation via Kirchhoff's laws,” in Proceedings of the Joint Annual Meeting of ISMRM-ESMRMB, Milan, Italy, 2014.",
+        "referenceURL": "https://cds.ismrm.org/protected/14MProceedings/PDFfiles/2665.pdf"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "NITRC",
+        "URL": "https://www.nitrc.org/projects/csaodf-hough"
+      },
+      {
+        "resourceType": "Matlab File Exchange",
+        "URL": "https://www.mathworks.com/matlabcentral/fileexchange/62516-csa-qbi-and-hough-tractography-for-diffusion-mri"
+      },
+      {
+        "resourceType": "Example script",
+        "URL": "https://viewer.mathworks.com/?viewer=plain_code&url=https%3A%2F%2Fwww.mathworks.com%2Fmatlabcentral%2Fmlc-downloads%2Fdownloads%2F9a09c2f3-77a9-44b3-a775-a32ba8bb9f2a%2F5aac6159-82f0-4947-9b4b-503336d99ca4%2Ffiles%2FEXAMPLE.m"
+      }
+    ],
+    "dateAddedToMRHub": "2021-08-04",
+    "dateSoftwareLastUpdated": "2021-06-26",
+    "citationSearchString": "10.1002/mrm.22365",
+    "citationCount": "336"
+  },
+  {
     "name": "MRIgeneralizedBloch.jl",
     "category": "Simulation",
     "shortDescription": "Implementation of the generalized Bloch equations for modeling magnetization transfer.",
@@ -79,18 +88,25 @@
     "repoURL": "https://github.com/JakobAsslaender/MRIgeneralizedBloch.jl",
     "principalDevelopers": "<a href=\"https://med.nyu.edu/faculty/jakob-asslaender\">Jakob Assländer</a>",
     "longDescription": "MRIgeneralizedBloch.jl is a Julia package that implements the generalized Bloch equations for modeling the dynamics of the semi-solid spin pool in MRI, and its exchange with the free spin pool. It utilizes the DifferentialEquations.jl package to solve integro-differential equation. It also implements a linear approximation of the generalized Bloch equations that assumes rectangular radio frequency pulses and uses matrix exponentiation of static arrays, which results in almost non-allocating and extremely fast code. For more details and scripts that reproduce all figures in the paper, please refer to above linked documentation.",
-    "keywords": ["MT", "magnetization transfer", "modeling", "qMT", "quantitative magnetization transfer", "Bloch"],
+    "keywords": [
+      "MT",
+      "magnetization transfer",
+      "modeling",
+      "qMT",
+      "quantitative magnetization transfer",
+      "Bloch"
+    ],
     "keyReferences": [
-        {
-            "referenceText": "Assländer, J, Gultekin, C, Flassbeck, S, Glaser, SJ, Sodickson, DK (2021), Generalized Bloch model: a theory for pulsed magnetization transfer, arXiv ID 2107.11000",
-            "referenceURL": "https://arxiv.org/pdf/2107.11000.pdf"
-        }
+      {
+        "referenceText": "Assländer, J, Gultekin, C, Flassbeck, S, Glaser, SJ, Sodickson, DK (2021), Generalized Bloch model: a theory for pulsed magnetization transfer, arXiv ID 2107.11000",
+        "referenceURL": "https://arxiv.org/pdf/2107.11000.pdf"
+      }
     ],
     "dateAddedToMRHub": "2021-07-26",
-    "dateSoftwareLastUpdated": "2021-07-26",
+    "dateSoftwareLastUpdated": "2021-07-30",
     "citationSearchString": "30567d7cd59f7a9a16f387b4d57bcd15f5d2d59b",
-    "citationCount": ""
-},
+    "citationCount": "0"
+  },
   {
     "name": "Madym",
     "category": "Image processing",
@@ -143,7 +159,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-19",
-    "dateSoftwareLastUpdated": "2021-05-16",
+    "dateSoftwareLastUpdated": "2021-07-05",
     "citationSearchString": "10.1002/mrm.28798",
     "citationCount": "0"
   },
@@ -184,9 +200,9 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-17",
-    "dateSoftwareLastUpdated": "2021-05-18",
+    "dateSoftwareLastUpdated": "2021-08-03",
     "citationSearchString": "10.1109/TMI.2010.2045126",
-    "citationCount": "474"
+    "citationCount": "495"
   },
   {
     "name": "MyoQMRI",
@@ -217,7 +233,7 @@
     "dateAddedToMRHub": "2021-03-01",
     "dateSoftwareLastUpdated": "2021-02-26",
     "citationSearchString": "10.3389/fneur.2021.630387",
-    "citationCount": "0"
+    "citationCount": "1"
   },
   {
     "name": "MRQy",
@@ -253,9 +269,9 @@
       }
     ],
     "dateAddedToMRHub": "2020-08-14",
-    "dateSoftwareLastUpdated": "2021-04-15",
+    "dateSoftwareLastUpdated": "2021-07-14",
     "citationSearchString": "0804898055d61e965e64e8bba8e60ce7e03b6ef0",
-    "citationCount": "2"
+    "citationCount": "3"
   },
   {
     "name": "TED",
@@ -354,7 +370,7 @@
     "dateAddedToMRHub": "2020-07-07",
     "dateSoftwareLastUpdated": "2020-07-09",
     "citationSearchString": "10.1016/j.neuroimage.2020.117031",
-    "citationCount": "2"
+    "citationCount": "3"
   },
   {
     "name": "QMRITools",
@@ -402,7 +418,7 @@
       }
     ],
     "dateAddedToMRHub": "2020-05-25",
-    "dateSoftwareLastUpdated": "2021-05-12",
+    "dateSoftwareLastUpdated": "2021-06-23",
     "citationSearchString": "CorpusID:195755688",
     "citationCount": "5"
   },
@@ -469,7 +485,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-10-16",
-    "dateSoftwareLastUpdated": "2021-05-06",
+    "dateSoftwareLastUpdated": "2021-07-16",
     "citationSearchString": "n/a",
     "citationCount": "0"
   },
@@ -504,9 +520,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-06-19",
-    "dateSoftwareLastUpdated": "2021-03-19",
+    "dateSoftwareLastUpdated": "2021-07-06",
     "citationSearchString": "10.1016/j.media.2016.02.010",
-    "citationCount": "52"
+    "citationCount": "54"
   },
   {
     "name": "Gannet",
@@ -543,7 +559,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
-    "citationCount": "291"
+    "citationCount": "304"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -580,9 +596,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-30",
-    "dateSoftwareLastUpdated": "2020-04-27",
+    "dateSoftwareLastUpdated": "2021-06-24",
     "citationSearchString": "10.1002/mrm.25528",
-    "citationCount": "31"
+    "citationCount": "33"
   },
   {
     "name": "Water/Fat Separated MR Thermometry",
@@ -614,7 +630,7 @@
     "dateAddedToMRHub": "2019-05-29",
     "dateSoftwareLastUpdated": "2018-09-26",
     "citationSearchString": "10.1002/mrm.27567",
-    "citationCount": "6"
+    "citationCount": "8"
   },
   {
     "name": "MRtrix3",
@@ -648,9 +664,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-05-13",
+    "dateSoftwareLastUpdated": "2021-08-02",
     "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-    "citationCount": "288"
+    "citationCount": "356"
   },
   {
     "name": "gammaSTAR",
@@ -691,7 +707,7 @@
     "dateAddedToMRHub": "2019-05-29",
     "dateSoftwareLastUpdated": "2020-01-29",
     "citationSearchString": "10.1002/mrm.28020",
-    "citationCount": "0"
+    "citationCount": "1"
   },
   {
     "name": "SigPy",
@@ -724,7 +740,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2021-05-19",
+    "dateSoftwareLastUpdated": "2021-07-01",
     "citationSearchString": "SigPy",
     "citationCount": "0"
   },
@@ -770,7 +786,7 @@
     "dateAddedToMRHub": "2019-05-23",
     "dateSoftwareLastUpdated": "2021-05-18",
     "citationSearchString": "10.1002/mrm.25670",
-    "citationCount": "69"
+    "citationCount": "72"
   },
   {
     "name": "Berkeley Advanced Reconstruction Toolbox (BART)",
@@ -820,9 +836,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-05-13",
+    "dateSoftwareLastUpdated": "2021-07-07",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "620"
+    "citationCount": "648"
   },
   {
     "name": "Gadgetron",
@@ -860,9 +876,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-05-06",
+    "dateSoftwareLastUpdated": "2021-07-09",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "189"
+    "citationCount": "199"
   },
   {
     "name": "gpuNUFFT",
@@ -892,9 +908,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-03-07",
+    "dateSoftwareLastUpdated": "2021-05-23",
     "citationSearchString": "c788ecd4a6ac9d3d7013a94515ec0718274e9907",
-    "citationCount": "51"
+    "citationCount": "54"
   },
   {
     "name": "ISMRMRD",
@@ -926,7 +942,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-05-14",
     "citationSearchString": "10.1002/mrm.26089",
-    "citationCount": "28"
+    "citationCount": "29"
   },
   {
     "name": "Low Field Simulator",
@@ -960,7 +976,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2016-07-12",
     "citationSearchString": "10.1371/journal.pone.0154711",
-    "citationCount": "7"
+    "citationCount": "8"
   },
   {
     "name": "Pulseq",
@@ -991,7 +1007,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-05-16",
     "citationSearchString": "10.1002/mrm.26235",
-    "citationCount": "26"
+    "citationCount": "27"
   },
   {
     "name": "MRiLab",
@@ -1030,7 +1046,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-10",
     "citationSearchString": "10.1109/TMI.2016.2620961",
-    "citationCount": "29"
+    "citationCount": "31"
   },
   {
     "name": "NYU MR-Fingerprinting Reconstruction Toolbox",
@@ -1063,7 +1079,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-06",
     "citationSearchString": "10.1002/mrm.26639",
-    "citationCount": "93"
+    "citationCount": "97"
   },
   {
     "name": "QUIT",
@@ -1100,9 +1116,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-03-24",
+    "dateSoftwareLastUpdated": "2021-07-26",
     "citationSearchString": "10.21105/joss.00656",
-    "citationCount": "25"
+    "citationCount": "28"
   },
   {
     "name": "JEMRIS",
@@ -1133,7 +1149,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2020-09-21",
     "citationSearchString": "10.1002/mrm.22406",
-    "citationCount": "84"
+    "citationCount": "85"
   },
   {
     "name": "Spinal Cord Toolbox (SCT)",
@@ -1165,7 +1181,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-03-01",
     "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
-    "citationCount": "185"
+    "citationCount": "201"
   },
   {
     "name": "qMRLab",
@@ -1196,7 +1212,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-02-27",
     "citationSearchString": "10.1002/cmr.a.21357",
-    "citationCount": "33"
+    "citationCount": "36"
   },
   {
     "name": "Yarra Framework",
@@ -1231,9 +1247,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-07-03",
-    "dateSoftwareLastUpdated": "2021-02-01",
+    "dateSoftwareLastUpdated": "2021-07-27",
     "citationSearchString": "8c5511d9ecad595dba390a718957be8c84c22f7a",
-    "citationCount": "9"
+    "citationCount": "10"
   },
   {
     "name": "DIPY",
@@ -1280,8 +1296,8 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2021-05-11",
+    "dateSoftwareLastUpdated": "2021-07-22",
     "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
-    "citationCount": "497"
+    "citationCount": "522"
   }
 ]

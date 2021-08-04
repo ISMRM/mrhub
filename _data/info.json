@@ -1,10 +1,11 @@
 {
-  "all": "32",
+  "all": "35",
+  "Toolbox": 1,
+  "Reconstruction": 14,
+  "Simulation": 4,
   "Image processing": 8,
   "Multipurpose": 4,
-  "Reconstruction": 13,
   "Spectroscopy": 1,
   "Pulse sequences": 2,
-  "Data format": 1,
-  "Simulation": 3
+  "Data format": 1
 }
