@@ -106,7 +106,7 @@
     "imageFile": "HoughTract.png",
     "mainURL": "https://www.nitrc.org/projects/csaodf-hough",
     "repoURL": "https://www.mathworks.com/matlabcentral/fileexchange/62516-csa-qbi-and-hough-tractography-for-diffusion-mri",
-    "principalDevelopers": "<a href=\"https://www.nmr.mgh.harvard.edu/~iman\">Iman Aganj</a>",
+    "principalDevelopers": "<a href=\"https://nmr.mgh.harvard.edu/~iman\">Iman Aganj</a>",
     "longDescription": "This is a diffusion-weighted MRI processing Matlab toolbox (including binaries), which can be used to:  * Compute the Q-Ball Imaging Orientation Distribution Function in Constant Solid Angle (CSA-ODF) (Aganj et al, MRM 2010).  * Perform Hough-transform tractography (Aganj et al, MedIA 2011).  * Visualize ODFs and tracts, and export them for further analysis.  * Verify the correctness of the diffusion gradient table (Aganj, Sci Rep 2018).  * Compute and interactively visualize the connectivity matrix.  * Augment the connectivity matrix with indirect connections (Aganj et al, ISMRM 2014).",
     "keywords": [
       "Diffusion MRI",
