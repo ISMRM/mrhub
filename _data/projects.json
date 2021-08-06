@@ -1,5 +1,77 @@
 [
   {
+    "name": "Conductance Model for Brain Structural Connectivity",
+    "category": "Reconstruction",
+    "shortDescription": "Matlab toolbox for conductance-based computation of brain connectivity from Diffusion MRI.",
+    "imageFile": "Conductance.png",
+    "mainURL": "https://www.nitrc.org/projects/conductance",
+    "repoURL": "https://github.com/ainafp/FVT4DWI",
+    "principalDevelopers": "<a href=\"https://ainafp.github.io\">Aina Frau-Pascual</a>",
+    "longDescription": "This toolbox computes the structural connectivity of the brain (connectome) from diffusion-weighted MRI, using a conductance-based mathematical model introduced by Frau-Pascual et al (NeuroImage, 2019). Example scripts for HCP and ADNI are provided.",
+    "keywords": [ "Diffusion MRI", "Conductance", "Tractography", "Connectomics", "DTI" ],
+    "keyReferences": [
+      {
+        "referenceText": "A. Frau-Pascual, M. Fogarty, B. Fischl, A. Yendiki, and I. Aganj, “Quantification of structural brain connectivity via a conductance model,” NeuroImage, vol. 189, pp. 485–496, 2019.",
+        "referenceURL": "https://doi.org/10.1016/j.neuroimage.2019.01.033"
+      },
+
+      {
+        "referenceText": "A. Frau-Pascual, J. Augustinack, D. Varadarajan, A. Yendiki, D. H. Salat, B. Fischl, and I. Aganj, “Conductance-based structural brain connectivity in aging and dementia,” Brain Connectivity, vol. 11, no. 7, 2021.",
+        "referenceURL": "http://doi.org/10.1089/brain.2020.0903"
+      }
+
+    ],
+    "extraResources": [
+      {
+        "resourceType": "GitHub",
+        "URL": "https://github.com/ainafp/FVT4DWI"
+      },
+      {
+        "resourceType": "NITRC",
+        "URL": "https://www.nitrc.org/projects/conductance"
+      },
+      {
+        "resourceType": "Matlab File Exchange",
+        "URL": "https://www.mathworks.com/matlabcentral/fileexchange/81338-fvt4dwi"
+      },
+      {
+        "resourceType": "Example script",
+        "URL": "https://github.com/ainafp/FVT4DWI/blob/master/Examples/Connectivity/run_conductance_hcp.m"
+      }
+    ],
+    "dateAddedToMRHub": "2021-08-06",
+    "dateSoftwareLastUpdated": "2020-10-27",
+    "citationSearchString": "10.1016/j.neuroimage.2019.01.033",
+    "citationCount": "12"
+  },
+  {
+    "name": "Image Segmentation and Registration in Matlab",
+    "category": "Image processing",
+    "shortDescription": "Matlab tools for unsupervised and supervised segmentation, and deformable and rigid registration of medical images.",
+    "imageFile": "MSIreg.png",
+    "mainURL": "https://nmr.mgh.harvard.edu/~iman/software",
+    "repoURL": "",
+    "principalDevelopers": "<a href=\"https://nmr.mgh.harvard.edu/~iman\">Iman Aganj</a>",
+    "longDescription": "These tools are useful for the following neuro- and biomedical image processing and analyses:  * Unsupervised medical image segmentation based on the local center of mass.  * Supervised medical image segmentation via expected-label-value computation.  * Deformable registration of medical images using a mid-space-independent algorithm.  * Rigid registration of multimodal images guided by segmentation.  * Tissue thickness computation.  * MRI image fusion and super-resolution using wavelets.  * Diffusion MRI analysis.",
+    "keywords": [ "Segmentation", "Registration", "Tissue thickness measurement", "Wavelet Fusion" ],
+    "keyReferences": [
+      {
+        "referenceText": "The reference corresponding to each toolbox is listed in the software page.",
+        "referenceURL": "https://nmr.mgh.harvard.edu/~iman/software"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Software page",
+        "URL": "https://nmr.mgh.harvard.edu/~iman/software"
+      }
+    ],
+    "dateAddedToMRHub": "2021-08-06",
+    "dateSoftwareLastUpdated": "2021-06-26",
+    "citationSearchString": "10.1038/s41598-018-31333-5",
+    "citationCount": "36"
+  },
+  {
     "name": "seeVR",
     "category": "Toolbox",
     "shortDescription": "A Matlab toolbox for analyzing cerebro-vascular reactivity (CVR) data",
@@ -31,10 +103,10 @@
     "name": "Diffusion MRI CSA-ODF and Hough Tractography",
     "category": "Reconstruction",
     "shortDescription": "Matlab toolbox for Diffusion MRI CSA-ODF computation, Hough tractography, and connectomic analysis.",
-    "imageFile": "HoughTract.jpg",
+    "imageFile": "HoughTract.png",
     "mainURL": "https://www.nitrc.org/projects/csaodf-hough",
     "repoURL": "https://www.mathworks.com/matlabcentral/fileexchange/62516-csa-qbi-and-hough-tractography-for-diffusion-mri",
-    "principalDevelopers": "<a href=\"https://www.nmr.mgh.harvard.edu/~iman\">Iman Aganj</a>",
+    "principalDevelopers": "<a href=\"https://nmr.mgh.harvard.edu/~iman\">Iman Aganj</a>",
     "longDescription": "This is a diffusion-weighted MRI processing Matlab toolbox (including binaries), which can be used to:  * Compute the Q-Ball Imaging Orientation Distribution Function in Constant Solid Angle (CSA-ODF) (Aganj et al, MRM 2010).  * Perform Hough-transform tractography (Aganj et al, MedIA 2011).  * Visualize ODFs and tracts, and export them for further analysis.  * Verify the correctness of the diffusion gradient table (Aganj, Sci Rep 2018).  * Compute and interactively visualize the connectivity matrix.  * Augment the connectivity matrix with indirect connections (Aganj et al, ISMRM 2014).",
     "keywords": [
       "Diffusion MRI",
