@@ -1,5 +1,41 @@
 [
   {
+    "name": "torchkbnufft",
+    "category": "Reconstruction",
+    "shortDescription": "A high-level, easy-to-deploy non-uniform Fast Fourier Transform in PyTorch.",
+    "imageFile": "torchkbnufft.png",
+    "mainURL": "https://torchkbnufft.readthedocs.io/en/stable/",
+    "repoURL": "https://github.com/mmuckley/torchkbnufft",
+    "principalDevelopers": "Matthew J. Muckley, Ruben Stern, Tullie Murrell and Florian Knoll",
+    "longDescription": "torchkbnufft implements a non-uniform Fast Fourier Transform with Kaiser-Bessel gridding in PyTorch. The implementation is completely in Python, facilitating flexible deployment in readable code with no compilation. NUFFT functions are each wrapped as a torch.autograd.Function, allowing backpropagation through NUFFT operators for training neural networks. This package was inspired in large part by the NUFFT implementation in the Michigan Image Reconstruction Toolbox (Matlab).",
+    "keywords": ["pytorch", "deep learning", "nufft", "reconstruction"],
+    "keyReferences": [
+        {
+            "referenceText": "Muckley MJ, Stern R, Murrell T, Knoll F. TorchKb-Nufft: A high-level hardware-agnostic non-uniform fast fourier transform. InISMRM Workshop on Data Sampling & Image Reconstruction 2020.",
+            "referenceURL": "https://www.ismrm.org/workshops/2020/Data/program.php"
+        }
+        
+    ],
+    "extraResources": [
+        {
+            "resourceType": "PyPI",
+            "URL": "https://pypi.org/project/torchkbnufft/"
+        },
+        {
+            "resourceType": "Documentation",
+            "URL": "https://torchkbnufft.readthedocs.io/en/stable/"
+        },
+        {
+            "resourceType": "GitHub",
+            "URL": "https://github.com/mmuckley/torchkbnufft/"
+        }
+    ],
+    "dateAddedToMRHub": "2021-11-1",
+    "dateSoftwareLastUpdated": "2019-05-10",
+    "citationSearchString": "N/A",
+    "citationCount": ""
+  },
+  {
     "name": "Conductance Model for Brain Structural Connectivity",
     "category": "Reconstruction",
     "shortDescription": "Matlab toolbox for conductance-based computation of brain connectivity from Diffusion MRI.",
