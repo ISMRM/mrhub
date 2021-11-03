@@ -96,7 +96,7 @@ projects.each do |project|
 
     project["citationCount"] = get_num_citations project, citation_api
 
-    if repo_uri == ""
+    if repo_uri.to_s.empty?
         puts "Found a project without repository URL. Skipping."
     elsif repo_uri.host.include? "github"
         newDate = get_update_time_from_github project, github_api, github_username, github_password

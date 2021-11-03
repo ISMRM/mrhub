@@ -5,7 +5,7 @@ on:
   - push
 
 jobs:
-  test:
+  AutoUpdate:
 
     runs-on: ubuntu-latest
 
