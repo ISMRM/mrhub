@@ -1,8 +1,8 @@
 name: AutoUpdate
 
 on:
-  - pull_request
-  - push
+  schedule:
+    - cron:  '0 12 * * *'
 
 jobs:
   AutoUpdate:
