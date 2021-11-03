@@ -29,7 +29,7 @@ $('#filter-none').click(function() {
   featureList.filter();
   return false;
 });
-featureList.sort('ncitations', { order: "desc" });
+featureList.sort('dateupdated', { order: "desc" });
 
 function categories() {
     category = document.getElementById("ddcategory").value;
