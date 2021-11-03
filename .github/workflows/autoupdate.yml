@@ -23,8 +23,8 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
             token: ${{ secrets.GITHUB_TOKEN }}
-            commit-message: [GHA] Update data
-            title: [GHA] Update data
+            commit-message: "[GHA] Update data"
+            title: "[GHA] Update data"
             body: |
               - This is an automated pull request.
             branch: update-data
