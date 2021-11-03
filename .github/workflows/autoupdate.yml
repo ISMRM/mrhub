@@ -2,7 +2,7 @@ name: AutoUpdate
 
 on:
   schedule:
-    - cron:  '0 12 * * *'
+    - cron:  '0 12 * * 5'
 
 jobs:
   AutoUpdate:
@@ -23,8 +23,8 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
             token: ${{ secrets.GITHUB_TOKEN }}
-            commit-message: Update data
-            title: Update data
+            commit-message: [GHA] Update data
+            title: [GHA] Update data
             body: |
-              - Testing if auto updater works
+              - This is an automated pull request.
             branch: update-dependencies
