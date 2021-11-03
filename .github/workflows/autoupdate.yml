@@ -1,0 +1,30 @@
+name: AutoUpdate
+
+on:
+  - pull_request
+  - push
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@477b21f02be01bcb8030d50f37cfec92bfa615b6
+        with:
+          ruby-version: 2.6
+      - name: Run update
+        run: |
+          cd _data
+          ruby update.rb
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+            token: ${{ secrets.GITHUB_TOKEN }}
+            commit-message: Update data
+            title: Update data
+            body: |
+              - Testing if auto updater works
+            branch: update-dependencies
