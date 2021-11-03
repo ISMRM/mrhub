@@ -27,4 +27,4 @@ jobs:
             title: [GHA] Update data
             body: |
               - This is an automated pull request.
-            branch: update-dependencies
+            branch: update-data
