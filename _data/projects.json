@@ -8,32 +8,36 @@
     "repoURL": "https://github.com/mmuckley/torchkbnufft/",
     "principalDevelopers": "Matthew J. Muckley, Ruben Stern, Tullie Murrell and Florian Knoll",
     "longDescription": "torchkbnufft implements a non-uniform Fast Fourier Transform with Kaiser-Bessel gridding in PyTorch. The implementation is completely in Python, facilitating flexible deployment in readable code with no compilation. NUFFT functions are each wrapped as a torch.autograd.Function, allowing backpropagation through NUFFT operators for training neural networks. This package was inspired in large part by the NUFFT implementation in the Michigan Image Reconstruction Toolbox (Matlab).",
-    "keywords": ["PyTorch", "deep learning", "NUFFT", "reconstruction"],
+    "keywords": [
+      "PyTorch",
+      "deep learning",
+      "NUFFT",
+      "reconstruction"
+    ],
     "keyReferences": [
-        {
-            "referenceText": "MJ Muckley, R Stern, T Murrell, F Knoll. TorchKbNufft: A high-level, hardware-agnostic non-uniform fast Fourier transform. In ISMRM Data Sampling & Image Reconstruction Workshop, 2020.",
-            "referenceURL": "https://www.ismrm.org/workshops/2020/Data/program.php"
-        }
-        
+      {
+        "referenceText": "MJ Muckley, R Stern, T Murrell, F Knoll. TorchKbNufft: A high-level, hardware-agnostic non-uniform fast Fourier transform. In ISMRM Data Sampling & Image Reconstruction Workshop, 2020.",
+        "referenceURL": "https://www.ismrm.org/workshops/2020/Data/program.php"
+      }
     ],
     "extraResources": [
-        {
-            "resourceType": "PyPI",
-            "URL": "https://pypi.org/project/torchkbnufft/"
-        },
-        {
-            "resourceType": "Documentation",
-            "URL": "https://torchkbnufft.readthedocs.io/en/stable/"
-        },
-        {
-            "resourceType": "GitHub",
-            "URL": "https://github.com/mmuckley/torchkbnufft/"
-        }
+      {
+        "resourceType": "PyPI",
+        "URL": "https://pypi.org/project/torchkbnufft/"
+      },
+      {
+        "resourceType": "Documentation",
+        "URL": "https://torchkbnufft.readthedocs.io/en/stable/"
+      },
+      {
+        "resourceType": "GitHub",
+        "URL": "https://github.com/mmuckley/torchkbnufft/"
+      }
     ],
     "dateAddedToMRHub": "2021-11-01",
     "dateSoftwareLastUpdated": "2021-09-08",
     "citationSearchString": "N/A",
-    "citationCount": ""
+    "citationCount": "0"
   },
   {
     "name": "Conductance Model for Brain Structural Connectivity",
@@ -44,18 +48,22 @@
     "repoURL": "https://github.com/ainafp/FVT4DWI",
     "principalDevelopers": "<a href=\"https://ainafp.github.io\">Aina Frau-Pascual</a>",
     "longDescription": "This toolbox computes the structural connectivity of the brain (connectome) from diffusion-weighted MRI, using a conductance-based mathematical model introduced by Frau-Pascual et al (NeuroImage, 2019). Example scripts for HCP and ADNI are provided.",
-    "keywords": [ "Diffusion MRI", "Conductance", "Tractography", "Connectomics", "DTI" ],
+    "keywords": [
+      "Diffusion MRI",
+      "Conductance",
+      "Tractography",
+      "Connectomics",
+      "DTI"
+    ],
     "keyReferences": [
       {
         "referenceText": "A. Frau-Pascual, M. Fogarty, B. Fischl, A. Yendiki, and I. Aganj, “Quantification of structural brain connectivity via a conductance model,” NeuroImage, vol. 189, pp. 485–496, 2019.",
         "referenceURL": "https://doi.org/10.1016/j.neuroimage.2019.01.033"
       },
-
       {
         "referenceText": "A. Frau-Pascual, J. Augustinack, D. Varadarajan, A. Yendiki, D. H. Salat, B. Fischl, and I. Aganj, “Conductance-based structural brain connectivity in aging and dementia,” Brain Connectivity, vol. 11, no. 7, 2021.",
         "referenceURL": "http://doi.org/10.1089/brain.2020.0903"
       }
-
     ],
     "extraResources": [
       {
@@ -76,9 +84,9 @@
       }
     ],
     "dateAddedToMRHub": "2021-08-06",
-    "dateSoftwareLastUpdated": "2020-10-27",
+    "dateSoftwareLastUpdated": "2019-02-20",
     "citationSearchString": "10.1016/j.neuroimage.2019.01.033",
-    "citationCount": "12"
+    "citationCount": "13"
   },
   {
     "name": "Image Segmentation and Registration in Matlab",
@@ -89,7 +97,12 @@
     "repoURL": "",
     "principalDevelopers": "<a href=\"https://nmr.mgh.harvard.edu/~iman\">Iman Aganj</a>",
     "longDescription": "These tools are useful for the following neuro- and biomedical image processing and analyses:  * Unsupervised medical image segmentation based on the local center of mass.  * Supervised medical image segmentation via expected-label-value computation.  * Deformable registration of medical images using a mid-space-independent algorithm.  * Rigid registration of multimodal images guided by segmentation.  * Tissue thickness computation.  * MRI image fusion and super-resolution using wavelets.  * Diffusion MRI analysis.",
-    "keywords": [ "Segmentation", "Registration", "Tissue thickness measurement", "Wavelet Fusion" ],
+    "keywords": [
+      "Segmentation",
+      "Registration",
+      "Tissue thickness measurement",
+      "Wavelet Fusion"
+    ],
     "keyReferences": [
       {
         "referenceText": "The reference corresponding to each toolbox is listed in the software page.",
@@ -105,7 +118,7 @@
     "dateAddedToMRHub": "2021-08-06",
     "dateSoftwareLastUpdated": "2021-06-26",
     "citationSearchString": "10.1038/s41598-018-31333-5",
-    "citationCount": "36"
+    "citationCount": "43"
   },
   {
     "name": "seeVR",
@@ -133,7 +146,7 @@
     "dateAddedToMRHub": "2021-08-01",
     "dateSoftwareLastUpdated": "2021-08-01",
     "citationSearchString": "aa1f729decd1a5a0d56de10446a8e268367cb927",
-    "citationCount": "1"
+    "citationCount": "2"
   },
   {
     "name": "Diffusion MRI CSA-ODF and Hough Tractography",
@@ -186,7 +199,7 @@
     "dateAddedToMRHub": "2021-08-04",
     "dateSoftwareLastUpdated": "2021-06-26",
     "citationSearchString": "10.1002/mrm.22365",
-    "citationCount": "336"
+    "citationCount": "344"
   },
   {
     "name": "MRIgeneralizedBloch.jl",
@@ -211,7 +224,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-07-26",
-    "dateSoftwareLastUpdated": "2021-07-30",
+    "dateSoftwareLastUpdated": "2021-10-25",
     "citationSearchString": "30567d7cd59f7a9a16f387b4d57bcd15f5d2d59b",
     "citationCount": "0"
   },
@@ -267,7 +280,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-19",
-    "dateSoftwareLastUpdated": "2021-07-05",
+    "dateSoftwareLastUpdated": "2021-10-11",
     "citationSearchString": "10.1002/mrm.28798",
     "citationCount": "0"
   },
@@ -308,9 +321,9 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-17",
-    "dateSoftwareLastUpdated": "2021-08-03",
+    "dateSoftwareLastUpdated": "2021-11-01",
     "citationSearchString": "10.1109/TMI.2010.2045126",
-    "citationCount": "495"
+    "citationCount": "536"
   },
   {
     "name": "MyoQMRI",
@@ -379,7 +392,7 @@
     "dateAddedToMRHub": "2020-08-14",
     "dateSoftwareLastUpdated": "2021-07-14",
     "citationSearchString": "0804898055d61e965e64e8bba8e60ce7e03b6ef0",
-    "citationCount": "3"
+    "citationCount": "9"
   },
   {
     "name": "TED",
@@ -478,7 +491,7 @@
     "dateAddedToMRHub": "2020-07-07",
     "dateSoftwareLastUpdated": "2020-07-09",
     "citationSearchString": "10.1016/j.neuroimage.2020.117031",
-    "citationCount": "3"
+    "citationCount": "12"
   },
   {
     "name": "QMRITools",
@@ -526,9 +539,9 @@
       }
     ],
     "dateAddedToMRHub": "2020-05-25",
-    "dateSoftwareLastUpdated": "2021-06-23",
+    "dateSoftwareLastUpdated": "2021-10-07",
     "citationSearchString": "CorpusID:195755688",
-    "citationCount": "5"
+    "citationCount": "10"
   },
   {
     "name": "CORE-PI",
@@ -628,9 +641,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-06-19",
-    "dateSoftwareLastUpdated": "2021-07-06",
+    "dateSoftwareLastUpdated": "2021-09-17",
     "citationSearchString": "10.1016/j.media.2016.02.010",
-    "citationCount": "54"
+    "citationCount": "55"
   },
   {
     "name": "Gannet",
@@ -667,7 +680,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
-    "citationCount": "304"
+    "citationCount": "339"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -706,7 +719,7 @@
     "dateAddedToMRHub": "2019-05-30",
     "dateSoftwareLastUpdated": "2021-06-24",
     "citationSearchString": "10.1002/mrm.25528",
-    "citationCount": "33"
+    "citationCount": "36"
   },
   {
     "name": "Water/Fat Separated MR Thermometry",
@@ -738,7 +751,7 @@
     "dateAddedToMRHub": "2019-05-29",
     "dateSoftwareLastUpdated": "2018-09-26",
     "citationSearchString": "10.1002/mrm.27567",
-    "citationCount": "8"
+    "citationCount": "9"
   },
   {
     "name": "MRtrix3",
@@ -772,9 +785,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-08-02",
+    "dateSoftwareLastUpdated": "2021-10-22",
     "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-    "citationCount": "356"
+    "citationCount": "354"
   },
   {
     "name": "gammaSTAR",
@@ -815,7 +828,7 @@
     "dateAddedToMRHub": "2019-05-29",
     "dateSoftwareLastUpdated": "2020-01-29",
     "citationSearchString": "10.1002/mrm.28020",
-    "citationCount": "1"
+    "citationCount": "2"
   },
   {
     "name": "SigPy",
@@ -848,7 +861,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2021-07-01",
+    "dateSoftwareLastUpdated": "2021-08-30",
     "citationSearchString": "SigPy",
     "citationCount": "0"
   },
@@ -892,9 +905,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2021-05-18",
+    "dateSoftwareLastUpdated": "2021-11-01",
     "citationSearchString": "10.1002/mrm.25670",
-    "citationCount": "72"
+    "citationCount": "79"
   },
   {
     "name": "Berkeley Advanced Reconstruction Toolbox (BART)",
@@ -944,9 +957,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-07-07",
+    "dateSoftwareLastUpdated": "2021-10-28",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "648"
+    "citationCount": "692"
   },
   {
     "name": "Gadgetron",
@@ -984,9 +997,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-07-09",
+    "dateSoftwareLastUpdated": "2021-10-27",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "199"
+    "citationCount": "210"
   },
   {
     "name": "gpuNUFFT",
@@ -1018,7 +1031,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-05-23",
     "citationSearchString": "c788ecd4a6ac9d3d7013a94515ec0718274e9907",
-    "citationCount": "54"
+    "citationCount": "58"
   },
   {
     "name": "ISMRMRD",
@@ -1050,7 +1063,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-05-14",
     "citationSearchString": "10.1002/mrm.26089",
-    "citationCount": "29"
+    "citationCount": "33"
   },
   {
     "name": "Low Field Simulator",
@@ -1115,7 +1128,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-05-16",
     "citationSearchString": "10.1002/mrm.26235",
-    "citationCount": "27"
+    "citationCount": "29"
   },
   {
     "name": "MRiLab",
@@ -1154,7 +1167,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-10",
     "citationSearchString": "10.1109/TMI.2016.2620961",
-    "citationCount": "31"
+    "citationCount": "35"
   },
   {
     "name": "NYU MR-Fingerprinting Reconstruction Toolbox",
@@ -1187,7 +1200,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-06",
     "citationSearchString": "10.1002/mrm.26639",
-    "citationCount": "97"
+    "citationCount": "109"
   },
   {
     "name": "QUIT",
@@ -1226,7 +1239,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-07-26",
     "citationSearchString": "10.21105/joss.00656",
-    "citationCount": "28"
+    "citationCount": "31"
   },
   {
     "name": "JEMRIS",
@@ -1257,7 +1270,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2020-09-21",
     "citationSearchString": "10.1002/mrm.22406",
-    "citationCount": "85"
+    "citationCount": "94"
   },
   {
     "name": "Spinal Cord Toolbox (SCT)",
@@ -1289,7 +1302,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-03-01",
     "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
-    "citationCount": "201"
+    "citationCount": "239"
   },
   {
     "name": "qMRLab",
@@ -1318,7 +1331,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-02-27",
+    "dateSoftwareLastUpdated": "2021-11-04",
     "citationSearchString": "10.1002/cmr.a.21357",
     "citationCount": "36"
   },
@@ -1355,7 +1368,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-07-03",
-    "dateSoftwareLastUpdated": "2021-07-27",
+    "dateSoftwareLastUpdated": "2021-10-12",
     "citationSearchString": "8c5511d9ecad595dba390a718957be8c84c22f7a",
     "citationCount": "10"
   },
@@ -1404,8 +1417,8 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2021-07-22",
+    "dateSoftwareLastUpdated": "2021-11-04",
     "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
-    "citationCount": "522"
+    "citationCount": "590"
   }
 ]
