@@ -50,7 +50,10 @@
                         <div class="row">
 
                             <div class="col-md-3 col-s-12">
-                                <img src="images_packages/{{ project.imageFile }}" style="max-width: 100%; max-height: 100px;" /></div>
+                                {% if project.imageFile %}
+                                <img src="images_packages/{{ project.imageFile }}" style="max-width: 100%; max-height: 100px;" />
+                                {% endif %}
+                            </div>
                             <div class="col-md-9">
                                 <a href="{{ project.mainURL }}">
                                     <div class="projectname name">{{ project.name }}</div>
