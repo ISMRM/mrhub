@@ -321,9 +321,9 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-17",
-    "dateSoftwareLastUpdated": "2021-11-11",
+    "dateSoftwareLastUpdated": "2021-11-18",
     "citationSearchString": "10.1109/TMI.2010.2045126",
-    "citationCount": "537"
+    "citationCount": "539"
   },
   {
     "name": "MyoQMRI",
@@ -643,7 +643,7 @@
     "dateAddedToMRHub": "2019-06-19",
     "dateSoftwareLastUpdated": "2021-09-17",
     "citationSearchString": "10.1016/j.media.2016.02.010",
-    "citationCount": "55"
+    "citationCount": "56"
   },
   {
     "name": "Gannet",
@@ -680,7 +680,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
-    "citationCount": "342"
+    "citationCount": "345"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -785,9 +785,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-11-07",
+    "dateSoftwareLastUpdated": "2021-11-18",
     "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-    "citationCount": "347"
+    "citationCount": "352"
   },
   {
     "name": "gammaSTAR",
@@ -861,7 +861,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2021-08-30",
+    "dateSoftwareLastUpdated": "2021-11-18",
     "citationSearchString": "SigPy",
     "citationCount": "0"
   },
@@ -957,9 +957,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-11-12",
+    "dateSoftwareLastUpdated": "2021-11-15",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "698"
+    "citationCount": "701"
   },
   {
     "name": "Gadgetron",
@@ -997,9 +997,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-10-27",
+    "dateSoftwareLastUpdated": "2021-11-18",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "212"
+    "citationCount": "213"
   },
   {
     "name": "gpuNUFFT",
@@ -1063,7 +1063,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-05-14",
     "citationSearchString": "10.1002/mrm.26089",
-    "citationCount": "33"
+    "citationCount": "34"
   },
   {
     "name": "Low Field Simulator",
@@ -1128,7 +1128,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-05-16",
     "citationSearchString": "10.1002/mrm.26235",
-    "citationCount": "29"
+    "citationCount": "30"
   },
   {
     "name": "MRiLab",
@@ -1200,7 +1200,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-06",
     "citationSearchString": "10.1002/mrm.26639",
-    "citationCount": "109"
+    "citationCount": "111"
   },
   {
     "name": "QUIT",
@@ -1302,7 +1302,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-03-01",
     "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
-    "citationCount": "240"
+    "citationCount": "242"
   },
   {
     "name": "qMRLab",
@@ -1417,8 +1417,8 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2021-11-06",
+    "dateSoftwareLastUpdated": "2021-11-18",
     "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
-    "citationCount": "596"
+    "citationCount": "602"
   }
 ]
