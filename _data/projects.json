@@ -62,7 +62,7 @@
     ],
     "extraResources": [
       {
-        "resourceType": "Tutorial repository for using DECAES.jl, including example data for computing myelin water fraction (MWF) maps using DECAES.jl.",
+        "resourceType": "Tutorial repository for using DECAES.jl, including example data<br> for computing myelin water fraction (MWF) maps using DECAES.jl.",
         "URL": "https://github.com/jondeuce/mwiexamples"
       }
     ],
