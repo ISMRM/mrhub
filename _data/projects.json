@@ -27,12 +27,57 @@
     "citationCount": "3"
    },
   {
+    "name": "DECAES.jl",
+    "category": "Image processing",
+    "shortDescription": "A Julia package with a command line interface for computing whole-brain T2-distributions in 1-2 minutes.",
+    "imageFile": "decaes.png",
+    "mainURL": "https://jondeuce.github.io/DECAES.jl/dev/",
+    "repoURL": "https://github.com/jondeuce/DECAES.jl",
+    "principalDevelopers": "Jonathan Doucette, Christian Kames, and Alexander Rauscher",
+    "longDescription": "DEcomposition and Component Analysis of Exponential Signals (DECAES.jl) is a Julia package with a command line interface used for the fast computation of voxelwise T2-distributions from multiecho spin-echo MRI images (Doucette et al.). This package is the successor to the ubcmwf MATLAB toolbox from the UBC MRI Research Centre (Prasloski et al.). DECAES.jl computes T2-distributions by using regularized nonnegative least-squares (NNLS) to project measured MR signals onto basis sets of simulated MR signals computed using the extended phase graph (EPG) algorithm with stimulated echo corrections. If the stimulated echo correction is turned off, DECAES.jl can be used for decomposing any multiexponential signal into its monoexponential components. T2-distributions are used in applications such as myelin water imaging (Mackay et al.) and luminal water imaging (Sabouri et al.).",
+    "keywords": [
+      "MRI",
+      "Brain",
+      "Prostate",
+      "Myelin Water Imaging",
+      "Luminal Water Imaging"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Doucette J, Kames C, Rauscher A. DECAES – DEcomposition and Component Analysis of Exponential Signals. Zeitschrift für Medizinische Physik 2020; 30: 271–278.",
+        "referenceURL": "https://doi.org/10.1016/j.zemedi.2020.04.001"
+      },
+      {
+        "referenceText": "Prasloski T, Mädler B, Xiang Q-S, et al. Applications of stimulated echo correction to multicomponent T2 analysis. Magnetic Resonance in Medicine 2012; 67: 1803–1814.",
+        "referenceURL": "https://doi.org/10.1002/mrm.23157"
+      },
+      {
+        "referenceText": "Mackay A, Whittall K, Adler J, et al. In vivo visualization of myelin water in brain by magnetic resonance. Magnetic Resonance in Medicine 1994; 31: 673–677.",
+        "referenceURL": "https://doi.org/10.1002/mrm.1910310614"
+      },
+      {
+        "referenceText": "Sabouri S, Chang SD, Savdie R, et al. Luminal Water Imaging: A New MR Imaging T2 Mapping Technique for Prostate Cancer Diagnosis. Radiology 2017; 284: 451–459.",
+        "referenceURL": "https://doi.org/10.1148/radiol.2017161687"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Tutorial repository for using DECAES.jl, including example data for computing myelin water fraction (MWF) maps using DECAES.jl.",
+        "URL": "https://github.com/jondeuce/mwiexamples"
+      }
+    ],
+    "dateAddedToMRHub": "2021-12-06",
+    "dateSoftwareLastUpdated": "2021-08-04",
+    "citationSearchString": "10.1016/j.zemedi.2020.04.001",
+    "citationCount": "6"
+  },
+  {
     "name": "torchkbnufft",
     "category": "Reconstruction",
     "shortDescription": "A high-level, easy-to-deploy non-uniform Fast Fourier Transform in PyTorch.",
     "imageFile": "torchkbnufft.png",
-    "mainURL": "https://torchkbnufft.readthedocs.io/en/stable/",
-    "repoURL": "https://github.com/mmuckley/torchkbnufft/",
+    "mainURL": "https://torchkbnufft.readthedocs.io/en/stable",
+    "repoURL": "https://github.com/mmuckley/torchkbnufft",
     "principalDevelopers": "Matthew J. Muckley, Ruben Stern, Tullie Murrell and Florian Knoll",
     "longDescription": "torchkbnufft implements a non-uniform Fast Fourier Transform with Kaiser-Bessel gridding in PyTorch. The implementation is completely in Python, facilitating flexible deployment in readable code with no compilation. NUFFT functions are each wrapped as a torch.autograd.Function, allowing backpropagation through NUFFT operators for training neural networks. This package was inspired in large part by the NUFFT implementation in the Michigan Image Reconstruction Toolbox (Matlab).",
     "keywords": [
@@ -145,7 +190,7 @@
     "dateAddedToMRHub": "2021-08-06",
     "dateSoftwareLastUpdated": "2021-06-26",
     "citationSearchString": "10.1038/s41598-018-31333-5",
-    "citationCount": "45"
+    "citationCount": "46"
   },
   {
     "name": "seeVR",
@@ -173,7 +218,7 @@
     "dateAddedToMRHub": "2021-08-01",
     "dateSoftwareLastUpdated": "2021-08-01",
     "citationSearchString": "aa1f729decd1a5a0d56de10446a8e268367cb927",
-    "citationCount": "2"
+    "citationCount": "3"
   },
   {
     "name": "Diffusion MRI CSA-ODF and Hough Tractography",
@@ -226,7 +271,7 @@
     "dateAddedToMRHub": "2021-08-04",
     "dateSoftwareLastUpdated": "2021-06-26",
     "citationSearchString": "10.1002/mrm.22365",
-    "citationCount": "344"
+    "citationCount": "345"
   },
   {
     "name": "MRIgeneralizedBloch.jl",
@@ -251,7 +296,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-07-26",
-    "dateSoftwareLastUpdated": "2021-11-23",
+    "dateSoftwareLastUpdated": "2021-11-27",
     "citationSearchString": "30567d7cd59f7a9a16f387b4d57bcd15f5d2d59b",
     "citationCount": "0"
   },
@@ -348,9 +393,9 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-17",
-    "dateSoftwareLastUpdated": "2021-11-24",
+    "dateSoftwareLastUpdated": "2021-12-03",
     "citationSearchString": "10.1109/TMI.2010.2045126",
-    "citationCount": "541"
+    "citationCount": "542"
   },
   {
     "name": "MyoQMRI",
@@ -381,7 +426,7 @@
     "dateAddedToMRHub": "2021-03-01",
     "dateSoftwareLastUpdated": "2021-02-26",
     "citationSearchString": "10.3389/fneur.2021.630387",
-    "citationCount": "1"
+    "citationCount": "2"
   },
   {
     "name": "MRQy",
@@ -600,7 +645,7 @@
     "dateAddedToMRHub": "2019-12-25",
     "dateSoftwareLastUpdated": "2020-05-09",
     "citationSearchString": "091ad971f140c40403eb8dd0e35c4863d6c434ee",
-    "citationCount": "2"
+    "citationCount": "4"
   },
   {
     "name": "MRIReco.jl",
@@ -633,7 +678,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-10-16",
-    "dateSoftwareLastUpdated": "2021-07-16",
+    "dateSoftwareLastUpdated": "2021-11-28",
     "citationSearchString": "n/a",
     "citationCount": "0"
   },
@@ -707,7 +752,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
-    "citationCount": "347"
+    "citationCount": "348"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -814,7 +859,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-11-26",
     "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-    "citationCount": "358"
+    "citationCount": "365"
   },
   {
     "name": "gammaSTAR",
@@ -855,7 +900,7 @@
     "dateAddedToMRHub": "2019-05-29",
     "dateSoftwareLastUpdated": "2020-01-29",
     "citationSearchString": "10.1002/mrm.28020",
-    "citationCount": "2"
+    "citationCount": "3"
   },
   {
     "name": "SigPy",
@@ -986,7 +1031,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-11-23",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "707"
+    "citationCount": "714"
   },
   {
     "name": "Gadgetron",
@@ -1024,9 +1069,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-11-22",
+    "dateSoftwareLastUpdated": "2021-12-01",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "213"
+    "citationCount": "214"
   },
   {
     "name": "gpuNUFFT",
@@ -1155,7 +1200,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-05-16",
     "citationSearchString": "10.1002/mrm.26235",
-    "citationCount": "30"
+    "citationCount": "32"
   },
   {
     "name": "MRiLab",
@@ -1194,7 +1239,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-10",
     "citationSearchString": "10.1109/TMI.2016.2620961",
-    "citationCount": "36"
+    "citationCount": "37"
   },
   {
     "name": "NYU MR-Fingerprinting Reconstruction Toolbox",
@@ -1227,7 +1272,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-06",
     "citationSearchString": "10.1002/mrm.26639",
-    "citationCount": "112"
+    "citationCount": "113"
   },
   {
     "name": "QUIT",
@@ -1297,7 +1342,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2020-09-21",
     "citationSearchString": "10.1002/mrm.22406",
-    "citationCount": "94"
+    "citationCount": "95"
   },
   {
     "name": "Spinal Cord Toolbox (SCT)",
@@ -1360,7 +1405,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-11-04",
     "citationSearchString": "10.1002/cmr.a.21357",
-    "citationCount": "36"
+    "citationCount": "37"
   },
   {
     "name": "Yarra Framework",
@@ -1444,8 +1489,8 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2021-11-19",
+    "dateSoftwareLastUpdated": "2021-12-03",
     "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
-    "citationCount": "604"
+    "citationCount": "611"
   }
 ]

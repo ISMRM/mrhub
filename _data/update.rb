@@ -40,8 +40,15 @@ def get_update_time_from_github(project, github_api, username, password)
     if response["commit"]
         return response["commit"]["commit"]["author"]["date"][0,10]
     else
-        return "nodatefound"
+        # Check if using main branch if no master found
+        url = github_api + repo_uri.path + "/branches/main"
+        response = get_api_response url, username, password
+        if response["commit"]
+            return response["commit"]["commit"]["author"]["date"][0,10]
+        end
     end
+
+    return "nodatefound"
 end
 
 def get_update_time_from_bitbucket(project, bitbucket_api)
