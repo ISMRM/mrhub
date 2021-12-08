@@ -4,8 +4,8 @@
     "category": "Reconstruction",
     "shortDescription": "A high-level, easy-to-deploy non-uniform Fast Fourier Transform in PyTorch.",
     "imageFile": "torchkbnufft.png",
-    "mainURL": "https://torchkbnufft.readthedocs.io/en/stable/",
-    "repoURL": "https://github.com/mmuckley/torchkbnufft/",
+    "mainURL": "https://torchkbnufft.readthedocs.io/en/stable",
+    "repoURL": "https://github.com/mmuckley/torchkbnufft",
     "principalDevelopers": "Matthew J. Muckley, Ruben Stern, Tullie Murrell and Florian Knoll",
     "longDescription": "torchkbnufft implements a non-uniform Fast Fourier Transform with Kaiser-Bessel gridding in PyTorch. The implementation is completely in Python, facilitating flexible deployment in readable code with no compilation. NUFFT functions are each wrapped as a torch.autograd.Function, allowing backpropagation through NUFFT operators for training neural networks. This package was inspired in large part by the NUFFT implementation in the Michigan Image Reconstruction Toolbox (Matlab).",
     "keywords": [
