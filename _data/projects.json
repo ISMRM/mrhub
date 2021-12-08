@@ -118,7 +118,7 @@
     "dateAddedToMRHub": "2021-08-06",
     "dateSoftwareLastUpdated": "2021-06-26",
     "citationSearchString": "10.1038/s41598-018-31333-5",
-    "citationCount": "45"
+    "citationCount": "46"
   },
   {
     "name": "seeVR",
@@ -146,7 +146,7 @@
     "dateAddedToMRHub": "2021-08-01",
     "dateSoftwareLastUpdated": "2021-08-01",
     "citationSearchString": "aa1f729decd1a5a0d56de10446a8e268367cb927",
-    "citationCount": "2"
+    "citationCount": "3"
   },
   {
     "name": "Diffusion MRI CSA-ODF and Hough Tractography",
@@ -199,7 +199,7 @@
     "dateAddedToMRHub": "2021-08-04",
     "dateSoftwareLastUpdated": "2021-06-26",
     "citationSearchString": "10.1002/mrm.22365",
-    "citationCount": "344"
+    "citationCount": "345"
   },
   {
     "name": "MRIgeneralizedBloch.jl",
@@ -224,7 +224,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-07-26",
-    "dateSoftwareLastUpdated": "2021-11-23",
+    "dateSoftwareLastUpdated": "2021-11-27",
     "citationSearchString": "30567d7cd59f7a9a16f387b4d57bcd15f5d2d59b",
     "citationCount": "0"
   },
@@ -321,9 +321,9 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-17",
-    "dateSoftwareLastUpdated": "2021-11-24",
+    "dateSoftwareLastUpdated": "2021-12-03",
     "citationSearchString": "10.1109/TMI.2010.2045126",
-    "citationCount": "541"
+    "citationCount": "542"
   },
   {
     "name": "MyoQMRI",
@@ -354,7 +354,7 @@
     "dateAddedToMRHub": "2021-03-01",
     "dateSoftwareLastUpdated": "2021-02-26",
     "citationSearchString": "10.3389/fneur.2021.630387",
-    "citationCount": "1"
+    "citationCount": "2"
   },
   {
     "name": "MRQy",
@@ -573,7 +573,7 @@
     "dateAddedToMRHub": "2019-12-25",
     "dateSoftwareLastUpdated": "2020-05-09",
     "citationSearchString": "091ad971f140c40403eb8dd0e35c4863d6c434ee",
-    "citationCount": "2"
+    "citationCount": "4"
   },
   {
     "name": "MRIReco.jl",
@@ -606,7 +606,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-10-16",
-    "dateSoftwareLastUpdated": "2021-07-16",
+    "dateSoftwareLastUpdated": "2021-11-28",
     "citationSearchString": "n/a",
     "citationCount": "0"
   },
@@ -680,7 +680,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
-    "citationCount": "347"
+    "citationCount": "348"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -787,7 +787,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-11-26",
     "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-    "citationCount": "358"
+    "citationCount": "365"
   },
   {
     "name": "gammaSTAR",
@@ -828,7 +828,7 @@
     "dateAddedToMRHub": "2019-05-29",
     "dateSoftwareLastUpdated": "2020-01-29",
     "citationSearchString": "10.1002/mrm.28020",
-    "citationCount": "2"
+    "citationCount": "3"
   },
   {
     "name": "SigPy",
@@ -959,7 +959,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-11-23",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "707"
+    "citationCount": "714"
   },
   {
     "name": "Gadgetron",
@@ -997,9 +997,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-11-22",
+    "dateSoftwareLastUpdated": "2021-12-01",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "213"
+    "citationCount": "214"
   },
   {
     "name": "gpuNUFFT",
@@ -1128,7 +1128,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-05-16",
     "citationSearchString": "10.1002/mrm.26235",
-    "citationCount": "30"
+    "citationCount": "32"
   },
   {
     "name": "MRiLab",
@@ -1167,7 +1167,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-10",
     "citationSearchString": "10.1109/TMI.2016.2620961",
-    "citationCount": "36"
+    "citationCount": "37"
   },
   {
     "name": "NYU MR-Fingerprinting Reconstruction Toolbox",
@@ -1200,7 +1200,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-06",
     "citationSearchString": "10.1002/mrm.26639",
-    "citationCount": "112"
+    "citationCount": "113"
   },
   {
     "name": "QUIT",
@@ -1270,7 +1270,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2020-09-21",
     "citationSearchString": "10.1002/mrm.22406",
-    "citationCount": "94"
+    "citationCount": "95"
   },
   {
     "name": "Spinal Cord Toolbox (SCT)",
@@ -1333,7 +1333,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-11-04",
     "citationSearchString": "10.1002/cmr.a.21357",
-    "citationCount": "36"
+    "citationCount": "37"
   },
   {
     "name": "Yarra Framework",
@@ -1417,8 +1417,8 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2021-11-19",
+    "dateSoftwareLastUpdated": "2021-12-03",
     "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
-    "citationCount": "604"
+    "citationCount": "611"
   }
 ]
