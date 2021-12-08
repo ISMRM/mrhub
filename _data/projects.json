@@ -1,5 +1,50 @@
 [
   {
+    "name": "DECAES.jl",
+    "category": "Image processing",
+    "shortDescription": "A Julia package with a command line interface for computing whole-brain T2-distributions in 1-2 minutes.",
+    "imageFile": "decaes.png",
+    "mainURL": "https://jondeuce.github.io/DECAES.jl/dev/",
+    "repoURL": "https://github.com/jondeuce/DECAES.jl",
+    "principalDevelopers": "Jonathan Doucette, Christian Kames, and Alexander Rauscher",
+    "longDescription": "DEcomposition and Component Analysis of Exponential Signals (DECAES.jl) is a Julia package with a command line interface used for the fast computation of voxelwise T2-distributions from multiecho spin-echo MRI images (Doucette et al.). This package is the successor to the ubcmwf MATLAB toolbox from the UBC MRI Research Centre (Prasloski et al.). DECAES.jl computes T2-distributions by using regularized nonnegative least-squares (NNLS) to project measured MR signals onto basis sets of simulated MR signals computed using the extended phase graph (EPG) algorithm with stimulated echo corrections. If the stimulated echo correction is turned off, DECAES.jl can be used for decomposing any multiexponential signal into its monoexponential components. T2-distributions are used in applications such as myelin water imaging (Mackay et al.) and luminal water imaging (Sabouri et al.).",
+    "keywords": [
+      "MRI",
+      "Brain",
+      "Prostate",
+      "Myelin Water Imaging",
+      "Luminal Water Imaging"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Doucette J, Kames C, Rauscher A. DECAES – DEcomposition and Component Analysis of Exponential Signals. Zeitschrift für Medizinische Physik 2020; 30: 271–278.",
+        "referenceURL": "https://doi.org/10.1016/j.zemedi.2020.04.001"
+      },
+      {
+        "referenceText": "Prasloski T, Mädler B, Xiang Q-S, et al. Applications of stimulated echo correction to multicomponent T2 analysis. Magnetic Resonance in Medicine 2012; 67: 1803–1814.",
+        "referenceURL": "https://doi.org/10.1002/mrm.23157"
+      },
+      {
+        "referenceText": "Mackay A, Whittall K, Adler J, et al. In vivo visualization of myelin water in brain by magnetic resonance. Magnetic Resonance in Medicine 1994; 31: 673–677.",
+        "referenceURL": "https://doi.org/10.1002/mrm.1910310614"
+      },
+      {
+        "referenceText": "Sabouri S, Chang SD, Savdie R, et al. Luminal Water Imaging: A New MR Imaging T2 Mapping Technique for Prostate Cancer Diagnosis. Radiology 2017; 284: 451–459.",
+        "referenceURL": "https://doi.org/10.1148/radiol.2017161687"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Tutorial repository for using DECAES.jl, including example data for computing myelin water fraction (MWF) maps using DECAES.jl.",
+        "URL": "https://github.com/jondeuce/mwiexamples"
+      }
+    ],
+    "dateAddedToMRHub": "2021-12-06",
+    "dateSoftwareLastUpdated": "2021-08-04",
+    "citationSearchString": "10.1016/j.zemedi.2020.04.001",
+    "citationCount": "6"
+  },
+  {
     "name": "torchkbnufft",
     "category": "Reconstruction",
     "shortDescription": "A high-level, easy-to-deploy non-uniform Fast Fourier Transform in PyTorch.",
