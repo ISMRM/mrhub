@@ -29,12 +29,12 @@
   {
     "name": "DECAES.jl",
     "category": "Image processing",
-    "shortDescription": "A Julia package with a command line interface for computing whole-brain T2-distributions in 1-2 minutes.",
+    "shortDescription": "A Julia package with command line and MATLAB interfaces for computing whole-brain T2-distributions in 1-2 minutes.",
     "imageFile": "decaes.png",
     "mainURL": "https://jondeuce.github.io/DECAES.jl/dev/",
     "repoURL": "https://github.com/jondeuce/DECAES.jl",
     "principalDevelopers": "Jonathan Doucette, Christian Kames, and Alexander Rauscher",
-    "longDescription": "DEcomposition and Component Analysis of Exponential Signals (DECAES.jl) is a Julia package with a command line interface used for the fast computation of voxelwise T2-distributions from multiecho spin-echo MRI images (Doucette et al.). This package is the successor to the ubcmwf MATLAB toolbox from the UBC MRI Research Centre (Prasloski et al.). DECAES.jl computes T2-distributions by using regularized nonnegative least-squares (NNLS) to project measured MR signals onto basis sets of simulated MR signals computed using the extended phase graph (EPG) algorithm with stimulated echo corrections. If the stimulated echo correction is turned off, DECAES.jl can be used for decomposing any multiexponential signal into its monoexponential components. T2-distributions are used in applications such as myelin water imaging (Mackay et al.) and luminal water imaging (Sabouri et al.).",
+    "longDescription": "DEcomposition and Component Analysis of Exponential Signals (DECAES.jl) is a Julia package with command line and MATLAB interfaces which provides fast computations of voxelwise T2-distributions from multiecho spin-echo MRI images (Doucette et al.). This package decreases computation times from hours to minutes compared to its predecessor, the ubcmwf MATLAB toolbox from the UBC MRI Research Centre (Prasloski et al.). DECAES.jl computes T2-distributions by using regularized nonnegative least-squares (NNLS) to project measured MR signals onto basis sets of simulated MR signals computed using the extended phase graph (EPG) algorithm with stimulated echo correction. If the stimulated echo correction is turned off, DECAES.jl can be used for decomposing any multiexponential signal into its monoexponential components. T2-distributions are used in applications such as myelin water imaging (Mackay et al.) and luminal water imaging (Sabouri et al.).",
     "keywords": [
       "MRI",
       "Brain",
@@ -62,8 +62,20 @@
     ],
     "extraResources": [
       {
-        "resourceType": "Tutorial repository for using DECAES.jl, including example data<br> for computing myelin water fraction (MWF) maps using DECAES.jl.",
+        "resourceType": "Tutorial",
         "URL": "https://github.com/jondeuce/mwiexamples"
+      },
+      {
+        "resourceType": "Documentation",
+        "URL": "https://jondeuce.github.io/DECAES.jl/dev/"
+      },
+      {
+        "resourceType": "GitHub",
+        "URL": "https://github.com/jondeuce/DECAES.jl"
+      },
+      {
+        "resourceType": "JuliaCon 2021 Talk",
+        "URL": "https://www.youtube.com/watch?v=6OxsK2R5VkA"
       }
     ],
     "dateAddedToMRHub": "2021-12-06",
