@@ -1,9 +1,9 @@
 {
-  "all": "38",
+  "all": "40",
+  "Simulation": 5,
+  "Image processing": 10,
   "Reconstruction": 16,
-  "Image processing": 9,
   "Toolbox": 1,
-  "Simulation": 4,
   "Multipurpose": 4,
   "Spectroscopy": 1,
   "Pulse sequences": 2,
