@@ -1,5 +1,41 @@
 [
   {
+    "name": "pySAP",
+    "category": "Reconstruction",
+    "shortDescription": "Python Sparse data Analysis Package",
+    "imageFile": "pysap.png",
+    "mainURL": "https://python-pysap.readthedocs.io/en/latest/",
+    "repoURL": "https://github.com/CEA-COSMIC/pysap",
+    "principalDevelopers": "Samuel Farrens, Antoine Grigris, Philippe Ciuciu, Loubna El-Gueddari, Chaithya GR, Zaccharie Ramzi, Guillaume Daval-Frérot,  Pierre-Antoine Comby, and many more.",
+    "longDescription": "PySAP offers a large set of fast wavelet transforms and a range of integrated optimization algorithms in Python. The plugin pysap-mri provides methods, tools and examples for MR image reconstruction in various acquisition setups (2D and 3D imaging, Cartesian and non-Cartesian readout, parallel imaging, etc.) in the context of accelerated acquisitions using compressed sensing. This plugin is available on Pypi as pysap-mri 0.1.1. Test data are available in pysap-data",
+    "keywords": [
+      "Compressed Sensing",
+      "Optimisation",
+      "Reconstruction",
+      "GitHub",
+      "Python"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "PySAP: Python Sparse Data Analysis Package for multidisciplinary image processing, S. Farrens et al., Astronomy and Computing 32, 2020",
+        "referenceURL": "https://www.sciencedirect.com/science/article/pii/S2213133720300561"
+      },
+      {
+        "referenceText": "PySAP-MRI: a Python Package for MR Image Reconstruction",
+        "referenceURL": "http://cosmic.cosmostat.org/wp-content/uploads/2020/02/Abstract_pySAP-MRI_WS-ISMRM2020.pdf"
+      }
+
+    ],
+    "extraResources": [{
+      "resourceType": "Tutorials",
+      "URL": "https://github.com/CEA-COSMIC/pysap-tutorials"
+    }],
+    "dateAddedToMRHub": "2022-02-21",
+    "dateSoftwareLastUpdated": "2022-01-18",
+    "citationSearchString": "17f990ce903008b168e3c6701a7b4bf20885de72",
+    "citationCount": "6"
+  },
+  {
     "name": "Disimpy",
     "category": "Simulation",
     "shortDescription": "Massively parallel Monte Carlo diffusion MR simulator written in Python",
