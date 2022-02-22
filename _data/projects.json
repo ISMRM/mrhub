@@ -119,7 +119,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-12-06",
-    "dateSoftwareLastUpdated": "2021-12-09",
+    "dateSoftwareLastUpdated": "2022-01-18",
     "citationSearchString": "10.1016/j.zemedi.2020.04.001",
     "citationCount": "6"
   },
@@ -159,7 +159,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-11-01",
-    "dateSoftwareLastUpdated": "2021-11-15",
+    "dateSoftwareLastUpdated": "2022-02-15",
     "citationSearchString": "N/A",
     "citationCount": "0"
   },
@@ -242,7 +242,7 @@
     "dateAddedToMRHub": "2021-08-06",
     "dateSoftwareLastUpdated": "2021-06-26",
     "citationSearchString": "10.1038/s41598-018-31333-5",
-    "citationCount": "47"
+    "citationCount": "50"
   },
   {
     "name": "seeVR",
@@ -268,7 +268,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-08-01",
-    "dateSoftwareLastUpdated": "2022-01-04",
+    "dateSoftwareLastUpdated": "2022-02-03",
     "citationSearchString": "aa1f729decd1a5a0d56de10446a8e268367cb927",
     "citationCount": "3"
   },
@@ -323,7 +323,7 @@
     "dateAddedToMRHub": "2021-08-04",
     "dateSoftwareLastUpdated": "2021-06-26",
     "citationSearchString": "10.1002/mrm.22365",
-    "citationCount": "348"
+    "citationCount": "350"
   },
   {
     "name": "MRIgeneralizedBloch.jl",
@@ -348,7 +348,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-07-26",
-    "dateSoftwareLastUpdated": "2021-12-31",
+    "dateSoftwareLastUpdated": "2022-01-17",
     "citationSearchString": "30567d7cd59f7a9a16f387b4d57bcd15f5d2d59b",
     "citationCount": "0"
   },
@@ -404,7 +404,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-19",
-    "dateSoftwareLastUpdated": "2022-01-03",
+    "dateSoftwareLastUpdated": "2022-02-18",
     "citationSearchString": "10.1002/mrm.28798",
     "citationCount": "1"
   },
@@ -445,9 +445,9 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-17",
-    "dateSoftwareLastUpdated": "2022-01-03",
+    "dateSoftwareLastUpdated": "2022-02-17",
     "citationSearchString": "10.1109/TMI.2010.2045126",
-    "citationCount": "552"
+    "citationCount": "566"
   },
   {
     "name": "MyoQMRI",
@@ -514,9 +514,9 @@
       }
     ],
     "dateAddedToMRHub": "2020-08-14",
-    "dateSoftwareLastUpdated": "2021-11-11",
+    "dateSoftwareLastUpdated": "2022-01-24",
     "citationSearchString": "0804898055d61e965e64e8bba8e60ce7e03b6ef0",
-    "citationCount": "10"
+    "citationCount": "11"
   },
   {
     "name": "TED",
@@ -615,7 +615,7 @@
     "dateAddedToMRHub": "2020-07-07",
     "dateSoftwareLastUpdated": "2021-12-29",
     "citationSearchString": "10.1016/j.neuroimage.2020.117031",
-    "citationCount": "14"
+    "citationCount": "17"
   },
   {
     "name": "QMRITools",
@@ -663,9 +663,9 @@
       }
     ],
     "dateAddedToMRHub": "2020-05-25",
-    "dateSoftwareLastUpdated": "2022-01-05",
+    "dateSoftwareLastUpdated": "2022-02-02",
     "citationSearchString": "CorpusID:195755688",
-    "citationCount": "10"
+    "citationCount": "11"
   },
   {
     "name": "CORE-PI",
@@ -730,7 +730,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-10-16",
-    "dateSoftwareLastUpdated": "2022-01-07",
+    "dateSoftwareLastUpdated": "2022-02-18",
     "citationSearchString": "n/a",
     "citationCount": "0"
   },
@@ -767,7 +767,7 @@
     "dateAddedToMRHub": "2019-06-19",
     "dateSoftwareLastUpdated": "2021-09-17",
     "citationSearchString": "10.1016/j.media.2016.02.010",
-    "citationCount": "57"
+    "citationCount": "59"
   },
   {
     "name": "Gannet",
@@ -804,7 +804,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
-    "citationCount": "356"
+    "citationCount": "363"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -875,7 +875,7 @@
     "dateAddedToMRHub": "2019-05-29",
     "dateSoftwareLastUpdated": "2018-09-26",
     "citationSearchString": "10.1002/mrm.27567",
-    "citationCount": "10"
+    "citationCount": "11"
   },
   {
     "name": "MRtrix3",
@@ -909,9 +909,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-11-26",
+    "dateSoftwareLastUpdated": "2022-02-11",
     "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-    "citationCount": "381"
+    "citationCount": "416"
   },
   {
     "name": "gammaSTAR",
@@ -985,7 +985,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2021-12-17",
+    "dateSoftwareLastUpdated": "2022-01-23",
     "citationSearchString": "SigPy",
     "citationCount": "0"
   },
@@ -1029,9 +1029,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2021-12-15",
+    "dateSoftwareLastUpdated": "2022-02-03",
     "citationSearchString": "10.1002/mrm.25670",
-    "citationCount": "82"
+    "citationCount": "83"
   },
   {
     "name": "Berkeley Advanced Reconstruction Toolbox (BART)",
@@ -1081,9 +1081,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2022-01-03",
+    "dateSoftwareLastUpdated": "2022-02-17",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "722"
+    "citationCount": "732"
   },
   {
     "name": "Gadgetron",
@@ -1121,9 +1121,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-12-21",
+    "dateSoftwareLastUpdated": "2022-02-15",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "216"
+    "citationCount": "220"
   },
   {
     "name": "gpuNUFFT",
@@ -1153,9 +1153,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-05-23",
+    "dateSoftwareLastUpdated": "2022-02-06",
     "citationSearchString": "c788ecd4a6ac9d3d7013a94515ec0718274e9907",
-    "citationCount": "59"
+    "citationCount": "60"
   },
   {
     "name": "ISMRMRD",
@@ -1185,7 +1185,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2021-05-14",
+    "dateSoftwareLastUpdated": "2022-02-16",
     "citationSearchString": "10.1002/mrm.26089",
     "citationCount": "35"
   },
@@ -1291,7 +1291,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-10",
     "citationSearchString": "10.1109/TMI.2016.2620961",
-    "citationCount": "37"
+    "citationCount": "39"
   },
   {
     "name": "NYU MR-Fingerprinting Reconstruction Toolbox",
@@ -1324,7 +1324,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-06",
     "citationSearchString": "10.1002/mrm.26639",
-    "citationCount": "115"
+    "citationCount": "120"
   },
   {
     "name": "QUIT",
@@ -1363,7 +1363,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-12-14",
     "citationSearchString": "10.21105/joss.00656",
-    "citationCount": "30"
+    "citationCount": "13"
   },
   {
     "name": "JEMRIS",
@@ -1392,7 +1392,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2020-09-21",
+    "dateSoftwareLastUpdated": "2022-02-15",
     "citationSearchString": "10.1002/mrm.22406",
     "citationCount": "96"
   },
@@ -1426,7 +1426,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-03-01",
     "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
-    "citationCount": "246"
+    "citationCount": "259"
   },
   {
     "name": "qMRLab",
@@ -1492,7 +1492,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-07-03",
-    "dateSoftwareLastUpdated": "2021-12-23",
+    "dateSoftwareLastUpdated": "2022-01-25",
     "citationSearchString": "8c5511d9ecad595dba390a718957be8c84c22f7a",
     "citationCount": "10"
   },
@@ -1541,8 +1541,8 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2021-12-03",
+    "dateSoftwareLastUpdated": "2022-02-18",
     "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
-    "citationCount": "623"
+    "citationCount": "644"
   }
 ]
