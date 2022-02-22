@@ -3,7 +3,7 @@
     "name": "pySAP",
     "category": "Reconstruction",
     "shortDescription": "Python Sparse data Analysis Package",
-    "imageFile": "pysap.png",
+    "imageFile": "PySAP.png",
     "mainURL": "https://python-pysap.readthedocs.io/en/latest/",
     "repoURL": "https://github.com/CEA-COSMIC/pysap",
     "principalDevelopers": "Samuel Farrens, Antoine Grigris, Philippe Ciuciu, Loubna El-Gueddari, Chaithya GR, Zaccharie Ramzi, Guillaume Daval-Frérot,  Pierre-Antoine Comby, and many more.",
