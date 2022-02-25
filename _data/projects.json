@@ -24,12 +24,13 @@
         "referenceText": "PySAP-MRI: a Python Package for MR Image Reconstruction",
         "referenceURL": "http://cosmic.cosmostat.org/wp-content/uploads/2020/02/Abstract_pySAP-MRI_WS-ISMRM2020.pdf"
       }
-
     ],
-    "extraResources": [{
-      "resourceType": "Tutorials",
-      "URL": "https://github.com/CEA-COSMIC/pysap-tutorials"
-    }],
+    "extraResources": [
+      {
+        "resourceType": "Tutorials",
+        "URL": "https://github.com/CEA-COSMIC/pysap-tutorials"
+      }
+    ],
     "dateAddedToMRHub": "2022-02-21",
     "dateSoftwareLastUpdated": "2022-01-18",
     "citationSearchString": "17f990ce903008b168e3c6701a7b4bf20885de72",
@@ -119,7 +120,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-12-06",
-    "dateSoftwareLastUpdated": "2022-01-18",
+    "dateSoftwareLastUpdated": "2022-02-24",
     "citationSearchString": "10.1016/j.zemedi.2020.04.001",
     "citationCount": "6"
   },
@@ -268,7 +269,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-08-01",
-    "dateSoftwareLastUpdated": "2022-02-03",
+    "dateSoftwareLastUpdated": "2022-02-19",
     "citationSearchString": "aa1f729decd1a5a0d56de10446a8e268367cb927",
     "citationCount": "3"
   },
@@ -445,9 +446,9 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-17",
-    "dateSoftwareLastUpdated": "2022-02-17",
+    "dateSoftwareLastUpdated": "2022-02-20",
     "citationSearchString": "10.1109/TMI.2010.2045126",
-    "citationCount": "566"
+    "citationCount": "568"
   },
   {
     "name": "MyoQMRI",
@@ -615,7 +616,7 @@
     "dateAddedToMRHub": "2020-07-07",
     "dateSoftwareLastUpdated": "2021-12-29",
     "citationSearchString": "10.1016/j.neuroimage.2020.117031",
-    "citationCount": "17"
+    "citationCount": "18"
   },
   {
     "name": "QMRITools",
@@ -663,7 +664,7 @@
       }
     ],
     "dateAddedToMRHub": "2020-05-25",
-    "dateSoftwareLastUpdated": "2022-02-02",
+    "dateSoftwareLastUpdated": "2022-02-22",
     "citationSearchString": "CorpusID:195755688",
     "citationCount": "11"
   },
@@ -804,7 +805,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
-    "citationCount": "363"
+    "citationCount": "364"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -909,9 +910,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2022-02-11",
+    "dateSoftwareLastUpdated": "2022-02-21",
     "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-    "citationCount": "416"
+    "citationCount": "421"
   },
   {
     "name": "gammaSTAR",
@@ -1081,9 +1082,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2022-02-17",
+    "dateSoftwareLastUpdated": "2022-02-23",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "732"
+    "citationCount": "735"
   },
   {
     "name": "Gadgetron",
@@ -1121,7 +1122,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2022-02-15",
+    "dateSoftwareLastUpdated": "2022-02-24",
     "citationSearchString": "10.1002/mrm.24389",
     "citationCount": "220"
   },
@@ -1185,7 +1186,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2022-02-16",
+    "dateSoftwareLastUpdated": "2022-02-22",
     "citationSearchString": "10.1002/mrm.26089",
     "citationCount": "35"
   },
@@ -1392,7 +1393,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2022-02-15",
+    "dateSoftwareLastUpdated": "2022-02-23",
     "citationSearchString": "10.1002/mrm.22406",
     "citationCount": "96"
   },
@@ -1541,8 +1542,8 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2022-02-18",
+    "dateSoftwareLastUpdated": "2022-02-24",
     "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
-    "citationCount": "644"
+    "citationCount": "646"
   }
 ]
