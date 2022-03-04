@@ -120,7 +120,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-12-06",
-    "dateSoftwareLastUpdated": "2022-02-24",
+    "dateSoftwareLastUpdated": "2022-03-03",
     "citationSearchString": "10.1016/j.zemedi.2020.04.001",
     "citationCount": "6"
   },
@@ -211,7 +211,7 @@
     "dateAddedToMRHub": "2021-08-06",
     "dateSoftwareLastUpdated": "2019-02-20",
     "citationSearchString": "10.1016/j.neuroimage.2019.01.033",
-    "citationCount": "15"
+    "citationCount": "16"
   },
   {
     "name": "Image Segmentation and Registration in Matlab",
@@ -324,7 +324,7 @@
     "dateAddedToMRHub": "2021-08-04",
     "dateSoftwareLastUpdated": "2021-06-26",
     "citationSearchString": "10.1002/mrm.22365",
-    "citationCount": "350"
+    "citationCount": "351"
   },
   {
     "name": "MRIgeneralizedBloch.jl",
@@ -446,9 +446,9 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-17",
-    "dateSoftwareLastUpdated": "2022-02-20",
+    "dateSoftwareLastUpdated": "2022-03-04",
     "citationSearchString": "10.1109/TMI.2010.2045126",
-    "citationCount": "568"
+    "citationCount": "572"
   },
   {
     "name": "MyoQMRI",
@@ -664,7 +664,7 @@
       }
     ],
     "dateAddedToMRHub": "2020-05-25",
-    "dateSoftwareLastUpdated": "2022-02-22",
+    "dateSoftwareLastUpdated": "2022-02-25",
     "citationSearchString": "CorpusID:195755688",
     "citationCount": "11"
   },
@@ -731,7 +731,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-10-16",
-    "dateSoftwareLastUpdated": "2022-02-18",
+    "dateSoftwareLastUpdated": "2022-02-27",
     "citationSearchString": "n/a",
     "citationCount": "0"
   },
@@ -805,7 +805,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
-    "citationCount": "364"
+    "citationCount": "367"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -912,7 +912,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2022-02-21",
     "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-    "citationCount": "421"
+    "citationCount": "429"
   },
   {
     "name": "gammaSTAR",
@@ -1030,7 +1030,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2022-02-03",
+    "dateSoftwareLastUpdated": "2022-02-28",
     "citationSearchString": "10.1002/mrm.25670",
     "citationCount": "83"
   },
@@ -1084,7 +1084,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2022-02-23",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "735"
+    "citationCount": "738"
   },
   {
     "name": "Gadgetron",
@@ -1124,7 +1124,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2022-02-24",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "220"
+    "citationCount": "222"
   },
   {
     "name": "gpuNUFFT",
@@ -1253,7 +1253,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-12-13",
     "citationSearchString": "10.1002/mrm.26235",
-    "citationCount": "33"
+    "citationCount": "34"
   },
   {
     "name": "MRiLab",
@@ -1427,7 +1427,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-03-01",
     "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
-    "citationCount": "259"
+    "citationCount": "260"
   },
   {
     "name": "qMRLab",
@@ -1458,7 +1458,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-11-04",
     "citationSearchString": "10.1002/cmr.a.21357",
-    "citationCount": "37"
+    "citationCount": "38"
   },
   {
     "name": "Yarra Framework",
@@ -1542,8 +1542,8 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2022-02-24",
+    "dateSoftwareLastUpdated": "2022-02-25",
     "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
-    "citationCount": "646"
+    "citationCount": "648"
   }
 ]
