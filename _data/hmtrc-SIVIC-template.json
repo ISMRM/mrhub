@@ -1,0 +1,33 @@
+    {
+        "name": "SIVIC",
+        "category": "Choose from: Reconstruction // Data format // Pulse sequences // Educational // Simulation // Visualisation // Spectroscopy // Image processing // Multipurpose",
+        "shortDescription": "SIVIC is an open-source, standards-based software framework and application suite for processing and visualization of DICOM MR Spectroscopy data.",
+        "imageFile": "image file name (with extension) - upload image itself into images_packages subfolder",
+        "mainURL": "https://sourceforge.net/projects/sivic/",
+        "repoURL": "http://url.to.main.repo",
+        "principalDevelopers": "Jason C. Crane, Marram P. Olson, and Sarah J. Nelson",
+        "longDescription": "SIVIC is an open-source, standards-based software framework and application suite for processing and visualization of DICOM MR Spectroscopy data. Through the use of DICOM, SIVIC aims to facilitate the application of MRS in medical imaging studies.",
+        "keywords": ["data visualization", "MRI", "you", "hyperpolarized", "Dynamic MRS", "Perfusion Visualization and DSC Analysis", "DICOM MR Spectroscopy", "Metabolite Map Generation"],
+        "keyReferences": [
+            {
+                "referenceText": "SIVIC: Open-Source, Standards-Based Software for DICOM MR Spectroscopy Workflows",
+                "referenceURL": "http://www.hindawi.com/journals/ijbi/2013/169526/"
+            }, 
+            
+            {
+                "referenceText": "Text describing reference 2 (you may have as many references as you like in this list)",
+                "referenceURL": "http://url.to.your.reference.2"
+            } 
+            
+        ],
+        "extraResources": [
+            {
+                "resourceType": "e.g. Video Tutorial / Jupyter Notebook / Blog description (you can have multiple resources in this list)",
+                "URL": "http://url.to.this.resource"
+            }
+        ],
+        "dateAddedToMRHub": "2022-04-11",
+        "dateSoftwareLastUpdated": "2019-03-11",
+        "citationSearchString": "10.1155/2013/169526",
+        "citationCount": ""
+    },
