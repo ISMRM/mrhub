@@ -2,7 +2,7 @@
         "name": "SIVIC",
         "category": "Choose from: Reconstruction // Data format // Pulse sequences // Educational // Simulation // Visualisation // Spectroscopy // Image processing // Multipurpose",
         "shortDescription": "SIVIC is an open-source, standards-based software framework and application suite for processing and visualization of DICOM MR Spectroscopy data.",
-        "imageFile": "image file name (with extension) - upload image itself into images_packages subfolder",
+        "imageFile": "LOGO-SIVIC - ISMRM/mrhub/UCSF-HMTRC / mrhub-SIVIC",
         "mainURL": "https://sourceforge.net/projects/sivic/",
         "repoURL": "http://url.to.main.repo",
         "principalDevelopers": "Jason C. Crane, Marram P. Olson, and Sarah J. Nelson",
