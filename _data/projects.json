@@ -8,16 +8,7 @@
         "repoURL": "https://github.com/SIVICLab/sivic",
         "principalDevelopers": "Jason C. Crane, Marram P. Olson, and Sarah J. Nelson",
         "longDescription": "SIVIC is an open-source, standards-based software framework and application suite for processing and visualization of DICOM MR Spectroscopy data. Through the use of DICOM, SIVIC aims to facilitate the application of MRS in medical imaging studies.",
-        "keywords": [
-          "MR Spectroscopy",
-          "Data visualization",
-          "MRI",
-          "Hyperpolarized",
-          "Dynamic MRS",
-          "Perfusion Visualization and DSC Analysis",
-          "DICOM MR Spectroscopy",
-          "Metabolite Map Generation"
-        ],
+        "keywords": ["MR Spectroscopy", "Data visualization", "MRI", "Hyperpolarized", "Dynamic MRS", "Perfusion Visualization and DSC Analysis", "DICOM MR Spectroscopy", "Metabolite Map Generation"],
         "keyReferences": [
             {
                 "referenceText": "SIVIC: Open-Source, Standards-Based Software for DICOM MR Spectroscopy Workflows",
