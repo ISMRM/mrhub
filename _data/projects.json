@@ -1,4 +1,39 @@
-[
+    [
+      {
+        "name": "SIVIC",
+        "category": "Choose from: Reconstruction // Visualization // Spectroscopy // Multipurpose",
+        "shortDescription": "SIVIC is an open-source, standards-based software framework and application suite for processing and visualization of DICOM MR Spectroscopy data.",
+        "imageFile": "LOGO-SIVIC.png",
+        "mainURL": "https://sourceforge.net/projects/sivic/",
+        "repoURL": "https://github.com/SIVICLab/sivic",
+        "principalDevelopers": "Jason C. Crane, Marram P. Olson, and Sarah J. Nelson",
+        "longDescription": "SIVIC is an open-source, standards-based software framework and application suite for processing and visualization of DICOM MR Spectroscopy data. Through the use of DICOM, SIVIC aims to facilitate the application of MRS in medical imaging studies.",
+        "keywords": ["MR Spectroscopy", "Data visualization", "MRI", "Hyperpolarized", "Dynamic MRS", "Perfusion Visualization and DSC Analysis", "DICOM MR Spectroscopy", "Metabolite Map Generation"],
+        "keyReferences": [
+            {
+                "referenceText": "SIVIC: Open-Source, Standards-Based Software for DICOM MR Spectroscopy Workflows",
+                "referenceURL": " https://pubmed.ncbi.nlm.nih.gov/23970895/"
+            }, 
+            {
+                "referenceText": " Hyperpolarized C-13 MRI data acquisition and analysis in prostate and brain at University of California, San Francisco",
+                "referenceURL": " https://pubmed.ncbi.nlm.nih.gov/32189442/"
+            } 
+        ],
+        "extraResources": [
+            {
+                "resourceType": " Tutorials",
+                "URL": "https://sourceforge.net/p/sivic/sivicwiki/Tutorials/"
+            },
+            {
+                "resourceType": "HP MRI Course 2021",
+                "URL": "https://hyperpolarizedmri.ucsf.edu/hp-mri-course-2021"
+            }
+        ],
+        "dateAddedToMRHub": "2022-04-18",
+        "dateSoftwareLastUpdated": "2021-05-21",
+        "citationSearchString": "e2d1ee40da048885ae68f39a5721086f9200011b",
+        "citationCount": "72"
+    },
   {
     "name": "pySAP",
     "category": "Reconstruction",
