@@ -1,7 +1,7 @@
     [
       {
         "name": "SIVIC",
-        "category": "Choose from: Reconstruction // Visualization // Spectroscopy // Multipurpose",
+        "category": "Multipurpose",
         "shortDescription": "SIVIC is an open-source, standards-based software framework and application suite for processing and visualization of DICOM MR Spectroscopy data.",
         "imageFile": "LOGO-SIVIC.png",
         "mainURL": "https://sourceforge.net/projects/sivic/",
