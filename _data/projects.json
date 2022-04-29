@@ -1,5 +1,36 @@
 [
-  {
+        {
+        "name": " Hyperpolarized MRI Toolbox",
+        "category": "Choose from: Acquisition // Data Reconstruction // MRI // Hyperpolarized",
+        "shortDescription": " Tools for hyperpolarized MRI acquisition and reconstruction methods",
+        "imageFile": "Logo-hpmri-toolbox-clear-300pix",
+        "mainURL": " https://www.mathworks.com/matlabcentral/fileexchange/49836-hyperpolarized-mri-toolbox",
+        "repoURL": "https://github.com/LarsonLab/hyperpolarized-mri-toolbox",
+        "principalDevelopers": "Peder EZ Larson, Jeremy W Gordon, Hsin-Yu Chen",
+        "longDescription": "The goal of this toolbox is to provide research-level and prototyping software tools for hyperpolarized MRI experiments. It is currently based on MATLAB code, and includes code for designing radiofrequency (RF) pulses, readout gradients, and data reconstruction.",
+        "keywords": ["Hyperpolarized MRI", "MR Spectroscopy", "Data Reconstruction", "RF Pulses", "Spectral Spatial", "Kinetic Modeling"],
+        "keyReferences": [
+            {
+                "referenceText": "Hyperpolarized C-13 MRI data acquisition and analysis in prostate and brain at University of California, San Francisco",
+                "referenceURL": " https://pubmed.ncbi.nlm.nih.gov/32189442/"
+            } 
+        ],
+        "extraResources": [
+            {
+                "resourceType": "Online Demos",
+                "URL": "https://mybinder.org/v2/gh/LarsonLab/hyperpolarized-mri-toolbox/master?filepath=demo_notebooks"
+            },
+            {
+                "resourceType": "HP MRI Course 2021",
+                "URL": "https://hyperpolarizedmri.ucsf.edu/hp-mri-course-2021"
+            }
+        ],
+        "dateAddedToMRHub": "2022-04-26",
+        "dateSoftwareLastUpdated": "2022-03-24",
+        "citationSearchString": "ad79dff0e419f90fbc938fb0733a10a1aa8ca27e ",
+        "citationCount": "11"
+    },
+{
     "name": "SIVIC",
     "category": "Multipurpose",
     "shortDescription": "SIVIC is an open-source, standards-based software framework and application suite for processing and visualization of DICOM MR Spectroscopy data.",
