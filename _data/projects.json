@@ -195,7 +195,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-12-06",
-    "dateSoftwareLastUpdated": "2022-03-03",
+    "dateSoftwareLastUpdated": "2022-04-28",
     "citationSearchString": "10.1016/j.zemedi.2020.04.001",
     "citationCount": "7"
   },
@@ -480,7 +480,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-19",
-    "dateSoftwareLastUpdated": "2022-04-06",
+    "dateSoftwareLastUpdated": "2022-04-26",
     "citationSearchString": "10.1002/mrm.28798",
     "citationCount": "1"
   },
@@ -521,7 +521,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-17",
-    "dateSoftwareLastUpdated": "2022-04-20",
+    "dateSoftwareLastUpdated": "2022-04-27",
     "citationSearchString": "10.1109/TMI.2010.2045126",
     "citationCount": "584"
   },
@@ -691,7 +691,7 @@
     "dateAddedToMRHub": "2020-07-07",
     "dateSoftwareLastUpdated": "2021-12-29",
     "citationSearchString": "10.1016/j.neuroimage.2020.117031",
-    "citationCount": "0"
+    "citationCount": "20"
   },
   {
     "name": "QMRITools",
@@ -739,7 +739,7 @@
       }
     ],
     "dateAddedToMRHub": "2020-05-25",
-    "dateSoftwareLastUpdated": "2022-04-19",
+    "dateSoftwareLastUpdated": "2022-04-27",
     "citationSearchString": "CorpusID:195755688",
     "citationCount": "12"
   },
@@ -806,7 +806,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-10-16",
-    "dateSoftwareLastUpdated": "2022-04-21",
+    "dateSoftwareLastUpdated": "2022-04-27",
     "citationSearchString": "n/a",
     "citationCount": "0"
   },
@@ -880,7 +880,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
-    "citationCount": "370"
+    "citationCount": "372"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -919,7 +919,7 @@
     "dateAddedToMRHub": "2019-05-30",
     "dateSoftwareLastUpdated": "2021-06-24",
     "citationSearchString": "10.1002/mrm.25528",
-    "citationCount": "37"
+    "citationCount": "38"
   },
   {
     "name": "Water/Fat Separated MR Thermometry",
@@ -985,9 +985,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2022-04-01",
+    "dateSoftwareLastUpdated": "2022-04-22",
     "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-    "citationCount": "469"
+    "citationCount": "474"
   },
   {
     "name": "gammaSTAR",
@@ -1157,9 +1157,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2022-04-20",
+    "dateSoftwareLastUpdated": "2022-04-29",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "757"
+    "citationCount": "760"
   },
   {
     "name": "Gadgetron",
@@ -1199,7 +1199,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2022-04-18",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "227"
+    "citationCount": "228"
   },
   {
     "name": "gpuNUFFT",
@@ -1231,7 +1231,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2022-02-06",
     "citationSearchString": "c788ecd4a6ac9d3d7013a94515ec0718274e9907",
-    "citationCount": "61"
+    "citationCount": "62"
   },
   {
     "name": "ISMRMRD",
@@ -1328,7 +1328,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-12-13",
     "citationSearchString": "10.1002/mrm.26235",
-    "citationCount": "36"
+    "citationCount": "37"
   },
   {
     "name": "MRiLab",
@@ -1502,7 +1502,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-03-01",
     "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
-    "citationCount": "269"
+    "citationCount": "272"
   },
   {
     "name": "qMRLab",
@@ -1617,8 +1617,8 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2022-04-12",
+    "dateSoftwareLastUpdated": "2022-04-28",
     "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
-    "citationCount": "666"
+    "citationCount": "668"
   }
 ]
