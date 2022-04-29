@@ -3,7 +3,7 @@
         "name": " Hyperpolarized MRI Toolbox",
         "category": "Multipurpose",
         "shortDescription": " Tools for hyperpolarized MRI acquisition and reconstruction methods",
-        "imageFile": "Logo-hpmri-toolbox-clear-300pix",
+        "imageFile": "Logo-hpmri-toolbox-clear-300pix.png",
         "mainURL": " https://www.mathworks.com/matlabcentral/fileexchange/49836-hyperpolarized-mri-toolbox",
         "repoURL": "https://github.com/LarsonLab/hyperpolarized-mri-toolbox",
         "principalDevelopers": "Peder EZ Larson, Jeremy W Gordon, Hsin-Yu Chen",
