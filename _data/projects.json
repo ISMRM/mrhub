@@ -1,36 +1,43 @@
 [
-        {
-        "name": " Hyperpolarized MRI Toolbox",
-        "category": "Multipurpose",
-        "shortDescription": " Tools for hyperpolarized MRI acquisition and reconstruction methods",
-        "imageFile": "Logo-hpmri-toolbox-clear-300pix.png",
-        "mainURL": " https://www.mathworks.com/matlabcentral/fileexchange/49836-hyperpolarized-mri-toolbox",
-        "repoURL": "https://github.com/LarsonLab/hyperpolarized-mri-toolbox",
-        "principalDevelopers": "Peder EZ Larson, Jeremy W Gordon, Hsin-Yu Chen",
-        "longDescription": "The goal of this toolbox is to provide research-level and prototyping software tools for hyperpolarized MRI experiments. It is currently based on MATLAB code, and includes code for designing radiofrequency (RF) pulses, readout gradients, and data reconstruction.",
-        "keywords": ["Hyperpolarized MRI", "MR Spectroscopy", "Data Reconstruction", "RF Pulses", "Spectral Spatial", "Kinetic Modeling"],
-        "keyReferences": [
-            {
-                "referenceText": "Hyperpolarized C-13 MRI data acquisition and analysis in prostate and brain at University of California, San Francisco",
-                "referenceURL": " https://pubmed.ncbi.nlm.nih.gov/32189442/"
-            } 
-        ],
-        "extraResources": [
-            {
-                "resourceType": "Online Demos",
-                "URL": "https://mybinder.org/v2/gh/LarsonLab/hyperpolarized-mri-toolbox/master?filepath=demo_notebooks"
-            },
-            {
-                "resourceType": "HP MRI Course 2021",
-                "URL": "https://hyperpolarizedmri.ucsf.edu/hp-mri-course-2021"
-            }
-        ],
-        "dateAddedToMRHub": "2022-04-26",
-        "dateSoftwareLastUpdated": "2022-03-24",
-        "citationSearchString": "ad79dff0e419f90fbc938fb0733a10a1aa8ca27e",
-        "citationCount": "11"
-    },
-{
+  {
+    "name": " Hyperpolarized MRI Toolbox",
+    "category": "Multipurpose",
+    "shortDescription": " Tools for hyperpolarized MRI acquisition and reconstruction methods",
+    "imageFile": "Logo-hpmri-toolbox-clear-300pix.png",
+    "mainURL": " https://www.mathworks.com/matlabcentral/fileexchange/49836-hyperpolarized-mri-toolbox",
+    "repoURL": "https://github.com/LarsonLab/hyperpolarized-mri-toolbox",
+    "principalDevelopers": "Peder EZ Larson, Jeremy W Gordon, Hsin-Yu Chen",
+    "longDescription": "The goal of this toolbox is to provide research-level and prototyping software tools for hyperpolarized MRI experiments. It is currently based on MATLAB code, and includes code for designing radiofrequency (RF) pulses, readout gradients, and data reconstruction.",
+    "keywords": [
+      "Hyperpolarized MRI",
+      "MR Spectroscopy",
+      "Data Reconstruction",
+      "RF Pulses",
+      "Spectral Spatial",
+      "Kinetic Modeling"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Hyperpolarized C-13 MRI data acquisition and analysis in prostate and brain at University of California, San Francisco",
+        "referenceURL": " https://pubmed.ncbi.nlm.nih.gov/32189442/"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Online Demos",
+        "URL": "https://mybinder.org/v2/gh/LarsonLab/hyperpolarized-mri-toolbox/master?filepath=demo_notebooks"
+      },
+      {
+        "resourceType": "HP MRI Course 2021",
+        "URL": "https://hyperpolarizedmri.ucsf.edu/hp-mri-course-2021"
+      }
+    ],
+    "dateAddedToMRHub": "2022-04-26",
+    "dateSoftwareLastUpdated": "2022-04-26",
+    "citationSearchString": "ad79dff0e419f90fbc938fb0733a10a1aa8ca27e",
+    "citationCount": "11"
+  },
+  {
     "name": "SIVIC",
     "category": "Multipurpose",
     "shortDescription": "SIVIC is an open-source, standards-based software framework and application suite for processing and visualization of DICOM MR Spectroscopy data.",
@@ -195,7 +202,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-12-06",
-    "dateSoftwareLastUpdated": "2022-04-28",
+    "dateSoftwareLastUpdated": "2022-05-04",
     "citationSearchString": "10.1016/j.zemedi.2020.04.001",
     "citationCount": "7"
   },
@@ -426,7 +433,7 @@
     "dateAddedToMRHub": "2021-07-26",
     "dateSoftwareLastUpdated": "2022-03-31",
     "citationSearchString": "30567d7cd59f7a9a16f387b4d57bcd15f5d2d59b",
-    "citationCount": "1"
+    "citationCount": "2"
   },
   {
     "name": "Madym",
@@ -521,7 +528,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-17",
-    "dateSoftwareLastUpdated": "2022-04-27",
+    "dateSoftwareLastUpdated": "2022-05-03",
     "citationSearchString": "10.1109/TMI.2010.2045126",
     "citationCount": "584"
   },
@@ -806,7 +813,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-10-16",
-    "dateSoftwareLastUpdated": "2022-04-27",
+    "dateSoftwareLastUpdated": "2022-04-30",
     "citationSearchString": "n/a",
     "citationCount": "0"
   },
@@ -987,7 +994,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2022-04-22",
     "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-    "citationCount": "474"
+    "citationCount": "479"
   },
   {
     "name": "gammaSTAR",
@@ -1107,7 +1114,7 @@
     "dateAddedToMRHub": "2019-05-23",
     "dateSoftwareLastUpdated": "2022-02-28",
     "citationSearchString": "10.1002/mrm.25670",
-    "citationCount": "86"
+    "citationCount": "87"
   },
   {
     "name": "Berkeley Advanced Reconstruction Toolbox (BART)",
@@ -1157,9 +1164,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2022-04-29",
+    "dateSoftwareLastUpdated": "2022-05-03",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "760"
+    "citationCount": "762"
   },
   {
     "name": "Gadgetron",
@@ -1197,9 +1204,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2022-04-18",
+    "dateSoftwareLastUpdated": "2022-05-04",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "228"
+    "citationCount": "229"
   },
   {
     "name": "gpuNUFFT",
@@ -1400,7 +1407,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-06",
     "citationSearchString": "10.1002/mrm.26639",
-    "citationCount": "126"
+    "citationCount": "128"
   },
   {
     "name": "QUIT",
@@ -1617,8 +1624,8 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2022-04-28",
+    "dateSoftwareLastUpdated": "2022-05-05",
     "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
-    "citationCount": "668"
+    "citationCount": "671"
   }
 ]
