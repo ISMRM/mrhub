@@ -1,5 +1,51 @@
 [
   {
+    "name": "TensorFlow MRI",
+    "category": "Multipurpose",
+    "shortDescription": "A library of TensorFlow operators for computational magnetic resonance imaging.",
+    "imageFile": "tfmri.png",
+    "mainURL": "https://mrphys.github.io/tensorflow-mri/",
+    "repoURL": "https://github.com/mrphys/tensorflow-mri",
+    "principalDevelopers": "Javier Montalt-Tordera",
+    "longDescription": "TensorFlow MRI is a library for MR image reconstruction and processing using a TensorFlow backend, seamlessly bringing together traditional methods and machine learning. The available functionality includes but is not limited to signal processing, linear algebra, convex optimization, multicoil imaging, k-space sampling and Keras layers. It is mostly written in Python and easy to read and extend, yet fast and efficient thanks to the C++/CUDA implementation of lower-level operations. Both CPU and GPU computation are supported across the library. All types of contributions from the community are welcome.",
+    "keywords": [
+      "Signal Processing",
+      "Image Reconstruction",
+      "Parallel Imaging",
+      "Compressed Sensing",
+      "Machine Learning",
+      "Python",
+      "C++",
+      "CUDA",
+      "CPU/GPU",
+      "TensorFlow",
+      "Keras"],
+    "keyReferences": [
+      {
+        "referenceText": "TensorFlow MRI: A library of TensorFlow operators for computational magnetic resonance imaging.",
+        "referenceURL": "https://doi.org/10.5281/zenodo.5151590"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Guide",
+        "URL": "https://mrphys.github.io/tensorflow-mri/guide/"
+      },
+      {
+        "resourceType": "Tutorials",
+        "URL": "https://mrphys.github.io/tensorflow-mri/tutorials/"
+      },
+      {
+        "resourceType": "API Documentation",
+        "URL": "https://mrphys.github.io/tensorflow-mri/api_docs/"
+      }
+    ],
+    "dateAddedToMRHub": "2022-06-12",
+    "dateSoftwareLastUpdated": "2022-06-12",
+    "citationSearchString": "",
+    "citationCount": ""
+  },
+  {
     "name": " Hyperpolarized MRI Toolbox",
     "category": "Multipurpose",
     "shortDescription": " Tools for hyperpolarized MRI acquisition and reconstruction methods",
