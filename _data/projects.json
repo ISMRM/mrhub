@@ -854,7 +854,7 @@
     "keyReferences": [
       {
         "referenceText": "MRIReco.jl: An Extensible Open-Source Image Reconstruction Framework written in Julia",
-        "referenceURL": "http://indexsmart.mirasmart.com/ISMRM2019/PDFfiles/4835.html"
+        "referenceURL": "https://onlinelibrary.wiley.com/doi/10.1002/mrm.28792"
       }
     ],
     "extraResources": [
@@ -865,7 +865,7 @@
     ],
     "dateAddedToMRHub": "2019-10-16",
     "dateSoftwareLastUpdated": "2022-10-28",
-    "citationSearchString": "n/a",
+    "citationSearchString": "10.1002/mrm.28792",
     "citationCount": "0"
   },
   {
