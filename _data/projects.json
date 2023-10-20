@@ -80,9 +80,9 @@
       }
     ],
     "dateAddedToMRHub": "2022-04-26",
-    "dateSoftwareLastUpdated": "2022-08-24",
+    "dateSoftwareLastUpdated": "2023-10-02",
     "citationSearchString": "ad79dff0e419f90fbc938fb0733a10a1aa8ca27e",
-    "citationCount": "15"
+    "citationCount": "18"
   },
   {
     "name": "SIVIC",
@@ -124,9 +124,9 @@
       }
     ],
     "dateAddedToMRHub": "2022-04-18",
-    "dateSoftwareLastUpdated": "2022-07-14",
+    "dateSoftwareLastUpdated": "2023-09-05",
     "citationSearchString": "e2d1ee40da048885ae68f39a5721086f9200011b",
-    "citationCount": "79"
+    "citationCount": "86"
   },
   {
     "name": "pySAP",
@@ -163,7 +163,7 @@
     "dateAddedToMRHub": "2022-02-21",
     "dateSoftwareLastUpdated": "2022-01-18",
     "citationSearchString": "17f990ce903008b168e3c6701a7b4bf20885de72",
-    "citationCount": "9"
+    "citationCount": "14"
   },
   {
     "name": "Disimpy",
@@ -192,9 +192,9 @@
       }
     ],
     "dateAddedToMRHub": "2021-12-08",
-    "dateSoftwareLastUpdated": "2022-03-11",
+    "dateSoftwareLastUpdated": "2023-06-07",
     "citationSearchString": "45d5d220d50a97e0a0c8a14a5979df1d293634f2",
-    "citationCount": "5"
+    "citationCount": "10"
   },
   {
     "name": "DECAES.jl",
@@ -249,9 +249,9 @@
       }
     ],
     "dateAddedToMRHub": "2021-12-06",
-    "dateSoftwareLastUpdated": "2022-06-09",
+    "dateSoftwareLastUpdated": "2023-08-20",
     "citationSearchString": "10.1016/j.zemedi.2020.04.001",
-    "citationCount": "9"
+    "citationCount": "15"
   },
   {
     "name": "torchkbnufft",
@@ -289,7 +289,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-11-01",
-    "dateSoftwareLastUpdated": "2022-06-22",
+    "dateSoftwareLastUpdated": "2023-01-27",
     "citationSearchString": "N/A",
     "citationCount": "0"
   },
@@ -340,7 +340,7 @@
     "dateAddedToMRHub": "2021-08-06",
     "dateSoftwareLastUpdated": "2019-02-20",
     "citationSearchString": "10.1016/j.neuroimage.2019.01.033",
-    "citationCount": "13"
+    "citationCount": "14"
   },
   {
     "name": "Image Segmentation and Registration in Matlab",
@@ -372,7 +372,7 @@
     "dateAddedToMRHub": "2021-08-06",
     "dateSoftwareLastUpdated": "2021-06-26",
     "citationSearchString": "10.1038/s41598-018-31333-5",
-    "citationCount": "56"
+    "citationCount": "64"
   },
   {
     "name": "seeVR",
@@ -398,9 +398,9 @@
       }
     ],
     "dateAddedToMRHub": "2021-08-01",
-    "dateSoftwareLastUpdated": "2022-09-21",
+    "dateSoftwareLastUpdated": "2023-10-18",
     "citationSearchString": "aa1f729decd1a5a0d56de10446a8e268367cb927",
-    "citationCount": "3"
+    "citationCount": "7"
   },
   {
     "name": "Diffusion MRI CSA-ODF and Hough Tractography",
@@ -453,7 +453,7 @@
     "dateAddedToMRHub": "2021-08-04",
     "dateSoftwareLastUpdated": "2021-06-26",
     "citationSearchString": "10.1002/mrm.22365",
-    "citationCount": "357"
+    "citationCount": "359"
   },
   {
     "name": "MRIgeneralizedBloch.jl",
@@ -478,9 +478,9 @@
       }
     ],
     "dateAddedToMRHub": "2021-07-26",
-    "dateSoftwareLastUpdated": "2022-10-24",
+    "dateSoftwareLastUpdated": "2023-10-09",
     "citationSearchString": "30567d7cd59f7a9a16f387b4d57bcd15f5d2d59b",
-    "citationCount": "4"
+    "citationCount": "8"
   },
   {
     "name": "Madym",
@@ -534,7 +534,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-19",
-    "dateSoftwareLastUpdated": "2022-10-26",
+    "dateSoftwareLastUpdated": "2023-07-25",
     "citationSearchString": "10.1002/mrm.28798",
     "citationCount": "1"
   },
@@ -575,9 +575,9 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-17",
-    "dateSoftwareLastUpdated": "2022-11-03",
+    "dateSoftwareLastUpdated": "2023-10-16",
     "citationSearchString": "10.1109/TMI.2010.2045126",
-    "citationCount": "590"
+    "citationCount": "661"
   },
   {
     "name": "MyoQMRI",
@@ -608,7 +608,7 @@
     "dateAddedToMRHub": "2021-03-01",
     "dateSoftwareLastUpdated": "2021-02-26",
     "citationSearchString": "10.3389/fneur.2021.630387",
-    "citationCount": "4"
+    "citationCount": "9"
   },
   {
     "name": "MRQy",
@@ -644,9 +644,9 @@
       }
     ],
     "dateAddedToMRHub": "2020-08-14",
-    "dateSoftwareLastUpdated": "2022-10-11",
+    "dateSoftwareLastUpdated": "2023-09-25",
     "citationSearchString": "0804898055d61e965e64e8bba8e60ce7e03b6ef0",
-    "citationCount": "18"
+    "citationCount": "31"
   },
   {
     "name": "TED",
@@ -743,9 +743,9 @@
       }
     ],
     "dateAddedToMRHub": "2020-07-07",
-    "dateSoftwareLastUpdated": "2021-12-29",
+    "dateSoftwareLastUpdated": "2023-09-07",
     "citationSearchString": "10.1016/j.neuroimage.2020.117031",
-    "citationCount": "43"
+    "citationCount": "67"
   },
   {
     "name": "QMRITools",
@@ -797,9 +797,9 @@
       }
     ],
     "dateAddedToMRHub": "2020-05-25",
-    "dateSoftwareLastUpdated": "2022-11-04",
+    "dateSoftwareLastUpdated": "2023-10-11",
     "citationSearchString": "CorpusID:195755688",
-    "citationCount": "14"
+    "citationCount": "16"
   },
   {
     "name": "CORE-PI",
@@ -831,7 +831,7 @@
     "dateAddedToMRHub": "2019-12-25",
     "dateSoftwareLastUpdated": "2020-05-09",
     "citationSearchString": "091ad971f140c40403eb8dd0e35c4863d6c434ee",
-    "citationCount": "4"
+    "citationCount": "5"
   },
   {
     "name": "MRIReco.jl",
@@ -864,7 +864,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-10-16",
-    "dateSoftwareLastUpdated": "2022-10-28",
+    "dateSoftwareLastUpdated": "2023-10-19",
     "citationSearchString": "n/a",
     "citationCount": "0"
   },
@@ -899,9 +899,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-06-19",
-    "dateSoftwareLastUpdated": "2022-08-30",
+    "dateSoftwareLastUpdated": "2023-08-07",
     "citationSearchString": "10.1016/j.media.2016.02.010",
-    "citationCount": "60"
+    "citationCount": "64"
   },
   {
     "name": "Gannet",
@@ -938,7 +938,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
-    "citationCount": "395"
+    "citationCount": "444"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -977,7 +977,7 @@
     "dateAddedToMRHub": "2019-05-30",
     "dateSoftwareLastUpdated": "2021-06-24",
     "citationSearchString": "10.1002/mrm.25528",
-    "citationCount": "38"
+    "citationCount": "49"
   },
   {
     "name": "Water/Fat Separated MR Thermometry",
@@ -1009,7 +1009,7 @@
     "dateAddedToMRHub": "2019-05-29",
     "dateSoftwareLastUpdated": "2018-09-26",
     "citationSearchString": "10.1002/mrm.27567",
-    "citationCount": "12"
+    "citationCount": "17"
   },
   {
     "name": "MRtrix3",
@@ -1043,9 +1043,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2022-11-02",
+    "dateSoftwareLastUpdated": "2023-10-05",
     "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-    "citationCount": "583"
+    "citationCount": "1274"
   },
   {
     "name": "gammaSTAR",
@@ -1086,7 +1086,7 @@
     "dateAddedToMRHub": "2019-05-29",
     "dateSoftwareLastUpdated": "2020-01-29",
     "citationSearchString": "10.1002/mrm.28020",
-    "citationCount": "5"
+    "citationCount": "9"
   },
   {
     "name": "SigPy",
@@ -1119,7 +1119,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2022-01-23",
+    "dateSoftwareLastUpdated": "2023-10-16",
     "citationSearchString": "SigPy",
     "citationCount": "0"
   },
@@ -1163,9 +1163,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2022-09-16",
+    "dateSoftwareLastUpdated": "2023-07-20",
     "citationSearchString": "10.1002/mrm.25670",
-    "citationCount": "92"
+    "citationCount": "106"
   },
   {
     "name": "Berkeley Advanced Reconstruction Toolbox (BART)",
@@ -1215,9 +1215,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2022-11-03",
+    "dateSoftwareLastUpdated": "2023-10-12",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "848"
+    "citationCount": "1010"
   },
   {
     "name": "Gadgetron",
@@ -1255,9 +1255,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2022-10-27",
+    "dateSoftwareLastUpdated": "2023-10-16",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "237"
+    "citationCount": "256"
   },
   {
     "name": "gpuNUFFT",
@@ -1289,7 +1289,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2022-02-06",
     "citationSearchString": "c788ecd4a6ac9d3d7013a94515ec0718274e9907",
-    "citationCount": "70"
+    "citationCount": "77"
   },
   {
     "name": "ISMRMRD",
@@ -1319,9 +1319,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2022-10-26",
+    "dateSoftwareLastUpdated": "2023-10-10",
     "citationSearchString": "10.1002/mrm.26089",
-    "citationCount": "44"
+    "citationCount": "53"
   },
   {
     "name": "Low Field Simulator",
@@ -1355,7 +1355,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2016-07-12",
     "citationSearchString": "10.1371/journal.pone.0154711",
-    "citationCount": "9"
+    "citationCount": "11"
   },
   {
     "name": "Pulseq",
@@ -1384,9 +1384,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2022-08-03",
+    "dateSoftwareLastUpdated": "2023-10-02",
     "citationSearchString": "10.1002/mrm.26235",
-    "citationCount": "44"
+    "citationCount": "68"
   },
   {
     "name": "MRiLab",
@@ -1425,7 +1425,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-10",
     "citationSearchString": "10.1109/TMI.2016.2620961",
-    "citationCount": "49"
+    "citationCount": "62"
   },
   {
     "name": "NYU MR-Fingerprinting Reconstruction Toolbox",
@@ -1458,7 +1458,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-06",
     "citationSearchString": "10.1002/mrm.26639",
-    "citationCount": "142"
+    "citationCount": "156"
   },
   {
     "name": "QUIT",
@@ -1495,9 +1495,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2022-09-27",
+    "dateSoftwareLastUpdated": "2023-06-27",
     "citationSearchString": "10.21105/joss.00656",
-    "citationCount": "6"
+    "citationCount": "3"
   },
   {
     "name": "JEMRIS",
@@ -1526,9 +1526,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2022-02-23",
+    "dateSoftwareLastUpdated": "2023-10-05",
     "citationSearchString": "10.1002/mrm.22406",
-    "citationCount": "102"
+    "citationCount": "113"
   },
   {
     "name": "Spinal Cord Toolbox (SCT)",
@@ -1560,7 +1560,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-03-01",
     "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
-    "citationCount": "299"
+    "citationCount": "357"
   },
   {
     "name": "qMRLab",
@@ -1589,9 +1589,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2022-07-06",
+    "dateSoftwareLastUpdated": "2023-07-12",
     "citationSearchString": "10.1002/cmr.a.21357",
-    "citationCount": "39"
+    "citationCount": "42"
   },
   {
     "name": "Yarra Framework",
@@ -1626,9 +1626,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-07-03",
-    "dateSoftwareLastUpdated": "2022-10-18",
+    "dateSoftwareLastUpdated": "2023-06-24",
     "citationSearchString": "8c5511d9ecad595dba390a718957be8c84c22f7a",
-    "citationCount": "10"
+    "citationCount": "11"
   },
   {
     "name": "DIPY",
@@ -1675,8 +1675,8 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2022-11-02",
+    "dateSoftwareLastUpdated": "2023-10-19",
     "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
-    "citationCount": "721"
+    "citationCount": "868"
   }
 ]
