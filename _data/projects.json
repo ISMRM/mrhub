@@ -1,5 +1,48 @@
 [
   {
+    "name": "KomaMRI.jl",
+    "category": "Simulation",
+    "shortDescription": "Koma is an open‐source, high‐performance, easy‐to‐use, extensible, cross‐platform, and general MRI simulation framework.",
+    "imageFile": "KomaMRI.png",
+    "mainURL": "https://github.com/cncastillo/KomaMRI.jl/",
+    "repoURL": "https://github.com/cncastillo/KomaMRI.jl/",
+    "principalDevelopers": "Carlos Castillo-Passi",
+    "longDescription": "Koma is a Pulseq-compatible framework to efficiently simulate Magnetic Resonance Imaging (MRI) acquisitions. The main focus of this package is to simulate general scenarios that could arise in pulse sequence development.",
+    "keywords": [
+      "GPU",
+      "GUI",
+      "Julia",
+      "Open source",
+      "Simulation",
+      "Pulseq",
+      "ISMRMRD"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "KomaMRI.jl: An open-source framework for general MRI simulations with GPU acceleration",
+        "referenceURL": "https://onlinelibrary.wiley.com/doi/10.1002/mrm.29635"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Documentation",
+        "URL": "https://cncastillo.github.io/KomaMRI.jl/stable/"
+      },
+      {
+        "resourceType": "Examples",
+        "URL": "https://cncastillo.github.io/KomaMRI.jl/stable/generated/lit-01-FID/"
+      },
+      {
+        "resourceType": "API Documentation",
+        "URL": "https://cncastillo.github.io/KomaMRI.jl/stable/api/"
+      }
+    ],
+    "dateAddedToMRHub": "2023-10-22",
+    "dateSoftwareLastUpdated": "2023-07-13",
+    "citationSearchString": "0111be211c6cea699f64f218c40d22108e6aa6ff",
+    "citationCount": "0"
+  },
+  {
     "name": "TensorFlow MRI",
     "category": "Multipurpose",
     "shortDescription": "A library of TensorFlow operators for computational magnetic resonance imaging.",
