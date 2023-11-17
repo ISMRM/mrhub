@@ -169,7 +169,7 @@
     "dateAddedToMRHub": "2022-04-18",
     "dateSoftwareLastUpdated": "2023-09-05",
     "citationSearchString": "e2d1ee40da048885ae68f39a5721086f9200011b",
-    "citationCount": "86"
+    "citationCount": "87"
   },
   {
     "name": "pySAP",
@@ -292,7 +292,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-12-06",
-    "dateSoftwareLastUpdated": "2023-08-20",
+    "dateSoftwareLastUpdated": "2023-10-29",
     "citationSearchString": "10.1016/j.zemedi.2020.04.001",
     "citationCount": "15"
   },
@@ -415,7 +415,7 @@
     "dateAddedToMRHub": "2021-08-06",
     "dateSoftwareLastUpdated": "2021-06-26",
     "citationSearchString": "10.1038/s41598-018-31333-5",
-    "citationCount": "64"
+    "citationCount": "63"
   },
   {
     "name": "seeVR",
@@ -441,7 +441,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-08-01",
-    "dateSoftwareLastUpdated": "2023-10-18",
+    "dateSoftwareLastUpdated": "2023-11-13",
     "citationSearchString": "aa1f729decd1a5a0d56de10446a8e268367cb927",
     "citationCount": "7"
   },
@@ -496,7 +496,7 @@
     "dateAddedToMRHub": "2021-08-04",
     "dateSoftwareLastUpdated": "2021-06-26",
     "citationSearchString": "10.1002/mrm.22365",
-    "citationCount": "359"
+    "citationCount": "356"
   },
   {
     "name": "MRIgeneralizedBloch.jl",
@@ -521,9 +521,9 @@
       }
     ],
     "dateAddedToMRHub": "2021-07-26",
-    "dateSoftwareLastUpdated": "2023-10-09",
+    "dateSoftwareLastUpdated": "2023-11-04",
     "citationSearchString": "30567d7cd59f7a9a16f387b4d57bcd15f5d2d59b",
-    "citationCount": "8"
+    "citationCount": "9"
   },
   {
     "name": "Madym",
@@ -577,7 +577,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-19",
-    "dateSoftwareLastUpdated": "2023-07-25",
+    "dateSoftwareLastUpdated": "2023-11-03",
     "citationSearchString": "10.1002/mrm.28798",
     "citationCount": "1"
   },
@@ -618,7 +618,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-17",
-    "dateSoftwareLastUpdated": "2023-10-16",
+    "dateSoftwareLastUpdated": "2023-11-17",
     "citationSearchString": "10.1109/TMI.2010.2045126",
     "citationCount": "661"
   },
@@ -689,7 +689,7 @@
     "dateAddedToMRHub": "2020-08-14",
     "dateSoftwareLastUpdated": "2023-09-25",
     "citationSearchString": "0804898055d61e965e64e8bba8e60ce7e03b6ef0",
-    "citationCount": "31"
+    "citationCount": "32"
   },
   {
     "name": "TED",
@@ -840,7 +840,7 @@
       }
     ],
     "dateAddedToMRHub": "2020-05-25",
-    "dateSoftwareLastUpdated": "2023-10-11",
+    "dateSoftwareLastUpdated": "2023-11-15",
     "citationSearchString": "CorpusID:195755688",
     "citationCount": "16"
   },
@@ -907,9 +907,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-10-16",
-    "dateSoftwareLastUpdated": "2022-10-28",
+    "dateSoftwareLastUpdated": "2023-11-16",
     "citationSearchString": "10.1002/mrm.28792",
-    "citationCount": "0"
+    "citationCount": "15"
   },
   {
     "name": "NLSAM",
@@ -942,7 +942,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-06-19",
-    "dateSoftwareLastUpdated": "2023-08-07",
+    "dateSoftwareLastUpdated": "2023-10-31",
     "citationSearchString": "10.1016/j.media.2016.02.010",
     "citationCount": "64"
   },
@@ -981,7 +981,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
-    "citationCount": "444"
+    "citationCount": "450"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -1086,9 +1086,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2023-10-05",
+    "dateSoftwareLastUpdated": "2023-10-25",
     "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
-    "citationCount": "1274"
+    "citationCount": "1306"
   },
   {
     "name": "gammaSTAR",
@@ -1129,7 +1129,7 @@
     "dateAddedToMRHub": "2019-05-29",
     "dateSoftwareLastUpdated": "2020-01-29",
     "citationSearchString": "10.1002/mrm.28020",
-    "citationCount": "9"
+    "citationCount": "10"
   },
   {
     "name": "SigPy",
@@ -1206,9 +1206,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2023-07-20",
+    "dateSoftwareLastUpdated": "2023-10-25",
     "citationSearchString": "10.1002/mrm.25670",
-    "citationCount": "106"
+    "citationCount": "108"
   },
   {
     "name": "Berkeley Advanced Reconstruction Toolbox (BART)",
@@ -1258,9 +1258,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2023-10-12",
+    "dateSoftwareLastUpdated": "2023-11-07",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "1010"
+    "citationCount": "1020"
   },
   {
     "name": "Gadgetron",
@@ -1332,7 +1332,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2022-02-06",
     "citationSearchString": "c788ecd4a6ac9d3d7013a94515ec0718274e9907",
-    "citationCount": "77"
+    "citationCount": "78"
   },
   {
     "name": "ISMRMRD",
@@ -1362,7 +1362,7 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2023-10-10",
+    "dateSoftwareLastUpdated": "2023-11-07",
     "citationSearchString": "10.1002/mrm.26089",
     "citationCount": "53"
   },
@@ -1427,9 +1427,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2023-10-02",
+    "dateSoftwareLastUpdated": "2023-11-16",
     "citationSearchString": "10.1002/mrm.26235",
-    "citationCount": "68"
+    "citationCount": "69"
   },
   {
     "name": "MRiLab",
@@ -1468,7 +1468,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-10",
     "citationSearchString": "10.1109/TMI.2016.2620961",
-    "citationCount": "62"
+    "citationCount": "63"
   },
   {
     "name": "NYU MR-Fingerprinting Reconstruction Toolbox",
@@ -1571,7 +1571,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2023-10-05",
     "citationSearchString": "10.1002/mrm.22406",
-    "citationCount": "113"
+    "citationCount": "114"
   },
   {
     "name": "Spinal Cord Toolbox (SCT)",
@@ -1603,7 +1603,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-03-01",
     "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
-    "citationCount": "357"
+    "citationCount": "371"
   },
   {
     "name": "qMRLab",
@@ -1634,7 +1634,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2023-07-12",
     "citationSearchString": "10.1002/cmr.a.21357",
-    "citationCount": "42"
+    "citationCount": "41"
   },
   {
     "name": "Yarra Framework",
@@ -1718,8 +1718,8 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2023-10-19",
+    "dateSoftwareLastUpdated": "2023-11-17",
     "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
-    "citationCount": "868"
+    "citationCount": "876"
   }
 ]
