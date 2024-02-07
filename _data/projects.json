@@ -1726,7 +1726,7 @@
     "name": "GrOpt",
     "category": "Pulse sequences",
     "shortDescription": "A Gradient Optimization Toolbox for finding time optimal MR encoding gradients",
-    "imageFile": "gropt_logo.png",
+    "imageFile": "gropt.png",
     "mainURL": "https://github.com/mloecher/gropt",
     "repoURL": "https://github.com/mloecher/gropt",
     "principalDevelopers": "Michael Loecher",
