@@ -1730,7 +1730,7 @@
     "mainURL": "https://github.com/mloecher/gropt",
     "repoURL": "https://github.com/mloecher/gropt",
     "principalDevelopers": "Michael Loecher",
-    "longDescription": "GrOpt is a toolbox for finding tie-optimal gradient waveforms for pulse sequence development from a list of constraints.  It is designed o operate as fast as possible to enable on-the-fly optimizations that can be run on the scanner.  The underlying optimization is written in C/C++, with wrappers for Matlab and Python.",
+    "longDescription": "GrOpt is a toolbox for finding time-optimal gradient waveforms for pulse sequence development from a list of constraints.  It is designed to operate as fast as possible to enable on-the-fly optimizations that can be run on the scanner.  The underlying optimization is written in C/C++, with wrappers for Matlab and Python.",
     "keywords": [
       "Numerical Optimization",
       "Pulse Sequence Design",
