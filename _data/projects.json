@@ -1,4 +1,33 @@
 [
+ {
+        "name": "VirtMRI",
+        "category": "Educational",
+        "shortDescription": "Generate images for different MRI Sequences in your Browser",
+        "imageFile": "129389935.png",
+        "mainURL": "https://github.com/Computer-Assisted-Clinical-Medicine/VirtMRI",
+        "repoURL": "https://github.com/Computer-Assisted-Clinical-Medicine/VirtMRI",
+        "principalDevelopers": "C. Tönnes, C. Licht, L. R. Schad and F. G. Zöllner",
+        "longDescription": "Magnetic resonance image formation is not trivial and remains a difficult subject for teaching. Therefore, we saw an urgent need to facilitate teaching by developing a practical and easily accessible MR image generator. The user interface focuses on the parameters needed for the creation and display of the resulting images. Available MR sequences range from the standard Spin Echo and Inversion Recovery over steady-state to conventional sodium and more advanced single and triple quantum sequences. Additionally, the user interface has parameters to alter the resolution, the noise, and the k-space sampling. Our software is free to use and specifically suited for teaching purposes.",
+        "keywords": ["MRI", "teaching", "contrast", "simulation"],
+        "keyReferences": [
+            {
+                "referenceText": "C. Tönnes, C. Licht, L. R. Schad and F. G. Zöllner, VirtMRI: A Tool for Teaching MRI. J Med Syst 47, 110 (2023).",
+                "referenceURL": "https://doi.org/10.1007/s10916-023-02004-4"
+            }
+            
+        ],
+        "extraResources": [
+            {
+                "resourceType": "Website",
+                "URL": "https://virtmri.keks.li/"
+            }
+        ],
+        "dateAddedToMRHub": "2024-07-23",
+        "dateSoftwareLastUpdated": "2024-07-23",
+        "citationSearchString": "10.1007/s10916-023-02004-4",
+        "citationCount": ""
+    },
+  
   {
     "name": "KomaMRI.jl",
     "category": "Simulation",
