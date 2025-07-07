@@ -1,4 +1,42 @@
-[
+[    
+  {
+        "name": "QMRIColors.jl",
+        "category": "Visualisation",
+        "shortDescription": "Julia package to correctly display quantitative maps of T1, R1, T2, R2, T2*, R2*, T1rho and R1rho",
+        "imageFile": "logo_QMRIColors.png",
+        "mainURL": "https://github.com/MagneticResonanceImaging/QMRIColors.jl",
+        "repoURL": "https://github.com/MagneticResonanceImaging/QMRIColors.jl",
+        "principalDevelopers": "Aurélien Trotier, Miha Fuderer",
+        "longDescription": "This Julia package goes with the guideline paper published in Magnetic Resonance in Medicine: https://doi.org/10.1002/mrm.30290, Color-map recommendation for MR relaxomtry maps. It is to be used to display quantitative maps of T1, R1, T2, R2, T2, R2, T1rho and R1rho. The package contains multiple qMRI colormaps : Lipari and Navia color map",
+        "keywords": ["relaxometry",
+        "visualization",
+        "display",
+        "standardization",
+        "T1",
+        "T2",
+        "color-maps",
+        "Julia"],
+        "keyReferences": [
+            {
+                "referenceText": "Fuderer M, Wichtmann B, Crameri F, et al. Color-map recommendation for MR relaxometry maps. Magnetic Resonance in Medicine. 2024;n/a(n/a). doi:10.1002/mrm.30290",
+                "referenceURL": "https://onlinelibrary.wiley.com/doi/10.1002/mrm.30290"
+            }
+        ],
+        "extraResources": [
+            {
+                "resourceType": "Documentation",
+                "URL": "https://magneticresonanceimaging.github.io/QMRIColors.jl/dev/"
+            },
+            {
+                "resourceType": "Python implementation",
+                "URL": "https://github.com/oscarvanderheide/qmricolors"
+            }
+        ],
+        "dateAddedToMRHub": "2025-06-24",
+        "dateSoftwareLastUpdated": "2025-02-11",
+        "citationSearchString": "10.1007/s10916-023-02004-4",
+        "citationCount": "0"
+    },
   {
     "name": "VirtMRI",
     "category": "Educational",
