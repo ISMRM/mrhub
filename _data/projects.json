@@ -1,5 +1,33 @@
 [    
   {
+        "name": "XIPline",
+        "category": "Image processing",
+        "shortDescription": "129Xe Image Processing Pipeline: An open-source, graphical user interface application for the analysis of hyperpolarized 129Xe MRI",
+        "imageFile": "XIPline.png",
+        "mainURL": "https://github.com/aboodbdaiwi/XIPline",
+        "repoURL": "https://github.com/aboodbdaiwi/XIPline",
+        "principalDevelopers": "Abdullah S. Bdaiwi",
+        "longDescription": "This study presents **XIPline**, an open-source, MATLAB-based graphical interface designed to standardize and streamline the processing of hyperpolarized ¹²⁹Xe MRI data across all major scanner platforms. The customizable workflow handles calibration (flip angle, frequency offset), ventilation, diffusion-weighted, and gas exchange analyses, with automated steps for loading, reconstruction, registration, segmentation, and post-processing. It incorporates three established ventilation defect percentage algorithms alongside methods for defect distribution and ventilation texture, supports ADC mapping with age-adjusted linear binning, and processes gas exchange data via generalized linear binning for 1-point Dixon imaging. Demonstrated on representative datasets, XIPline aims to reduce redundant development effort, ensure methodological consistency, and facilitate collaborative research by providing a robust, transparent, and adaptable framework for multi-site and multi-vendor ¹²⁹Xe MRI analysis.",
+        "keywords": ["hyperpolarized 129Xe", "129Xe Calibration analysis","129Xe Ventilation analysis", "129Xe diffusion analysis", "129Xe gas exchange analysis"],
+        "keyReferences": [
+            {
+                "referenceText": "129Xe Image Processing Pipeline: An open-source, graphical user interface application for the analysis of hyperpolarized 129Xe MRI",
+                "referenceURL": "https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.30347?msockid=21cff4ddf544657d3290e29bf4c96444"
+            } 
+            
+        ],
+        "extraResources": [
+            {
+                "resourceType": "Center for Pulmonary Imaging Research at CCHMMC",
+                "URL": "https://www.cincinnatichildrens.org/research/divisions/c/cpir"
+            }
+        ],
+        "dateAddedToMRHub": "2024-10-31",
+        "dateSoftwareLastUpdated": "2025-08-12",
+        "citationSearchString": "https://doi.org/10.1002/mrm.30347",
+        "citationCount": "4"
+    },
+  {
         "name": "QMRIColors.jl",
         "category": "Visualisation",
         "shortDescription": "Julia package to correctly display quantitative maps of T1, R1, T2, R2, T2*, R2*, T1rho and R1rho",
