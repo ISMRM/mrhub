@@ -1,10 +1,11 @@
 {
-  "all": "47",
+  "all": "49",
+  "Image processing": 11,
+  "Visualisation": 1,
   "Educational": 1,
   "Simulation": 6,
   "Multipurpose": 7,
   "Reconstruction": 17,
-  "Image processing": 10,
   "Toolbox": 1,
   "Spectroscopy": 1,
   "Pulse sequences": 3,
