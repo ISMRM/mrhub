@@ -31,7 +31,7 @@ The database of packages is stored in the `_data` folder of this repository and 
    * `"citationCount"` - This is the number of citations for the linked paper found by Semantic Scholar. This will get updated automatically by a site admin every so often to try to keep this info up-to-date.
   
 3. Once you've got all your text entered into the template, go to `mrhub/_data/projects.json` and click the 'Edit' button (this will fork the repository into your own Github account - but all this should be possible inside your browser). Paste the full contents of your edited version of `template.json` into the top of the `projects.json` file, **after the square bracket on the very first line**. 
-4. Before you submit a pull-request - please then copy/paste the entire new version of `projects.json` into a JSON validator such as this one: https://jsonlint.com/ and check that after your changes the full file is still 'valid JSON'.
+4. Before you submit a pull-request - please then copy/paste the entire new version of `projects.json` into a JSON validator such as this one: https://jsonlint.com/ and check that after your changes the full file is still 'valid JSON'. (Please also make sure that you leave the original `template.json` in place in the code that you submit as a pull-request, so it's still ready for the next person to use).
 5. Submit a pull-request to merge your forked version with the main MR-Hub site.
 6. Wait some amount of time for an admin to approve your pull-request. We realise this will still take some time - but hopefully it will be considerably faster than the 'review' process that we had in place for the previous version of MR-Hub.
 
