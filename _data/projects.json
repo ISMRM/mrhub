@@ -1847,20 +1847,20 @@
     ],
     "extraResources": [
       {
-        "resourceType": "Tutorial",
-        "URL": "https://dipy.org/tutorials/"
+        "resourceType": "Tutorials",
+        "URL": "https://dipy.org/tutorials"
       },
       {
-        "resourceType": "Gallery",
-        "URL": "https://dipy.org/gallery/"
+        "resourceType": "Youtube Channel",
+        "URL": "https://www.youtube.com/c/diffusionimaginginpython"
       },
       {
         "resourceType": "User Forum",
-        "URL": "https://gitter.im/nipy/dipy"
+        "URL": "https://github.com/dipy/dipy/discussions"
       },
       {
         "resourceType": "Workshop",
-        "URL": "https://workshop.dipy.org/"
+        "URL": "https://workshop.dipy.org"
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
