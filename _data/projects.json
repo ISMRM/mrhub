@@ -10,7 +10,7 @@
     "longDescription": "The Monalisa toolbox for MRI reconstruction has been originaly developed at CIBM-CHUV between 2018 and 2023 by Bastien Milani. It continued to evovled until now, notably by the contribution of Berk Can Açikgöz while working in QIS lab at Inselspital and university of Bern. Originally, the development of the toolbox began by the implementation of non-cartesian reconstructions. The first reconstruction implemented was a gridded reconstruction which is part of the static non-iterative familly. After that, some static iterative reconstruction were added and later 3D-CINE iterative reconstructions with temporal regularisation were implemented (4D and 5D), all for non-cartesian data. Iterative 3D-CINE reconstruction for cartesian data were then implemented on the same model. The toolbox was further enriched with GRAPPA implementations.",
     "keywords": [ "MRI, reconstruction, regularized, iterative, least-square, non-Cartesian, non-uniform" ],
     "keyReferences": [
-        
+
         {
             "referenceText": "Free-running 3D-CINE MRI of patients with congenital heart disease using inter-bin compensation of cardiac motion",
             "referenceURL":  "https://archive.ismrm.org/2023/1083.html"
@@ -1850,20 +1850,20 @@
     ],
     "extraResources": [
       {
-        "resourceType": "Tutorial",
-        "URL": "https://dipy.org/tutorials/"
+        "resourceType": "Tutorials",
+        "URL": "https://dipy.org/tutorials"
       },
       {
-        "resourceType": "Gallery",
-        "URL": "https://dipy.org/gallery/"
+        "resourceType": "Youtube Channel",
+        "URL": "https://www.youtube.com/c/diffusionimaginginpython"
       },
       {
         "resourceType": "User Forum",
-        "URL": "https://gitter.im/nipy/dipy"
+        "URL": "https://github.com/dipy/dipy/discussions"
       },
       {
         "resourceType": "Workshop",
-        "URL": "https://workshop.dipy.org/"
+        "URL": "https://workshop.dipy.org"
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
