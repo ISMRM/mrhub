@@ -1,5 +1,63 @@
 [
   {
+    "name": "SNAKE",
+    "category": "Simulation",
+    "shortDescription": "Doing non-Cartesian MR Imaging has never been so easy.",
+    "imageFile": "snake.png",
+    "mainURL": "https://mind-inria.github.io/snake-fmri/",
+    "repoURL": "https://github.com/mind-inria/snake-fmri",
+    "principalDevelopers": "Pierre-Antoine Comby, Caini Pan",
+    "longDescription": "SNAKE is a Simulator from Neuro-Activation to K-space Evaluation used to develop and benchmark new acquisition and reconstruction strategies for functional MRI",
+    "keywords": [
+        "fMRI, simulation, k-space, BOLD, non-Cartesian, trajectories"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "SNAKE: A modular realistic fMRI data simulator from the space-time domain to k-space and back Open Access",
+        "referenceURL": "https://doi.org/10.1162/IMAG.a.121"
+      },
+    ],
+    "extraResources": [
+      {
+        "resourceType": "",
+        "URL": ""
+      }
+    ],
+    "dateAddedToMRHub": "2026-05-04",
+    "dateSoftwareLastUpdated": "2025-10-09",
+    "citationSearchString": "https://doi.org/10.1162/IMAG.a.121",
+    "citationCount": "0"
+  },
+  {
+    "name": "MRI-NUFFT",
+    "category": "Reconstruction",
+    "shortDescription": "Doing non-Cartesian MR Imaging has never been so easy.",
+    "imageFile": "mri-nufft.png",
+    "mainURL": "https://mind-inria.github.io/mri-nufft/",
+    "repoURL": "https://github.com/mind-inria/mri-nufft",
+    "principalDevelopers": "Pierre-Antoine Comby, Chaithya GR, Guillaume Daval-Frérot",
+    "longDescription": "MRI-NUFFT is an open-source Python library that provides state-of-the-art non-Cartesian MRI tools: trajectories, data loading and fast and memory-efficient operators to be used on laptops, clusters, and MRI consoles.",
+    "keywords": [
+        "MRI, NUFFT, trajectories, k-space, non-Cartesian,"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "MRI-NUFFT: Doing non-Cartesian MRI has never been easier",
+        "referenceURL": "https://doi.org/10.21105/joss.07743"
+      },
+    ],
+    "extraResources": [
+      {
+        "resourceType": "",
+        "URL": ""
+      }
+    ],
+    "dateAddedToMRHub": "2026-05-04",
+    "dateSoftwareLastUpdated": "2026-05-04",
+    "citationSearchString": "https://doi.org/10.21105/joss.07743",
+    "citationCount": "0"
+  },
+  {
     "name": "Monalisa",
     "category": "Reconstruction",
     "shortDescription": "MRI reconstruciton toolbox for non-Cartesian and Cartesian data. ",
