@@ -25,7 +25,7 @@
     ],
     "dateAddedToMRHub": "2026-05-04",
     "dateSoftwareLastUpdated": "2025-10-09",
-    "citationSearchString": "https://doi.org/10.1162/IMAG.a.121",
+    "citationSearchString": "10.1162/IMAG.a.121",
     "citationCount": "0"
   },
   {
@@ -43,7 +43,7 @@
     "keyReferences": [
       {
         "referenceText": "MRI-NUFFT: Doing non-Cartesian MRI has never been easier",
-        "referenceURL": "https://doi.org/10.21105/joss.07743"
+        "referenceURL": "10.21105/joss.07743"
       },
     ],
     "extraResources": [
@@ -54,7 +54,7 @@
     ],
     "dateAddedToMRHub": "2026-05-04",
     "dateSoftwareLastUpdated": "2026-05-04",
-    "citationSearchString": "https://doi.org/10.21105/joss.07743",
+    "citationSearchString": "10.21105/joss.07743",
     "citationCount": "0"
   },
   {
@@ -95,7 +95,7 @@
     ],
     "dateAddedToMRHub": "2025-12-21",
     "dateSoftwareLastUpdated": "2026-01-14",
-    "citationSearchString": "https://doi.org/10.1101/2024.02.22.24302997",
+    "citationSearchString": "10.1101/2024.02.22.24302997",
     "citationCount": "0"
   },
   {
@@ -128,7 +128,7 @@
     ],
     "dateAddedToMRHub": "2025-08-13",
     "dateSoftwareLastUpdated": "2026-05-01",
-    "citationSearchString": "https://doi.org/10.1002/mrm.30347",
+    "citationSearchString": "10.1002/mrm.30347",
     "citationCount": "0"
   },
   {
@@ -168,7 +168,7 @@
     ],
     "dateAddedToMRHub": "2025-06-24",
     "dateSoftwareLastUpdated": "2025-06-26",
-    "citationSearchString": "https://doi.org/10.1002/mrm.30290",
+    "citationSearchString": "10.1002/mrm.30290",
     "citationCount": "0"
   },
   {
@@ -243,7 +243,7 @@
     ],
     "dateAddedToMRHub": "2023-10-22",
     "dateSoftwareLastUpdated": "2023-07-13",
-    "citationSearchString": "0111be211c6cea699f64f218c40d22108e6aa6ff",
+    "citationSearchString": "10.1002/mrm.29635",
     "citationCount": "0"
   },
   {
@@ -290,7 +290,7 @@
     ],
     "dateAddedToMRHub": "2022-06-12",
     "dateSoftwareLastUpdated": "2025-06-02",
-    "citationSearchString": "",
+    "citationSearchString": "10.5281/zenodo.5151590",
     "citationCount": "0"
   },
   {
@@ -328,7 +328,7 @@
     ],
     "dateAddedToMRHub": "2022-04-26",
     "dateSoftwareLastUpdated": "2025-07-01",
-    "citationSearchString": "ad79dff0e419f90fbc938fb0733a10a1aa8ca27e",
+    "citationSearchString": "10.1002/nbm.4280",
     "citationCount": "0"
   },
   {
@@ -372,7 +372,7 @@
     ],
     "dateAddedToMRHub": "2022-04-18",
     "dateSoftwareLastUpdated": "2025-06-02",
-    "citationSearchString": "e2d1ee40da048885ae68f39a5721086f9200011b",
+    "citationSearchString": "10.1155/2013/169526",
     "citationCount": "0"
   },
   {
@@ -409,7 +409,7 @@
     ],
     "dateAddedToMRHub": "2022-02-21",
     "dateSoftwareLastUpdated": "2026-01-06",
-    "citationSearchString": "17f990ce903008b168e3c6701a7b4bf20885de72",
+    "citationSearchString": "10.1016/j.ascom.2020.100402",
     "citationCount": "0"
   },
   {
@@ -440,7 +440,7 @@
     ],
     "dateAddedToMRHub": "2021-12-08",
     "dateSoftwareLastUpdated": "2024-11-02",
-    "citationSearchString": "45d5d220d50a97e0a0c8a14a5979df1d293634f2",
+    "citationSearchString": "10.21105/joss.02527",
     "citationCount": "0"
   },
   {
@@ -537,7 +537,7 @@
     ],
     "dateAddedToMRHub": "2021-11-01",
     "dateSoftwareLastUpdated": "2024-12-04",
-    "citationSearchString": "N/A",
+    "citationSearchString": "",
     "citationCount": "0"
   },
   {
@@ -646,7 +646,7 @@
     ],
     "dateAddedToMRHub": "2021-08-01",
     "dateSoftwareLastUpdated": "2026-02-06",
-    "citationSearchString": "aa1f729decd1a5a0d56de10446a8e268367cb927",
+    "citationSearchString": "10.3389/fphys.2021.601369",
     "citationCount": "0"
   },
   {
@@ -726,7 +726,7 @@
     ],
     "dateAddedToMRHub": "2021-07-26",
     "dateSoftwareLastUpdated": "2026-04-29",
-    "citationSearchString": "30567d7cd59f7a9a16f387b4d57bcd15f5d2d59b",
+    "citationSearchString": "10.1002/mrm.29071",
     "citationCount": "0"
   },
   {
@@ -892,7 +892,7 @@
     ],
     "dateAddedToMRHub": "2020-08-14",
     "dateSoftwareLastUpdated": "2024-03-16",
-    "citationSearchString": "0804898055d61e965e64e8bba8e60ce7e03b6ef0",
+    "citationSearchString": "10.1002/mp.14593",
     "citationCount": "0"
   },
   {
@@ -926,7 +926,7 @@
     ],
     "dateAddedToMRHub": "2020-07-11",
     "dateSoftwareLastUpdated": "2020-05-09",
-    "citationSearchString": "",
+    "citationSearchString": "10.1002/nbm.4352",
     "citationCount": "0"
   },
   {
@@ -957,7 +957,7 @@
     ],
     "dateAddedToMRHub": "2020-07-11",
     "dateSoftwareLastUpdated": "2020-05-14",
-    "citationSearchString": "005ce859bd64cfcc9c2990f384cbea458e215be6",
+    "citationSearchString": "10.1016/j.mri.2020.06.001",
     "citationCount": "0"
   },
   {
@@ -1045,7 +1045,7 @@
     ],
     "dateAddedToMRHub": "2020-05-25",
     "dateSoftwareLastUpdated": "2026-04-29",
-    "citationSearchString": "CorpusID:195755688",
+    "citationSearchString": "10.21105/JOSS.01204",
     "citationCount": "0"
   },
   {
@@ -1077,7 +1077,7 @@
     ],
     "dateAddedToMRHub": "2019-12-25",
     "dateSoftwareLastUpdated": "2020-05-09",
-    "citationSearchString": "091ad971f140c40403eb8dd0e35c4863d6c434ee",
+    "citationSearchString": "10.1002/mp.13260",
     "citationCount": "0"
   },
   {
@@ -1184,7 +1184,7 @@
     ],
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
-    "citationSearchString": "b0cb7cfd34668b63b1393624e9e6083bddf42f42",
+    "citationSearchString": "10.1002/jmri.24478",
     "citationCount": "0"
   },
   {
@@ -1291,7 +1291,7 @@
     ],
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2026-04-13",
-    "citationSearchString": "f6dbe95c44802c048c0d50e30b7593315eac5afe",
+    "citationSearchString": "10.1016/j.neuroimage.2019.116137",
     "citationCount": "0"
   },
   {
@@ -1367,7 +1367,7 @@
     ],
     "dateAddedToMRHub": "2019-05-23",
     "dateSoftwareLastUpdated": "2024-12-27",
-    "citationSearchString": "SigPy",
+    "citationSearchString": "",
     "citationCount": "0"
   },
   {
@@ -1535,7 +1535,7 @@
     ],
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2022-02-06",
-    "citationSearchString": "c788ecd4a6ac9d3d7013a94515ec0718274e9907",
+    "citationSearchString": "W2947234181",
     "citationCount": "0"
   },
   {
@@ -1874,7 +1874,7 @@
     ],
     "dateAddedToMRHub": "2019-07-03",
     "dateSoftwareLastUpdated": "2024-04-25",
-    "citationSearchString": "8c5511d9ecad595dba390a718957be8c84c22f7a",
+    "citationSearchString": "",
     "citationCount": "0"
   },
   {
@@ -1923,7 +1923,7 @@
     ],
     "dateAddedToMRHub": "2020-01-27",
     "dateSoftwareLastUpdated": "2026-04-30",
-    "citationSearchString": "a89d23db5695b754bf735ce7c4a9c538aca0760e",
+    "citationSearchString": "10.3389/fninf.2014.00008",
     "citationCount": "0"
   },
   {
@@ -1960,7 +1960,7 @@
     ],
     "dateAddedToMRHub": "2024-02-07",
     "dateSoftwareLastUpdated": "2025-06-01",
-    "citationSearchString": "31c3714632020b75be5b25a0d15f0c2d71c38a14",
+    "citationSearchString": "10.1002/mrm.28384",
     "citationCount": "0"
   }
 ]

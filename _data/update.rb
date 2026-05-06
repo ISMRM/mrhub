@@ -17,7 +17,18 @@ def get_api_response(url, username="", password="")
 end
 
 def get_num_citations(project, citation_api)
-    url = citation_api + "/" + project["citationSearchString"]
+    # The searchstring can either be a DOI or an OpenAlex work ID or empty
+    searchstring = project["citationSearchString"]
+    # Nothing to do if string is empty
+    if searchstring.empty?
+        puts "No citationSearchString provided. Skipping"
+        return 0
+    end
+    # If searchstring is DOI, then we need to append doi tag
+    if !searchstring.start_with?("W", "w")
+        searchstring = "doi:" + searchstring
+    end
+    url = citation_api + "/" + searchstring
     response = get_api_response url
     if response["cited_by_count"].nil?
         num_citations = "0"
