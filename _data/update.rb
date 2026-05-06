@@ -19,10 +19,10 @@ end
 def get_num_citations(project, citation_api)
     url = citation_api + "/" + project["citationSearchString"]
     response = get_api_response url
-    if response["citations"].nil?
+    if response["cited_by_count"].nil?
         num_citations = "0"
     else
-        num_citations = response["citations"].length().to_s
+        num_citations = response["cited_by_count"].to_s
     end
     # Check if citation count changed
     if project["citationCount"] == num_citations
@@ -91,7 +91,7 @@ category_count = {
 
 # List of API hosts. Do not append a trailing slash to any of them.
 # [These could be made global variables for simplicity]
-citation_api = "https://api.semanticscholar.org/v1/paper"
+citation_api = "https://api.openalex.org/works"
 github_api = "https://api.github.com/repos"
 bitbucket_api = "https://api.bitbucket.org/2.0/repositories"
 
