@@ -81,7 +81,7 @@ puts
 # Projects file is loaded and then updated
 projects_file = "./projects.json"
 projects_rawtext = File.read(projects_file)
-projects = JSON.parse(projects_rawtext)
+projects = JSON.parse(projects_rawtext, allow_trailing_comma: true)
 
 # Info file is re-generated/overwritten
 info_file = "./info.json"
