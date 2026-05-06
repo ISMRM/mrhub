@@ -17,12 +17,23 @@ def get_api_response(url, username="", password="")
 end
 
 def get_num_citations(project, citation_api)
-    url = citation_api + "/" + project["citationSearchString"]
+    # The searchstring can either be a DOI or an OpenAlex work ID or empty
+    searchstring = project["citationSearchString"]
+    # Nothing to do if string is empty
+    if searchstring.empty?
+        puts "No citationSearchString provided. Skipping"
+        return 0
+    end
+    # If searchstring is DOI, then we need to append doi tag
+    if !searchstring.start_with?("W", "w")
+        searchstring = "doi:" + searchstring
+    end
+    url = citation_api + "/" + searchstring
     response = get_api_response url
-    if response["citations"].nil?
+    if response["cited_by_count"].nil?
         num_citations = "0"
     else
-        num_citations = response["citations"].length().to_s
+        num_citations = response["cited_by_count"].to_s
     end
     # Check if citation count changed
     if project["citationCount"] == num_citations
@@ -81,7 +92,7 @@ puts
 # Projects file is loaded and then updated
 projects_file = "./projects.json"
 projects_rawtext = File.read(projects_file)
-projects = JSON.parse(projects_rawtext)
+projects = JSON.parse(projects_rawtext, allow_trailing_comma: true)
 
 # Info file is re-generated/overwritten
 info_file = "./info.json"
@@ -91,7 +102,7 @@ category_count = {
 
 # List of API hosts. Do not append a trailing slash to any of them.
 # [These could be made global variables for simplicity]
-citation_api = "https://api.semanticscholar.org/v1/paper"
+citation_api = "https://api.openalex.org/works"
 github_api = "https://api.github.com/repos"
 bitbucket_api = "https://api.bitbucket.org/2.0/repositories"
 
