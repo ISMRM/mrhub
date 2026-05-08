@@ -127,7 +127,7 @@
       }
     ],
     "dateAddedToMRHub": "2025-08-13",
-    "dateSoftwareLastUpdated": "2026-05-05",
+    "dateSoftwareLastUpdated": "2026-05-07",
     "citationSearchString": "10.1002/mrm.30347",
     "citationCount": "10"
   },
@@ -824,7 +824,7 @@
     "dateAddedToMRHub": "2021-05-17",
     "dateSoftwareLastUpdated": "2026-05-03",
     "citationSearchString": "10.1109/TMI.2010.2045126",
-    "citationCount": "1053"
+    "citationCount": "1054"
   },
   {
     "name": "MyoQMRI",
@@ -1180,7 +1180,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "10.1002/jmri.24478",
-    "citationCount": "661"
+    "citationCount": "663"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -1287,7 +1287,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2026-04-13",
     "citationSearchString": "10.1016/j.neuroimage.2019.116137",
-    "citationCount": "3073"
+    "citationCount": "3077"
   },
   {
     "name": "gammaSTAR",
@@ -1499,7 +1499,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2025-04-07",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "323"
+    "citationCount": "324"
   },
   {
     "name": "gpuNUFFT",
@@ -1563,7 +1563,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2026-05-05",
     "citationSearchString": "10.1002/mrm.26089",
-    "citationCount": "113"
+    "citationCount": "114"
   },
   {
     "name": "Low Field Simulator",
@@ -1628,7 +1628,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2026-05-01",
     "citationSearchString": "10.1002/mrm.26235",
-    "citationCount": "208"
+    "citationCount": "209"
   },
   {
     "name": "MRiLab",
@@ -1802,7 +1802,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2021-03-01",
     "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
-    "citationCount": "612"
+    "citationCount": "614"
   },
   {
     "name": "qMRLab",
@@ -1917,7 +1917,7 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2026-05-05",
+    "dateSoftwareLastUpdated": "2026-05-08",
     "citationSearchString": "10.3389/fninf.2014.00008",
     "citationCount": "1426"
   },
@@ -1956,6 +1956,6 @@
     "dateAddedToMRHub": "2024-02-07",
     "dateSoftwareLastUpdated": "2025-06-01",
     "citationSearchString": "10.1002/mrm.28384",
-    "citationCount": "15"
+    "citationCount": "16"
   }
 ]
