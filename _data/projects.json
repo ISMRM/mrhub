@@ -1414,19 +1414,19 @@
     "category": "Reconstruction",
     "shortDescription": "Reconstruction toolbox and programming library for parallel imaging and compressed sensing available for Linux, Mac OS X, and Windows.",
     "imageFile": "bart.png",
-    "mainURL": "http://mrirecon.github.io/bart/",
-    "repoURL": "https://github.com/mrirecon/bart",
-    "principalDevelopers": "Martin Uecker, Jon Tamir and Frank Ong",
-    "longDescription": "The Berkeley Advanced Reconstruction Toolbox (BART) is a free and open-source image- reconstruction framework for Computational Magnetic Resonance Imaging. It consists of a programming library (for C/C++) and a toolbox of command-line programs. The library provides common operations on multi-dimensional arrays, (non-uniform) Fourier and (divergence-free) wavelet transforms, as well as generic implementations of iterative optimization algorithms (CG, IST, FISTA, ADMM, IRGNM, ...) supporting various types of regularization terms (l2, l1-wavelet, total-variation, low-rank, multi-scale low-rank ...) using pre-defined functions. Parallel computation on multi-core systems and on Graphical Processing Units (GPUs) is supported. The command-line tools provide direct access to basic operations on multi-dimensional arrays as well as efficient implementations of many calibration and reconstruction algorithms for parallel imaging and compressed sensing (SENSE, ESPIRiT, NLINV, SAKE, ...).",
+    "mainURL": "http://mrirecon.codeberg.page/",
+    "repoURL": "https://codeberg.org/mrirecon/bart",
+    "principalDevelopers": "BART Developers",
+    "longDescription": "The Berkeley Advanced Reconstruction Toolbox (BART) is a free and open-source image-reconstruction framework for Computational Magnetic Resonance Imaging. It consists of a programming library (for C/C++) and a toolbox of command-line programs. The library provides common operations on multi-dimensional arrays, (non-uniform) Fourier and wavelet transforms, as well as generic implementations of iterative optimization algorithms (CG, IST, FISTA, ADMM, IRGNM, Chambolle–Pock, ADAM, iPALM, ...) supporting various types of regularization terms (l2, l1-wavelet, total-variation, low-rank, multi-scale low-rank ...). Parallel computation on multi-core systems and on Graphical Processing Units (GPUs) is supported. The command-line tools provide direct access to basic operations on multi-dimensional arrays as well as efficient implementations of many calibration and reconstruction algorithms for parallel imaging and compressed sensing (SENSE, ESPIRiT, NLINV, SAKE, PI-CS, ...).",
     "keywords": [
-      "GitHub",
       "GPU",
       "ESPIRiT",
       "NUFFT",
       "iterative-reconstruction",
       "compressed sensing",
       "non-Cartesian",
-      "parallel imaging"
+      "parallel imaging",
+      "machine learning"
     ],
     "keyReferences": [
       {
