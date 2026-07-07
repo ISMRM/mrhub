@@ -8,7 +8,7 @@ def get_api_response(url, username="", password="")
     uri = URI.parse(url)
     http = Net::HTTP.new(uri.host, uri.port)
     http.use_ssl = true
-    request = Net::HTTP::Get.new(uri.path)
+    request = Net::HTTP::Get.new(uri.request_uri)
     if !username.empty? && !password.empty?
         request.basic_auth(username, password)
     end
@@ -46,18 +46,10 @@ end
 
 def get_update_time_from_github(project, github_api, username, password)
     repo_uri = URI.parse(project["repoURL"])
-    url = github_api + repo_uri.path + "/branches/master"
+    url = github_api + repo_uri.path + "/commits?per_page=1"
     response = get_api_response url, username, password
-    if response["commit"]
-        return response["commit"]["commit"]["author"]["date"][0,10]
-    else
-        # Check if using main branch if no master found
-        url = github_api + repo_uri.path + "/branches/main"
-        response = get_api_response url, username, password
-        if response["commit"]
-            return response["commit"]["commit"]["author"]["date"][0,10]
-        end
-    end
+    timestamp = response.dig(0, "commit", "author", "date") if response.is_a?(Array)
+    return timestamp[0,10] unless timestamp.nil?
 
     return "nodatefound"
 end
