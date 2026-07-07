@@ -71,14 +71,9 @@ end
 
 def get_update_time_from_codeberg(project, codeberg_api)
     repo_uri = URI.parse(project["repoURL"])
-    repo_url = codeberg_api + "/repos" + repo_uri.path
-    repo = get_api_response repo_url
-    default_branch = repo["default_branch"]
-    return "nodatefound" if default_branch.nil? || default_branch.empty?
-
-    branch_url = repo_url + "/branches/" + URI.encode_www_form_component(default_branch)
-    branch = get_api_response branch_url
-    timestamp = branch.dig("commit", "timestamp")
+    url = codeberg_api + "/repos" + repo_uri.path + "/commits?limit=1"
+    response = get_api_response url
+    timestamp = response.dig(0, "commit", "author", "date") if response.is_a?(Array)
     return timestamp[0,10] unless timestamp.nil?
 
     return "nodatefound"
