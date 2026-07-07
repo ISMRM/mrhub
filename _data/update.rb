@@ -69,6 +69,21 @@ def get_update_time_from_bitbucket(project, bitbucket_api)
     return response["updated_on"][0,10]
 end
 
+def get_update_time_from_codeberg(project, codeberg_api)
+    repo_uri = URI.parse(project["repoURL"])
+    repo_url = codeberg_api + "/repos" + repo_uri.path
+    repo = get_api_response repo_url
+    default_branch = repo["default_branch"]
+    return "nodatefound" if default_branch.nil? || default_branch.empty?
+
+    branch_url = repo_url + "/branches/" + URI.encode_www_form_component(default_branch)
+    branch = get_api_response branch_url
+    timestamp = branch.dig("commit", "timestamp")
+    return timestamp[0,10] unless timestamp.nil?
+
+    return "nodatefound"
+end
+
 #################
 # Get github username/password from input arguments
 
@@ -105,6 +120,7 @@ category_count = {
 citation_api = "https://api.openalex.org/works"
 github_api = "https://api.github.com/repos"
 bitbucket_api = "https://api.bitbucket.org/2.0/repositories"
+codeberg_api = "https://codeberg.org/api/v1"
 
 # Main loop 
 projects.each do |project|
@@ -125,8 +141,15 @@ projects.each do |project|
         end
     elsif repo_uri.host.include? "bitbucket"
         project["dateSoftwareLastUpdated"] = get_update_time_from_bitbucket project, bitbucket_api
+    elsif repo_uri.host == "codeberg.org"
+        newDate = get_update_time_from_codeberg project, codeberg_api
+        if newDate != "nodatefound"
+            project["dateSoftwareLastUpdated"] = newDate
+        else
+            puts "Problem extracting update date for this repo - keeping previous entry"
+        end
     else
-        puts "Repo is neither Github nor Bitbucket"
+        puts "Repo is neither GitHub, Bitbucket, nor Codeberg"
     end
 
     category = project["category"]
