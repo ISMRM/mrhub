@@ -8,7 +8,7 @@ def get_api_response(url, username="", password="")
     uri = URI.parse(url)
     http = Net::HTTP.new(uri.host, uri.port)
     http.use_ssl = true
-    request = Net::HTTP::Get.new(uri.path)
+    request = Net::HTTP::Get.new(uri.request_uri)
     if !username.empty? && !password.empty?
         request.basic_auth(username, password)
     end
@@ -46,18 +46,10 @@ end
 
 def get_update_time_from_github(project, github_api, username, password)
     repo_uri = URI.parse(project["repoURL"])
-    url = github_api + repo_uri.path + "/branches/master"
+    url = github_api + repo_uri.path + "/commits?per_page=1"
     response = get_api_response url, username, password
-    if response["commit"]
-        return response["commit"]["commit"]["author"]["date"][0,10]
-    else
-        # Check if using main branch if no master found
-        url = github_api + repo_uri.path + "/branches/main"
-        response = get_api_response url, username, password
-        if response["commit"]
-            return response["commit"]["commit"]["author"]["date"][0,10]
-        end
-    end
+    timestamp = response.dig(0, "commit", "author", "date") if response.is_a?(Array)
+    return timestamp[0,10] unless timestamp.nil?
 
     return "nodatefound"
 end
@@ -67,6 +59,16 @@ def get_update_time_from_bitbucket(project, bitbucket_api)
     url = bitbucket_api + repo_uri.path
     response = get_api_response url
     return response["updated_on"][0,10]
+end
+
+def get_update_time_from_codeberg(project, codeberg_api)
+    repo_uri = URI.parse(project["repoURL"])
+    url = codeberg_api + "/repos" + repo_uri.path + "/commits?limit=1"
+    response = get_api_response url
+    timestamp = response.dig(0, "commit", "author", "date") if response.is_a?(Array)
+    return timestamp[0,10] unless timestamp.nil?
+
+    return "nodatefound"
 end
 
 #################
@@ -105,6 +107,7 @@ category_count = {
 citation_api = "https://api.openalex.org/works"
 github_api = "https://api.github.com/repos"
 bitbucket_api = "https://api.bitbucket.org/2.0/repositories"
+codeberg_api = "https://codeberg.org/api/v1"
 
 # Main loop 
 projects.each do |project|
@@ -125,8 +128,15 @@ projects.each do |project|
         end
     elsif repo_uri.host.include? "bitbucket"
         project["dateSoftwareLastUpdated"] = get_update_time_from_bitbucket project, bitbucket_api
+    elsif repo_uri.host == "codeberg.org"
+        newDate = get_update_time_from_codeberg project, codeberg_api
+        if newDate != "nodatefound"
+            project["dateSoftwareLastUpdated"] = newDate
+        else
+            puts "Problem extracting update date for this repo - keeping previous entry"
+        end
     else
-        puts "Repo is neither Github nor Bitbucket"
+        puts "Repo is neither GitHub, Bitbucket, nor Codeberg"
     end
 
     category = project["category"]
