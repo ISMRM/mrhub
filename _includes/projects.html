@@ -43,7 +43,7 @@
 
                 {% for project in site.data.projects %}
 
-                <button data-target="#content{{ forloop.index }}" data-toggle="collapse" style="border: 2px solid #1D79B1;    padding: 10px;    border-radius: 10px; margin: 10px -26px 10px -53px; background-color:aliceblue">
+                <li style="border: 2px solid #1D79B1; padding: 10px; border-radius: 10px; margin: 10px -26px 10px -53px; background-color:aliceblue; list-style: none;">
 
                     <div class="row" style="margin-left: 0px;    margin-right: 0px;">
 
@@ -99,15 +99,27 @@
                                             <span class="ncitations projectinfo">{{ project.citationCount }}</span>
                                         </div>
 
+                                        {% assign citation_search_string = project.citationSearchString | strip %}
+                                        {% if citation_search_string.size > 0 %}
+                                        {% assign citation_search_prefix = citation_search_string | slice: 0 | downcase %}
+                                        {% assign openalex_doi_id = citation_search_string | prepend: 'doi:' | url_encode %}
                                         <div style="line-height:1rem">
-                                            <span class="projectinfolabel" style="font-size:small"><em>(main associated paper on <a href="https://api.semanticscholar.org/{{ project.citationSearchString }}">Semantic Scholar</a>)</em></span>
+                                            <span class="projectinfolabel" style="font-size:small"><em>(main associated paper on <a href="{% if citation_search_prefix == 'w' %}https://openalex.org/{{ citation_search_string }}{% else %}https://openalex.org/works/{{ openalex_doi_id }}{% endif %}">OpenAlex</a>)</em></span>
                                         </div>
+                                        {% endif %}
                                     </div>
 
                                 </div>
                             </div>
 
                             <div class="col-12" style="text-align: center">
+                                {% if project.mainURL.size > 0 %}
+                                    <a href="{{ project.mainURL }}" class="btn btn-primary" style="background-color: #19496E; border-color: #19496E;">Website</a>
+                                {% endif %}
+                                {% if project.repoURL.size > 0 %}
+                                    <a href="{{ project.repoURL }}" class="btn btn-primary" style="background-color: #19496E; border-color: #19496E;">Repository</a>
+                                {% endif %}
+                                <button type="button" data-target="#content{{ forloop.index }}" data-toggle="collapse" class="btn btn-primary" style="background-color: #19496E; border-color: #19496E;">Details</button>
                                 
                                 {% for wo in project.extraResources %} 
                                 {% if wo.resourceType.size > 0 %}
@@ -131,7 +143,7 @@
                         </ol>
                     </div>
 
-                </button>
+                </li>
 
                 {% endfor %}
             </ul>
