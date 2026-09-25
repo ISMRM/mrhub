@@ -127,9 +127,9 @@
       }
     ],
     "dateAddedToMRHub": "2025-08-13",
-    "dateSoftwareLastUpdated": "2026-09-04",
+    "dateSoftwareLastUpdated": "2026-09-05",
     "citationSearchString": "10.1002/mrm.30347",
-    "citationCount": "10"
+    "citationCount": "11"
   },
   {
     "name": "QMRIColors.jl",
@@ -169,7 +169,7 @@
     "dateAddedToMRHub": "2025-06-24",
     "dateSoftwareLastUpdated": "2025-06-26",
     "citationSearchString": "10.1002/mrm.30290",
-    "citationCount": "25"
+    "citationCount": "26"
   },
   {
     "name": "VirtMRI",
@@ -242,9 +242,9 @@
       }
     ],
     "dateAddedToMRHub": "2023-10-22",
-    "dateSoftwareLastUpdated": "2026-09-02",
+    "dateSoftwareLastUpdated": "2026-09-19",
     "citationSearchString": "10.1002/mrm.29635",
-    "citationCount": "42"
+    "citationCount": "43"
   },
   {
     "name": "TensorFlow MRI",
@@ -410,7 +410,7 @@
     "dateAddedToMRHub": "2022-02-21",
     "dateSoftwareLastUpdated": "2024-01-19",
     "citationSearchString": "10.1016/j.ascom.2020.100402",
-    "citationCount": "25"
+    "citationCount": "26"
   },
   {
     "name": "Disimpy",
@@ -619,7 +619,7 @@
     "dateAddedToMRHub": "2021-08-06",
     "dateSoftwareLastUpdated": "2021-06-26",
     "citationSearchString": "10.1038/s41598-018-31333-5",
-    "citationCount": "92"
+    "citationCount": "93"
   },
   {
     "name": "seeVR",
@@ -700,7 +700,7 @@
     "dateAddedToMRHub": "2021-08-04",
     "dateSoftwareLastUpdated": "2021-06-26",
     "citationSearchString": "10.1002/mrm.22365",
-    "citationCount": "381"
+    "citationCount": "383"
   },
   {
     "name": "MRIgeneralizedBloch.jl",
@@ -822,9 +822,9 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-17",
-    "dateSoftwareLastUpdated": "2026-09-04",
+    "dateSoftwareLastUpdated": "2026-09-21",
     "citationSearchString": "10.1109/TMI.2010.2045126",
-    "citationCount": "1092"
+    "citationCount": "1098"
   },
   {
     "name": "MyoQMRI",
@@ -851,7 +851,7 @@
     ],
     "extraResources": [],
     "dateAddedToMRHub": "2021-03-01",
-    "dateSoftwareLastUpdated": "2026-07-30",
+    "dateSoftwareLastUpdated": "2026-09-09",
     "citationSearchString": "10.3389/fneur.2021.630387",
     "citationCount": "31"
   },
@@ -889,7 +889,7 @@
       }
     ],
     "dateAddedToMRHub": "2020-08-14",
-    "dateSoftwareLastUpdated": "2026-07-13",
+    "dateSoftwareLastUpdated": "2026-09-09",
     "citationSearchString": "10.1002/mp.14593",
     "citationCount": "55"
   },
@@ -988,7 +988,7 @@
     "dateAddedToMRHub": "2020-07-07",
     "dateSoftwareLastUpdated": "2023-09-07",
     "citationSearchString": "10.1016/j.neuroimage.2020.117031",
-    "citationCount": "136"
+    "citationCount": "139"
   },
   {
     "name": "QMRITools",
@@ -1040,7 +1040,7 @@
       }
     ],
     "dateAddedToMRHub": "2020-05-25",
-    "dateSoftwareLastUpdated": "2026-09-04",
+    "dateSoftwareLastUpdated": "2026-09-24",
     "citationSearchString": "10.21105/JOSS.01204",
     "citationCount": "42"
   },
@@ -1141,9 +1141,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-06-19",
-    "dateSoftwareLastUpdated": "2026-08-16",
+    "dateSoftwareLastUpdated": "2026-09-07",
     "citationSearchString": "10.1016/j.media.2016.02.010",
-    "citationCount": "83"
+    "citationCount": "84"
   },
   {
     "name": "Gannet",
@@ -1180,7 +1180,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "10.1002/jmri.24478",
-    "citationCount": "679"
+    "citationCount": "680"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -1287,7 +1287,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2026-08-12",
     "citationSearchString": "10.1016/j.neuroimage.2019.116137",
-    "citationCount": "3268"
+    "citationCount": "3307"
   },
   {
     "name": "gammaSTAR",
@@ -1405,9 +1405,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2026-07-24",
+    "dateSoftwareLastUpdated": "2026-09-25",
     "citationSearchString": "10.1002/mrm.25670",
-    "citationCount": "168"
+    "citationCount": "171"
   },
   {
     "name": "Berkeley Advanced Reconstruction Toolbox (BART)",
@@ -1457,9 +1457,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2026-08-03",
+    "dateSoftwareLastUpdated": "2026-09-22",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "1419"
+    "citationCount": "1433"
   },
   {
     "name": "Gadgetron",
@@ -1499,7 +1499,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2025-04-07",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "338"
+    "citationCount": "340"
   },
   {
     "name": "gpuNUFFT",
@@ -1531,7 +1531,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2022-02-06",
     "citationSearchString": "W2947234181",
-    "citationCount": "39"
+    "citationCount": "40"
   },
   {
     "name": "ISMRMRD",
@@ -1563,7 +1563,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2026-05-05",
     "citationSearchString": "10.1002/mrm.26089",
-    "citationCount": "120"
+    "citationCount": "121"
   },
   {
     "name": "Low Field Simulator",
@@ -1626,9 +1626,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2026-07-23",
+    "dateSoftwareLastUpdated": "2026-09-17",
     "citationSearchString": "10.1002/mrm.26235",
-    "citationCount": "222"
+    "citationCount": "224"
   },
   {
     "name": "MRiLab",
@@ -1700,7 +1700,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-06",
     "citationSearchString": "10.1002/mrm.26639",
-    "citationCount": "216"
+    "citationCount": "218"
   },
   {
     "name": "QUIT",
@@ -1770,7 +1770,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2025-06-23",
     "citationSearchString": "10.1002/mrm.22406",
-    "citationCount": "151"
+    "citationCount": "152"
   },
   {
     "name": "Spinal Cord Toolbox (SCT)",
@@ -1800,9 +1800,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2026-09-02",
+    "dateSoftwareLastUpdated": "2026-09-24",
     "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
-    "citationCount": "652"
+    "citationCount": "657"
   },
   {
     "name": "qMRLab",
@@ -1833,7 +1833,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2026-08-16",
     "citationSearchString": "10.1002/cmr.a.21357",
-    "citationCount": "53"
+    "citationCount": "52"
   },
   {
     "name": "Yarra Framework",
@@ -1917,9 +1917,9 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2026-09-04",
+    "dateSoftwareLastUpdated": "2026-09-24",
     "citationSearchString": "10.3389/fninf.2014.00008",
-    "citationCount": "1489"
+    "citationCount": "1501"
   },
   {
     "name": "GrOpt",
@@ -1956,6 +1956,6 @@
     "dateAddedToMRHub": "2024-02-07",
     "dateSoftwareLastUpdated": "2025-06-01",
     "citationSearchString": "10.1002/mrm.28384",
-    "citationCount": "18"
+    "citationCount": "19"
   }
 ]
