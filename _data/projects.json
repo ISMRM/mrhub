@@ -1,4 +1,43 @@
 [
+    {
+        "name": "CoLlAGe Radiomics",
+        "category": "Image processing",
+        "shortDescription": "Voxel-wise radiomics from co-occurrences of local gradient orientations.",
+        "imageFile": "collageradiomics.png",
+        "mainURL": "https://github.com/radxtools/collageradiomics",
+        "repoURL": "https://github.com/radxtools/collageradiomics",
+        "principalDevelopers": "BrIC Laboratory; Rob Toth and Nathan Hillyer (Toth Technology); RadxTools contributors",
+        "longDescription": "Co-occurrence of Local Anisotropic Gradient Orientations (CoLlAGe) describes local disorder in image gradients. This open-source Python implementation produces thirteen voxel-wise Haralick statistics from 2D or 3D image regions. It includes a medical-image command-line interface, reproducible notebooks, Docker targets, and a 3D Slicer extension. The 0.4 series corrects numerical behavior from 0.3.x; experiments upgrading from that series should recompute cached features and record extraction parameters.",
+        "keywords": [
+            "radiomics",
+            "MRI",
+            "texture",
+            "gradient orientation",
+            "CoLlAGe",
+            "Python",
+            "3D Slicer"
+        ],
+        "keyReferences": [
+            {
+                "referenceText": "Prasanna, Tiwari, and Madabhushi (2016). Co-occurrence of Local Anisotropic Gradient Orientations (CoLlAGe): A new radiomics descriptor. Scientific Reports 6:37241.",
+                "referenceURL": "https://doi.org/10.1038/srep37241"
+            }
+        ],
+        "extraResources": [
+            {
+                "resourceType": "Jupyter Notebook",
+                "URL": "https://github.com/radxtools/collageradiomics/blob/master/jupyter/examples/example.ipynb"
+            },
+            {
+                "resourceType": "Documentation",
+                "URL": "https://github.com/radxtools/collageradiomics/blob/master/README.md"
+            }
+        ],
+        "dateAddedToMRHub": "2026-10-20",
+        "dateSoftwareLastUpdated": "2026-10-20",
+        "citationSearchString": "10.1038/srep37241",
+        "citationCount": ""
+    },
   {
     "name": "SNAKE",
     "category": "Simulation",
