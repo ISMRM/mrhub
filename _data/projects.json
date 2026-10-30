@@ -1,43 +1,43 @@
 [
-    {
-        "name": "CoLlAGe Radiomics",
-        "category": "Image processing",
-        "shortDescription": "Voxel-wise radiomics from co-occurrences of local gradient orientations.",
-        "imageFile": "collageradiomics.png",
-        "mainURL": "https://github.com/radxtools/collageradiomics",
-        "repoURL": "https://github.com/radxtools/collageradiomics",
-        "principalDevelopers": "BrIC Laboratory; Rob Toth and Nathan Hillyer (Toth Technology); RadxTools contributors",
-        "longDescription": "Co-occurrence of Local Anisotropic Gradient Orientations (CoLlAGe) describes local disorder in image gradients. This open-source Python implementation produces thirteen voxel-wise Haralick statistics from 2D or 3D image regions. It includes a medical-image command-line interface, reproducible notebooks, Docker targets, and a 3D Slicer extension. The 0.4 series corrects numerical behavior from 0.3.x; experiments upgrading from that series should recompute cached features and record extraction parameters.",
-        "keywords": [
-            "radiomics",
-            "MRI",
-            "texture",
-            "gradient orientation",
-            "CoLlAGe",
-            "Python",
-            "3D Slicer"
-        ],
-        "keyReferences": [
-            {
-                "referenceText": "Prasanna, Tiwari, and Madabhushi (2016). Co-occurrence of Local Anisotropic Gradient Orientations (CoLlAGe): A new radiomics descriptor. Scientific Reports 6:37241.",
-                "referenceURL": "https://doi.org/10.1038/srep37241"
-            }
-        ],
-        "extraResources": [
-            {
-                "resourceType": "Jupyter Notebook",
-                "URL": "https://github.com/radxtools/collageradiomics/blob/master/jupyter/examples/example.ipynb"
-            },
-            {
-                "resourceType": "Documentation",
-                "URL": "https://github.com/radxtools/collageradiomics/blob/master/README.md"
-            }
-        ],
-        "dateAddedToMRHub": "2026-10-20",
-        "dateSoftwareLastUpdated": "2026-10-20",
-        "citationSearchString": "10.1038/srep37241",
-        "citationCount": ""
-    },
+  {
+    "name": "CoLlAGe Radiomics",
+    "category": "Image processing",
+    "shortDescription": "Voxel-wise radiomics from co-occurrences of local gradient orientations.",
+    "imageFile": "collageradiomics.png",
+    "mainURL": "https://github.com/radxtools/collageradiomics",
+    "repoURL": "https://github.com/radxtools/collageradiomics",
+    "principalDevelopers": "BrIC Laboratory; Rob Toth and Nathan Hillyer (Toth Technology); RadxTools contributors",
+    "longDescription": "Co-occurrence of Local Anisotropic Gradient Orientations (CoLlAGe) describes local disorder in image gradients. This open-source Python implementation produces thirteen voxel-wise Haralick statistics from 2D or 3D image regions. It includes a medical-image command-line interface, reproducible notebooks, Docker targets, and a 3D Slicer extension. The 0.4 series corrects numerical behavior from 0.3.x; experiments upgrading from that series should recompute cached features and record extraction parameters.",
+    "keywords": [
+      "radiomics",
+      "MRI",
+      "texture",
+      "gradient orientation",
+      "CoLlAGe",
+      "Python",
+      "3D Slicer"
+    ],
+    "keyReferences": [
+      {
+        "referenceText": "Prasanna, Tiwari, and Madabhushi (2016). Co-occurrence of Local Anisotropic Gradient Orientations (CoLlAGe): A new radiomics descriptor. Scientific Reports 6:37241.",
+        "referenceURL": "https://doi.org/10.1038/srep37241"
+      }
+    ],
+    "extraResources": [
+      {
+        "resourceType": "Jupyter Notebook",
+        "URL": "https://github.com/radxtools/collageradiomics/blob/master/jupyter/examples/example.ipynb"
+      },
+      {
+        "resourceType": "Documentation",
+        "URL": "https://github.com/radxtools/collageradiomics/blob/master/README.md"
+      }
+    ],
+    "dateAddedToMRHub": "2026-10-20",
+    "dateSoftwareLastUpdated": "2026-10-20",
+    "citationSearchString": "10.1038/srep37241",
+    "citationCount": "138"
+  },
   {
     "name": "SNAKE",
     "category": "Simulation",
@@ -65,7 +65,7 @@
     "dateAddedToMRHub": "2026-05-04",
     "dateSoftwareLastUpdated": "2025-10-09",
     "citationSearchString": "10.1162/IMAG.a.121",
-    "citationCount": "0"
+    "citationCount": "2"
   },
   {
     "name": "MRI-NUFFT",
@@ -92,9 +92,9 @@
       }
     ],
     "dateAddedToMRHub": "2026-05-04",
-    "dateSoftwareLastUpdated": "2026-07-31",
+    "dateSoftwareLastUpdated": "2026-10-29",
     "citationSearchString": "10.21105/joss.07743",
-    "citationCount": "1"
+    "citationCount": "3"
   },
   {
     "name": "Monalisa",
@@ -166,9 +166,9 @@
       }
     ],
     "dateAddedToMRHub": "2025-08-13",
-    "dateSoftwareLastUpdated": "2026-09-04",
+    "dateSoftwareLastUpdated": "2026-10-24",
     "citationSearchString": "10.1002/mrm.30347",
-    "citationCount": "10"
+    "citationCount": "11"
   },
   {
     "name": "QMRIColors.jl",
@@ -208,7 +208,7 @@
     "dateAddedToMRHub": "2025-06-24",
     "dateSoftwareLastUpdated": "2025-06-26",
     "citationSearchString": "10.1002/mrm.30290",
-    "citationCount": "25"
+    "citationCount": "30"
   },
   {
     "name": "VirtMRI",
@@ -281,9 +281,9 @@
       }
     ],
     "dateAddedToMRHub": "2023-10-22",
-    "dateSoftwareLastUpdated": "2026-09-02",
+    "dateSoftwareLastUpdated": "2026-10-19",
     "citationSearchString": "10.1002/mrm.29635",
-    "citationCount": "42"
+    "citationCount": "45"
   },
   {
     "name": "TensorFlow MRI",
@@ -330,7 +330,7 @@
     "dateAddedToMRHub": "2022-06-12",
     "dateSoftwareLastUpdated": "2025-06-02",
     "citationSearchString": "10.5281/zenodo.5151590",
-    "citationCount": "1"
+    "citationCount": "2"
   },
   {
     "name": " Hyperpolarized MRI Toolbox",
@@ -368,7 +368,7 @@
     "dateAddedToMRHub": "2022-04-26",
     "dateSoftwareLastUpdated": "2025-08-19",
     "citationSearchString": "10.1002/nbm.4280",
-    "citationCount": "44"
+    "citationCount": "43"
   },
   {
     "name": "SIVIC",
@@ -412,7 +412,7 @@
     "dateAddedToMRHub": "2022-04-18",
     "dateSoftwareLastUpdated": "2025-06-02",
     "citationSearchString": "10.1155/2013/169526",
-    "citationCount": "92"
+    "citationCount": "90"
   },
   {
     "name": "pySAP",
@@ -449,7 +449,7 @@
     "dateAddedToMRHub": "2022-02-21",
     "dateSoftwareLastUpdated": "2024-01-19",
     "citationSearchString": "10.1016/j.ascom.2020.100402",
-    "citationCount": "25"
+    "citationCount": "30"
   },
   {
     "name": "Disimpy",
@@ -480,7 +480,7 @@
     "dateAddedToMRHub": "2021-12-08",
     "dateSoftwareLastUpdated": "2024-11-02",
     "citationSearchString": "10.21105/joss.02527",
-    "citationCount": "15"
+    "citationCount": "19"
   },
   {
     "name": "DECAES.jl",
@@ -535,7 +535,7 @@
       }
     ],
     "dateAddedToMRHub": "2021-12-06",
-    "dateSoftwareLastUpdated": "2026-09-04",
+    "dateSoftwareLastUpdated": "2026-10-18",
     "citationSearchString": "10.1016/j.zemedi.2020.04.001",
     "citationCount": "35"
   },
@@ -626,7 +626,7 @@
     "dateAddedToMRHub": "2021-08-06",
     "dateSoftwareLastUpdated": "2019-02-20",
     "citationSearchString": "10.1016/j.neuroimage.2019.01.033",
-    "citationCount": "22"
+    "citationCount": "19"
   },
   {
     "name": "Image Segmentation and Registration in Matlab",
@@ -658,7 +658,7 @@
     "dateAddedToMRHub": "2021-08-06",
     "dateSoftwareLastUpdated": "2021-06-26",
     "citationSearchString": "10.1038/s41598-018-31333-5",
-    "citationCount": "92"
+    "citationCount": "91"
   },
   {
     "name": "seeVR",
@@ -686,7 +686,7 @@
     "dateAddedToMRHub": "2021-08-01",
     "dateSoftwareLastUpdated": "2026-06-14",
     "citationSearchString": "10.3389/fphys.2021.601369",
-    "citationCount": "9"
+    "citationCount": "7"
   },
   {
     "name": "Diffusion MRI CSA-ODF and Hough Tractography",
@@ -739,7 +739,7 @@
     "dateAddedToMRHub": "2021-08-04",
     "dateSoftwareLastUpdated": "2021-06-26",
     "citationSearchString": "10.1002/mrm.22365",
-    "citationCount": "381"
+    "citationCount": "369"
   },
   {
     "name": "MRIgeneralizedBloch.jl",
@@ -766,7 +766,7 @@
     "dateAddedToMRHub": "2021-07-26",
     "dateSoftwareLastUpdated": "2026-08-18",
     "citationSearchString": "10.1002/mrm.29071",
-    "citationCount": "29"
+    "citationCount": "24"
   },
   {
     "name": "Madym",
@@ -822,7 +822,7 @@
     "dateAddedToMRHub": "2021-05-19",
     "dateSoftwareLastUpdated": "2024-03-22",
     "citationSearchString": "10.1002/mrm.28798",
-    "citationCount": "8"
+    "citationCount": "7"
   },
   {
     "name": "DSI Studio",
@@ -861,9 +861,9 @@
       }
     ],
     "dateAddedToMRHub": "2021-05-17",
-    "dateSoftwareLastUpdated": "2026-09-04",
+    "dateSoftwareLastUpdated": "2026-10-29",
     "citationSearchString": "10.1109/TMI.2010.2045126",
-    "citationCount": "1092"
+    "citationCount": "1027"
   },
   {
     "name": "MyoQMRI",
@@ -890,9 +890,9 @@
     ],
     "extraResources": [],
     "dateAddedToMRHub": "2021-03-01",
-    "dateSoftwareLastUpdated": "2026-07-30",
+    "dateSoftwareLastUpdated": "2026-10-29",
     "citationSearchString": "10.3389/fneur.2021.630387",
-    "citationCount": "31"
+    "citationCount": "30"
   },
   {
     "name": "MRQy",
@@ -928,9 +928,9 @@
       }
     ],
     "dateAddedToMRHub": "2020-08-14",
-    "dateSoftwareLastUpdated": "2026-07-13",
+    "dateSoftwareLastUpdated": "2026-10-22",
     "citationSearchString": "10.1002/mp.14593",
-    "citationCount": "55"
+    "citationCount": "63"
   },
   {
     "name": "TED",
@@ -1027,7 +1027,7 @@
     "dateAddedToMRHub": "2020-07-07",
     "dateSoftwareLastUpdated": "2023-09-07",
     "citationSearchString": "10.1016/j.neuroimage.2020.117031",
-    "citationCount": "136"
+    "citationCount": "135"
   },
   {
     "name": "QMRITools",
@@ -1079,9 +1079,9 @@
       }
     ],
     "dateAddedToMRHub": "2020-05-25",
-    "dateSoftwareLastUpdated": "2026-09-04",
+    "dateSoftwareLastUpdated": "2026-10-29",
     "citationSearchString": "10.21105/JOSS.01204",
-    "citationCount": "42"
+    "citationCount": "39"
   },
   {
     "name": "CORE-PI",
@@ -1145,9 +1145,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-10-16",
-    "dateSoftwareLastUpdated": "2026-08-17",
+    "dateSoftwareLastUpdated": "2026-10-27",
     "citationSearchString": "10.1002/mrm.28792",
-    "citationCount": "2"
+    "citationCount": "33"
   },
   {
     "name": "NLSAM",
@@ -1180,9 +1180,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-06-19",
-    "dateSoftwareLastUpdated": "2026-08-16",
+    "dateSoftwareLastUpdated": "2026-09-07",
     "citationSearchString": "10.1016/j.media.2016.02.010",
-    "citationCount": "83"
+    "citationCount": "74"
   },
   {
     "name": "Gannet",
@@ -1219,7 +1219,7 @@
     "dateAddedToMRHub": "2019-06-10",
     "dateSoftwareLastUpdated": "2019-01-24",
     "citationSearchString": "10.1002/jmri.24478",
-    "citationCount": "679"
+    "citationCount": "625"
   },
   {
     "name": "GPI (Graphical Programming Interface)",
@@ -1256,9 +1256,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-30",
-    "dateSoftwareLastUpdated": "2026-06-06",
+    "dateSoftwareLastUpdated": "2026-10-29",
     "citationSearchString": "10.1002/mrm.25528",
-    "citationCount": "53"
+    "citationCount": "52"
   },
   {
     "name": "Water/Fat Separated MR Thermometry",
@@ -1324,9 +1324,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2026-08-12",
+    "dateSoftwareLastUpdated": "2026-10-15",
     "citationSearchString": "10.1016/j.neuroimage.2019.116137",
-    "citationCount": "3268"
+    "citationCount": "2982"
   },
   {
     "name": "gammaSTAR",
@@ -1367,7 +1367,7 @@
     "dateAddedToMRHub": "2019-05-29",
     "dateSoftwareLastUpdated": "2020-01-29",
     "citationSearchString": "10.1002/mrm.28020",
-    "citationCount": "38"
+    "citationCount": "37"
   },
   {
     "name": "SigPy",
@@ -1444,9 +1444,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-23",
-    "dateSoftwareLastUpdated": "2026-07-24",
+    "dateSoftwareLastUpdated": "2026-09-28",
     "citationSearchString": "10.1002/mrm.25670",
-    "citationCount": "168"
+    "citationCount": "163"
   },
   {
     "name": "Berkeley Advanced Reconstruction Toolbox (BART)",
@@ -1496,9 +1496,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2026-08-03",
+    "dateSoftwareLastUpdated": "2026-10-07",
     "citationSearchString": "10.1002/mrm.24751",
-    "citationCount": "1419"
+    "citationCount": "1397"
   },
   {
     "name": "Gadgetron",
@@ -1538,7 +1538,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2025-04-07",
     "citationSearchString": "10.1002/mrm.24389",
-    "citationCount": "338"
+    "citationCount": "339"
   },
   {
     "name": "gpuNUFFT",
@@ -1636,7 +1636,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2016-07-12",
     "citationSearchString": "10.1371/journal.pone.0154711",
-    "citationCount": "13"
+    "citationCount": "12"
   },
   {
     "name": "Pulseq",
@@ -1665,9 +1665,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2026-07-23",
+    "dateSoftwareLastUpdated": "2026-10-22",
     "citationSearchString": "10.1002/mrm.26235",
-    "citationCount": "222"
+    "citationCount": "223"
   },
   {
     "name": "MRiLab",
@@ -1706,7 +1706,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-10",
     "citationSearchString": "10.1109/TMI.2016.2620961",
-    "citationCount": "118"
+    "citationCount": "116"
   },
   {
     "name": "NYU MR-Fingerprinting Reconstruction Toolbox",
@@ -1739,7 +1739,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2019-08-06",
     "citationSearchString": "10.1002/mrm.26639",
-    "citationCount": "216"
+    "citationCount": "207"
   },
   {
     "name": "QUIT",
@@ -1778,7 +1778,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2026-06-24",
     "citationSearchString": "10.21105/joss.00656",
-    "citationCount": "62"
+    "citationCount": "56"
   },
   {
     "name": "JEMRIS",
@@ -1809,7 +1809,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2025-06-23",
     "citationSearchString": "10.1002/mrm.22406",
-    "citationCount": "151"
+    "citationCount": "154"
   },
   {
     "name": "Spinal Cord Toolbox (SCT)",
@@ -1839,9 +1839,9 @@
       }
     ],
     "dateAddedToMRHub": "2019-05-10",
-    "dateSoftwareLastUpdated": "2026-09-02",
+    "dateSoftwareLastUpdated": "2026-10-27",
     "citationSearchString": "10.1016/j.neuroimage.2016.10.009",
-    "citationCount": "652"
+    "citationCount": "623"
   },
   {
     "name": "qMRLab",
@@ -1872,7 +1872,7 @@
     "dateAddedToMRHub": "2019-05-10",
     "dateSoftwareLastUpdated": "2026-08-16",
     "citationSearchString": "10.1002/cmr.a.21357",
-    "citationCount": "53"
+    "citationCount": "51"
   },
   {
     "name": "Yarra Framework",
@@ -1956,9 +1956,9 @@
       }
     ],
     "dateAddedToMRHub": "2020-01-27",
-    "dateSoftwareLastUpdated": "2026-09-04",
+    "dateSoftwareLastUpdated": "2026-10-29",
     "citationSearchString": "10.3389/fninf.2014.00008",
-    "citationCount": "1489"
+    "citationCount": "1370"
   },
   {
     "name": "GrOpt",
@@ -1995,6 +1995,6 @@
     "dateAddedToMRHub": "2024-02-07",
     "dateSoftwareLastUpdated": "2025-06-01",
     "citationSearchString": "10.1002/mrm.28384",
-    "citationCount": "18"
+    "citationCount": "20"
   }
 ]
